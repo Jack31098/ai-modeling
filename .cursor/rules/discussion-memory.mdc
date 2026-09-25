@@ -1,0 +1,8 @@
+---
+description: Keep AI modeling thought experiments and agent memory in the repository
+alwaysApply: true
+---
+
+# Discussion memory
+
+Follow `AGENTS.md` in this repository. Before substantial discussion, read `discussions/README.md` and relevant records. Before finishing, persist new assumptions, reasoning, conclusions, uncertainties, and next steps in `discussions/`, update its index, then commit and push when the GitHub remote and authentication are available.
