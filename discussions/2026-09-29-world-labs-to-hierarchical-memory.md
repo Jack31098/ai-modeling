@@ -1,6 +1,6 @@
 # 从 World Labs 到层次化可写记忆（2026-09-29）
 
-来源：[ChatGPT 分享对话](https://chatgpt.com/share/6abc6e55-4634-83e8-b63a-c908678761c1)。本记录概括对话的 18 个用户提问节点；其中的产品、论文、交易和性能陈述均只作为**对话中的主张**记录，尚未独立核实。
+来源：[ChatGPT 分享对话](https://chatgpt.com/share/6abc6e55-4634-83e8-b63a-c908678761c1)，另存[完整可读对话](../share-world-labs-transcript.md)与[原始 HTML](../share-world-labs.html)。本记录概括对话的 18 个用户提问节点；其中的产品、论文、交易和性能陈述均只作为**对话中的主张**记录，尚未独立核实。
 
 ## 问题与术语
 

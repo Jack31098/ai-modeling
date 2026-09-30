@@ -6,7 +6,7 @@
 
 - 已导入一段 [Optimal mask 元学习方案分享对话](../share-transcript.md)，原始网页存于 [`share.html`](../share.html)。
 - 讨论当前聚焦：如何给现有语言模型附加可写、可迭代的 latent 短期记忆，以及何时更新 latent 才有净收益。
-- 新增一段 [从 World Labs 到层次化可写记忆的分享对话摘要](2026-09-29-world-labs-to-hierarchical-memory.md)：路线比较最终收束到动态层级计算图、选择性遗忘与主动上下文学习。
+- 已归档 [World Labs 世界模型分享对话原文](../share-world-labs-transcript.md)，原始网页存于 [`share-world-labs.html`](../share-world-labs.html)；[讨论摘要](2026-09-29-world-labs-to-hierarchical-memory.md)梳理了从路线比较到动态层级计算图、选择性遗忘与主动上下文学习的转折。
 - 尚无实验结果；对论文的解读和具体架构建议应视为待核查主张。
 
 ## 记录
