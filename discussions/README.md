@@ -12,7 +12,7 @@
 - [inf_context_llm 与 MASA 评估](2026-09-29-inf-context-and-masa-review.md)区分语义载荷/索引基础设施与主动双流工作记忆，指出 mask 反馈、attention 蒸馏、KV 修订依赖及 Oracle 因果性等关键缺口，并给出接续实验。
 - [MASA 的范围与动态计算](2026-09-29-masa-scope-and-dynamic-computation.md)进一步区分记忆组织与计算调度：MASA 有独立的局部目标，但现有 A→B→C 路线不会自动产生内部层回路或跳层。上限判断限定于现有执行方式，尚无通用能力上限的证明。
 - [动态递归的训练脚手架](2026-09-29-recurrent-training-scaffolds.md)回应训练启动难题：MASA 的语义示范不能直接教授内部路由；受限循环有结构与优化脚手架，但联合自由调度尚无本项目验证。修订上一轮对最小原型可训练性的隐含乐观。
-- [模块池、序列路由与多粒度输入处理](2026-09-30-module-pool-routing-and-multirate-reading.md)整理新设想，对照 MoM、MoR、H-Net、Lifelong-MoE 和递归模型初始化研究，校正 prefill、生成能力前置及必须从零训练的假设，提出扩容和状态接口的未决问题。
+- [模块池、序列路由与多粒度输入处理](2026-09-30-module-pool-routing-and-multirate-reading.md)整理新设想并核查相关研究。用户进一步明确“语义串行”指 causal mask 的前缀信息约束；修订此前以 prefill 并行回应的偏差，加入已知后文能否修订早期状态这一独立设计维度。
 - 尚无本项目实验结果；已核查的论文发现限定于各自设置，具体架构与 roadmap 属于待验证建议。
 
 ## 记录
