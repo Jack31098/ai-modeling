@@ -10,7 +10,19 @@
 
 Git 历史保存每次修订。Markdown 文件保存可被后续 agent 直接读取的讨论记忆；聊天记录本身不视为唯一存档。
 
+## MASA 设计基线
+
+本项目从 [MASA 设计](masa.md) 继续演进，研究不可变内容流与可变思想流、latent 工作记忆及其读写和推理机制。
+
+- 上游：[Jack31098/inf_context_llm](https://github.com/Jack31098/inf_context_llm)。
+- 导入文件：[masa.md 固定版本](https://github.com/Jack31098/inf_context_llm/blob/1890b34d6b39fd24dcf5d9afbf04de9ba64f5f27/masa.md)。
+- 上游提交：`1890b34d6b39fd24dcf5d9afbf04de9ba64f5f27`。
+- 上游文件 blob：`93dc887dc18ca42e8407141c643227d93ebd12fc`。
+- 导入日期：2026-09-29。初始内容与上游一致，后续在本项目的 `masa.md` 中独立修改；Git 历史保留导入基线。
+- 当前技术判断见 [MASA 评估](discussions/2026-09-29-inf-context-and-masa-review.md)。设计中的能力与性能主张仍需验证；原文的状态标签不代表本项目已完成实现或实验。
+
 ## 目录
 
+- `masa.md`：从上游 fork 的 MASA 设计，本项目后续演进的基线。
 - `discussions/`：按日期和主题归档的讨论记录。
 - `.cursor/rules/`：Codex/Cursor 会话中的常驻规则。

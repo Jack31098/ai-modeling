@@ -4,6 +4,7 @@
 
 ## 当前状态
 
+- 已将 [MASA 设计](../masa.md) fork 到本项目，固定上游版本并保留原文，作为后续设计演进的基线；来源见[项目 README](../README.md#masa-设计基线)。
 - 已导入一段 [Optimal mask 元学习方案分享对话](../share-transcript.md)，原始网页存于 [`share.html`](../share.html)。
 - 讨论当前聚焦：接续用户已有的 MASA 双流设计，补全 latent 思想状态到内容输出的直接通道、训练目标及修订一致性。
 - 已归档 [World Labs 世界模型分享对话原文](../share-world-labs-transcript.md)，原始网页存于 [`share-world-labs.html`](../share-world-labs.html)；[讨论摘要](2026-09-29-world-labs-to-hierarchical-memory.md)梳理了从路线比较到动态层级计算图、选择性遗忘与主动上下文学习的转折。
@@ -18,6 +19,7 @@
 - [2026-09-29：从 World Labs 到层次化可写记忆](2026-09-29-world-labs-to-hierarchical-memory.md) — 新分享对话的主要转折、架构假设与失败条件。
 - [2026-09-29：层次化记忆的可行性与 roadmap](2026-09-29-hierarchical-memory-feasibility-roadmap.md) — 技术证据、KV 与语义层级等概念修订、候选路线、分阶段验证和停止条件。
 - [2026-09-29：inf_context_llm 与 MASA 设计评估](2026-09-29-inf-context-and-masa-review.md) — 修订研究起点，以双流直接读出和可变状态的一致性继续推进。
+- [2026-09-29：fork MASA 设计基线](2026-09-29-masa-fork.md) — 导入上游原版设计，确定本项目的接续位置与版本来源。
 
 ## 续接方式
 
