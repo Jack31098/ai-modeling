@@ -6,10 +6,11 @@
 
 - 已将 [MASA 设计](../masa.md) fork 到本项目，固定上游版本并保留原文，作为后续设计演进的基线；来源见[项目 README](../README.md#masa-设计基线)。
 - 已导入一段 [Optimal mask 元学习方案分享对话](../share-transcript.md)，原始网页存于 [`share.html`](../share.html)。
-- 讨论当前聚焦：接续用户已有的 MASA 双流设计，补全 latent 思想状态到内容输出的直接通道、训练目标及修订一致性。
+- 讨论当前聚焦：MASA 的双流记忆目标与近期动态递归、跳层及多粒度状态计算目标之间的差距。先明确最终允许的状态变换和执行路径，再确定如何复用 MASA。
 - 已归档 [World Labs 世界模型分享对话原文](../share-world-labs-transcript.md)，原始网页存于 [`share-world-labs.html`](../share-world-labs.html)；[讨论摘要](2026-09-29-world-labs-to-hierarchical-memory.md)梳理了从路线比较到动态层级计算图、选择性遗忘与主动上下文学习的转折。
 - 已完成[层次化记忆 vision 的初步技术评估](2026-09-29-hierarchical-memory-feasibility-roadmap.md)；随后读取用户既有设计，修订了将文本记忆作为项目起点的建议。相关组件有可行性证据，完整架构的优势尚未证实。
 - [inf_context_llm 与 MASA 评估](2026-09-29-inf-context-and-masa-review.md)区分语义载荷/索引基础设施与主动双流工作记忆，指出 mask 反馈、attention 蒸馏、KV 修订依赖及 Oracle 因果性等关键缺口，并给出接续实验。
+- [MASA 的范围与动态计算](2026-09-29-masa-scope-and-dynamic-computation.md)进一步区分记忆组织与计算调度：MASA 有独立的局部目标，但现有 A→B→C 路线不会自动产生内部层回路或跳层。上限判断限定于现有执行方式，尚无通用能力上限的证明。
 - 尚无本项目实验结果；已核查的论文发现限定于各自设置，具体架构与 roadmap 属于待验证建议。
 
 ## 记录
@@ -20,6 +21,7 @@
 - [2026-09-29：层次化记忆的可行性与 roadmap](2026-09-29-hierarchical-memory-feasibility-roadmap.md) — 技术证据、KV 与语义层级等概念修订、候选路线、分阶段验证和停止条件。
 - [2026-09-29：inf_context_llm 与 MASA 设计评估](2026-09-29-inf-context-and-masa-review.md) — 修订研究起点，以双流直接读出和可变状态的一致性继续推进。
 - [2026-09-29：fork MASA 设计基线](2026-09-29-masa-fork.md) — 导入上游原版设计，确定本项目的接续位置与版本来源。
+- [2026-09-29：MASA 的范围与动态计算](2026-09-29-masa-scope-and-dynamic-computation.md) — 独立目标、执行边界与候选总体架构，修订下一步的优先级。
 
 ## 续接方式
 
