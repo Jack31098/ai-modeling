@@ -6,6 +6,8 @@
 
 ## 阅读顺序
 
+如需查看本次会话原文，见 [Transcript（筛选版）](transcript-2026-10-02.md)；它与先前导入的分享对话是不同的存档。
+
 1. [项目概览](README.md)及[讨论索引](discussions/README.md)。
 2. [最新讨论：模块池、序列路由与多粒度输入处理](discussions/2026-09-30-module-pool-routing-and-multirate-reading.md)，尤其是“计算并行与因果信息可见性必须区分”。
 3. [动态递归的训练脚手架](discussions/2026-09-29-recurrent-training-scaffolds.md)。
