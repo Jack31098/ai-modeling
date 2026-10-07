@@ -4,7 +4,7 @@
 
 ## 从哪里开始
 
-换机继续本轮研究时，先读 [2026-10-02 接续说明](HANDOFF.md)，其中汇总当前进度、最近的概念修正和未决问题。
+继续当前研究时，先读 [最新接续说明（2026-10-06）](HANDOFF.md)和[第一部分主方案 v1.1](path_control_pretraining_part1_v1.1.md)，其中明确当前设计、已撤回思路及下一步待定问题。[2026-10-02 接续说明](HANDOFF-2026-10-02.md)保留作历史记录。
 
 此前会话原文见 [2026-10-02 Transcript（筛选版）](transcript-2026-10-02.md)，已排除指定的两轮无关对话。
 
@@ -18,9 +18,9 @@ Git 历史保存每次修订。Markdown 文件保存可被后续 agent 直接读
 
 ## MASA 设计基线
 
-本项目从 [MASA 设计](masa.md) 继续演进，研究不可变内容流与可变思想流、latent 工作记忆及其读写和推理机制。
+本项目由 [MASA 设计](masa.md) 等早期讨论演进而来。当前主方案研究模型内部的 path control：按内容和任务选择计算路径与处理粒度；MASA 是历史启发，不是必须先完成的实现基线。
 
-当前正评估 MASA 与动态递归、跳层和多粒度状态计算之间的范围差距，见[设计边界讨论](discussions/2026-09-29-masa-scope-and-dynamic-computation.md)。导入基线提供已有机制与待验证假设，最终架构范围仍在讨论中。
+MASA 与动态递归、跳层和多粒度状态计算之间的范围差距见[设计边界讨论](discussions/2026-09-29-masa-scope-and-dynamic-computation.md)。导入基线提供已有机制与待验证假设；当前路线以 v1.1 主方案和最新 handoff 为准。
 
 - 上游：[Jack31098/inf_context_llm](https://github.com/Jack31098/inf_context_llm)。
 - 导入文件：[masa.md 固定版本](https://github.com/Jack31098/inf_context_llm/blob/1890b34d6b39fd24dcf5d9afbf04de9ba64f5f27/masa.md)。
