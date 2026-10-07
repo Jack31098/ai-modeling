@@ -1,0 +1,13 @@
+{
+  "repository": "unsloth/Qwen3.6-35B-A3B-GGUF",
+  "upstream_model": "Qwen/Qwen3.6-35B-A3B",
+  "revision": "a483e9e6cbd595906af30beda3187c2663a1118c",
+  "filename": "Qwen3.6-35B-A3B-Q8_0.gguf",
+  "quantization": "Q8_0",
+  "size_bytes": 36903140320,
+  "sha256": "d1a395809f65a43a13ad119eb4e7acdef1ac6d68120f39902c8ab96e72794a59",
+  "license": "Apache-2.0",
+  "source_url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
+  "download_url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/resolve/a483e9e6cbd595906af30beda3187c2663a1118c/Qwen3.6-35B-A3B-Q8_0.gguf",
+  "local_relative_path": "models/Qwen3.6-35B-A3B/Qwen3.6-35B-A3B-Q8_0.gguf"
+}
