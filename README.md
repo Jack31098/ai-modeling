@@ -6,6 +6,8 @@
 
 继续当前研究时，先读 [最新接续说明（2026-10-06）](HANDOFF.md)和[第一部分主方案 v1.1](path_control_pretraining_part1_v1.1.md)，其中明确当前设计、已撤回思路及下一步待定问题。[2026-10-02 接续说明](HANDOFF-2026-10-02.md)保留作历史记录。
 
+后续的[B⁻ 层次调用、Lookback 与训练监督协议 v0.1](B_minus_lookback_supervision_protocol_v0.1.md)细化跨尺度调用及监督隔离，属于待验证的阶段性设计记录。
+
 此前会话原文见 [2026-10-02 Transcript（筛选版）](transcript-2026-10-02.md)，已排除指定的两轮无关对话。
 
 本轮关于层深、可逆性、读写分工、预训练与渐进式部件替换的对话原文见 [2026-10-04 Transcript](transcript-2026-10-04.md)。
