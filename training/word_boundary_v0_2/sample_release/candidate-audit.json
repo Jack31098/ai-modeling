@@ -1,0 +1,61 @@
+{
+  "candidate_family_links": [
+    {
+      "a": "candidate:mdn:en:unicode",
+      "b": "candidate:mdn:zh:unicode",
+      "exact_sentence_alignment_claimed": false,
+      "family": "mdn:glossary/unicode",
+      "reason": "canonical_topic_parallel_family"
+    },
+    {
+      "a": "candidate:mdn:en:utf-8",
+      "b": "candidate:mdn:zh:utf-8",
+      "exact_sentence_alignment_claimed": false,
+      "family": "mdn:glossary/utf-8",
+      "reason": "canonical_topic_parallel_family"
+    }
+  ],
+  "limitations": "Exact, metadata lineage, normalized, numeric-template and char5gram audit only; unknown semantic paraphrases are not ruled out. Explicit bilingual families remain held out together.",
+  "old_input_count": 29,
+  "old_inputs_sha256": "d1b2542e710597218b255942c9847f796fb1630f0871e1918dac92c902b7822d",
+  "old_split_audit_sha256": "3f2c6971f62621f5ba2cdffc2e315300feb555da6f153f710b076d52cbb1c81b",
+  "old_train_count": 21,
+  "results": [
+    {
+      "disposition": "isolated_pending_human_review",
+      "doc_id": "candidate:mdn:en:unicode",
+      "matches": [],
+      "nearest_old_input": {
+        "old_doc_id": "fixture:near-a",
+        "score": 0.04534005037783375
+      }
+    },
+    {
+      "disposition": "isolated_pending_human_review",
+      "doc_id": "candidate:mdn:en:utf-8",
+      "matches": [],
+      "nearest_old_input": {
+        "old_doc_id": "fixture:near-a",
+        "score": 0.03051643192488263
+      }
+    },
+    {
+      "disposition": "isolated_pending_human_review",
+      "doc_id": "candidate:mdn:zh:unicode",
+      "matches": [],
+      "nearest_old_input": {
+        "old_doc_id": null,
+        "score": 0
+      }
+    },
+    {
+      "disposition": "isolated_pending_human_review",
+      "doc_id": "candidate:mdn:zh:utf-8",
+      "matches": [],
+      "nearest_old_input": {
+        "old_doc_id": null,
+        "score": 0
+      }
+    }
+  ]
+}

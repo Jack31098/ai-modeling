@@ -1,0 +1,1659 @@
+{
+  "doc_id": "candidate:mdn:en:unicode",
+  "main_input_allowed": false,
+  "policy": "v0-offline-rules-plus-jieba-DAG-HMM-false",
+  "status": "automatic_unreviewed_not_gold",
+  "units": [
+    {
+      "byte": [
+        0,
+        6
+      ],
+      "cp": [
+        0,
+        6
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "Before"
+    },
+    {
+      "byte": [
+        6,
+        7
+      ],
+      "cp": [
+        6,
+        7
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        7,
+        14
+      ],
+      "cp": [
+        7,
+        14
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "Unicode"
+    },
+    {
+      "byte": [
+        14,
+        15
+      ],
+      "cp": [
+        14,
+        15
+      ],
+      "kind": "punct",
+      "sentence_terminal_candidate": false,
+      "text": ","
+    },
+    {
+      "byte": [
+        15,
+        16
+      ],
+      "cp": [
+        15,
+        16
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        16,
+        18
+      ],
+      "cp": [
+        16,
+        18
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "it"
+    },
+    {
+      "byte": [
+        18,
+        19
+      ],
+      "cp": [
+        18,
+        19
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        19,
+        22
+      ],
+      "cp": [
+        19,
+        22
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "was"
+    },
+    {
+      "byte": [
+        22,
+        23
+      ],
+      "cp": [
+        22,
+        23
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        23,
+        32
+      ],
+      "cp": [
+        23,
+        32
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "difficult"
+    },
+    {
+      "byte": [
+        32,
+        33
+      ],
+      "cp": [
+        32,
+        33
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        33,
+        36
+      ],
+      "cp": [
+        33,
+        36
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "and"
+    },
+    {
+      "byte": [
+        36,
+        37
+      ],
+      "cp": [
+        36,
+        37
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        37,
+        48
+      ],
+      "cp": [
+        37,
+        48
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "error-prone"
+    },
+    {
+      "byte": [
+        48,
+        49
+      ],
+      "cp": [
+        48,
+        49
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        49,
+        51
+      ],
+      "cp": [
+        49,
+        51
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "to"
+    },
+    {
+      "byte": [
+        51,
+        52
+      ],
+      "cp": [
+        51,
+        52
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        52,
+        55
+      ],
+      "cp": [
+        52,
+        55
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "mix"
+    },
+    {
+      "byte": [
+        55,
+        56
+      ],
+      "cp": [
+        55,
+        56
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        56,
+        65
+      ],
+      "cp": [
+        56,
+        65
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "languages"
+    },
+    {
+      "byte": [
+        65,
+        66
+      ],
+      "cp": [
+        65,
+        66
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        66,
+        68
+      ],
+      "cp": [
+        66,
+        68
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "in"
+    },
+    {
+      "byte": [
+        68,
+        69
+      ],
+      "cp": [
+        68,
+        69
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        69,
+        72
+      ],
+      "cp": [
+        69,
+        72
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "the"
+    },
+    {
+      "byte": [
+        72,
+        73
+      ],
+      "cp": [
+        72,
+        73
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        73,
+        77
+      ],
+      "cp": [
+        73,
+        77
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "same"
+    },
+    {
+      "byte": [
+        77,
+        78
+      ],
+      "cp": [
+        77,
+        78
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        78,
+        82
+      ],
+      "cp": [
+        78,
+        82
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "data"
+    },
+    {
+      "byte": [
+        82,
+        83
+      ],
+      "cp": [
+        82,
+        83
+      ],
+      "kind": "punct",
+      "sentence_terminal_candidate": true,
+      "text": "."
+    },
+    {
+      "byte": [
+        83,
+        84
+      ],
+      "cp": [
+        83,
+        84
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        84,
+        87
+      ],
+      "cp": [
+        84,
+        87
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "For"
+    },
+    {
+      "byte": [
+        87,
+        88
+      ],
+      "cp": [
+        87,
+        88
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        88,
+        95
+      ],
+      "cp": [
+        88,
+        95
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "example"
+    },
+    {
+      "byte": [
+        95,
+        96
+      ],
+      "cp": [
+        95,
+        96
+      ],
+      "kind": "punct",
+      "sentence_terminal_candidate": false,
+      "text": ","
+    },
+    {
+      "byte": [
+        96,
+        97
+      ],
+      "cp": [
+        96,
+        97
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        97,
+        100
+      ],
+      "cp": [
+        97,
+        100
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "one"
+    },
+    {
+      "byte": [
+        100,
+        101
+      ],
+      "cp": [
+        100,
+        101
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        101,
+        110
+      ],
+      "cp": [
+        101,
+        110
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "character"
+    },
+    {
+      "byte": [
+        110,
+        111
+      ],
+      "cp": [
+        110,
+        111
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        111,
+        114
+      ],
+      "cp": [
+        111,
+        114
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "set"
+    },
+    {
+      "byte": [
+        114,
+        115
+      ],
+      "cp": [
+        114,
+        115
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        115,
+        120
+      ],
+      "cp": [
+        115,
+        120
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "would"
+    },
+    {
+      "byte": [
+        120,
+        121
+      ],
+      "cp": [
+        120,
+        121
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        121,
+        126
+      ],
+      "cp": [
+        121,
+        126
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "store"
+    },
+    {
+      "byte": [
+        126,
+        127
+      ],
+      "cp": [
+        126,
+        127
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        127,
+        135
+      ],
+      "cp": [
+        127,
+        135
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "Japanese"
+    },
+    {
+      "byte": [
+        135,
+        136
+      ],
+      "cp": [
+        135,
+        136
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        136,
+        146
+      ],
+      "cp": [
+        136,
+        146
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "characters"
+    },
+    {
+      "byte": [
+        146,
+        147
+      ],
+      "cp": [
+        146,
+        147
+      ],
+      "kind": "punct",
+      "sentence_terminal_candidate": false,
+      "text": ","
+    },
+    {
+      "byte": [
+        147,
+        148
+      ],
+      "cp": [
+        147,
+        148
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        148,
+        151
+      ],
+      "cp": [
+        148,
+        151
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "and"
+    },
+    {
+      "byte": [
+        151,
+        152
+      ],
+      "cp": [
+        151,
+        152
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        152,
+        159
+      ],
+      "cp": [
+        152,
+        159
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "another"
+    },
+    {
+      "byte": [
+        159,
+        160
+      ],
+      "cp": [
+        159,
+        160
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        160,
+        165
+      ],
+      "cp": [
+        160,
+        165
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "would"
+    },
+    {
+      "byte": [
+        165,
+        166
+      ],
+      "cp": [
+        165,
+        166
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        166,
+        171
+      ],
+      "cp": [
+        166,
+        171
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "store"
+    },
+    {
+      "byte": [
+        171,
+        172
+      ],
+      "cp": [
+        171,
+        172
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        172,
+        175
+      ],
+      "cp": [
+        172,
+        175
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "the"
+    },
+    {
+      "byte": [
+        175,
+        176
+      ],
+      "cp": [
+        175,
+        176
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        176,
+        182
+      ],
+      "cp": [
+        176,
+        182
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "Arabic"
+    },
+    {
+      "byte": [
+        182,
+        183
+      ],
+      "cp": [
+        182,
+        183
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        183,
+        191
+      ],
+      "cp": [
+        183,
+        191
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "alphabet"
+    },
+    {
+      "byte": [
+        191,
+        192
+      ],
+      "cp": [
+        191,
+        192
+      ],
+      "kind": "punct",
+      "sentence_terminal_candidate": true,
+      "text": "."
+    },
+    {
+      "byte": [
+        192,
+        193
+      ],
+      "cp": [
+        192,
+        193
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        193,
+        195
+      ],
+      "cp": [
+        193,
+        195
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "If"
+    },
+    {
+      "byte": [
+        195,
+        196
+      ],
+      "cp": [
+        195,
+        196
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        196,
+        198
+      ],
+      "cp": [
+        196,
+        198
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "it"
+    },
+    {
+      "byte": [
+        198,
+        199
+      ],
+      "cp": [
+        198,
+        199
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        199,
+        202
+      ],
+      "cp": [
+        199,
+        202
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "was"
+    },
+    {
+      "byte": [
+        202,
+        203
+      ],
+      "cp": [
+        202,
+        203
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        203,
+        206
+      ],
+      "cp": [
+        203,
+        206
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "not"
+    },
+    {
+      "byte": [
+        206,
+        207
+      ],
+      "cp": [
+        206,
+        207
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        207,
+        214
+      ],
+      "cp": [
+        207,
+        214
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "clearly"
+    },
+    {
+      "byte": [
+        214,
+        215
+      ],
+      "cp": [
+        214,
+        215
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        215,
+        221
+      ],
+      "cp": [
+        215,
+        221
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "marked"
+    },
+    {
+      "byte": [
+        221,
+        222
+      ],
+      "cp": [
+        221,
+        222
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        222,
+        227
+      ],
+      "cp": [
+        222,
+        227
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "which"
+    },
+    {
+      "byte": [
+        227,
+        228
+      ],
+      "cp": [
+        227,
+        228
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        228,
+        233
+      ],
+      "cp": [
+        228,
+        233
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "parts"
+    },
+    {
+      "byte": [
+        233,
+        234
+      ],
+      "cp": [
+        233,
+        234
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        234,
+        236
+      ],
+      "cp": [
+        234,
+        236
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "of"
+    },
+    {
+      "byte": [
+        236,
+        237
+      ],
+      "cp": [
+        236,
+        237
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        237,
+        240
+      ],
+      "cp": [
+        237,
+        240
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "the"
+    },
+    {
+      "byte": [
+        240,
+        241
+      ],
+      "cp": [
+        240,
+        241
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        241,
+        245
+      ],
+      "cp": [
+        241,
+        245
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "data"
+    },
+    {
+      "byte": [
+        245,
+        246
+      ],
+      "cp": [
+        245,
+        246
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        246,
+        250
+      ],
+      "cp": [
+        246,
+        250
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "were"
+    },
+    {
+      "byte": [
+        250,
+        251
+      ],
+      "cp": [
+        250,
+        251
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        251,
+        253
+      ],
+      "cp": [
+        251,
+        253
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "in"
+    },
+    {
+      "byte": [
+        253,
+        254
+      ],
+      "cp": [
+        253,
+        254
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        254,
+        259
+      ],
+      "cp": [
+        254,
+        259
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "which"
+    },
+    {
+      "byte": [
+        259,
+        260
+      ],
+      "cp": [
+        259,
+        260
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        260,
+        269
+      ],
+      "cp": [
+        260,
+        269
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "character"
+    },
+    {
+      "byte": [
+        269,
+        270
+      ],
+      "cp": [
+        269,
+        270
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        270,
+        273
+      ],
+      "cp": [
+        270,
+        273
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "set"
+    },
+    {
+      "byte": [
+        273,
+        274
+      ],
+      "cp": [
+        273,
+        274
+      ],
+      "kind": "punct",
+      "sentence_terminal_candidate": false,
+      "text": ","
+    },
+    {
+      "byte": [
+        274,
+        275
+      ],
+      "cp": [
+        274,
+        275
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        275,
+        280
+      ],
+      "cp": [
+        275,
+        280
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "other"
+    },
+    {
+      "byte": [
+        280,
+        281
+      ],
+      "cp": [
+        280,
+        281
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        281,
+        289
+      ],
+      "cp": [
+        281,
+        289
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "programs"
+    },
+    {
+      "byte": [
+        289,
+        290
+      ],
+      "cp": [
+        289,
+        290
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        290,
+        293
+      ],
+      "cp": [
+        290,
+        293
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "and"
+    },
+    {
+      "byte": [
+        293,
+        294
+      ],
+      "cp": [
+        293,
+        294
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        294,
+        303
+      ],
+      "cp": [
+        294,
+        303
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "computers"
+    },
+    {
+      "byte": [
+        303,
+        304
+      ],
+      "cp": [
+        303,
+        304
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        304,
+        309
+      ],
+      "cp": [
+        304,
+        309
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "would"
+    },
+    {
+      "byte": [
+        309,
+        310
+      ],
+      "cp": [
+        309,
+        310
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        310,
+        317
+      ],
+      "cp": [
+        310,
+        317
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "display"
+    },
+    {
+      "byte": [
+        317,
+        318
+      ],
+      "cp": [
+        317,
+        318
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        318,
+        321
+      ],
+      "cp": [
+        318,
+        321
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "the"
+    },
+    {
+      "byte": [
+        321,
+        322
+      ],
+      "cp": [
+        321,
+        322
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        322,
+        326
+      ],
+      "cp": [
+        322,
+        326
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "text"
+    },
+    {
+      "byte": [
+        326,
+        327
+      ],
+      "cp": [
+        326,
+        327
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        327,
+        338
+      ],
+      "cp": [
+        327,
+        338
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "incorrectly"
+    },
+    {
+      "byte": [
+        338,
+        339
+      ],
+      "cp": [
+        338,
+        339
+      ],
+      "kind": "punct",
+      "sentence_terminal_candidate": false,
+      "text": ","
+    },
+    {
+      "byte": [
+        339,
+        340
+      ],
+      "cp": [
+        339,
+        340
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        340,
+        342
+      ],
+      "cp": [
+        340,
+        342
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "or"
+    },
+    {
+      "byte": [
+        342,
+        343
+      ],
+      "cp": [
+        342,
+        343
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        343,
+        349
+      ],
+      "cp": [
+        343,
+        349
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "damage"
+    },
+    {
+      "byte": [
+        349,
+        350
+      ],
+      "cp": [
+        349,
+        350
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        350,
+        352
+      ],
+      "cp": [
+        350,
+        352
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "it"
+    },
+    {
+      "byte": [
+        352,
+        353
+      ],
+      "cp": [
+        352,
+        353
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        353,
+        359
+      ],
+      "cp": [
+        353,
+        359
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "during"
+    },
+    {
+      "byte": [
+        359,
+        360
+      ],
+      "cp": [
+        359,
+        360
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        360,
+        370
+      ],
+      "cp": [
+        360,
+        370
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "processing"
+    },
+    {
+      "byte": [
+        370,
+        371
+      ],
+      "cp": [
+        370,
+        371
+      ],
+      "kind": "punct",
+      "sentence_terminal_candidate": true,
+      "text": "."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "unselected-unverified",
+  "model_id": null,
+  "tokenizer_id": null,
+  "local_path": null,
+  "revision": null,
+  "asset_sha256": null,
+  "offset_adapter": "training.word_boundary_v0.alignment.align_tokens",
+  "offset_unit": null,
+  "normalization": "must-declare-and-verify-against-raw-text",
+  "notes": "Fill exact assets and coordinate convention before actual target-tokenizer acceptance. Native byte tokenizers need a separately declared adapter; do not snap spans."
+}

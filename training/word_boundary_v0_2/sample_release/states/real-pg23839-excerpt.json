@@ -1,0 +1,56 @@
+{
+  "checkpoints": [
+    {
+      "kind": "window_pause",
+      "state": {
+        "byte": 350,
+        "clock": 128,
+        "cp": 128,
+        "ended": false,
+        "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+        "max_delay_steps": 5,
+        "max_pending_byte": 18,
+        "max_pending_cp": 6,
+        "mode": "han",
+        "pending": "令色",
+        "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+        "start_byte": 344,
+        "start_cp": 126
+      }
+    },
+    {
+      "kind": "window_pause",
+      "state": {
+        "byte": 372,
+        "clock": 138,
+        "cp": 138,
+        "ended": false,
+        "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+        "max_delay_steps": 5,
+        "max_pending_byte": 18,
+        "max_pending_cp": 6,
+        "mode": null,
+        "pending": "",
+        "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+        "start_byte": 372,
+        "start_cp": 138
+      }
+    }
+  ],
+  "end_kind": "source_excerpt_pause",
+  "final": {
+    "byte": 372,
+    "clock": 138,
+    "cp": 138,
+    "ended": false,
+    "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+    "max_delay_steps": 5,
+    "max_pending_byte": 18,
+    "max_pending_cp": 6,
+    "mode": null,
+    "pending": "",
+    "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+    "start_byte": 372,
+    "start_cp": 138
+  }
+}

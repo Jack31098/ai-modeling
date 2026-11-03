@@ -8,6 +8,8 @@
 
 当前训练试制按用户后续明确口径：先训练 B 规约器，F 和最终展开器从头训练，0.8B 指目标参数规模，不复用 Qwen 0.8B 主干。第 0 步已实现[固定词边界数据管线与小样例](training/word_boundary_v0/README.md)，沿用 v1.2 §10 的监督及可见性要求；尚未训练模型，历史 F 继承设想不作为本轮执行默认。
 
+[第 0 步增量 v0.2](training/word_boundary_v0_2/README.md)解释关键夹具，增加 4 条独立现代中英文人工审核候选、有界 FMM 流式参考及真实 tokenizer 盘点。46 项结构测试通过，人工金标仍未接受；FMM 的“研究生｜命”反例保留，不以有界／因果测试代替分词质量。旧数据包与 split 保持原样。
+
 [第一部分主方案 v1.1](path_control_pretraining_part1_v1.1.md)、[2026-10-06 接续说明](HANDOFF.md)和[2026-10-02 接续说明](HANDOFF-2026-10-02.md)保留作历史记录。已有有限规则解析器和词表示压缩诊断；尚无通用语义 B、B⁻、Qwen F 接入或完整多粒度模型训练结果。
 
 [B⁻ 层次调用、Lookback 与训练监督协议 v0.1](B_minus_lookback_supervision_protocol_v0.1.md)细化跨尺度调用及监督隔离，已由 v1.2 整合修订；协议实现仍待验证。

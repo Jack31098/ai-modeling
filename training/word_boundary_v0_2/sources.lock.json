@@ -1,0 +1,70 @@
+{
+  "files": [
+    {
+      "bytes": 23775,
+      "local_path": "sources/en-us/LICENSE.md",
+      "path": "LICENSE.md",
+      "repository": "mdn/content",
+      "retrieved_on": "2026-11-03",
+      "revision": "05b21c9303964f221febe77f053e5636f230afe9",
+      "sha256": "97a45d9a5c27c90ad7f058b20a870f11a24717f0eb4585f141948d25b74c4d89",
+      "timezone": "America/Los_Angeles",
+      "url": "https://raw.githubusercontent.com/mdn/content/05b21c9303964f221febe77f053e5636f230afe9/LICENSE.md"
+    },
+    {
+      "bytes": 1476,
+      "local_path": "sources/en-us/unicode.md",
+      "path": "files/en-us/glossary/unicode/index.md",
+      "repository": "mdn/content",
+      "retrieved_on": "2026-11-03",
+      "revision": "05b21c9303964f221febe77f053e5636f230afe9",
+      "sha256": "50a980bea7d49e4326f2c6081413ad3b4f4c6a01723bed67a81b191d86f19bd7",
+      "timezone": "America/Los_Angeles",
+      "url": "https://raw.githubusercontent.com/mdn/content/05b21c9303964f221febe77f053e5636f230afe9/files/en-us/glossary/unicode/index.md"
+    },
+    {
+      "bytes": 952,
+      "local_path": "sources/en-us/utf-8.md",
+      "path": "files/en-us/glossary/utf-8/index.md",
+      "repository": "mdn/content",
+      "retrieved_on": "2026-11-03",
+      "revision": "05b21c9303964f221febe77f053e5636f230afe9",
+      "sha256": "c848b35537bf3518a6d59b316ab203b622e5741bcf709283d996c50ee2b69a6b",
+      "timezone": "America/Los_Angeles",
+      "url": "https://raw.githubusercontent.com/mdn/content/05b21c9303964f221febe77f053e5636f230afe9/files/en-us/glossary/utf-8/index.md"
+    },
+    {
+      "bytes": 23750,
+      "local_path": "sources/zh-cn/LICENSE.md",
+      "path": "LICENSE.md",
+      "repository": "mdn/translated-content",
+      "retrieved_on": "2026-11-03",
+      "revision": "79c5df5882bc51786844b8fa72a06a80a24f6404",
+      "sha256": "57c0d7e200fadfdbadb04b9ab220297809ba7f2ac0adaa6707a07fba432b2ebe",
+      "timezone": "America/Los_Angeles",
+      "url": "https://raw.githubusercontent.com/mdn/translated-content/79c5df5882bc51786844b8fa72a06a80a24f6404/LICENSE.md"
+    },
+    {
+      "bytes": 1392,
+      "local_path": "sources/zh-cn/unicode.md",
+      "path": "files/zh-cn/glossary/unicode/index.md",
+      "repository": "mdn/translated-content",
+      "retrieved_on": "2026-11-03",
+      "revision": "79c5df5882bc51786844b8fa72a06a80a24f6404",
+      "sha256": "39ff80fc91ddb03fb40bb4739c5fde33a2e18fe48f608e38a87acfe74da84b58",
+      "timezone": "America/Los_Angeles",
+      "url": "https://raw.githubusercontent.com/mdn/translated-content/79c5df5882bc51786844b8fa72a06a80a24f6404/files/zh-cn/glossary/unicode/index.md"
+    },
+    {
+      "bytes": 914,
+      "local_path": "sources/zh-cn/utf-8.md",
+      "path": "files/zh-cn/glossary/utf-8/index.md",
+      "repository": "mdn/translated-content",
+      "retrieved_on": "2026-11-03",
+      "revision": "79c5df5882bc51786844b8fa72a06a80a24f6404",
+      "sha256": "23aa56414d08b20b213c88a0c51b49cae978ce07f320f9071edcf8e1c5a6dba9",
+      "timezone": "America/Los_Angeles",
+      "url": "https://raw.githubusercontent.com/mdn/translated-content/79c5df5882bc51786844b8fa72a06a80a24f6404/files/zh-cn/glossary/utf-8/index.md"
+    }
+  ]
+}

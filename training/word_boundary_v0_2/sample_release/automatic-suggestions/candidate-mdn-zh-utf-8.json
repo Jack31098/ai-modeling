@@ -1,0 +1,1360 @@
+{
+  "doc_id": "candidate:mdn:zh:utf-8",
+  "main_input_allowed": false,
+  "policy": "v0-offline-rules-plus-jieba-DAG-HMM-false",
+  "status": "automatic_unreviewed_not_gold",
+  "units": [
+    {
+      "byte": [
+        0,
+        3
+      ],
+      "cp": [
+        0,
+        1
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "前"
+    },
+    {
+      "byte": [
+        3,
+        4
+      ],
+      "cp": [
+        1,
+        2
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        4,
+        7
+      ],
+      "cp": [
+        2,
+        5
+      ],
+      "kind": "number",
+      "sentence_terminal_candidate": false,
+      "text": "128"
+    },
+    {
+      "byte": [
+        7,
+        8
+      ],
+      "cp": [
+        5,
+        6
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        8,
+        11
+      ],
+      "cp": [
+        6,
+        7
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "个"
+    },
+    {
+      "byte": [
+        11,
+        12
+      ],
+      "cp": [
+        7,
+        8
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        12,
+        15
+      ],
+      "cp": [
+        8,
+        11
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "UTF"
+    },
+    {
+      "byte": [
+        15,
+        17
+      ],
+      "cp": [
+        11,
+        13
+      ],
+      "kind": "number",
+      "sentence_terminal_candidate": false,
+      "text": "-8"
+    },
+    {
+      "byte": [
+        17,
+        18
+      ],
+      "cp": [
+        13,
+        14
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        18,
+        24
+      ],
+      "cp": [
+        14,
+        16
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "字符"
+    },
+    {
+      "byte": [
+        24,
+        27
+      ],
+      "cp": [
+        16,
+        17
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "会"
+    },
+    {
+      "byte": [
+        27,
+        30
+      ],
+      "cp": [
+        17,
+        18
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "与"
+    },
+    {
+      "byte": [
+        30,
+        33
+      ],
+      "cp": [
+        18,
+        19
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "前"
+    },
+    {
+      "byte": [
+        33,
+        34
+      ],
+      "cp": [
+        19,
+        20
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        34,
+        37
+      ],
+      "cp": [
+        20,
+        23
+      ],
+      "kind": "number",
+      "sentence_terminal_candidate": false,
+      "text": "128"
+    },
+    {
+      "byte": [
+        37,
+        38
+      ],
+      "cp": [
+        23,
+        24
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        38,
+        41
+      ],
+      "cp": [
+        24,
+        25
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "个"
+    },
+    {
+      "byte": [
+        41,
+        42
+      ],
+      "cp": [
+        25,
+        26
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        42,
+        47
+      ],
+      "cp": [
+        26,
+        31
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "ASCII"
+    },
+    {
+      "byte": [
+        47,
+        48
+      ],
+      "cp": [
+        31,
+        32
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        48,
+        54
+      ],
+      "cp": [
+        32,
+        34
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "字符"
+    },
+    {
+      "byte": [
+        54,
+        57
+      ],
+      "cp": [
+        34,
+        35
+      ],
+      "kind": "punct",
+      "sentence_terminal_candidate": false,
+      "text": "（"
+    },
+    {
+      "byte": [
+        57,
+        63
+      ],
+      "cp": [
+        35,
+        37
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "编号"
+    },
+    {
+      "byte": [
+        63,
+        66
+      ],
+      "cp": [
+        37,
+        38
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "为"
+    },
+    {
+      "byte": [
+        66,
+        67
+      ],
+      "cp": [
+        38,
+        39
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        67,
+        68
+      ],
+      "cp": [
+        39,
+        40
+      ],
+      "kind": "number",
+      "sentence_terminal_candidate": false,
+      "text": "0"
+    },
+    {
+      "byte": [
+        68,
+        72
+      ],
+      "cp": [
+        40,
+        44
+      ],
+      "kind": "number",
+      "sentence_terminal_candidate": false,
+      "text": "-127"
+    },
+    {
+      "byte": [
+        72,
+        75
+      ],
+      "cp": [
+        44,
+        45
+      ],
+      "kind": "punct",
+      "sentence_terminal_candidate": false,
+      "text": "）"
+    },
+    {
+      "byte": [
+        75,
+        81
+      ],
+      "cp": [
+        45,
+        47
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "精确"
+    },
+    {
+      "byte": [
+        81,
+        87
+      ],
+      "cp": [
+        47,
+        49
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "匹配"
+    },
+    {
+      "byte": [
+        87,
+        90
+      ],
+      "cp": [
+        49,
+        50
+      ],
+      "kind": "punct",
+      "sentence_terminal_candidate": false,
+      "text": "，"
+    },
+    {
+      "byte": [
+        90,
+        99
+      ],
+      "cp": [
+        50,
+        53
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "意味着"
+    },
+    {
+      "byte": [
+        99,
+        105
+      ],
+      "cp": [
+        53,
+        55
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "现有"
+    },
+    {
+      "byte": [
+        105,
+        108
+      ],
+      "cp": [
+        55,
+        56
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "的"
+    },
+    {
+      "byte": [
+        108,
+        109
+      ],
+      "cp": [
+        56,
+        57
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        109,
+        114
+      ],
+      "cp": [
+        57,
+        62
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "ASCII"
+    },
+    {
+      "byte": [
+        114,
+        115
+      ],
+      "cp": [
+        62,
+        63
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        115,
+        121
+      ],
+      "cp": [
+        63,
+        65
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "文本"
+    },
+    {
+      "byte": [
+        121,
+        127
+      ],
+      "cp": [
+        65,
+        67
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "已经"
+    },
+    {
+      "byte": [
+        127,
+        130
+      ],
+      "cp": [
+        67,
+        68
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "是"
+    },
+    {
+      "byte": [
+        130,
+        136
+      ],
+      "cp": [
+        68,
+        70
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "有效"
+    },
+    {
+      "byte": [
+        136,
+        139
+      ],
+      "cp": [
+        70,
+        71
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "的"
+    },
+    {
+      "byte": [
+        139,
+        140
+      ],
+      "cp": [
+        71,
+        72
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        140,
+        143
+      ],
+      "cp": [
+        72,
+        75
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "UTF"
+    },
+    {
+      "byte": [
+        143,
+        145
+      ],
+      "cp": [
+        75,
+        77
+      ],
+      "kind": "number",
+      "sentence_terminal_candidate": false,
+      "text": "-8"
+    },
+    {
+      "byte": [
+        145,
+        148
+      ],
+      "cp": [
+        77,
+        78
+      ],
+      "kind": "punct",
+      "sentence_terminal_candidate": true,
+      "text": "。"
+    },
+    {
+      "byte": [
+        148,
+        154
+      ],
+      "cp": [
+        78,
+        80
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "所有"
+    },
+    {
+      "byte": [
+        154,
+        160
+      ],
+      "cp": [
+        80,
+        82
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "其他"
+    },
+    {
+      "byte": [
+        160,
+        166
+      ],
+      "cp": [
+        82,
+        84
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "字符"
+    },
+    {
+      "byte": [
+        166,
+        169
+      ],
+      "cp": [
+        84,
+        85
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "都"
+    },
+    {
+      "byte": [
+        169,
+        175
+      ],
+      "cp": [
+        85,
+        87
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "使用"
+    },
+    {
+      "byte": [
+        175,
+        176
+      ],
+      "cp": [
+        87,
+        88
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        176,
+        177
+      ],
+      "cp": [
+        88,
+        89
+      ],
+      "kind": "number",
+      "sentence_terminal_candidate": false,
+      "text": "2"
+    },
+    {
+      "byte": [
+        177,
+        178
+      ],
+      "cp": [
+        89,
+        90
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        178,
+        181
+      ],
+      "cp": [
+        90,
+        91
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "到"
+    },
+    {
+      "byte": [
+        181,
+        182
+      ],
+      "cp": [
+        91,
+        92
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        182,
+        183
+      ],
+      "cp": [
+        92,
+        93
+      ],
+      "kind": "number",
+      "sentence_terminal_candidate": false,
+      "text": "4"
+    },
+    {
+      "byte": [
+        183,
+        184
+      ],
+      "cp": [
+        93,
+        94
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        184,
+        187
+      ],
+      "cp": [
+        94,
+        95
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "个"
+    },
+    {
+      "byte": [
+        187,
+        193
+      ],
+      "cp": [
+        95,
+        97
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "字节"
+    },
+    {
+      "byte": [
+        193,
+        196
+      ],
+      "cp": [
+        97,
+        98
+      ],
+      "kind": "punct",
+      "sentence_terminal_candidate": true,
+      "text": "。"
+    },
+    {
+      "byte": [
+        196,
+        202
+      ],
+      "cp": [
+        98,
+        100
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "每个"
+    },
+    {
+      "byte": [
+        202,
+        208
+      ],
+      "cp": [
+        100,
+        102
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "字节"
+    },
+    {
+      "byte": [
+        208,
+        211
+      ],
+      "cp": [
+        102,
+        103
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "都"
+    },
+    {
+      "byte": [
+        211,
+        214
+      ],
+      "cp": [
+        103,
+        104
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "有"
+    },
+    {
+      "byte": [
+        214,
+        220
+      ],
+      "cp": [
+        104,
+        106
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "一些"
+    },
+    {
+      "byte": [
+        220,
+        226
+      ],
+      "cp": [
+        106,
+        108
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "用于"
+    },
+    {
+      "byte": [
+        226,
+        232
+      ],
+      "cp": [
+        108,
+        110
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "编码"
+    },
+    {
+      "byte": [
+        232,
+        238
+      ],
+      "cp": [
+        110,
+        112
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "目的"
+    },
+    {
+      "byte": [
+        238,
+        241
+      ],
+      "cp": [
+        112,
+        113
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "的"
+    },
+    {
+      "byte": [
+        241,
+        247
+      ],
+      "cp": [
+        113,
+        115
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "保留"
+    },
+    {
+      "byte": [
+        247,
+        250
+      ],
+      "cp": [
+        115,
+        116
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "位"
+    },
+    {
+      "byte": [
+        250,
+        253
+      ],
+      "cp": [
+        116,
+        117
+      ],
+      "kind": "punct",
+      "sentence_terminal_candidate": true,
+      "text": "。"
+    },
+    {
+      "byte": [
+        253,
+        259
+      ],
+      "cp": [
+        117,
+        119
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "由于"
+    },
+    {
+      "byte": [
+        259,
+        262
+      ],
+      "cp": [
+        119,
+        120
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "非"
+    },
+    {
+      "byte": [
+        262,
+        263
+      ],
+      "cp": [
+        120,
+        121
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        263,
+        268
+      ],
+      "cp": [
+        121,
+        126
+      ],
+      "kind": "word",
+      "sentence_terminal_candidate": false,
+      "text": "ASCII"
+    },
+    {
+      "byte": [
+        268,
+        269
+      ],
+      "cp": [
+        126,
+        127
+      ],
+      "kind": "space",
+      "sentence_terminal_candidate": false,
+      "text": " "
+    },
+    {
+      "byte": [
+        269,
+        275
+      ],
+      "cp": [
+        127,
+        129
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "字符"
+    },
+    {
+      "byte": [
+        275,
+        281
+      ],
+      "cp": [
+        129,
+        131
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "需要"
+    },
+    {
+      "byte": [
+        281,
+        287
+      ],
+      "cp": [
+        131,
+        133
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "一个"
+    },
+    {
+      "byte": [
+        287,
+        293
+      ],
+      "cp": [
+        133,
+        135
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "以上"
+    },
+    {
+      "byte": [
+        293,
+        296
+      ],
+      "cp": [
+        135,
+        136
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "的"
+    },
+    {
+      "byte": [
+        296,
+        302
+      ],
+      "cp": [
+        136,
+        138
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "字节"
+    },
+    {
+      "byte": [
+        302,
+        305
+      ],
+      "cp": [
+        138,
+        139
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "来"
+    },
+    {
+      "byte": [
+        305,
+        311
+      ],
+      "cp": [
+        139,
+        141
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "存储"
+    },
+    {
+      "byte": [
+        311,
+        314
+      ],
+      "cp": [
+        141,
+        142
+      ],
+      "kind": "punct",
+      "sentence_terminal_candidate": false,
+      "text": "，"
+    },
+    {
+      "byte": [
+        314,
+        320
+      ],
+      "cp": [
+        142,
+        144
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "如果"
+    },
+    {
+      "byte": [
+        320,
+        326
+      ],
+      "cp": [
+        144,
+        146
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "字节"
+    },
+    {
+      "byte": [
+        326,
+        329
+      ],
+      "cp": [
+        146,
+        147
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "被"
+    },
+    {
+      "byte": [
+        329,
+        335
+      ],
+      "cp": [
+        147,
+        149
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "分隔"
+    },
+    {
+      "byte": [
+        335,
+        338
+      ],
+      "cp": [
+        149,
+        150
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "而"
+    },
+    {
+      "byte": [
+        338,
+        341
+      ],
+      "cp": [
+        150,
+        151
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "不"
+    },
+    {
+      "byte": [
+        341,
+        347
+      ],
+      "cp": [
+        151,
+        153
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "重组"
+    },
+    {
+      "byte": [
+        347,
+        350
+      ],
+      "cp": [
+        153,
+        154
+      ],
+      "kind": "punct",
+      "sentence_terminal_candidate": false,
+      "text": "，"
+    },
+    {
+      "byte": [
+        350,
+        356
+      ],
+      "cp": [
+        154,
+        156
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "那么"
+    },
+    {
+      "byte": [
+        356,
+        362
+      ],
+      "cp": [
+        156,
+        158
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "它们"
+    },
+    {
+      "byte": [
+        362,
+        365
+      ],
+      "cp": [
+        158,
+        159
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "就"
+    },
+    {
+      "byte": [
+        365,
+        368
+      ],
+      "cp": [
+        159,
+        160
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "会"
+    },
+    {
+      "byte": [
+        368,
+        371
+      ],
+      "cp": [
+        160,
+        161
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "有"
+    },
+    {
+      "byte": [
+        371,
+        377
+      ],
+      "cp": [
+        161,
+        163
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "损坏"
+    },
+    {
+      "byte": [
+        377,
+        380
+      ],
+      "cp": [
+        163,
+        164
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "的"
+    },
+    {
+      "byte": [
+        380,
+        386
+      ],
+      "cp": [
+        164,
+        166
+      ],
+      "kind": "han_word",
+      "sentence_terminal_candidate": false,
+      "text": "风险"
+    },
+    {
+      "byte": [
+        386,
+        389
+      ],
+      "cp": [
+        166,
+        167
+      ],
+      "kind": "punct",
+      "sentence_terminal_candidate": true,
+      "text": "。"
+    }
+  ]
+}

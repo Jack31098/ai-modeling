@@ -1,0 +1,704 @@
+{
+  "bounds": {
+    "commit_age_arrival_steps_max": 64,
+    "han_after_drain_cp_max": 5,
+    "han_transient_cp_max": 6,
+    "resident_pending_cp_max": 64,
+    "resident_pending_utf8_bytes_max": 256,
+    "scope": "pending raw text only; fixed lexicon, input chunk and output sink excluded; wall-clock latency unbounded if arrivals stop"
+  },
+  "documents": [
+    {
+      "budget_cut_units": 0,
+      "bytes": 67,
+      "cohort": "old_release",
+      "committed_units": 34,
+      "cp": 67,
+      "doc_id": "fixture:abbreviations",
+      "language": "en",
+      "max_delay_steps": 5,
+      "max_pending_byte": 5,
+      "max_pending_cp": 5,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 34,
+        "scope_cp": [
+          0,
+          67
+        ],
+        "stream_boundary_count": 34,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 69,
+      "cohort": "old_release",
+      "committed_units": 11,
+      "cp": 23,
+      "doc_id": "fixture:chinese-ambiguity",
+      "language": "zh",
+      "max_delay_steps": 5,
+      "max_pending_byte": 18,
+      "max_pending_cp": 6,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 11,
+        "scope_cp": [
+          0,
+          23
+        ],
+        "stream_boundary_count": 11,
+        "symmetric_difference_count": 2
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 63,
+      "cohort": "old_release",
+      "committed_units": 15,
+      "cp": 21,
+      "doc_id": "fixture:chinese-condition",
+      "language": "zh",
+      "max_delay_steps": 5,
+      "max_pending_byte": 18,
+      "max_pending_cp": 6,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 15,
+        "scope_cp": [
+          0,
+          21
+        ],
+        "stream_boundary_count": 15,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 55,
+      "cohort": "old_release",
+      "committed_units": 14,
+      "cp": 21,
+      "doc_id": "fixture:chinese-role",
+      "language": "zh",
+      "max_delay_steps": 5,
+      "max_pending_byte": 18,
+      "max_pending_cp": 6,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 14,
+        "scope_cp": [
+          0,
+          21
+        ],
+        "stream_boundary_count": 14,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 18,
+      "cohort": "old_release",
+      "committed_units": 5,
+      "cp": 5,
+      "doc_id": "fixture:emoji-only",
+      "language": "mixed",
+      "max_delay_steps": 1,
+      "max_pending_byte": 4,
+      "max_pending_cp": 1,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 5,
+        "scope_cp": [
+          0,
+          5
+        ],
+        "stream_boundary_count": 5,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 83,
+      "cohort": "old_release",
+      "committed_units": 24,
+      "cp": 83,
+      "doc_id": "fixture:english-punctuation",
+      "language": "en",
+      "max_delay_steps": 26,
+      "max_pending_byte": 26,
+      "max_pending_cp": 26,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 24,
+        "scope_cp": [
+          0,
+          83
+        ],
+        "stream_boundary_count": 24,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 73,
+      "cohort": "old_release",
+      "committed_units": 26,
+      "cp": 69,
+      "doc_id": "fixture:hyphens",
+      "language": "en",
+      "max_delay_steps": 16,
+      "max_pending_byte": 16,
+      "max_pending_cp": 16,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 24,
+        "scope_cp": [
+          0,
+          69
+        ],
+        "stream_boundary_count": 26,
+        "symmetric_difference_count": 2
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 54,
+      "cohort": "old_release",
+      "committed_units": 25,
+      "cp": 54,
+      "doc_id": "fixture:inventory-10",
+      "language": "en",
+      "max_delay_steps": 6,
+      "max_pending_byte": 6,
+      "max_pending_cp": 6,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 25,
+        "scope_cp": [
+          0,
+          54
+        ],
+        "stream_boundary_count": 25,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 54,
+      "cohort": "old_release",
+      "committed_units": 25,
+      "cp": 54,
+      "doc_id": "fixture:inventory-17",
+      "language": "en",
+      "max_delay_steps": 6,
+      "max_pending_byte": 6,
+      "max_pending_cp": 6,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 25,
+        "scope_cp": [
+          0,
+          54
+        ],
+        "stream_boundary_count": 25,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 54,
+      "cohort": "old_release",
+      "committed_units": 25,
+      "cp": 54,
+      "doc_id": "fixture:inventory-73",
+      "language": "en",
+      "max_delay_steps": 6,
+      "max_pending_byte": 6,
+      "max_pending_cp": 6,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 25,
+        "scope_cp": [
+          0,
+          54
+        ],
+        "stream_boundary_count": 25,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 81,
+      "cohort": "old_release",
+      "committed_units": 18,
+      "cp": 27,
+      "doc_id": "fixture:list",
+      "language": "zh",
+      "max_delay_steps": 4,
+      "max_pending_byte": 12,
+      "max_pending_cp": 4,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 18,
+        "scope_cp": [
+          0,
+          27
+        ],
+        "stream_boundary_count": 18,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 78,
+      "cohort": "old_release",
+      "committed_units": 17,
+      "cp": 48,
+      "doc_id": "fixture:mixed",
+      "language": "mixed",
+      "max_delay_steps": 20,
+      "max_pending_byte": 20,
+      "max_pending_cp": 20,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 17,
+        "scope_cp": [
+          0,
+          48
+        ],
+        "stream_boundary_count": 17,
+        "symmetric_difference_count": 2
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 97,
+      "cohort": "old_release",
+      "committed_units": 30,
+      "cp": 97,
+      "doc_id": "fixture:near-a",
+      "language": "en",
+      "max_delay_steps": 9,
+      "max_pending_byte": 9,
+      "max_pending_cp": 9,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 30,
+        "scope_cp": [
+          0,
+          97
+        ],
+        "stream_boundary_count": 30,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 97,
+      "cohort": "old_release",
+      "committed_units": 30,
+      "cp": 97,
+      "doc_id": "fixture:near-b",
+      "language": "en",
+      "max_delay_steps": 9,
+      "max_pending_byte": 9,
+      "max_pending_cp": 9,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 30,
+        "scope_cp": [
+          0,
+          97
+        ],
+        "stream_boundary_count": 30,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 57,
+      "cohort": "old_release",
+      "committed_units": 21,
+      "cp": 57,
+      "doc_id": "fixture:numbers",
+      "language": "en",
+      "max_delay_steps": 13,
+      "max_pending_byte": 13,
+      "max_pending_cp": 13,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 21,
+        "scope_cp": [
+          0,
+          57
+        ],
+        "stream_boundary_count": 21,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 28,
+      "cohort": "old_release",
+      "committed_units": 1,
+      "cp": 28,
+      "doc_id": "fixture:one-word",
+      "language": "en",
+      "max_delay_steps": 28,
+      "max_pending_byte": 28,
+      "max_pending_cp": 28,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 1,
+        "scope_cp": [
+          0,
+          28
+        ],
+        "stream_boundary_count": 1,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 46,
+      "cohort": "old_release",
+      "committed_units": 24,
+      "cp": 42,
+      "doc_id": "fixture:quotes",
+      "language": "en",
+      "max_delay_steps": 8,
+      "max_pending_byte": 8,
+      "max_pending_cp": 8,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 24,
+        "scope_cp": [
+          0,
+          42
+        ],
+        "stream_boundary_count": 24,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 53,
+      "cohort": "old_release",
+      "committed_units": 19,
+      "cp": 53,
+      "doc_id": "fixture:same-prefix-a",
+      "language": "en",
+      "max_delay_steps": 10,
+      "max_pending_byte": 10,
+      "max_pending_cp": 10,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 19,
+        "scope_cp": [
+          0,
+          53
+        ],
+        "stream_boundary_count": 19,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 53,
+      "cohort": "old_release",
+      "committed_units": 19,
+      "cp": 53,
+      "doc_id": "fixture:same-prefix-b",
+      "language": "en",
+      "max_delay_steps": 10,
+      "max_pending_byte": 10,
+      "max_pending_cp": 10,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 19,
+        "scope_cp": [
+          0,
+          53
+        ],
+        "stream_boundary_count": 19,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 48,
+      "cohort": "old_release",
+      "committed_units": 30,
+      "cp": 31,
+      "doc_id": "fixture:symbols",
+      "language": "mixed",
+      "max_delay_steps": 2,
+      "max_pending_byte": 6,
+      "max_pending_cp": 2,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 30,
+        "scope_cp": [
+          0,
+          31
+        ],
+        "stream_boundary_count": 30,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 64,
+      "cohort": "old_release",
+      "committed_units": 18,
+      "cp": 28,
+      "doc_id": "fixture:unicode",
+      "language": "mixed",
+      "max_delay_steps": 5,
+      "max_pending_byte": 12,
+      "max_pending_cp": 5,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 18,
+        "scope_cp": [
+          0,
+          28
+        ],
+        "stream_boundary_count": 18,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 61,
+      "cohort": "old_release",
+      "committed_units": 15,
+      "cp": 23,
+      "doc_id": "fixture:unknown-entity",
+      "language": "zh",
+      "max_delay_steps": 5,
+      "max_pending_byte": 18,
+      "max_pending_cp": 6,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 15,
+        "scope_cp": [
+          0,
+          23
+        ],
+        "stream_boundary_count": 15,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 82,
+      "cohort": "old_release",
+      "committed_units": 29,
+      "cp": 82,
+      "doc_id": "fixture:url-end",
+      "language": "en",
+      "max_delay_steps": 26,
+      "max_pending_byte": 26,
+      "max_pending_cp": 26,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 29,
+        "scope_cp": [
+          0,
+          82
+        ],
+        "stream_boundary_count": 29,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 40,
+      "cohort": "old_release",
+      "committed_units": 21,
+      "cp": 39,
+      "doc_id": "fixture:whitespace",
+      "language": "en",
+      "max_delay_steps": 7,
+      "max_pending_byte": 7,
+      "max_pending_cp": 7,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 18,
+        "scope_cp": [
+          0,
+          39
+        ],
+        "stream_boundary_count": 21,
+        "symmetric_difference_count": 3
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 1372,
+      "cohort": "old_release",
+      "committed_units": 576,
+      "cp": 1360,
+      "doc_id": "real:pg11:excerpt",
+      "language": "en",
+      "max_delay_steps": 18,
+      "max_pending_byte": 18,
+      "max_pending_cp": 18,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 549,
+        "scope_cp": [
+          0,
+          1360
+        ],
+        "stream_boundary_count": 576,
+        "symmetric_difference_count": 27
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 372,
+      "cohort": "old_release",
+      "committed_units": 127,
+      "cp": 138,
+      "doc_id": "real:pg23839:excerpt",
+      "language": "zh",
+      "max_delay_steps": 5,
+      "max_pending_byte": 18,
+      "max_pending_cp": 6,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 119,
+        "scope_cp": [
+          0,
+          138
+        ],
+        "stream_boundary_count": 127,
+        "symmetric_difference_count": 10
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 371,
+      "cohort": "new_candidates",
+      "committed_units": 125,
+      "cp": 371,
+      "doc_id": "candidate:mdn:en:unicode",
+      "language": "en",
+      "max_delay_steps": 12,
+      "max_pending_byte": 12,
+      "max_pending_cp": 12,
+      "pending_cp": 11,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 125,
+        "scope_cp": [
+          0,
+          360
+        ],
+        "stream_boundary_count": 125,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 403,
+      "cohort": "new_candidates",
+      "committed_units": 138,
+      "cp": 403,
+      "doc_id": "candidate:mdn:en:utf-8",
+      "language": "en",
+      "max_delay_steps": 10,
+      "max_pending_byte": 11,
+      "max_pending_cp": 11,
+      "pending_cp": 11,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 138,
+        "scope_cp": [
+          0,
+          392
+        ],
+        "stream_boundary_count": 138,
+        "symmetric_difference_count": 0
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 375,
+      "cohort": "new_candidates",
+      "committed_units": 75,
+      "cp": 131,
+      "doc_id": "candidate:mdn:zh:unicode",
+      "language": "zh",
+      "max_delay_steps": 7,
+      "max_pending_byte": 18,
+      "max_pending_cp": 7,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 75,
+        "scope_cp": [
+          0,
+          131
+        ],
+        "stream_boundary_count": 75,
+        "symmetric_difference_count": 4
+      }
+    },
+    {
+      "budget_cut_units": 0,
+      "bytes": 389,
+      "cohort": "new_candidates",
+      "committed_units": 104,
+      "cp": 167,
+      "doc_id": "candidate:mdn:zh:utf-8",
+      "language": "zh",
+      "max_delay_steps": 5,
+      "max_pending_byte": 18,
+      "max_pending_cp": 6,
+      "pending_cp": 0,
+      "reference_comparison": {
+        "meaning": "reference disagreement, not gold quality; pending suffix excluded",
+        "reference_boundary_count": 104,
+        "scope_cp": [
+          0,
+          167
+        ],
+        "stream_boundary_count": 104,
+        "symmetric_difference_count": 4
+      }
+    }
+  ],
+  "gold_accepted": 0,
+  "gold_accuracy": null
+}

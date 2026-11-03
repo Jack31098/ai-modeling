@@ -1,0 +1,343 @@
+{
+  "client_date": "2026-11-03",
+  "command": "python -X utf8 -m training.word_boundary_v0_2.verify --release training\\word_boundary_v0_2\\sample_release --report training\\word_boundary_v0_2\\validation\\run-2026-11-03.json",
+  "configuration_hash_errors": [],
+  "elapsed_test_seconds": 5.603,
+  "errors": 0,
+  "failures": 0,
+  "fixture_walkthrough": {
+    "chinese_role": {
+      "cutoff_3_input": {
+        "document_ended": false,
+        "input_complete": false,
+        "text": "甲没有"
+      },
+      "cutoff_3_stream_labels": [],
+      "units": [
+        {
+          "byte": [
+            0,
+            3
+          ],
+          "cp": [
+            0,
+            1
+          ],
+          "kind": "han_word",
+          "sentence_terminal_candidate": false,
+          "text": "甲"
+        },
+        {
+          "byte": [
+            3,
+            9
+          ],
+          "cp": [
+            1,
+            3
+          ],
+          "kind": "han_word",
+          "sentence_terminal_candidate": false,
+          "text": "没有"
+        },
+        {
+          "byte": [
+            9,
+            15
+          ],
+          "cp": [
+            3,
+            5
+          ],
+          "kind": "han_word",
+          "sentence_terminal_candidate": false,
+          "text": "批准"
+        },
+        {
+          "byte": [
+            15,
+            18
+          ],
+          "cp": [
+            5,
+            6
+          ],
+          "kind": "han_word",
+          "sentence_terminal_candidate": false,
+          "text": "乙"
+        },
+        {
+          "byte": [
+            18,
+            21
+          ],
+          "cp": [
+            6,
+            7
+          ],
+          "kind": "han_word",
+          "sentence_terminal_candidate": false,
+          "text": "的"
+        },
+        {
+          "byte": [
+            21,
+            27
+          ],
+          "cp": [
+            7,
+            9
+          ],
+          "kind": "han_word",
+          "sentence_terminal_candidate": false,
+          "text": "申请"
+        },
+        {
+          "byte": [
+            27,
+            30
+          ],
+          "cp": [
+            9,
+            10
+          ],
+          "kind": "punct",
+          "sentence_terminal_candidate": true,
+          "text": "。"
+        },
+        {
+          "byte": [
+            30,
+            33
+          ],
+          "cp": [
+            10,
+            11
+          ],
+          "kind": "han_word",
+          "sentence_terminal_candidate": false,
+          "text": "乙"
+        },
+        {
+          "byte": [
+            33,
+            36
+          ],
+          "cp": [
+            11,
+            12
+          ],
+          "kind": "han_word",
+          "sentence_terminal_candidate": false,
+          "text": "把"
+        },
+        {
+          "byte": [
+            36,
+            40
+          ],
+          "cp": [
+            12,
+            16
+          ],
+          "kind": "number",
+          "sentence_terminal_candidate": false,
+          "text": "17.3"
+        },
+        {
+          "byte": [
+            40,
+            43
+          ],
+          "cp": [
+            16,
+            17
+          ],
+          "kind": "han_word",
+          "sentence_terminal_candidate": false,
+          "text": "元"
+        },
+        {
+          "byte": [
+            43,
+            49
+          ],
+          "cp": [
+            17,
+            19
+          ],
+          "kind": "han_word",
+          "sentence_terminal_candidate": false,
+          "text": "交给"
+        },
+        {
+          "byte": [
+            49,
+            52
+          ],
+          "cp": [
+            19,
+            20
+          ],
+          "kind": "han_word",
+          "sentence_terminal_candidate": false,
+          "text": "甲"
+        },
+        {
+          "byte": [
+            52,
+            55
+          ],
+          "cp": [
+            20,
+            21
+          ],
+          "kind": "punct",
+          "sentence_terminal_candidate": true,
+          "text": "。"
+        }
+      ]
+    },
+    "limits": "Data contracts and timing only; no trained B, semantic role, digit recall or gold quality measured.",
+    "one_word_eof_counterfactual": [
+      {
+        "available_stream_label_count": 0,
+        "cutoff": 28,
+        "model_input": {
+          "document_ended": false,
+          "input_complete": false,
+          "text": "antidisestablishmentarianism"
+        }
+      },
+      {
+        "available_stream_label_count": 1,
+        "cutoff": 29,
+        "model_input": {
+          "document_ended": true,
+          "input_complete": true,
+          "text": "antidisestablishmentarianism"
+        }
+      }
+    ],
+    "original_unittest_count": 30,
+    "same_prefix": [
+      {
+        "doc_id": "fixture:same-prefix-a",
+        "group": "fixture:same-prefix-a",
+        "model_input": {
+          "document_ended": false,
+          "input_complete": false,
+          "text": "Store the identifier 3719."
+        },
+        "split": "train"
+      },
+      {
+        "doc_id": "fixture:same-prefix-b",
+        "group": "fixture:same-prefix-a",
+        "model_input": {
+          "document_ended": false,
+          "input_complete": false,
+          "text": "Store the identifier 3719."
+        },
+        "split": "train"
+      }
+    ],
+    "same_prefix_inputs_equal": true,
+    "synthetic_input_fixture_count": 27,
+    "template_inventory": [
+      {
+        "doc_id": "fixture:inventory-10",
+        "isolation_group": "fixture:inventory-10",
+        "split": "train",
+        "text": "The red box holds 10 coins. Keep the box on the shelf."
+      },
+      {
+        "doc_id": "fixture:inventory-17",
+        "isolation_group": "fixture:inventory-10",
+        "split": "train",
+        "text": "The red box holds 17 coins. Keep the box on the shelf."
+      },
+      {
+        "doc_id": "fixture:inventory-73",
+        "isolation_group": "fixture:inventory-10",
+        "split": "train",
+        "text": "The red box holds 73 coins. Keep the box on the shelf."
+      }
+    ]
+  },
+  "gold_accepted": 0,
+  "gold_accuracy": null,
+  "implementation_hash_errors": [],
+  "old_baseline_errors": [],
+  "python": "3.12.14",
+  "release_hash_errors": [],
+  "release_manifest_sha256": "aa1b8b622eac60ae07af7444580311d100f4b627a571cbd5f0774f5f8142f54f",
+  "stress": {
+    "cases": [
+      {
+        "case": "continuous_han",
+        "characters": 240000,
+        "chunk_cp": 6,
+        "elapsed_seconds": 4.476,
+        "max_commit_age_arrival_steps": 5,
+        "max_pending_cp": 6,
+        "max_pending_utf8_bytes": 18,
+        "traced_current_bytes": 782,
+        "traced_peak_bytes": 2760
+      },
+      {
+        "case": "unknown_han",
+        "characters": 240000,
+        "chunk_cp": 8,
+        "elapsed_seconds": 5.685,
+        "max_commit_age_arrival_steps": 5,
+        "max_pending_cp": 6,
+        "max_pending_utf8_bytes": 24,
+        "traced_current_bytes": 784,
+        "traced_peak_bytes": 2364
+      },
+      {
+        "case": "continuous_ascii",
+        "characters": 256000,
+        "chunk_cp": 32,
+        "elapsed_seconds": 2.557,
+        "max_commit_age_arrival_steps": 31,
+        "max_pending_cp": 32,
+        "max_pending_utf8_bytes": 32,
+        "traced_current_bytes": 825,
+        "traced_peak_bytes": 3312
+      },
+      {
+        "case": "long_url",
+        "characters": 256000,
+        "chunk_cp": 128,
+        "elapsed_seconds": 2.484,
+        "max_commit_age_arrival_steps": 63,
+        "max_pending_cp": 64,
+        "max_pending_utf8_bytes": 64,
+        "traced_current_bytes": 825,
+        "traced_peak_bytes": 3754
+      },
+      {
+        "case": "four_byte_non_han_url",
+        "characters": 128000,
+        "chunk_cp": 64,
+        "elapsed_seconds": 1.799,
+        "max_commit_age_arrival_steps": 63,
+        "max_pending_cp": 64,
+        "max_pending_utf8_bytes": 244,
+        "traced_current_bytes": 1068,
+        "traced_peak_bytes": 4272
+      }
+    ],
+    "scope": "tracemalloc starts after lexicon initialization; fixed input chunk and lexicon excluded; emitted units consumed, not retained. Counts are Python allocations, not RSS or total model memory. Timings/allocations are run-specific."
+  },
+  "successful": true,
+  "test_log": "test_byte_offset_inside_multibyte_character (training.word_boundary_v0.tests.test_pipeline.AlignmentTests.test_byte_offset_inside_multibyte_character) ... ok\ntest_identity_and_special_tokens (training.word_boundary_v0.tests.test_pipeline.AlignmentTests.test_identity_and_special_tokens) ... ok\ntest_multi_boundaries_in_one_token_not_snapped (training.word_boundary_v0.tests.test_pipeline.AlignmentTests.test_multi_boundaries_in_one_token_not_snapped) ... ok\ntest_normalization_mismatch (training.word_boundary_v0.tests.test_pipeline.AlignmentTests.test_normalization_mismatch) ... ok\ntest_surface_mismatch_and_coverage (training.word_boundary_v0.tests.test_pipeline.AlignmentTests.test_surface_mismatch_and_coverage) ... ok\ntest_unknown_coordinates_fail_closed (training.word_boundary_v0.tests.test_pipeline.AlignmentTests.test_unknown_coordinates_fail_closed) ... ok\ntest_utf16_and_broken_surrogate (training.word_boundary_v0.tests.test_pipeline.AlignmentTests.test_utf16_and_broken_surrogate) ... ok\ntest_utf8_adapter (training.word_boundary_v0.tests.test_pipeline.AlignmentTests.test_utf8_adapter) ... ok\ntest_abbreviation_sentence_end (training.word_boundary_v0.tests.test_pipeline.BoundaryTests.test_abbreviation_sentence_end) ... ok\ntest_chinese_dictionary_regression (training.word_boundary_v0.tests.test_pipeline.BoundaryTests.test_chinese_dictionary_regression) ... ok\ntest_chinese_punctuation_terminates_url (training.word_boundary_v0.tests.test_pipeline.BoundaryTests.test_chinese_punctuation_terminates_url) ... ok\ntest_coverage_rejects_overlap_and_gap (training.word_boundary_v0.tests.test_pipeline.BoundaryTests.test_coverage_rejects_overlap_and_gap) ... ok\ntest_english_policy (training.word_boundary_v0.tests.test_pipeline.BoundaryTests.test_english_policy) ... ok\ntest_frozen_dictionary (training.word_boundary_v0.tests.test_pipeline.BoundaryTests.test_frozen_dictionary) ... ok\ntest_fuzz_partition (training.word_boundary_v0.tests.test_pipeline.BoundaryTests.test_fuzz_partition) ... ok\ntest_mixed_unicode_and_line_endings (training.word_boundary_v0.tests.test_pipeline.BoundaryTests.test_mixed_unicode_and_line_endings) ... ok\ntest_duplicate_ids_rejected (training.word_boundary_v0.tests.test_pipeline.GroupTests.test_duplicate_ids_rejected) ... ok\ntest_empty_rights_and_missing_lineage (training.word_boundary_v0.tests.test_pipeline.GroupTests.test_empty_rights_and_missing_lineage) ... ok\ntest_exact_near_template_and_lineage (training.word_boundary_v0.tests.test_pipeline.GroupTests.test_exact_near_template_and_lineage) ... ok\ntest_order_independent_determinism (training.word_boundary_v0.tests.test_pipeline.GroupTests.test_order_independent_determinism) ... ok\ntest_work_and_parallel_family_isolation (training.word_boundary_v0.tests.test_pipeline.GroupTests.test_work_and_parallel_family_isolation) ... ok\ntest_end_to_end_deterministic_and_manifest (training.word_boundary_v0.tests.test_pipeline.ReleaseTests.test_end_to_end_deterministic_and_manifest) ... ok\ntest_provenance_and_input_integrity (training.word_boundary_v0.tests.test_pipeline.ReleaseTests.test_provenance_and_input_integrity) ... ok\ntest_bad_supervision_timing_rejected (training.word_boundary_v0.tests.test_pipeline.VisibilityTests.test_bad_supervision_timing_rejected) ... ok\ntest_chinese_reference_is_not_stream_action (training.word_boundary_v0.tests.test_pipeline.VisibilityTests.test_chinese_reference_is_not_stream_action) ... ok\ntest_english_prefix_consistency_and_lookahead (training.word_boundary_v0.tests.test_pipeline.VisibilityTests.test_english_prefix_consistency_and_lookahead) ... ok\ntest_eof_versus_same_prefix_continuation_and_label_free_clock (training.word_boundary_v0.tests.test_pipeline.VisibilityTests.test_eof_versus_same_prefix_continuation_and_label_free_clock) ... ok\ntest_no_labels_or_future_in_model_input (training.word_boundary_v0.tests.test_pipeline.VisibilityTests.test_no_labels_or_future_in_model_input) ... ok\ntest_slicing_no_synthetic_eos_or_cross_split (training.word_boundary_v0.tests.test_pipeline.VisibilityTests.test_slicing_no_synthetic_eos_or_cross_split) ... ok\ntest_true_eof_is_separate_observed_event (training.word_boundary_v0.tests.test_pipeline.VisibilityTests.test_true_eof_is_separate_observed_event) ... ok\ntest_actual_eof_n_plus_one (training.word_boundary_v0_2.tests.test_increment.IncrementTests.test_actual_eof_n_plus_one) ... ok\ntest_arbitrary_chunks_and_fuzz (training.word_boundary_v0_2.tests.test_increment.IncrementTests.test_arbitrary_chunks_and_fuzz) ... ok\ntest_bounded_long_runs_and_delays (training.word_boundary_v0_2.tests.test_increment.IncrementTests.test_bounded_long_runs_and_delays) ... ok\ntest_budget_caps_explicit (training.word_boundary_v0_2.tests.test_increment.IncrementTests.test_budget_caps_explicit) ... ok\ntest_deterministic_release_and_preserved_baseline (training.word_boundary_v0_2.tests.test_increment.IncrementTests.test_deterministic_release_and_preserved_baseline) ... ok\ntest_exact_source_spans_and_rights (training.word_boundary_v0_2.tests.test_increment.IncrementTests.test_exact_source_spans_and_rights) ... ok\ntest_excerpt_window_state_resume (training.word_boundary_v0_2.tests.test_increment.IncrementTests.test_excerpt_window_state_resume) ... ok\ntest_invalid_or_drifting_state_rejected (training.word_boundary_v0_2.tests.test_increment.IncrementTests.test_invalid_or_drifting_state_rejected) ... ok\ntest_no_offline_or_label_oracle (training.word_boundary_v0_2.tests.test_increment.IncrementTests.test_no_offline_or_label_oracle) ... ok\ntest_overlap_audit_includes_all_old_train_and_inputs (training.word_boundary_v0_2.tests.test_increment.IncrementTests.test_overlap_audit_includes_all_old_train_and_inputs) ... ok\ntest_prefix_future_counterfactuals (training.word_boundary_v0_2.tests.test_increment.IncrementTests.test_prefix_future_counterfactuals) ... ok\ntest_reference_is_not_gold (training.word_boundary_v0_2.tests.test_increment.IncrementTests.test_reference_is_not_gold) ... ok\ntest_reviews_start_empty_and_reject_unreviewed (training.word_boundary_v0_2.tests.test_increment.IncrementTests.test_reviews_start_empty_and_reject_unreviewed) ... ok\ntest_transport_chunking_invariant (training.word_boundary_v0_2.tests.test_increment.IncrementTests.test_transport_chunking_invariant) ... ok\ntest_unicode_unknown_and_whitespace_partition (training.word_boundary_v0_2.tests.test_increment.IncrementTests.test_unicode_unknown_and_whitespace_partition) ... ok\ntest_unresolved_ambiguity_rejected (training.word_boundary_v0_2.tests.test_increment.IncrementTests.test_unresolved_ambiguity_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 46 tests in 5.579s\n\nOK\n",
+  "test_sources_sha256": {
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/test_increment.py": "04ae335fa267855c6b17c2891776340e8595b7eb96f2e752758f2d4c8a550896"
+  },
+  "tests_run": 46,
+  "timezone": "America/Los_Angeles"
+}

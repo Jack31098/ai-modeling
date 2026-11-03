@@ -3,3 +3,5 @@ path_control_pretraining_part1_v1.2.md -text
 training/word_boundary_v0/** -text
 training/word_boundary_v0/licenses/*.txt -whitespace
 training/word_boundary_v0/sample_release/licenses/*.txt -whitespace
+training/word_boundary_v0_2/** -text
+training/word_boundary_v0_2/sample_release/notices/v0/licenses/*.txt -whitespace
