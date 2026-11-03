@@ -4,11 +4,11 @@
 
 ## 从哪里开始
 
-当前研究以 Dot 分支中的[第一部分主方案 v1.2（固定版本）](https://github.com/Jack31098/ai-modeling/blob/1ff300bfbb9a8ebb7bee242a0cbc37848fa6e190/path_control_pretraining_part1_v1.2.md)为准，先读[v1.2 与权重空间编程接续](discussions/2026-11-02-v1.2分支与权重空间编程接续.md)和[讨论索引](discussions/README.md)。研究分支尚未合入 main；v1.2 明确修订处优先于下列历史版本，也不以聊天中的不严谨简称替代设计原文。
+继续当前研究时，先读[第一部分主方案 v1.2](path_control_pretraining_part1_v1.2.md)、[权重空间编程对 B 研究的启示与下一步（2026-11-03）](discussions/2026-11-03-weight-space-programming-and-B-research.md)和[讨论索引](discussions/README.md)。Dot 研究分支已合入 main，v1.2 原文字节保留；其明确修订处优先于历史版本，不以聊天中的不严谨简称替代设计原文。近期优先可观察状态、因果干预与知识增量，效率暂不作为研究硬门槛；单级与多级仍需公平比较。[分支接续记录](discussions/2026-11-02-v1.2分支与权重空间编程接续.md)保留来源与证据边界。
 
-main 中的[接续说明（2026-10-06）](HANDOFF.md)和[第一部分主方案 v1.1](path_control_pretraining_part1_v1.1.md)保留该阶段设计、已撤回思路及待定问题。[2026-10-02 接续说明](HANDOFF-2026-10-02.md)保留作历史记录。
+[第一部分主方案 v1.1](path_control_pretraining_part1_v1.1.md)、[2026-10-06 接续说明](HANDOFF.md)和[2026-10-02 接续说明](HANDOFF-2026-10-02.md)保留作历史记录。已有有限规则解析器和词表示压缩诊断；尚无通用语义 B、B⁻、Qwen F 接入或完整多粒度模型训练结果。
 
-后续的[B⁻ 层次调用、Lookback 与训练监督协议 v0.1](B_minus_lookback_supervision_protocol_v0.1.md)细化跨尺度调用及监督隔离，属于待验证的阶段性设计记录。
+[B⁻ 层次调用、Lookback 与训练监督协议 v0.1](B_minus_lookback_supervision_protocol_v0.1.md)细化跨尺度调用及监督隔离，已由 v1.2 整合修订；协议实现仍待验证。
 
 此前会话原文见 [2026-10-02 Transcript（筛选版）](transcript-2026-10-02.md)，已排除指定的两轮无关对话。
 
