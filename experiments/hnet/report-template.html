@@ -1,0 +1,83 @@
+<div id="hnet-level-rates">
+  <h2>同为 560 字节，冗余变化如何影响两级切分</h2>
+  <div class="text-small text-muted">hnet_2stage_L · 874M 参数 · 原权重 CPU / FP32 编码器参考前向 · 自建样本 · 2026-11-02</div>
+  <div class="table-responsive">
+    <table class="table table-sm tabular-nums">
+      <thead><tr><th>样本</th><th class="text-end">UTF-8 字节</th><th class="text-end">一级节点</th><th class="text-end">二级节点</th><th class="text-end">字节 / 一级</th><th class="text-end">一级 / 二级</th><th class="text-end">字节 / 二级</th></tr></thead>
+      <tbody data-samples></tbody>
+    </table>
+  </div>
+  <hr>
+  <div class="viz-row"><h3 data-selected-name>完全重复</h3><span class="text-small text-muted" data-counts></span></div>
+  <div aria-live="polite">
+    <div class="text-small" data-first-label></div>
+    <div class="hnet-spans" data-first></div>
+    <div class="text-small" data-second-label></div>
+    <div class="hnet-spans" data-second></div>
+  </div>
+  <div class="text-small text-muted">竖线为选择位置在原始字节上的投影；多字节字符可能被切开。节点率不等于熵编码 bits/byte。</div>
+</div>
+<style>
+  #hnet-level-rates .hnet-spans { white-space: pre-wrap; overflow-wrap: anywhere; font-family: ui-monospace, monospace; margin: 8px 0 20px; }
+  #hnet-level-rates .hnet-separator { color: var(--muted-foreground); padding: 0 3px; }
+</style>
+<script type="application/json" id="hnet-rate-data">__HNET_DATA__</script>
+<script>
+(() => {
+  const root = document.getElementById('hnet-level-rates');
+  const data = JSON.parse(document.getElementById('hnet-rate-data').textContent);
+  const names = {english:'英文', chinese:'中文', python:'Python 代码', repeat_letter:'重复字母', repeat_phrase:'重复句子', random_ascii:'随机 ASCII', new_name_context:'新名字上下文'};
+  Object.assign(names, {redundancy_exact_repeat:'完全重复', redundancy_vary_numbers:'只改数字', redundancy_vary_fields:'更换字段', redundancy_varied_prose:'不同内容的散文', redundancy_random_ascii:'随机 ASCII'});
+  const body = root.querySelector('[data-samples]');
+  const buttons = [];
+  let selected = 0;
+  data.samples.forEach((sample, index) => {
+    const row = document.createElement('tr');
+    const nameCell = document.createElement('td');
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'btn btn-ghost';
+    button.textContent = names[sample.name];
+    button.addEventListener('click', () => { select(index); save(); });
+    buttons.push(button);
+    nameCell.append(button);
+    row.append(nameCell);
+    const values = [sample.bytes, sample.stage1_nodes, sample.stage2_nodes,
+      sample.bytes_per_stage1_node.toFixed(2), sample.stage1_nodes_per_stage2_node.toFixed(2), sample.bytes_per_stage2_node.toFixed(2)];
+    values.forEach(value => { const cell = document.createElement('td'); cell.className = 'text-end'; cell.textContent = value; row.append(cell); });
+    body.append(row);
+  });
+  function spans(target, parts) {
+    target.replaceChildren();
+    parts.forEach((part, index) => {
+      if (index) { const separator = document.createElement('span'); separator.className = 'hnet-separator'; separator.textContent = '|'; target.append(separator); }
+      const span = document.createElement('span');
+      span.textContent = part.text;
+      span.setAttribute('data-tooltip', '字节 [' + part.start_byte + ', ' + part.end_byte + ') · ' + part.length_bytes + ' bytes');
+      target.append(span);
+    });
+  }
+  function select(index) {
+    selected = Number.isInteger(index) && index >= 0 && index < data.samples.length ? index : 0;
+    const sample = data.samples[selected];
+    buttons.forEach((button, i) => button.setAttribute('aria-pressed', String(i === selected)));
+    root.querySelector('[data-selected-name]').textContent = names[sample.name];
+    root.querySelector('[data-counts]').textContent = sample.bytes + ' → ' + sample.stage1_nodes + ' → ' + sample.stage2_nodes;
+    root.querySelector('[data-first-label]').textContent = '第一级 · ' + sample.stage1_nodes + ' 节点 · ' + sample.bytes_per_stage1_node.toFixed(2) + ' bytes / node';
+    root.querySelector('[data-second-label]').textContent = '第二级 · ' + sample.stage2_nodes + ' 节点 · ' + sample.bytes_per_stage2_node.toFixed(2) + ' bytes / node';
+    spans(root.querySelector('[data-first]'), sample.stage1_spans);
+    spans(root.querySelector('[data-second]'), sample.stage2_spans);
+  }
+  function save() {
+    if (window.openai && window.openai.setWidgetState) {
+      window.openai.setWidgetState({ modelContent:{sample:data.samples[selected].name}, privateContent:{selected} }).catch(() => {});
+    }
+  }
+  const saved = window.openai && window.openai.widgetState;
+  select(saved && saved.privateContent ? saved.privateContent.selected : 0);
+  window.addEventListener('openai:set_globals', event => {
+    const state = event.detail && event.detail.globals && event.detail.globals.widgetState;
+    if (state && state.privateContent) select(state.privateContent.selected);
+  });
+})();
+</script>

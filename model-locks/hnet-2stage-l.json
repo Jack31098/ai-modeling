@@ -1,0 +1,15 @@
+{
+  "repository": "cartesia-ai/hnet_2stage_L",
+  "revision": "eb0db7323b1131e6bdb8d1c7367d3f815d09426c",
+  "filename": "hnet_2stage_L.pt",
+  "size_bytes": 3497374019,
+  "sha256": "5711de80965d7ec8430a2db05a4859bc0700576e3e7841658fe1640d0c0e011c",
+  "local_path": "models/hnet_2stage_L/hnet_2stage_L.pt",
+  "config_source": "https://raw.githubusercontent.com/goombalab/hnet/3673fe1217ebeb0d1438c7c71d58d32bdd190ec2/configs/hnet_2stage_L.json",
+  "hnet_code_revision": "3673fe1217ebeb0d1438c7c71d58d32bdd190ec2",
+  "mamba_code_revision": "a6a1dae6efbf804c9944a0c2282b437deb4886d8",
+  "verification": "full size and SHA-256 matched after download",
+  "local_date": "2026-11-02",
+  "timezone": "America/Los_Angeles",
+  "weights_generation": "2025 original H-Net; not the 2026 internal 3.67B version"
+}

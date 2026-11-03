@@ -1,0 +1,14 @@
+{
+  "observed_local_date": "2026-11-02",
+  "timezone": "America/Los_Angeles",
+  "query": "https://huggingface.co/api/models?author=cartesia-ai&search=hnet&limit=100&full=true",
+  "public_models": [
+    {"id":"cartesia-ai/hnet_1stage_L","revision":"cdfb6a08a306047fe42047facb2d8d98c1b384be","stages":1},
+    {"id":"cartesia-ai/hnet_2stage_L","revision":"eb0db7323b1131e6bdb8d1c7367d3f815d09426c","stages":2},
+    {"id":"cartesia-ai/hnet_1stage_XL","revision":"68f11d724e893b26e9a50413342118f1092b7752","stages":1},
+    {"id":"cartesia-ai/hnet_2stage_XL","revision":"c56e23e0e72cfb350cdad73af9c36221de69a135","stages":2},
+    {"id":"cartesia-ai/hnet_2stage_XL_chinese","revision":"01db28db6673025ca4f5b51c437732a31a07f506","stages":2},
+    {"id":"cartesia-ai/hnet_2stage_XL_code","revision":"3787f873c55b1ccc63676555797b8e4a432b2dd9","stages":2}
+  ],
+  "note": "No 3.67B checkpoint found in this official account query; this does not establish the contents of private repositories."
+}
