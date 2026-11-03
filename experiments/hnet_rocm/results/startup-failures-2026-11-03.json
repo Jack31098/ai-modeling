@@ -1,0 +1,35 @@
+{
+  "client_date": "2026-11-03",
+  "timezone": "America/Los_Angeles",
+  "scope": "Observed initial attempts, recorded after resolving them; no claim that these runs passed",
+  "attempts": [
+    {
+      "stage": "import-after-official-wheel-install",
+      "status": "failed",
+      "exception": "FileNotFoundError: Could not find module 'D:\\ai-modeling\\.venv-hnet-rocm\\Lib\\site-packages\\_rocm_sdk_core\\bin\\amd_comgr0702.dll' (or one of its dependencies)",
+      "diagnosis": "amd_comgr0702.dll existed, 110059008 bytes. PE import inspection found MSVCP140.dll could not load; VCRUNTIME140.dll and VCRUNTIME140_1.dll loaded.",
+      "resolution": "Process-local ctypes.WinDLL preload of the existing Microsoft-signed x64 runtime bundled with Codex Poppler; no system installation or DLL copy. Runtime version/hash/signature in other reports."
+    },
+    {
+      "stage": "first-gpu-allocation-inside-restricted-execution",
+      "status": "failed",
+      "exception": "Exception Code: 0xC0000005 in amdhip64_7.dll; stack includes HIP allocator and torch.randn",
+      "device_enumeration_before_crash": "torch 2.9.1+rocm7.2.1, HIP 7.2.53211-158bd99533, AMD Radeon 8060S, gfx1151, available=true",
+      "resolution": "Allowed device-access execution passed allocation, fill, matmul and backward. The original randn(256,256) plus matmul/backward also passed outside restricted execution.",
+      "outside_same_shape_observation": {"status": "passed", "device": "cuda:0", "loss": 507.357666015625, "gradient_finite": true},
+      "inference": "Difference is consistent with restricted device access; no independent diagnosis of the driver's internal access violation. No security setting was changed."
+    },
+    {
+      "stage": "amd-smi-version-inside-restricted-execution",
+      "status": "failed",
+      "error": "Access is denied. Failed to connect to WMI service.",
+      "resolution": "Hardware read with allowed CIM queries; actual HIP tensor tests used for compute acceptance, not amd-smi enumeration."
+    },
+    {
+      "stage": "new-10.1-wheel-PEP658-metadata-url",
+      "status": "failed",
+      "error": "HTTP 404 for torch-2.14.0+rocm10.1.0-cp312-cp312-win_amd64.whl.metadata",
+      "resolution": "Official simple index and wheel HEAD verified; metadata failure was not interpreted as missing wheel or unsupported GPU. New wheel not installed."
+    }
+  ]
+}

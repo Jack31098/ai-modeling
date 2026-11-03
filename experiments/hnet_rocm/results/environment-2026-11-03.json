@@ -1,0 +1,45 @@
+{
+  "client_date": "2026-11-03",
+  "timezone": "America/Los_Angeles",
+  "scope": "Read-only CIM and command inventory; current process-name snapshot, not hidden or remote workloads",
+  "os": {
+    "Caption": "Microsoft Windows 11 Pro",
+    "Version": "10.0.26200",
+    "BuildNumber": "26200",
+    "TotalVisibleMemorySize": 129654596,
+    "FreePhysicalMemory": 106423916
+  },
+  "cpu": {
+    "Name": "AMD RYZEN AI MAX+ 395 w/ Radeon 8060S          ",
+    "NumberOfCores": 16,
+    "NumberOfLogicalProcessors": 32
+  },
+  "gpu": {
+    "Name": "AMD Radeon(TM) 8060S Graphics",
+    "DriverVersion": "32.0.31032.1003",
+    "DriverDate": "2026-07-28T17:00:00-07:00",
+    "AdapterRAM": 4293918720
+  },
+  "disk": {
+    "Name": "D",
+    "Free": 1716311736320
+  },
+  "commands": [
+    {
+      "Name": "wsl.exe",
+      "Source": "C:\\WINDOWS\\system32\\wsl.exe"
+    },
+    {
+      "Name": "amd-smi.exe",
+      "Source": "C:\\WINDOWS\\system32\\amd-smi.exe"
+    }
+  ],
+  "processes": [],
+  "runtime": {
+    "file_version": "14.51.36247.0",
+    "company": "Microsoft Corporation",
+    "signature_status": "Valid",
+    "signer": "CN=Microsoft Windows Software Compatibility Publisher, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+  },
+  "modifications": "No driver, WSL, BIOS, security setting, restart or other-process changes"
+}

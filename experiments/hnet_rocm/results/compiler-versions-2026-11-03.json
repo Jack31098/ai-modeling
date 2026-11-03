@@ -1,0 +1,25 @@
+{
+  "client_date": "2026-11-03",
+  "commands": [
+    {
+      "path": "Lib/site-packages/_rocm_sdk_core/lib/llvm/bin/amdclang++.exe",
+      "args": [
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "AMD clang version 22.0.0git (https://github.com/ROCm/llvm-project.git d6e2ccedeaf305be049cf7d11dbf039aa10cc5eb+PATCHED:093518e8e59892fbc4b55b6652dec090672d32ff)\nTarget: x86_64-pc-windows-msvc\nThread model: posix\nInstalledDir: D:\\ai-modeling\\.venv-hnet-rocm\\Lib\\site-packages\\_rocm_sdk_core\\lib\\llvm\\bin\n",
+      "stderr": "",
+      "scope": "version invocation only, no extension compiled"
+    },
+    {
+      "path": "Lib/site-packages/_rocm_sdk_core/bin/hipcc.exe",
+      "args": [
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "HIP version: 7.2.53211-158bd99533\nAMD clang version 22.0.0git (https://github.com/ROCm/llvm-project.git d6e2ccedeaf305be049cf7d11dbf039aa10cc5eb+PATCHED:093518e8e59892fbc4b55b6652dec090672d32ff)\nTarget: x86_64-pc-windows-msvc\nThread model: posix\nInstalledDir: D:\\ai-modeling\\.venv-hnet-rocm\\Lib\\site-packages\\_rocm_sdk_core\\lib\\llvm\\bin\n",
+      "stderr": "",
+      "scope": "version invocation only, no extension compiled"
+    }
+  ]
+}

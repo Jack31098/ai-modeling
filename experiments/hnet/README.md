@@ -1,5 +1,7 @@
 # H-Net 层级节点率探针
 
+本目录保留 2026-11-02 的编码／路由 CPU 探针。2026-11-03 的 874M 完整 HIP PyTorch 参考前向、反向和一步优化器验收在[独立目录](../hnet_rocm/README.md)，不覆盖下述旧结果，也不把替代路径算作原 fused 内核已移植。
+
 使用官方 `cartesia-ai/hnet_2stage_L` 的 FP32 权重，运行两级 encoder/router。固定版本、大小和 SHA-256 见 [模型清单](../../model-locks/hnet-2stage-l.json)。权重位于 `models/hnet_2stage_L/`，不进入 Git。
 
 ## 执行范围

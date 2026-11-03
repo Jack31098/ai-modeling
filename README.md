@@ -10,6 +10,8 @@
 
 [第 0 步增量 v0.2](training/word_boundary_v0_2/README.md)解释关键夹具，增加 4 条独立现代中英文人工审核候选、有界 FMM 流式参考及真实 tokenizer 盘点。46 项结构测试通过，人工金标仍未接受；FMM 的“研究生｜命”反例保留，不以有界／因果测试代替分词质量。旧数据包与 split 保持原样。
 
+[H-Net 完整 ROCm 参考路径](experiments/hnet_rocm/README.md)已在 8060S 上实测通过 874M 模型的完整 GPU 前向、全参数反向和一次 SGD 步，并完成 CPU 数值对照。它是 PyTorch HIP 替代实现；原 fused 内核与增量推理缓存未移植，不等于本项目 v1.2 模型已训练。专用分支保留旧 CPU 探针及数据包。
+
 [第一部分主方案 v1.1](path_control_pretraining_part1_v1.1.md)、[2026-10-06 接续说明](HANDOFF.md)和[2026-10-02 接续说明](HANDOFF-2026-10-02.md)保留作历史记录。已有有限规则解析器和词表示压缩诊断；尚无通用语义 B、B⁻、Qwen F 接入或完整多粒度模型训练结果。
 
 [B⁻ 层次调用、Lookback 与训练监督协议 v0.1](B_minus_lookback_supervision_protocol_v0.1.md)细化跨尺度调用及监督隔离，已由 v1.2 整合修订；协议实现仍待验证。

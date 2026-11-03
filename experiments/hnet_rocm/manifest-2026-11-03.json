@@ -1,0 +1,116 @@
+{
+  "acceptance_scope": "complete 874M portable HIP reference, batch1 short sequence, full-parameter backward/SGD one step; numerical checks",
+  "checks": 11,
+  "client_date": "2026-11-03",
+  "errors": [],
+  "files": {
+    "README.md": {
+      "bytes": 12847,
+      "sha256": "2ef6dbb9ac650e1fb19c0f7686499441e82f3a315893a8da6e68d536ad94e127"
+    },
+    "UPSTREAM-LICENSE.txt": {
+      "bytes": 1070,
+      "sha256": "78d0d86467c3d5e5844807b306611bbc0c8292c2c23cd1a95d6fd2e4c92e36f8"
+    },
+    "__init__.py": {
+      "bytes": 79,
+      "sha256": "9f00ca1d721387f627053bc2aa9a9e1bf6fa427981c56f5fe399ba2cdcb198fb"
+    },
+    "audit.py": {
+      "bytes": 3103,
+      "sha256": "cc64bb25f03d2f56a1a1ee7723f09912835006908df17cb7f88c1a466f578489"
+    },
+    "bootstrap.py": {
+      "bytes": 958,
+      "sha256": "f0715043d5f4bcf39f44c35f92cfaba991899b928b7201dad735ee2befd37320"
+    },
+    "lock_environment.py": {
+      "bytes": 2558,
+      "sha256": "6236f30b13d7f6888ee74a4802c4dc3324a72571c7cfda68d39dc3251cb66239"
+    },
+    "official_graph.py": {
+      "bytes": 6043,
+      "sha256": "52a07f85766b2e88a8e4ab466c28382bf50e4c4e2c58a8bda791a8a4f3787fa6"
+    },
+    "reference.py": {
+      "bytes": 7404,
+      "sha256": "4f27a0090751b81470c34226f9c76cacc9f9e6a618c4c7cbec8773793ef8d157"
+    },
+    "requirements-rocm.lock": {
+      "bytes": 489,
+      "sha256": "054e78fcfbfe5e92887d108d572809f69604f8fdfaa0ffdbb9a430c3fbef08a1"
+    },
+    "results/compatibility-review-2026-11-03.json": {
+      "bytes": 3138,
+      "sha256": "bbdf1ba2341fa7a05a1b54da1a52e060f289f5079846925add5f0ba4e1ae93e9"
+    },
+    "results/compiler-versions-2026-11-03.json": {
+      "bytes": 1231,
+      "sha256": "36ce51e04e0b80b2a6c890788e03a55b4ad7885b80539ff7e32df04ccb901362"
+    },
+    "results/cpu-hip-bf16-dechunk-parity-2026-11-03.json": {
+      "bytes": 4643,
+      "sha256": "2bd32955581691c8e21cefd4fcba6cac3019e4f83167fad4099f03844072e973"
+    },
+    "results/cpu-hip-parity-2026-11-03.json": {
+      "bytes": 4550,
+      "sha256": "a88e987f3bf6f388351f242bd9a97c90c9fbb617ff5b0187bd2177033bd42754"
+    },
+    "results/environment-2026-11-03.json": {
+      "bytes": 1370,
+      "sha256": "dd1861ec6f4e68d1ec1138007dcbd48984a91f7d0957e2e692cdb50774b53c24"
+    },
+    "results/environment-lock-2026-11-03.json": {
+      "bytes": 7375,
+      "sha256": "041c57fdfa45fc0318293ddb7970aab3d7ff05714817694ef81b6a8ff7759d6b"
+    },
+    "results/full-cpu-bf16-dechunk-serial-2026-11-03.json": {
+      "bytes": 364789,
+      "sha256": "537564767fa95fa7816d2b82e6d25ab8b01f3737435c910eec79269dd7da7bde"
+    },
+    "results/full-cpu-serial-2026-11-03.json": {
+      "bytes": 364820,
+      "sha256": "fe28a0920fb6855b20bbf0824c0750ba0c811585a353efd92e69029392792531"
+    },
+    "results/full-hip-bf16-dechunk-training-2026-11-03.json": {
+      "bytes": 442550,
+      "sha256": "fbd9ccd31c452e97a3b4307cc7adcbee533f86800dc76e6d91675ca9fe0dab8f"
+    },
+    "results/full-hip-training-2026-11-03.json": {
+      "bytes": 442660,
+      "sha256": "61835e552c09d7e7faf778a2fd4ae2f77145027132e65c8e992fa80ffe6ffdd6"
+    },
+    "results/official-graph-cpu-2026-11-03.json": {
+      "bytes": 4327,
+      "sha256": "508d87ef9f3e77151848cae37ecdb9141c06d05d16ee92bdc91495b89cc650f9"
+    },
+    "results/official-graph-hip-2026-11-03.json": {
+      "bytes": 4360,
+      "sha256": "1a66f615aab9ca97ce528f0ebe00cfa075109e530ff08bca5352e66e2c2ada5a"
+    },
+    "results/operators-2026-11-03.json": {
+      "bytes": 2578,
+      "sha256": "e1ea898237ae53f32491e6dea4640a7b1a9df1246239699ecee9b969f20d5c56"
+    },
+    "results/preflight-2026-11-03.json": {
+      "bytes": 2038,
+      "sha256": "eb05de8486812d0e9de7a519de240895533c2e7e8eefce65ff99a2e655ce6bbb"
+    },
+    "results/startup-failures-2026-11-03.json": {
+      "bytes": 2379,
+      "sha256": "aa548274e84dac420d47ae62ff3dc2ff7d5f7b911984790e63e6e8a2616fda79"
+    },
+    "source-lock.json": {
+      "bytes": 1310,
+      "sha256": "8aff178dadf70f50a545d341663d774861a48f93dbbbe48059599929fd487668"
+    },
+    "validate.py": {
+      "bytes": 16328,
+      "sha256": "66a6f20463d6adb39af2ccab3675bb4d99925b38b20d7359317a36039d557c56"
+    }
+  },
+  "inference_cache": "not-run",
+  "native_fused": "not-run",
+  "rocm10.1": "not-run",
+  "status": "passed"
+}

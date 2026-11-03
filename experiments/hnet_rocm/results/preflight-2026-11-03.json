@@ -1,0 +1,60 @@
+{
+  "architecture": "gfx1151",
+  "client_date": "2026-11-03",
+  "custom_modules": {
+    "causal_conv1d": {
+      "kernel_execution": "not-run",
+      "status": "not-installed"
+    },
+    "flash_attn": {
+      "kernel_execution": "not-run",
+      "status": "not-installed"
+    },
+    "mamba_ssm": {
+      "kernel_execution": "not-run",
+      "status": "not-installed"
+    },
+    "pytorch_triton_rocm": {
+      "kernel_execution": "not-run",
+      "status": "not-installed"
+    },
+    "triton": {
+      "kernel_execution": "not-run",
+      "status": "not-installed"
+    }
+  },
+  "device": "AMD Radeon(TM) 8060S Graphics",
+  "free_total_before": [
+    83792265216,
+    83954728960
+  ],
+  "hip": "7.2.53211-158bd99533",
+  "implementation_sha256": {
+    "__init__.py": "9f00ca1d721387f627053bc2aa9a9e1bf6fa427981c56f5fe399ba2cdcb198fb",
+    "bootstrap.py": "f0715043d5f4bcf39f44c35f92cfaba991899b928b7201dad735ee2befd37320",
+    "reference.py": "4f27a0090751b81470c34226f9c76cacc9f9e6a618c4c7cbec8773793ef8d157",
+    "validate.py": "66a6f20463d6adb39af2ccab3675bb4d99925b38b20d7359317a36039d557c56"
+  },
+  "python": "3.12.14",
+  "reused_encoder_sha256": "d891554bfdea2ba0918e1d8638352e7400c779d869867887e69556a5a5fc8c51",
+  "runtime": {
+    "note": "Reuses existing runtime; not copied, redistributed or installed system-wide.",
+    "path": "C:\\Users\\Minzh\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\msvcp140.dll",
+    "sha256": "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca",
+    "status": "process-local-preload"
+  },
+  "scope": "single-process HIP tensor and autograd tests; not general platform training support",
+  "status": "passed",
+  "tensor_test": {
+    "gradient_device": "cuda:0",
+    "gradient_finite": true,
+    "loss": 120683167744.0,
+    "output_device": "cuda:0",
+    "output_finite": true,
+    "status": "passed",
+    "tensor_device": "cuda:0"
+  },
+  "timezone": "America/Los_Angeles",
+  "torch": "2.9.1+rocm7.2.1",
+  "total_memory_bytes": 83954728960
+}

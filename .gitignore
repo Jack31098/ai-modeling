@@ -3,3 +3,4 @@ __pycache__/
 /models/
 /.venv-hnet/
 /.venv-word-boundary/
+/.venv-hnet-rocm/

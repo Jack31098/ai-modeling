@@ -1,0 +1,181 @@
+{
+  "binaries": [
+    {
+      "bytes": 110059008,
+      "path": "Lib/site-packages/_rocm_sdk_core/bin/amd_comgr0702.dll",
+      "sha256": "2ff49a5f98fd994038df49ca8887167d3fb7297e0d44b07db845f527588fe3e1"
+    },
+    {
+      "bytes": 14823424,
+      "path": "Lib/site-packages/_rocm_sdk_core/bin/amdhip64_7.dll",
+      "sha256": "ae72615dfaa133f71210e3c46eb6414818413445cb91a58c17f9d125059adb40"
+    },
+    {
+      "bytes": 1837568,
+      "path": "Lib/site-packages/torch/lib/c10_hip.dll",
+      "sha256": "0a8be627d6a68ff8bd8e1eebcad61776dc93dae03a331e126334fc89b988730e"
+    },
+    {
+      "bytes": 203998208,
+      "path": "Lib/site-packages/torch/lib/torch_hip.dll",
+      "sha256": "8e9a685476a84579f7a22e755337eceae10c886f2c3c4164ce466d8da1f3506e"
+    },
+    {
+      "bytes": 223864320,
+      "path": "Lib/site-packages/torch/lib/torch_cpu.dll",
+      "sha256": "7c1f463334a669782ee08eb7a8f8dca411310502902d4b24496453338cb61bf8"
+    }
+  ],
+  "checkpoint_sha256_after_training_tests": "5711de80965d7ec8430a2db05a4859bc0700576e3e7841658fe1640d0c0e011c",
+  "checkpoint_unchanged": true,
+  "client_date": "2026-11-03",
+  "compiler_candidates_in_sdk": [
+    "_rocm_sdk_core/bin/hipcc.exe",
+    "_rocm_sdk_core/bin/hipify-clang.exe",
+    "_rocm_sdk_core/lib/llvm/bin/amdclang++.exe",
+    "_rocm_sdk_core/lib/llvm/bin/amdclang-22.exe",
+    "_rocm_sdk_core/lib/llvm/bin/amdclang-cl.exe",
+    "_rocm_sdk_core/lib/llvm/bin/amdclang-cpp.exe",
+    "_rocm_sdk_core/lib/llvm/bin/amdclang.exe",
+    "_rocm_sdk_core/lib/llvm/bin/clang++.exe",
+    "_rocm_sdk_core/lib/llvm/bin/clang-apply-replacements.exe",
+    "_rocm_sdk_core/lib/llvm/bin/clang-change-namespace.exe",
+    "_rocm_sdk_core/lib/llvm/bin/clang-cl.exe",
+    "_rocm_sdk_core/lib/llvm/bin/clang-cpp.exe",
+    "_rocm_sdk_core/lib/llvm/bin/clang-doc.exe",
+    "_rocm_sdk_core/lib/llvm/bin/clang-include-cleaner.exe",
+    "_rocm_sdk_core/lib/llvm/bin/clang-include-fixer.exe",
+    "_rocm_sdk_core/lib/llvm/bin/clang-linker-wrapper.exe",
+    "_rocm_sdk_core/lib/llvm/bin/clang-move.exe",
+    "_rocm_sdk_core/lib/llvm/bin/clang-offload-bundler.exe",
+    "_rocm_sdk_core/lib/llvm/bin/clang-offload-packager.exe",
+    "_rocm_sdk_core/lib/llvm/bin/clang-offload-wrapper.exe",
+    "_rocm_sdk_core/lib/llvm/bin/clang-query.exe",
+    "_rocm_sdk_core/lib/llvm/bin/clang-reorder-fields.exe",
+    "_rocm_sdk_core/lib/llvm/bin/clang-scan-deps.exe",
+    "_rocm_sdk_core/lib/llvm/bin/clang-tblgen.exe",
+    "_rocm_sdk_core/lib/llvm/bin/clang-tidy.exe",
+    "_rocm_sdk_core/lib/llvm/bin/clang.exe"
+  ],
+  "hip": "7.2.53211-158bd99533",
+  "implementation_sha256": {
+    "__init__.py": "9f00ca1d721387f627053bc2aa9a9e1bf6fa427981c56f5fe399ba2cdcb198fb",
+    "bootstrap.py": "f0715043d5f4bcf39f44c35f92cfaba991899b928b7201dad735ee2befd37320",
+    "lock_environment.py": "6236f30b13d7f6888ee74a4802c4dc3324a72571c7cfda68d39dc3251cb66239",
+    "official_graph.py": "52a07f85766b2e88a8e4ab466c28382bf50e4c4e2c58a8bda791a8a4f3787fa6",
+    "reference.py": "4f27a0090751b81470c34226f9c76cacc9f9e6a618c4c7cbec8773793ef8d157",
+    "validate.py": "66a6f20463d6adb39af2ccab3675bb4d99925b38b20d7359317a36039d557c56"
+  },
+  "note": "Versions/source index and installed RECORD/binary digests captured; this is not a hash-enforced original-wheel lock. No new weights saved.",
+  "official_rocm_find_links": "https://repo.radeon.com/rocm/windows/rocm-rel-7.2.1/",
+  "packages": [
+    {
+      "direct_url": null,
+      "installed_record_sha256": "ea66192231f3191f84ecf3d43d58588104cbabe986f799203cfa06757e8553d4",
+      "name": "einops",
+      "version": "0.8.1"
+    },
+    {
+      "direct_url": null,
+      "installed_record_sha256": "ac3c711a16147ae3bd4f3323fc9adf16d9df40a1eca36486bc4b011cd6401259",
+      "name": "filelock",
+      "version": "4.2.7"
+    },
+    {
+      "direct_url": null,
+      "installed_record_sha256": "bb5b9da352a9f77e761fec5d02f2feec1d2ae55c5b8737d3250bbc201957ffe3",
+      "name": "fsspec",
+      "version": "2026.9.0"
+    },
+    {
+      "direct_url": null,
+      "installed_record_sha256": "0c53d32a3ab7315c84d8278414af16134b29f7ec30fe3d41d90331430a31e525",
+      "name": "Jinja2",
+      "version": "3.1.6"
+    },
+    {
+      "direct_url": null,
+      "installed_record_sha256": "14e1b21744eec089aeef3d7f92cfafe3fa5a3745f27c448703e1f16cb01185a4",
+      "name": "MarkupSafe",
+      "version": "3.0.4"
+    },
+    {
+      "direct_url": null,
+      "installed_record_sha256": "6e0dc4362026a41beb2ad7081ec8f6fc9be0c48d9ce65784733aedc223c60100",
+      "name": "mpmath",
+      "version": "1.3.0"
+    },
+    {
+      "direct_url": null,
+      "installed_record_sha256": "e54e66f1d38e010cdfce7a1944631c39bbf71124f25385362eda5765aa0ea527",
+      "name": "networkx",
+      "version": "3.7"
+    },
+    {
+      "direct_url": null,
+      "installed_record_sha256": "4ee0dc63ff388108a173797cdd2020801bb0001a5937f1069d4e98a0c78ac8c0",
+      "name": "numpy",
+      "version": "2.2.6"
+    },
+    {
+      "direct_url": null,
+      "installed_record_sha256": "2fdd60936694313171c198f310b4a4654323ab4f0ed780b6421d48276c3d4176",
+      "name": "pip",
+      "version": "25.0.1"
+    },
+    {
+      "direct_url": null,
+      "installed_record_sha256": "1f8a1077932d6c48f17af4633949e0941dd9ebc59cccdaf338d0524804b9510e",
+      "name": "rocm",
+      "version": "7.2.1"
+    },
+    {
+      "direct_url": null,
+      "installed_record_sha256": "f7450800604015ed30b3d3e67474de236dd59d97f0648d08ca3995d6767b7a52",
+      "name": "rocm-sdk-core",
+      "version": "7.2.1"
+    },
+    {
+      "direct_url": null,
+      "installed_record_sha256": "99d83f1637e097494c71fdc5faef9962f87b92bc947189d8c8163c754975a80f",
+      "name": "rocm-sdk-libraries-custom",
+      "version": "7.2.1"
+    },
+    {
+      "direct_url": null,
+      "installed_record_sha256": "0b482e779bec1ee3553dd35a6f4b1a5a51dec758fb1be242867e1db991035577",
+      "name": "setuptools",
+      "version": "84.2.1"
+    },
+    {
+      "direct_url": null,
+      "installed_record_sha256": "d7afe9eb05138835ddddc38e6327083613913bf2cc2da7c06978679d67f92491",
+      "name": "sympy",
+      "version": "1.14.0"
+    },
+    {
+      "direct_url": null,
+      "installed_record_sha256": "9bb6063ea4fd26b5b7c509aab06a385de5ad12ff6570577e010860adc57d7935",
+      "name": "torch",
+      "version": "2.9.1+rocm7.2.1"
+    },
+    {
+      "direct_url": null,
+      "installed_record_sha256": "a346a921aa5be35b34ced3258614183d152887b954caaae5de2a94be72d5f2ec",
+      "name": "typing_extensions",
+      "version": "4.16.0"
+    }
+  ],
+  "pip_freeze_all": "einops==0.8.1\nfilelock==4.2.7\nfsspec==2026.9.0\nJinja2==3.1.6\nMarkupSafe==3.0.4\nmpmath==1.3.0\nnetworkx==3.7\nnumpy==2.2.6\npip==25.0.1\nrocm==7.2.1\nrocm-sdk-core==7.2.1\nrocm-sdk-libraries-custom==7.2.1\nsetuptools==84.2.1\nsympy==1.14.0\ntorch==2.9.1+rocm7.2.1\ntyping_extensions==4.16.0\n",
+  "python": "3.12.14",
+  "reused_encoder_sha256": "d891554bfdea2ba0918e1d8638352e7400c779d869867887e69556a5a5fc8c51",
+  "runtime": {
+    "note": "Reuses existing runtime; not copied, redistributed or installed system-wide.",
+    "path": "C:\\Users\\Minzh\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\msvcp140.dll",
+    "sha256": "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca",
+    "status": "process-local-preload"
+  },
+  "status": "passed",
+  "timezone": "America/Los_Angeles",
+  "torch": "2.9.1+rocm7.2.1"
+}
