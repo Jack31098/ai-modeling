@@ -63,7 +63,7 @@ v1.2 以参考结构监督动作，让连续状态在真实任务路径上联合
 
 **H-Net 的层级性质。** 依据论文 §2.1 及[递归模块实现](https://raw.githubusercontent.com/goombalab/hnet/main/hnet/models/hnet.py)，其主网络可以在构建模型时实例化为另一个完整 H-Net。两级路径是外层编码／压缩、内层编码／压缩、最内主干、内层展开／解码、外层展开／解码，并有细粒度残差。层级数在配置中确定，每级含多层神经网络；内容影响边界与进入内层的频率，不是同一模块按运行时 push/pop 生成任意深递归调用栈。SSM 随序列递推与这个层级概念分开。
 
-**原论文规模与训练口径。** [Table 1](https://arxiv.org/html/2507.07955v2#S3)中，Large 的单级／两级分别约 680M／870M 参数，XL 的单级／两级分别约 1.3B／1.6B；最大两级模型按 FLOPs 与 1.3B Transformer 匹配。主结果从头预训练，英文数据为 FineWeb-Edu 的 100B-token 子集，见[官方模型说明](https://github.com/goombalab/hnet#pretrained-models)。主实验只验证一、两级；没有三层级实验，不应称为任意深度已验证。
+**原论文规模与训练口径。** [Table 1](https://arxiv.org/html/2507.07955v2#S3)中，Large 的单级／两级分别约 680M／870M 参数，XL 的单级／两级分别约 1.3B／1.6B；最大两级模型按 FLOPs 与 1.3B Transformer 匹配。公开描述为从头预训练，英文数据为 FineWeb-Edu 的 100B-token 子集，见[官方模型说明](https://github.com/goombalab/hnet#pretrained-models)；本项目未独立核验完整训练流程，权重与模型代码不等于训练复现交付，见[后续核查](2026-11-02-HNet与v1.2比较及后续.md)。主实验只报告一、两级；没有三层级实验，不应称为任意深度已验证。
 
 **预训练主干迁移是另一组实验。** [附录 F](https://arxiv.org/html/2507.07955v2#A6)另取 Llama 3.2 3B 的 backbone 并冻结，训练单级 H-Net 外围和 adapter，使用约 189B bytes；因此不能笼统说 H-Net 全部从零，也不能把这组迁移当成 3B 多级联合训练结果。
 
