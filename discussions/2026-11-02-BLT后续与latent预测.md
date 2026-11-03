@@ -30,7 +30,9 @@
 
 ## 直接预测 latent 的路线确实存在
 
-**LCM，Meta，2024-12，与 BLT 同期的独立路线。** [Large Concept Models](https://arxiv.org/html/2412.08821v1)冻结 SONAR 句子 codec，直接建模下一句 embedding 的条件分布；比较 MSE、扩散及量化方案，并扩展到 7B。它是“先规约／编码，再在该 latent 空间训练生成模型”的直接先例。论文报告单纯 MSE 较弱，并分析多模态续文、编码空间脆弱性及数字／代码保真等边界；不能因此认定所有 latent LM 都存在相同程度的缺陷。
+**LCM，Meta，2024-12，与 BLT 同期的独立路线。** [Large Concept Models v2](https://arxiv.org/html/2412.08821v2)冻结 SONAR 句子 codec，直接建模下一句 embedding 的条件分布；比较 MSE、扩散及量化方案，并扩展到 7B。它是“先规约／编码，再在该 latent 空间训练生成模型”的直接先例。论文报告单纯 MSE 较弱，并分析多模态续文、编码空间脆弱性及数字／代码保真等边界；不能因此认定所有 latent LM 都存在相同程度的缺陷。
+
+后续已扩展核查至 2026 年的 [Meta v-LCM／Spectrum、SONAR-LLM 和 Mimir](2026-11-03-句子粒度语言模型与Meta后续.md)。其中 LCM 公开代码直接回灌预测向量，SONAR-LLM 公开推理脚本则将生成句重新编码；Spectrum 最终为句表示输入、token 输出。不能只按“句子模型”名称判断预测目标和闭环。Mimir 已有公开检查点，原 Meta LCM 发布版本的模型 cards 仍为 TODO/dummy；公开代码与可复现论文检查点须分开。
 
 **CALM，2025-10。** [论文](https://arxiv.org/html/2510.27688v1)先训练将 K 个 token 压到一个连续向量的稳健 autoencoder，再学习连续下一向量分布，采用带噪声的生成头与 energy loss。其报告的高重建率限定于该 codec 测试，不等同于生成任务已无损。
 
