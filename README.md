@@ -4,7 +4,9 @@
 
 ## 从哪里开始
 
-继续当前研究时，先读 [最新接续说明（2026-10-06）](HANDOFF.md)和[第一部分主方案 v1.1](path_control_pretraining_part1_v1.1.md)，其中明确当前设计、已撤回思路及下一步待定问题。[2026-10-02 接续说明](HANDOFF-2026-10-02.md)保留作历史记录。
+当前研究以 Dot 分支中的[第一部分主方案 v1.2（固定版本）](https://github.com/Jack31098/ai-modeling/blob/1ff300bfbb9a8ebb7bee242a0cbc37848fa6e190/path_control_pretraining_part1_v1.2.md)为准，先读[v1.2 与权重空间编程接续](discussions/2026-11-02-v1.2分支与权重空间编程接续.md)和[讨论索引](discussions/README.md)。研究分支尚未合入 main；v1.2 明确修订处优先于下列历史版本，也不以聊天中的不严谨简称替代设计原文。
+
+main 中的[接续说明（2026-10-06）](HANDOFF.md)和[第一部分主方案 v1.1](path_control_pretraining_part1_v1.1.md)保留该阶段设计、已撤回思路及待定问题。[2026-10-02 接续说明](HANDOFF-2026-10-02.md)保留作历史记录。
 
 后续的[B⁻ 层次调用、Lookback 与训练监督协议 v0.1](B_minus_lookback_supervision_protocol_v0.1.md)细化跨尺度调用及监督隔离，属于待验证的阶段性设计记录。
 
@@ -22,7 +24,7 @@ Git 历史保存每次修订。Markdown 文件保存可被后续 agent 直接读
 
 本项目由 [MASA 设计](masa.md) 等早期讨论演进而来。当前主方案研究模型内部的 path control：按内容和任务选择计算路径与处理粒度；MASA 是历史启发，不是必须先完成的实现基线。
 
-MASA 与动态递归、跳层和多粒度状态计算之间的范围差距见[设计边界讨论](discussions/2026-09-29-masa-scope-and-dynamic-computation.md)。导入基线提供已有机制与待验证假设；当前路线以 v1.1 主方案和最新 handoff 为准。
+MASA 与动态递归、跳层和多粒度状态计算之间的范围差距见[设计边界讨论](discussions/2026-09-29-masa-scope-and-dynamic-computation.md)。导入基线提供已有机制与待验证假设；当前路线以本页所指主方案及最新研究接续为准。
 
 - 上游：[Jack31098/inf_context_llm](https://github.com/Jack31098/inf_context_llm)。
 - 导入文件：[masa.md 固定版本](https://github.com/Jack31098/inf_context_llm/blob/1890b34d6b39fd24dcf5d9afbf04de9ba64f5f27/masa.md)。
