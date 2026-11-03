@@ -1,0 +1,41 @@
+{
+  "client_date": "2026-11-03",
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "-m",
+    "training.word_boundary_v0.verify",
+    "--release",
+    "training\\word_boundary_v0\\sample_release",
+    "--report",
+    "training\\word_boundary_v0\\validation\\run-2026-11-03.json",
+    "--client-date",
+    "2026-11-03"
+  ],
+  "dependencies": {
+    "HMM": false,
+    "dictionary_sha256": "7197c3211ddd98962b036cdf40324d1ea2bfaa12bd028e68faa70111a88e12a8",
+    "jieba": "0.42.1",
+    "unicode_database": "15.0.0",
+    "user_dictionary": null
+  },
+  "device": "CPU, jieba single-process; no model or GPU execution",
+  "errors": 0,
+  "failures": 0,
+  "implementation_hash_mismatches": [],
+  "input_hash_matches": true,
+  "limits": "Fixture/structural tests and small real excerpts only; not human word gold, Chinese streaming policy, actual tokenizer integration, or trained student quality",
+  "python": "3.12.14",
+  "release_file_count": 90,
+  "release_hash_mismatches": [],
+  "release_manifest_sha256": "d3e4ffad3b6a41879dda3346f864455f762190515a635248a65d39da0569b08a",
+  "skipped": 0,
+  "successful": true,
+  "test_log": "test_byte_offset_inside_multibyte_character (test_pipeline.AlignmentTests.test_byte_offset_inside_multibyte_character) ... ok\ntest_identity_and_special_tokens (test_pipeline.AlignmentTests.test_identity_and_special_tokens) ... ok\ntest_multi_boundaries_in_one_token_not_snapped (test_pipeline.AlignmentTests.test_multi_boundaries_in_one_token_not_snapped) ... ok\ntest_normalization_mismatch (test_pipeline.AlignmentTests.test_normalization_mismatch) ... ok\ntest_surface_mismatch_and_coverage (test_pipeline.AlignmentTests.test_surface_mismatch_and_coverage) ... ok\ntest_unknown_coordinates_fail_closed (test_pipeline.AlignmentTests.test_unknown_coordinates_fail_closed) ... ok\ntest_utf16_and_broken_surrogate (test_pipeline.AlignmentTests.test_utf16_and_broken_surrogate) ... ok\ntest_utf8_adapter (test_pipeline.AlignmentTests.test_utf8_adapter) ... ok\ntest_abbreviation_sentence_end (test_pipeline.BoundaryTests.test_abbreviation_sentence_end) ... ok\ntest_chinese_dictionary_regression (test_pipeline.BoundaryTests.test_chinese_dictionary_regression) ... ok\ntest_chinese_punctuation_terminates_url (test_pipeline.BoundaryTests.test_chinese_punctuation_terminates_url) ... ok\ntest_coverage_rejects_overlap_and_gap (test_pipeline.BoundaryTests.test_coverage_rejects_overlap_and_gap) ... ok\ntest_english_policy (test_pipeline.BoundaryTests.test_english_policy) ... ok\ntest_frozen_dictionary (test_pipeline.BoundaryTests.test_frozen_dictionary) ... ok\ntest_fuzz_partition (test_pipeline.BoundaryTests.test_fuzz_partition) ... ok\ntest_mixed_unicode_and_line_endings (test_pipeline.BoundaryTests.test_mixed_unicode_and_line_endings) ... ok\ntest_duplicate_ids_rejected (test_pipeline.GroupTests.test_duplicate_ids_rejected) ... ok\ntest_empty_rights_and_missing_lineage (test_pipeline.GroupTests.test_empty_rights_and_missing_lineage) ... ok\ntest_exact_near_template_and_lineage (test_pipeline.GroupTests.test_exact_near_template_and_lineage) ... ok\ntest_order_independent_determinism (test_pipeline.GroupTests.test_order_independent_determinism) ... ok\ntest_work_and_parallel_family_isolation (test_pipeline.GroupTests.test_work_and_parallel_family_isolation) ... ok\ntest_end_to_end_deterministic_and_manifest (test_pipeline.ReleaseTests.test_end_to_end_deterministic_and_manifest) ... ok\ntest_provenance_and_input_integrity (test_pipeline.ReleaseTests.test_provenance_and_input_integrity) ... ok\ntest_bad_supervision_timing_rejected (test_pipeline.VisibilityTests.test_bad_supervision_timing_rejected) ... ok\ntest_chinese_reference_is_not_stream_action (test_pipeline.VisibilityTests.test_chinese_reference_is_not_stream_action) ... ok\ntest_english_prefix_consistency_and_lookahead (test_pipeline.VisibilityTests.test_english_prefix_consistency_and_lookahead) ... ok\ntest_eof_versus_same_prefix_continuation_and_label_free_clock (test_pipeline.VisibilityTests.test_eof_versus_same_prefix_continuation_and_label_free_clock) ... ok\ntest_no_labels_or_future_in_model_input (test_pipeline.VisibilityTests.test_no_labels_or_future_in_model_input) ... ok\ntest_slicing_no_synthetic_eos_or_cross_split (test_pipeline.VisibilityTests.test_slicing_no_synthetic_eos_or_cross_split) ... ok\ntest_true_eof_is_separate_observed_event (test_pipeline.VisibilityTests.test_true_eof_is_separate_observed_event) ... ok\n\n----------------------------------------------------------------------\nRan 30 tests in 2.712s\n\nOK\n",
+  "test_sources_sha256": {
+    "test_pipeline.py": "596efdab84c687fd4a4d9b9e789eb260de8df775f54e90b1f789556957a7ca64"
+  },
+  "tests_run": 30,
+  "timezone": "America/Los_Angeles"
+}

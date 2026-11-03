@@ -1,0 +1,27 @@
+{
+  "client_date": "2026-11-03",
+  "timezone": "America/Los_Angeles",
+  "initial_git_branch": "codex/training-data-v1.2",
+  "initial_git_commit": "ce54d66",
+  "initial_worktree_clean": true,
+  "cpu": "AMD RYZEN AI MAX+ 395 w/ Radeon 8060S",
+  "physical_cores": 16,
+  "logical_processors": 32,
+  "physical_memory_reported_bytes": 132766306304,
+  "gpu": "AMD Radeon(TM) 8060S Graphics",
+  "display_driver": "32.0.31032.1003",
+  "python": "3.12.14",
+  "pip": "25.0.1",
+  "jieba": "0.42.1",
+  "execution": "single-process CPU text processing and unittest only",
+  "process_check": {
+    "method": "Win32_Process name filter python|llama|ollama|vllm|train; Codex node processes also inspected at initial snapshot",
+    "matching_training_processes_at_snapshots": 0,
+    "limits": "local name-filter snapshots, not all remote/WSL/custom workloads; no command lines recorded"
+  },
+  "gpu_backend_tested": false,
+  "npu_backend_tested": false,
+  "models_loaded": false,
+  "existing_processes_stopped": false,
+  "mac_kvm_used": false
+}

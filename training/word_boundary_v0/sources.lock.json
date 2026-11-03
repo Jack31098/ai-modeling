@@ -1,0 +1,50 @@
+{
+  "version": "sources-v0.1",
+  "retrieved_on": "2026-11-03",
+  "retrieval_timezone": "America/Los_Angeles",
+  "jieba": {
+    "version": "0.42.1",
+    "url": "https://files.pythonhosted.org/packages/c6/cb/18eeb235f833b726522d7ebed54f2278ce28ba9438e3135ab0278d9792a2/jieba-0.42.1.tar.gz",
+    "sdist_sha256": "055ca12f62674fafed09427f176506079bc135638a14e23e25be909131928db2",
+    "dictionary_sha256": "7197c3211ddd98962b036cdf40324d1ea2bfaa12bd028e68faa70111a88e12a8",
+    "license": "MIT",
+    "license_url": "https://github.com/fxsjy/jieba/blob/v0.42.1/LICENSE",
+    "license_sha256": "18ba0984839f85853b29fadaf992f7dba8fd0ca0fbeae34de2b8735222dc7a37"
+  },
+  "books": [
+    {
+      "source_id": "pg11",
+      "source_document_id": "work:alice-in-wonderland",
+      "title": "Alice's Adventures in Wonderland",
+      "author": "Lewis Carroll",
+      "credits": "Arthur DiBianca and David Widger",
+      "language": "en",
+      "catalog_url": "https://www.gutenberg.org/ebooks/11",
+      "url": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+      "edition_update": "2025-06-26",
+      "sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+      "size": 174311,
+      "marker": "Alice was beginning to get very tired",
+      "paragraphs": 3,
+      "rights": "Public domain in the USA; retain accompanying Project Gutenberg license/notice; no worldwide rights assertion",
+      "license_url": "https://www.gutenberg.org/policy/license.html"
+    },
+    {
+      "source_id": "pg23839",
+      "source_document_id": "work:analects-chinese",
+      "title": "論語",
+      "author": "Confucius (traditional attribution)",
+      "credits": "Produced by Wen Yen",
+      "language": "zh",
+      "catalog_url": "https://www.gutenberg.org/ebooks/23839",
+      "url": "https://www.gutenberg.org/cache/epub/23839/pg23839.txt",
+      "edition_update": "2014-01-27",
+      "sha256": "dd2385d1e6bc3a5cde6d4d5efdf16d1bab0bff40a0209a7dc9c4909b80bf3035",
+      "size": 88528,
+      "marker": "1. 子曰：「學而時習之",
+      "paragraphs": 3,
+      "rights": "Public domain in the USA; retain accompanying Project Gutenberg license/notice; no worldwide rights assertion",
+      "license_url": "https://www.gutenberg.org/policy/license.html"
+    }
+  ]
+}

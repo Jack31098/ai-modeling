@@ -1,0 +1,11 @@
+# Data sources and redistribution
+
+The two real-corpus excerpts are from Lewis Carroll's *Alice's Adventures in Wonderland* and *論語* (traditional attribution to Confucius), digitized by Arthur DiBianca / David Widger and Wen Yen respectively. Source acknowledgements: [ebook 11](https://www.gutenberg.org/ebooks/11), [ebook 23839](https://www.gutenberg.org/ebooks/23839). These catalogue entries identify the works as public domain in the USA. This is not a worldwide copyright determination. The excerpts retain the source's exact spelling, punctuation and line endings; see provenance for their extraction spans and hashes. Labels are our fixed-rule additions, not annotations supplied by these books.
+
+This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at [www.gutenberg.org](https://www.gutenberg.org/policy/license.html). If you are not located in the United States, you will have to check the laws of the country where you are located before using this ebook.
+
+The accompanying full source licenses are in `licenses/pg11-license.txt` and `licenses/pg23839-license.txt`; retain this notice, provenance, and those files with redistributed sample text or derived releases. This project does not claim endorsement by the source publisher. It does not grant rights over other books or datasets. The current Chinese excerpt is traditional classical Chinese, not evidence of modern simplified Chinese segmentation quality.
+
+The `synthetic_fixture` records were authored for this task and are provided under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). They are diagnostic fixtures, not real corpus samples or human gold. Source-specific restrictions are not erased by mixing records.
+
+Chinese reference labels use [jieba](https://github.com/fxsjy/jieba), version 0.42.1, with its bundled dictionary, under the MIT license reproduced in `licenses/jieba-MIT.txt`. No LLM was used for annotation. Source acquisition is locked by SHA-256; a changed upstream file requires explicit review and a new source version.

@@ -1,0 +1,124 @@
+{
+  "doc_id": "fixture:emoji-only",
+  "fused_token_conflict_fixture": {
+    "boundaries": [
+      {
+        "byte": 4,
+        "cp": 1,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 7,
+        "cp": 2,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 11,
+        "cp": 3,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 14,
+        "cp": 4,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 18,
+        "cp": 5,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          0
+        ]
+      }
+    ],
+    "errors": [
+      {
+        "boundaries": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "multiple_boundaries_inside_token",
+        "token": 0
+      }
+    ],
+    "notes": [],
+    "offset_unit": "unicode_code_point",
+    "surface_check": "verified",
+    "tokenizer_id": "fixture:whole-input-v1",
+    "usable_without_conflicts": false
+  },
+  "identity_codepoint_fixture": {
+    "boundaries": [
+      {
+        "byte": 4,
+        "cp": 1,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 7,
+        "cp": 2,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          1
+        ]
+      },
+      {
+        "byte": 11,
+        "cp": 3,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          2
+        ]
+      },
+      {
+        "byte": 14,
+        "cp": 4,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          3
+        ]
+      },
+      {
+        "byte": 18,
+        "cp": 5,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          4
+        ]
+      }
+    ],
+    "errors": [],
+    "notes": [],
+    "offset_unit": "unicode_code_point",
+    "surface_check": "verified",
+    "tokenizer_id": "fixture:one-codepoint-v1",
+    "usable_without_conflicts": true
+  }
+}

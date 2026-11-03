@@ -6,6 +6,8 @@
 
 继续当前研究时，先读[第一部分主方案 v1.2](path_control_pretraining_part1_v1.2.md)、[权重空间编程对 B 研究的启示与下一步（2026-11-03）](discussions/2026-11-03-weight-space-programming-and-B-research.md)和[讨论索引](discussions/README.md)。Dot 研究分支已合入 main，v1.2 原文字节保留；其明确修订处优先于历史版本，不以聊天中的不严谨简称替代设计原文。近期优先可观察状态、因果干预与知识增量，效率暂不作为研究硬门槛；单级与多级仍需公平比较。[分支接续记录](discussions/2026-11-02-v1.2分支与权重空间编程接续.md)保留来源与证据边界。
 
+当前训练试制按用户后续明确口径：先训练 B 规约器，F 和最终展开器从头训练，0.8B 指目标参数规模，不复用 Qwen 0.8B 主干。第 0 步已实现[固定词边界数据管线与小样例](training/word_boundary_v0/README.md)，沿用 v1.2 §10 的监督及可见性要求；尚未训练模型，历史 F 继承设想不作为本轮执行默认。
+
 [第一部分主方案 v1.1](path_control_pretraining_part1_v1.1.md)、[2026-10-06 接续说明](HANDOFF.md)和[2026-10-02 接续说明](HANDOFF-2026-10-02.md)保留作历史记录。已有有限规则解析器和词表示压缩诊断；尚无通用语义 B、B⁻、Qwen F 接入或完整多粒度模型训练结果。
 
 [B⁻ 层次调用、Lookback 与训练监督协议 v0.1](B_minus_lookback_supervision_protocol_v0.1.md)细化跨尺度调用及监督隔离，已由 v1.2 整合修订；协议实现仍待验证。

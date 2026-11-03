@@ -1,0 +1,276 @@
+{
+  "groups": [
+    {
+      "group": "fixture:whitespace",
+      "members": [
+        "fixture:whitespace"
+      ],
+      "split": "train"
+    },
+    {
+      "group": "fixture:hyphens",
+      "members": [
+        "fixture:hyphens"
+      ],
+      "split": "train"
+    },
+    {
+      "group": "real:pg11:excerpt",
+      "members": [
+        "real:pg11:excerpt"
+      ],
+      "split": "train"
+    },
+    {
+      "group": "fixture:symbols",
+      "members": [
+        "fixture:symbols"
+      ],
+      "split": "train"
+    },
+    {
+      "group": "fixture:chinese-ambiguity",
+      "members": [
+        "fixture:chinese-ambiguity"
+      ],
+      "split": "train"
+    },
+    {
+      "group": "fixture:list",
+      "members": [
+        "fixture:list"
+      ],
+      "split": "train"
+    },
+    {
+      "group": "real:pg23839:excerpt",
+      "members": [
+        "real:pg23839:excerpt"
+      ],
+      "split": "train"
+    },
+    {
+      "group": "fixture:unicode",
+      "members": [
+        "fixture:unicode"
+      ],
+      "split": "train"
+    },
+    {
+      "group": "fixture:duplicate-english",
+      "members": [
+        "fixture:duplicate-english",
+        "fixture:english-punctuation"
+      ],
+      "split": "train"
+    },
+    {
+      "group": "fixture:inventory-10",
+      "members": [
+        "fixture:inventory-10",
+        "fixture:inventory-17",
+        "fixture:inventory-73"
+      ],
+      "split": "train"
+    },
+    {
+      "group": "fixture:mixed",
+      "members": [
+        "fixture:mixed"
+      ],
+      "split": "train"
+    },
+    {
+      "group": "fixture:quotes",
+      "members": [
+        "fixture:quotes"
+      ],
+      "split": "train"
+    },
+    {
+      "group": "fixture:chinese-role",
+      "members": [
+        "fixture:chinese-role"
+      ],
+      "split": "train"
+    },
+    {
+      "group": "fixture:same-prefix-a",
+      "members": [
+        "fixture:same-prefix-a",
+        "fixture:same-prefix-b"
+      ],
+      "split": "train"
+    },
+    {
+      "group": "fixture:unknown-entity",
+      "members": [
+        "fixture:unknown-entity"
+      ],
+      "split": "train"
+    },
+    {
+      "group": "fixture:one-word",
+      "members": [
+        "fixture:one-word"
+      ],
+      "split": "train"
+    },
+    {
+      "group": "fixture:url-end",
+      "members": [
+        "fixture:url-end"
+      ],
+      "split": "train"
+    },
+    {
+      "group": "fixture:numbers",
+      "members": [
+        "fixture:numbers"
+      ],
+      "split": "train"
+    },
+    {
+      "group": "fixture:abbreviations",
+      "members": [
+        "fixture:abbreviations"
+      ],
+      "split": "dev"
+    },
+    {
+      "group": "fixture:chinese-condition",
+      "members": [
+        "fixture:chinese-condition"
+      ],
+      "split": "dev"
+    },
+    {
+      "group": "fixture:emoji-only",
+      "members": [
+        "fixture:emoji-only"
+      ],
+      "split": "test"
+    },
+    {
+      "group": "fixture:near-a",
+      "members": [
+        "fixture:near-a",
+        "fixture:near-b"
+      ],
+      "split": "test"
+    }
+  ],
+  "input_documents": 29,
+  "kept_documents": 26,
+  "links": [
+    {
+      "a": "fixture:duplicate-english",
+      "b": "fixture:english-punctuation",
+      "reason": "derived_from"
+    },
+    {
+      "a": "fixture:duplicate-english",
+      "b": "fixture:english-punctuation",
+      "reason": "source_document_id"
+    },
+    {
+      "a": "fixture:duplicate-english",
+      "b": "fixture:english-punctuation",
+      "reason": "family_id"
+    },
+    {
+      "a": "fixture:duplicate-english",
+      "b": "fixture:english-punctuation",
+      "reason": "exact_duplicate"
+    },
+    {
+      "a": "fixture:duplicate-english",
+      "b": "fixture:english-punctuation",
+      "reason": "number_template"
+    },
+    {
+      "a": "fixture:duplicate-english",
+      "b": "fixture:english-punctuation",
+      "reason": "near_duplicate",
+      "score": 1.0
+    },
+    {
+      "a": "fixture:inventory-10",
+      "b": "fixture:inventory-17",
+      "reason": "template_family_id"
+    },
+    {
+      "a": "fixture:inventory-10",
+      "b": "fixture:inventory-17",
+      "reason": "number_template"
+    },
+    {
+      "a": "fixture:inventory-10",
+      "b": "fixture:inventory-73",
+      "reason": "template_family_id"
+    },
+    {
+      "a": "fixture:inventory-10",
+      "b": "fixture:inventory-73",
+      "reason": "number_template"
+    },
+    {
+      "a": "fixture:inventory-17",
+      "b": "fixture:inventory-73",
+      "reason": "template_family_id"
+    },
+    {
+      "a": "fixture:inventory-17",
+      "b": "fixture:inventory-73",
+      "reason": "number_template"
+    },
+    {
+      "a": "fixture:near-a",
+      "b": "fixture:near-b",
+      "reason": "near_duplicate",
+      "score": 0.978723
+    },
+    {
+      "a": "fixture:same-prefix-a",
+      "b": "fixture:same-prefix-b",
+      "reason": "family_id"
+    }
+  ],
+  "rejected_documents": [
+    {
+      "disposition": "quarantine",
+      "doc_id": "fixture:empty",
+      "duplicate_of": null,
+      "group": "fixture:empty",
+      "reason": "empty_or_whitespace_only",
+      "split": null
+    },
+    {
+      "disposition": "quarantine",
+      "doc_id": "fixture:space-only",
+      "duplicate_of": null,
+      "group": "fixture:space-only",
+      "reason": "empty_or_whitespace_only",
+      "split": null
+    },
+    {
+      "disposition": "drop",
+      "doc_id": "fixture:duplicate-english",
+      "duplicate_of": "fixture:english-punctuation",
+      "group": "fixture:duplicate-english",
+      "reason": "exact_duplicate",
+      "split": "train"
+    }
+  ],
+  "rejection_counts": {
+    "empty_or_whitespace_only": 2,
+    "exact_duplicate": 1
+  },
+  "split_documents": {
+    "dev": 2,
+    "test": 3,
+    "train": 21
+  },
+  "version": "grouped-split-v0.1",
+  "warning": "syntactic near-duplicate audit is not a semantic paraphrase detector; unknown lineage can still leak"
+}
