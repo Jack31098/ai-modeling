@@ -1,0 +1,25 @@
+{
+  "doc_id": "expansion:067",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "beec5b123be67a9981cfb9374899df4e186a5c1607cd2112a2de32b55861f52d",
+  "cohort": "authored_template_expansion",
+  "server_run_id": "server-20261105T085058Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/expansion__067-1.json",
+    "../attempts/expansion__067-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 2,
+    "expected_length_cp": 67,
+    "actual_length_cp": 52,
+    "actual_text": "Ifbox78isnotsealeddonotsendparcel150untilEveconfirms"
+  },
+  "training_eligible": false
+}

@@ -1,0 +1,321 @@
+{
+  "doc_id": "pilot:zh-denial",
+  "model_id": "qwen38-27b-q8",
+  "source_sha256": "273665bd356d1ccd643224e187c71ce7bc4a5aaf043530de151bb7084eb7009c",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080727Z",
+  "attempt_count": 1,
+  "selected_attempt": 1,
+  "valid": true,
+  "attempt_files": [
+    "../attempts/pilot__zh-denial-1.json"
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "word_count": 15,
+    "phrase_count": 4,
+    "passthrough_count": 2,
+    "word_to_phrase_node_ratio": 3.75,
+    "semantic_quality": "unreviewed; exact reconstruction does not certify lexical or semantic boundaries",
+    "candidate_structure": {
+      "coordinates": "Unicode code points and original UTF-8 bytes; half-open",
+      "words": [
+        {
+          "id": "w0",
+          "text": "甲",
+          "cp": [
+            0,
+            1
+          ],
+          "utf8": [
+            0,
+            3
+          ]
+        },
+        {
+          "id": "w1",
+          "text": "并没有",
+          "cp": [
+            1,
+            4
+          ],
+          "utf8": [
+            3,
+            12
+          ]
+        },
+        {
+          "id": "w2",
+          "text": "拒绝",
+          "cp": [
+            4,
+            6
+          ],
+          "utf8": [
+            12,
+            18
+          ]
+        },
+        {
+          "id": "w3",
+          "text": "乙",
+          "cp": [
+            6,
+            7
+          ],
+          "utf8": [
+            18,
+            21
+          ]
+        },
+        {
+          "id": "w4",
+          "text": "的",
+          "cp": [
+            7,
+            8
+          ],
+          "utf8": [
+            21,
+            24
+          ]
+        },
+        {
+          "id": "w5",
+          "text": "申请",
+          "cp": [
+            8,
+            10
+          ],
+          "utf8": [
+            24,
+            30
+          ]
+        },
+        {
+          "id": "w6",
+          "text": "；",
+          "cp": [
+            10,
+            11
+          ],
+          "utf8": [
+            30,
+            33
+          ]
+        },
+        {
+          "id": "w7",
+          "text": "乙",
+          "cp": [
+            11,
+            12
+          ],
+          "utf8": [
+            33,
+            36
+          ]
+        },
+        {
+          "id": "w8",
+          "text": "也",
+          "cp": [
+            12,
+            13
+          ],
+          "utf8": [
+            36,
+            39
+          ]
+        },
+        {
+          "id": "w9",
+          "text": "没有",
+          "cp": [
+            13,
+            15
+          ],
+          "utf8": [
+            39,
+            45
+          ]
+        },
+        {
+          "id": "w10",
+          "text": "说",
+          "cp": [
+            15,
+            16
+          ],
+          "utf8": [
+            45,
+            48
+          ]
+        },
+        {
+          "id": "w11",
+          "text": "甲",
+          "cp": [
+            16,
+            17
+          ],
+          "utf8": [
+            48,
+            51
+          ]
+        },
+        {
+          "id": "w12",
+          "text": "已经",
+          "cp": [
+            17,
+            19
+          ],
+          "utf8": [
+            51,
+            57
+          ]
+        },
+        {
+          "id": "w13",
+          "text": "批准",
+          "cp": [
+            19,
+            21
+          ],
+          "utf8": [
+            57,
+            63
+          ]
+        },
+        {
+          "id": "w14",
+          "text": "。",
+          "cp": [
+            21,
+            22
+          ],
+          "utf8": [
+            63,
+            66
+          ]
+        }
+      ],
+      "phrase_forest": [
+        {
+          "id": "p0",
+          "cp": [
+            0,
+            10
+          ],
+          "utf8": [
+            0,
+            30
+          ],
+          "children": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p1",
+          "cp": [
+            10,
+            11
+          ],
+          "utf8": [
+            30,
+            33
+          ],
+          "children": [
+            "w6"
+          ],
+          "passthrough": true
+        },
+        {
+          "id": "p2",
+          "cp": [
+            11,
+            21
+          ],
+          "utf8": [
+            33,
+            63
+          ],
+          "children": [
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p3",
+          "cp": [
+            21,
+            22
+          ],
+          "utf8": [
+            63,
+            66
+          ],
+          "children": [
+            "w14"
+          ],
+          "passthrough": true
+        }
+      ],
+      "scale_projection": {
+        "0": [
+          "w0",
+          "w1",
+          "w2",
+          "w3",
+          "w4",
+          "w5",
+          "w6",
+          "w7",
+          "w8",
+          "w9",
+          "w10",
+          "w11",
+          "w12",
+          "w13",
+          "w14"
+        ],
+        "1": [
+          "p0",
+          "p1",
+          "p2",
+          "p3"
+        ]
+      },
+      "student_tokenizer_alignment": "not implemented",
+      "execution_events": "not compiled; complete v1.2 D1 consumer still required",
+      "supervision_permissions": {
+        "mode": "READ_FULL",
+        "evidence_available_at": "entire supplied input received",
+        "input_complete_is_true_document_eof": true,
+        "student_observation_fields": [
+          "text",
+          "input_complete"
+        ],
+        "structure_storage": "supervision only; never append to student text",
+        "allow_stream_action_forcing": false,
+        "allow_continuous_latent_substitution": false,
+        "allow_training": false
+      }
+    }
+  },
+  "training_eligible": false
+}

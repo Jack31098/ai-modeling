@@ -1,0 +1,291 @@
+{
+  "doc_id": "expansion:040",
+  "model_id": "qwen38-27b-q8",
+  "source_sha256": "1b8640bf57d672dc2f09b73e35a72a8240cb915864984f12e36fe6a4f7c5da31",
+  "cohort": "authored_template_expansion",
+  "server_run_id": "server-20261105T082530Z",
+  "attempt_count": 1,
+  "selected_attempt": 1,
+  "valid": true,
+  "attempt_files": [
+    "../attempts/expansion__040-1.json"
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "word_count": 15,
+    "phrase_count": 2,
+    "passthrough_count": 0,
+    "word_to_phrase_node_ratio": 7.5,
+    "semantic_quality": "unreviewed; exact reconstruction does not certify lexical or semantic boundaries",
+    "candidate_structure": {
+      "coordinates": "Unicode code points and original UTF-8 bytes; half-open",
+      "words": [
+        {
+          "id": "w0",
+          "text": "甲",
+          "cp": [
+            0,
+            1
+          ],
+          "utf8": [
+            0,
+            3
+          ]
+        },
+        {
+          "id": "w1",
+          "text": "没有",
+          "cp": [
+            1,
+            3
+          ],
+          "utf8": [
+            3,
+            9
+          ]
+        },
+        {
+          "id": "w2",
+          "text": "把",
+          "cp": [
+            3,
+            4
+          ],
+          "utf8": [
+            9,
+            12
+          ]
+        },
+        {
+          "id": "w3",
+          "text": "编号",
+          "cp": [
+            4,
+            6
+          ],
+          "utf8": [
+            12,
+            18
+          ]
+        },
+        {
+          "id": "w4",
+          "text": "51",
+          "cp": [
+            6,
+            8
+          ],
+          "utf8": [
+            18,
+            20
+          ]
+        },
+        {
+          "id": "w5",
+          "text": "交给",
+          "cp": [
+            8,
+            10
+          ],
+          "utf8": [
+            20,
+            26
+          ]
+        },
+        {
+          "id": "w6",
+          "text": "乙",
+          "cp": [
+            10,
+            11
+          ],
+          "utf8": [
+            26,
+            29
+          ]
+        },
+        {
+          "id": "w7",
+          "text": "；",
+          "cp": [
+            11,
+            12
+          ],
+          "utf8": [
+            29,
+            32
+          ]
+        },
+        {
+          "id": "w8",
+          "text": "编号",
+          "cp": [
+            12,
+            14
+          ],
+          "utf8": [
+            32,
+            38
+          ]
+        },
+        {
+          "id": "w9",
+          "text": "123",
+          "cp": [
+            14,
+            17
+          ],
+          "utf8": [
+            38,
+            41
+          ]
+        },
+        {
+          "id": "w10",
+          "text": "仍",
+          "cp": [
+            17,
+            18
+          ],
+          "utf8": [
+            41,
+            44
+          ]
+        },
+        {
+          "id": "w11",
+          "text": "由",
+          "cp": [
+            18,
+            19
+          ],
+          "utf8": [
+            44,
+            47
+          ]
+        },
+        {
+          "id": "w12",
+          "text": "乙",
+          "cp": [
+            19,
+            20
+          ],
+          "utf8": [
+            47,
+            50
+          ]
+        },
+        {
+          "id": "w13",
+          "text": "保管",
+          "cp": [
+            20,
+            22
+          ],
+          "utf8": [
+            50,
+            56
+          ]
+        },
+        {
+          "id": "w14",
+          "text": "。",
+          "cp": [
+            22,
+            23
+          ],
+          "utf8": [
+            56,
+            59
+          ]
+        }
+      ],
+      "phrase_forest": [
+        {
+          "id": "p0",
+          "cp": [
+            0,
+            12
+          ],
+          "utf8": [
+            0,
+            32
+          ],
+          "children": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p1",
+          "cp": [
+            12,
+            23
+          ],
+          "utf8": [
+            32,
+            59
+          ],
+          "children": [
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13",
+            "w14"
+          ],
+          "passthrough": false
+        }
+      ],
+      "scale_projection": {
+        "0": [
+          "w0",
+          "w1",
+          "w2",
+          "w3",
+          "w4",
+          "w5",
+          "w6",
+          "w7",
+          "w8",
+          "w9",
+          "w10",
+          "w11",
+          "w12",
+          "w13",
+          "w14"
+        ],
+        "1": [
+          "p0",
+          "p1"
+        ]
+      },
+      "student_tokenizer_alignment": "not implemented",
+      "execution_events": "not compiled; complete v1.2 D1 consumer still required",
+      "supervision_permissions": {
+        "mode": "READ_FULL",
+        "evidence_available_at": "entire supplied input received",
+        "input_complete_is_true_document_eof": true,
+        "student_observation_fields": [
+          "text",
+          "input_complete"
+        ],
+        "structure_storage": "supervision only; never append to student text",
+        "allow_stream_action_forcing": false,
+        "allow_continuous_latent_substitution": false,
+        "allow_training": false
+      }
+    }
+  },
+  "training_eligible": false
+}

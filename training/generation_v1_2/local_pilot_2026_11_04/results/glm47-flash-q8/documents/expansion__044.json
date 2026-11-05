@@ -1,0 +1,25 @@
+{
+  "doc_id": "expansion:044",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "3f5ffdc5712981952f956c5ffbe6d172148256516c99ca3b46f65f5bb6471982",
+  "cohort": "authored_template_expansion",
+  "server_run_id": "server-20261105T085058Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/expansion__044-1.json",
+    "../attempts/expansion__044-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 20,
+    "expected_length_cp": 30,
+    "actual_length_cp": 29,
+    "actual_text": "温度为-55.5°C；重量是127.30kg，不是55克。"
+  },
+  "training_eligible": false
+}

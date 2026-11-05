@@ -1,0 +1,25 @@
+{
+  "doc_id": "expansion:002",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "392d512cc609ebbde49db097794846a2db1f21f4bd6934ee8650494e765fa9d1",
+  "cohort": "authored_template_expansion",
+  "server_run_id": "server-20261105T085058Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/expansion__002-1.json",
+    "../attempts/expansion__002-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 13,
+    "expected_length_cp": 22,
+    "actual_length_cp": 20,
+    "actual_text": "只有甲先确认13件货物完好乙才支付85元"
+  },
+  "training_eligible": false
+}

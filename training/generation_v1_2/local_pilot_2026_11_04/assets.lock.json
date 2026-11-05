@@ -1,0 +1,56 @@
+{
+  "task_date": "2026-11-04",
+  "backend": {
+    "id": "llama.cpp-b12125-vulkan-x64",
+    "repository": "ggml-org/llama.cpp",
+    "revision": "7d516e25ead4653169236b3f90d13f7bd8629724",
+    "tag": "b12125",
+    "url": "https://github.com/ggml-org/llama.cpp/releases/download/b12125/llama-b12125-bin-win-vulkan-x64.zip",
+    "size_bytes": 37683656,
+    "sha256": "29db801266e784d17fbc9dd7ff9b6a350d2b665bdc5658216f37d91c09918f07",
+    "local_path": "models/local-teacher-pilot/llama-b12125-bin-win-vulkan-x64.zip",
+    "extract_path": "models/local-teacher-pilot/llama-b12125-vulkan"
+  },
+  "models": [
+    {
+      "id": "qwen36-35b-a3b-q8",
+      "repository": "unsloth/Qwen3.6-35B-A3B-GGUF",
+      "upstream": "Qwen/Qwen3.6-35B-A3B",
+      "revision": "a483e9e6cbd595906af30beda3187c2663a1118c",
+      "filename": "Qwen3.6-35B-A3B-Q8_0.gguf",
+      "size_bytes": 36903140320,
+      "sha256": "d1a395809f65a43a13ad119eb4e7acdef1ac6d68120f39902c8ab96e72794a59",
+      "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/resolve/a483e9e6cbd595906af30beda3187c2663a1118c/Qwen3.6-35B-A3B-Q8_0.gguf",
+      "local_path": "models/Qwen3.6-35B-A3B/Qwen3.6-35B-A3B-Q8_0.gguf",
+      "quantization": "Q8_0",
+      "license": "Apache-2.0",
+      "asset_status_at_start": "existing-size-matched; rehash-before-use"
+    },
+    {
+      "id": "qwen38-27b-q8",
+      "repository": "unsloth/Qwen3.8-27B-GGUF",
+      "upstream": "Qwen/Qwen3.8-27B",
+      "revision": "4ca720788d1e01f1bff70c033e0d0028fd02e502",
+      "filename": "Qwen3.8-27B-Q8_0.gguf",
+      "size_bytes": 29047086048,
+      "sha256": "a680f44a06920e5d689774823782006aa3acc8db95750323373b24139b67e348",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/resolve/4ca720788d1e01f1bff70c033e0d0028fd02e502/Qwen3.8-27B-Q8_0.gguf",
+      "local_path": "models/local-teacher-pilot/Qwen3.8-27B-Q8_0.gguf",
+      "quantization": "Q8_0",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "glm47-flash-q8",
+      "repository": "unsloth/GLM-4.7-Flash-GGUF",
+      "upstream": "zai-org/GLM-4.7-Flash",
+      "revision": "0d32489ecb9db6d2a4fc93bd27ef01519f95474d",
+      "filename": "GLM-4.7-Flash-Q8_0.gguf",
+      "size_bytes": 31842799968,
+      "sha256": "8c0922b03326932a40315ce92bbee01cc836ad18664268019143c898bdd7dd0b",
+      "url": "https://huggingface.co/unsloth/GLM-4.7-Flash-GGUF/resolve/0d32489ecb9db6d2a4fc93bd27ef01519f95474d/GLM-4.7-Flash-Q8_0.gguf",
+      "local_path": "models/local-teacher-pilot/GLM-4.7-Flash-Q8_0.gguf",
+      "quantization": "Q8_0",
+      "license": "MIT"
+    }
+  ]
+}

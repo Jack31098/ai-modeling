@@ -1,0 +1,25 @@
+{
+  "doc_id": "candidate:mdn:en:unicode",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "c977d5a13d9973dcf14c428902c59590331f62dc34ee953bd1a63ea6a91f0479",
+  "cohort": "independent_pending_human_candidate",
+  "server_run_id": "server-20261105T081803Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/candidate__mdn__en__unicode-1.json",
+    "../attempts/candidate__mdn__en__unicode-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 6,
+    "expected_length_cp": 371,
+    "actual_length_cp": 304,
+    "actual_text": "BeforeUnicodeitwasdifficultanderror-pronetomixlanguagesinthesamedataForexampleonecharactersetwouldstoreJapanesecharactersandanotherwouldstoretheArabicalphabetIfitwasnotclearlymarkedwhichpartsofthedatawereinwhichcharactersetotherprogramsandcomputerswoulddisplaythetextincorrectlyordamageitduringprocessing"
+  },
+  "training_eligible": false
+}

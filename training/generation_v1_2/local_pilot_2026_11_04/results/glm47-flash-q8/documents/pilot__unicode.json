@@ -1,0 +1,25 @@
+{
+  "doc_id": "pilot:unicode",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "77fea15d1a8bfe97b91d1ed5373c43624501b6680c8812f0822e547f77f3b734",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T081803Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__unicode-1.json",
+    "../attempts/pilot__unicode-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 5,
+    "expected_length_cp": 28,
+    "actual_length_cp": 25,
+    "actual_text": "Café≠Café;中文😀与𠀀、👩‍🔬一起保留."
+  },
+  "training_eligible": false
+}

@@ -1,0 +1,461 @@
+{
+  "doc_id": "expansion:055",
+  "model_id": "qwen38-27b-q8",
+  "source_sha256": "3eca2a5c2fc8ff0498c9a9a5a9322e0ee0916cc0c3ab523be0031efa189a6cbd",
+  "cohort": "authored_template_expansion",
+  "server_run_id": "server-20261105T082530Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": true,
+  "attempt_files": [
+    "../attempts/expansion__055-1.json",
+    "../attempts/expansion__055-2.json"
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "word_count": 26,
+    "phrase_count": 3,
+    "passthrough_count": 0,
+    "word_to_phrase_node_ratio": 8.666666666666666,
+    "semantic_quality": "unreviewed; exact reconstruction does not certify lexical or semantic boundaries",
+    "candidate_structure": {
+      "coordinates": "Unicode code points and original UTF-8 bytes; half-open",
+      "words": [
+        {
+          "id": "w0",
+          "text": "After",
+          "cp": [
+            0,
+            5
+          ],
+          "utf8": [
+            0,
+            5
+          ]
+        },
+        {
+          "id": "w1",
+          "text": " ",
+          "cp": [
+            5,
+            6
+          ],
+          "utf8": [
+            5,
+            6
+          ]
+        },
+        {
+          "id": "w2",
+          "text": "Dana",
+          "cp": [
+            6,
+            10
+          ],
+          "utf8": [
+            6,
+            10
+          ]
+        },
+        {
+          "id": "w3",
+          "text": " ",
+          "cp": [
+            10,
+            11
+          ],
+          "utf8": [
+            10,
+            11
+          ]
+        },
+        {
+          "id": "w4",
+          "text": "returned",
+          "cp": [
+            11,
+            19
+          ],
+          "utf8": [
+            11,
+            19
+          ]
+        },
+        {
+          "id": "w5",
+          "text": " ",
+          "cp": [
+            19,
+            20
+          ],
+          "utf8": [
+            19,
+            20
+          ]
+        },
+        {
+          "id": "w6",
+          "text": "key",
+          "cp": [
+            20,
+            23
+          ],
+          "utf8": [
+            20,
+            23
+          ]
+        },
+        {
+          "id": "w7",
+          "text": " ",
+          "cp": [
+            23,
+            24
+          ],
+          "utf8": [
+            23,
+            24
+          ]
+        },
+        {
+          "id": "w8",
+          "text": "66",
+          "cp": [
+            24,
+            26
+          ],
+          "utf8": [
+            24,
+            26
+          ]
+        },
+        {
+          "id": "w9",
+          "text": ",",
+          "cp": [
+            26,
+            27
+          ],
+          "utf8": [
+            26,
+            27
+          ]
+        },
+        {
+          "id": "w10",
+          "text": " ",
+          "cp": [
+            27,
+            28
+          ],
+          "utf8": [
+            27,
+            28
+          ]
+        },
+        {
+          "id": "w11",
+          "text": "Eli",
+          "cp": [
+            28,
+            31
+          ],
+          "utf8": [
+            28,
+            31
+          ]
+        },
+        {
+          "id": "w12",
+          "text": " ",
+          "cp": [
+            31,
+            32
+          ],
+          "utf8": [
+            31,
+            32
+          ]
+        },
+        {
+          "id": "w13",
+          "text": "locked",
+          "cp": [
+            32,
+            38
+          ],
+          "utf8": [
+            32,
+            38
+          ]
+        },
+        {
+          "id": "w14",
+          "text": " ",
+          "cp": [
+            38,
+            39
+          ],
+          "utf8": [
+            38,
+            39
+          ]
+        },
+        {
+          "id": "w15",
+          "text": "door",
+          "cp": [
+            39,
+            43
+          ],
+          "utf8": [
+            39,
+            43
+          ]
+        },
+        {
+          "id": "w16",
+          "text": " ",
+          "cp": [
+            43,
+            44
+          ],
+          "utf8": [
+            43,
+            44
+          ]
+        },
+        {
+          "id": "w17",
+          "text": "138",
+          "cp": [
+            44,
+            47
+          ],
+          "utf8": [
+            44,
+            47
+          ]
+        },
+        {
+          "id": "w18",
+          "text": ";",
+          "cp": [
+            47,
+            48
+          ],
+          "utf8": [
+            47,
+            48
+          ]
+        },
+        {
+          "id": "w19",
+          "text": " ",
+          "cp": [
+            48,
+            49
+          ],
+          "utf8": [
+            48,
+            49
+          ]
+        },
+        {
+          "id": "w20",
+          "text": "the",
+          "cp": [
+            49,
+            52
+          ],
+          "utf8": [
+            49,
+            52
+          ]
+        },
+        {
+          "id": "w21",
+          "text": " ",
+          "cp": [
+            52,
+            53
+          ],
+          "utf8": [
+            52,
+            53
+          ]
+        },
+        {
+          "id": "w22",
+          "text": "order",
+          "cp": [
+            53,
+            58
+          ],
+          "utf8": [
+            53,
+            58
+          ]
+        },
+        {
+          "id": "w23",
+          "text": " ",
+          "cp": [
+            58,
+            59
+          ],
+          "utf8": [
+            58,
+            59
+          ]
+        },
+        {
+          "id": "w24",
+          "text": "matters",
+          "cp": [
+            59,
+            66
+          ],
+          "utf8": [
+            59,
+            66
+          ]
+        },
+        {
+          "id": "w25",
+          "text": ".",
+          "cp": [
+            66,
+            67
+          ],
+          "utf8": [
+            66,
+            67
+          ]
+        }
+      ],
+      "phrase_forest": [
+        {
+          "id": "p0",
+          "cp": [
+            0,
+            27
+          ],
+          "utf8": [
+            0,
+            27
+          ],
+          "children": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p1",
+          "cp": [
+            27,
+            49
+          ],
+          "utf8": [
+            27,
+            49
+          ],
+          "children": [
+            "w10",
+            "w11",
+            "w12",
+            "w13",
+            "w14",
+            "w15",
+            "w16",
+            "w17",
+            "w18",
+            "w19"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p2",
+          "cp": [
+            49,
+            67
+          ],
+          "utf8": [
+            49,
+            67
+          ],
+          "children": [
+            "w20",
+            "w21",
+            "w22",
+            "w23",
+            "w24",
+            "w25"
+          ],
+          "passthrough": false
+        }
+      ],
+      "scale_projection": {
+        "0": [
+          "w0",
+          "w1",
+          "w2",
+          "w3",
+          "w4",
+          "w5",
+          "w6",
+          "w7",
+          "w8",
+          "w9",
+          "w10",
+          "w11",
+          "w12",
+          "w13",
+          "w14",
+          "w15",
+          "w16",
+          "w17",
+          "w18",
+          "w19",
+          "w20",
+          "w21",
+          "w22",
+          "w23",
+          "w24",
+          "w25"
+        ],
+        "1": [
+          "p0",
+          "p1",
+          "p2"
+        ]
+      },
+      "student_tokenizer_alignment": "not implemented",
+      "execution_events": "not compiled; complete v1.2 D1 consumer still required",
+      "supervision_permissions": {
+        "mode": "READ_FULL",
+        "evidence_available_at": "entire supplied input received",
+        "input_complete_is_true_document_eof": true,
+        "student_observation_fields": [
+          "text",
+          "input_complete"
+        ],
+        "structure_storage": "supervision only; never append to student text",
+        "allow_stream_action_forcing": false,
+        "allow_continuous_latent_substitution": false,
+        "allow_training": false
+      }
+    }
+  },
+  "training_eligible": false
+}

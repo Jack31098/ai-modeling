@@ -1,0 +1,25 @@
+{
+  "doc_id": "expansion:054",
+  "model_id": "qwen38-27b-q8",
+  "source_sha256": "ceb38558d80a55205bc0f1b403fdcd465342ed33b562809c32add548e9f165ab",
+  "cohort": "authored_template_expansion",
+  "server_run_id": "server-20261105T082530Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/expansion__054-1.json",
+    "../attempts/expansion__054-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 17,
+    "expected_length_cp": 28,
+    "actual_length_cp": 27,
+    "actual_text": "Café\t记录65。\r\nCafé与𠀀保留编号137。"
+  },
+  "training_eligible": false
+}

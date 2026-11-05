@@ -1,0 +1,25 @@
+{
+  "doc_id": "pilot:whitespace",
+  "model_id": "qwen36-35b-a3b-q8",
+  "source_sha256": "76c1440800fbb777cfa86a7206b2cdb2dc88909eec3c997515e032d0281c7ea9",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080333Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__whitespace-1.json",
+    "../attempts/pilot__whitespace-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 14,
+    "expected_length_cp": 28,
+    "actual_length_cp": 28,
+    "actual_text": "  保留\t空白。\r\nKeep all spaces。  "
+  },
+  "training_eligible": false
+}

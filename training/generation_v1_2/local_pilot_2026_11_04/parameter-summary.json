@@ -1,0 +1,139 @@
+{
+  "count_policy": "Official rounded language-model claims, full published HF safetensors bundle totals, and exact local GGUF stored tensor-element counts are distinct scopes. Counts come from official cards/configs and tensor shapes, never quantized file size. Optional MTP is not enabled by this run's speculative.types=none.",
+  "models": [
+    {
+      "full_name": "Qwen3.6-35B-A3B",
+      "architecture": "40-layer hybrid Gated DeltaNet / gated attention with MoE FFNs; 256 routed experts, top-8 plus one shared",
+      "official_nominal_language_parameters": 35000000000,
+      "official_nominal_activated_per_token": 3000000000,
+      "activation_scope": "official rounded language-model MoE claim, not an exact tensor-touch count",
+      "model_id": "qwen36-35b-a3b-q8",
+      "official": {
+        "repository": "Qwen/Qwen3.6-35B-A3B",
+        "revision_observed": "995ad96eacd98c81ed38be0c5b274b04031597b0",
+        "model_card_url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B/blob/995ad96eacd98c81ed38be0c5b274b04031597b0/README.md",
+        "metadata_url": "https://huggingface.co/api/models/Qwen/Qwen3.6-35B-A3B",
+        "safetensors_metadata": {
+          "parameters": {
+            "BF16": 35951822704
+          },
+          "total": 35951822704
+        },
+        "config_url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B/resolve/995ad96eacd98c81ed38be0c5b274b04031597b0/config.json",
+        "config_file": "qwen36-35b-a3b-q8-official-config.json",
+        "config_sha256": "93a4693fa9d8392fbfccd4b3c9873f4bfdcb14fdede978b123d07d19675efe99",
+        "snapshot_note": "official metadata observed separately; conversion's exact upstream commit is not attested by this lookup"
+      },
+      "conversion": {
+        "id": "qwen36-35b-a3b-q8",
+        "repository": "unsloth/Qwen3.6-35B-A3B-GGUF",
+        "upstream": "Qwen/Qwen3.6-35B-A3B",
+        "revision": "a483e9e6cbd595906af30beda3187c2663a1118c",
+        "filename": "Qwen3.6-35B-A3B-Q8_0.gguf",
+        "size_bytes": 36903140320,
+        "sha256": "d1a395809f65a43a13ad119eb4e7acdef1ac6d68120f39902c8ab96e72794a59",
+        "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/resolve/a483e9e6cbd595906af30beda3187c2663a1118c/Qwen3.6-35B-A3B-Q8_0.gguf",
+        "local_path": "models/Qwen3.6-35B-A3B/Qwen3.6-35B-A3B-Q8_0.gguf",
+        "quantization": "Q8_0",
+        "license": "Apache-2.0",
+        "asset_status_at_start": "existing-size-matched; rehash-before-use"
+      },
+      "gguf_stored_tensor_elements": 34660610688,
+      "gguf_optional_mtp_candidate_elements": 0,
+      "gguf_excluding_mtp_candidate_elements": 34660610688,
+      "hf_architectures": [
+        "Qwen3_5MoeForConditionalGeneration"
+      ],
+      "gguf_architecture": "qwen35moe"
+    },
+    {
+      "full_name": "Qwen3.8-27B",
+      "architecture": "64-layer dense-FFN hybrid Gated DeltaNet / gated attention; no routed MoE",
+      "official_nominal_language_parameters": 27000000000,
+      "official_nominal_activated_per_token": null,
+      "activation_scope": "not applicable as a sparse-MoE statistic; dense backbone participates at every token; do not equate whole stored bundle including unused MTP with per-token activation",
+      "model_id": "qwen38-27b-q8",
+      "official": {
+        "repository": "Qwen/Qwen3.8-27B",
+        "revision_observed": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+        "model_card_url": "https://huggingface.co/Qwen/Qwen3.8-27B/blob/1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0/README.md",
+        "metadata_url": "https://huggingface.co/api/models/Qwen/Qwen3.8-27B",
+        "safetensors_metadata": {
+          "parameters": {
+            "BF16": 27781427952
+          },
+          "total": 27781427952
+        },
+        "config_url": "https://huggingface.co/Qwen/Qwen3.8-27B/resolve/1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0/config.json",
+        "config_file": "qwen38-27b-q8-official-config.json",
+        "config_sha256": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+        "snapshot_note": "official metadata observed separately; conversion's exact upstream commit is not attested by this lookup"
+      },
+      "conversion": {
+        "id": "qwen38-27b-q8",
+        "repository": "unsloth/Qwen3.8-27B-GGUF",
+        "upstream": "Qwen/Qwen3.8-27B",
+        "revision": "4ca720788d1e01f1bff70c033e0d0028fd02e502",
+        "filename": "Qwen3.8-27B-Q8_0.gguf",
+        "size_bytes": 29047086048,
+        "sha256": "a680f44a06920e5d689774823782006aa3acc8db95750323373b24139b67e348",
+        "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/resolve/4ca720788d1e01f1bff70c033e0d0028fd02e502/Qwen3.8-27B-Q8_0.gguf",
+        "local_path": "models/local-teacher-pilot/Qwen3.8-27B-Q8_0.gguf",
+        "quantization": "Q8_0",
+        "license": "Apache-2.0"
+      },
+      "gguf_stored_tensor_elements": 27320697856,
+      "gguf_optional_mtp_candidate_elements": 424699392,
+      "gguf_excluding_mtp_candidate_elements": 26895998464,
+      "hf_architectures": [
+        "Qwen3_5ForConditionalGeneration"
+      ],
+      "gguf_architecture": "qwen35"
+    },
+    {
+      "full_name": "GLM-4.7-Flash",
+      "architecture": "Glm4MoeLite decoder; 47 main layers, first layer dense, 64 routed experts with top-4 plus one shared in MoE layers",
+      "official_nominal_language_parameters": 30000000000,
+      "official_nominal_activated_per_token": 3000000000,
+      "activation_scope": "official rounded 30B-A3B claim, not inferred from Q8 file bytes",
+      "model_id": "glm47-flash-q8",
+      "official": {
+        "repository": "zai-org/GLM-4.7-Flash",
+        "revision_observed": "7dd20894a642a0aa287e9827cb1a1f7f91386b67",
+        "model_card_url": "https://huggingface.co/zai-org/GLM-4.7-Flash/blob/7dd20894a642a0aa287e9827cb1a1f7f91386b67/README.md",
+        "metadata_url": "https://huggingface.co/api/models/zai-org/GLM-4.7-Flash",
+        "safetensors_metadata": {
+          "parameters": {
+            "BF16": 31221485568,
+            "F32": 3008
+          },
+          "total": 31221488576
+        },
+        "config_url": "https://huggingface.co/zai-org/GLM-4.7-Flash/resolve/7dd20894a642a0aa287e9827cb1a1f7f91386b67/config.json",
+        "config_file": "glm47-flash-q8-official-config.json",
+        "config_sha256": "dc9b97c7c9bed726a2e6939da4234d5c43abb3edec8812068c9a1af1dbc13acb",
+        "snapshot_note": "official metadata observed separately; conversion's exact upstream commit is not attested by this lookup"
+      },
+      "conversion": {
+        "id": "glm47-flash-q8",
+        "repository": "unsloth/GLM-4.7-Flash-GGUF",
+        "upstream": "zai-org/GLM-4.7-Flash",
+        "revision": "0d32489ecb9db6d2a4fc93bd27ef01519f95474d",
+        "filename": "GLM-4.7-Flash-Q8_0.gguf",
+        "size_bytes": 31842799968,
+        "sha256": "8c0922b03326932a40315ce92bbee01cc836ad18664268019143c898bdd7dd0b",
+        "url": "https://huggingface.co/unsloth/GLM-4.7-Flash-GGUF/resolve/0d32489ecb9db6d2a4fc93bd27ef01519f95474d/GLM-4.7-Flash-Q8_0.gguf",
+        "local_path": "models/local-teacher-pilot/GLM-4.7-Flash-Q8_0.gguf",
+        "quantization": "Q8_0",
+        "license": "MIT"
+      },
+      "gguf_stored_tensor_elements": 29943393920,
+      "gguf_optional_mtp_candidate_elements": 0,
+      "gguf_excluding_mtp_candidate_elements": 29943393920,
+      "hf_architectures": [
+        "Glm4MoeLiteForCausalLM"
+      ],
+      "gguf_architecture": "deepseek2"
+    }
+  ]
+}

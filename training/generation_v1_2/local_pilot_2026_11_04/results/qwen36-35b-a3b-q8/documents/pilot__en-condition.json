@@ -1,0 +1,25 @@
+{
+  "doc_id": "pilot:en-condition",
+  "model_id": "qwen36-35b-a3b-q8",
+  "source_sha256": "306d0958ff7acffc2378caf61dd3817b5703f8085c52f63f174f2c82edda632b",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080333Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__en-condition-1.json",
+    "../attempts/pilot__en-condition-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 62,
+    "expected_length_cp": 63,
+    "actual_length_cp": 62,
+    "actual_text": "If Alice has not paid, Bob must not ship unless Carol confirms"
+  },
+  "training_eligible": false
+}

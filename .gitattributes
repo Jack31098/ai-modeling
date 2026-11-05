@@ -6,4 +6,8 @@ training/word_boundary_v0/sample_release/licenses/*.txt -whitespace
 training/word_boundary_v0_2/** -text
 training/word_boundary_v0_2/sample_release/notices/v0/licenses/*.txt -whitespace
 experiments/hnet_rocm/** -text
+training/generation_v1_2/local_pilot_2026_11_04/** -text
+training/generation_v1_2/local_pilot_2026_11_04/licenses/** -whitespace
+training/generation_v1_2/local_pilot_2026_11_04/results/**/*.log -whitespace
+training/generation_v1_2/local_pilot_2026_11_04/host-process-check.json whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 experiments/hnet_rocm/results/environment-2026-11-03.json whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

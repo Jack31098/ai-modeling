@@ -1,0 +1,25 @@
+{
+  "doc_id": "pilot:en-numbers",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "472d25ff1ef97f4e2461383adb6f86c09892e34c2fcbcc26569e72d598e45589",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T081803Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__en-numbers-1.json",
+    "../attempts/pilot__en-numbers-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 4,
+    "expected_length_cp": 65,
+    "actual_length_cp": 53,
+    "actual_text": "Keep-17.30+1,234.50and6.02e23unchanged73/37isnot37/73"
+  },
+  "training_eligible": false
+}

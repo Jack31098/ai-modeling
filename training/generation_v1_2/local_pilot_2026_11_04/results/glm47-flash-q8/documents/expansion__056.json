@@ -1,0 +1,25 @@
+{
+  "doc_id": "expansion:056",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "43ea08e011ccb75f1f6a3e5840fc028acd16a9357f9586d676c4d2972dba95bf",
+  "cohort": "authored_template_expansion",
+  "server_run_id": "server-20261105T085058Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/expansion__056-1.json",
+    "../attempts/expansion__056-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 11,
+    "expected_length_cp": 23,
+    "actual_length_cp": 21,
+    "actual_text": "甲没有把编号67交给乙编号139仍由乙保管"
+  },
+  "training_eligible": false
+}

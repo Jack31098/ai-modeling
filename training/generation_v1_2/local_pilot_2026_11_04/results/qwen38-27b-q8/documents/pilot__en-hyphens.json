@@ -1,0 +1,25 @@
+{
+  "doc_id": "pilot:en-hyphens",
+  "model_id": "qwen38-27b-q8",
+  "source_sha256": "a0fb4e6bfe2f2432d20b0fb07eb1f98d7ae47e1a325f6b275b1e37037a8c80c1",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080727Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__en-hyphens-1.json",
+    "../attempts/pilot__en-hyphens-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 3,
+    "expected_length_cp": 69,
+    "actual_length_cp": 60,
+    "actual_text": "Thestate-of-the-arttoolisn'tare‑write—it'snew;dogs'tagsstay."
+  },
+  "training_eligible": false
+}

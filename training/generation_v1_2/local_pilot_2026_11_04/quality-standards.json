@@ -1,0 +1,40 @@
+{
+  "status": "Documentation of the frozen prompt and applied qualitative rubric; taxonomy written after the primary run, not a new pre-registered metric or modified generation protocol",
+  "label_rule": {
+    "task": "READ_FULL shallow ordered word/phrase candidates",
+    "word": "Defensible lexical units, with numbers/IDs/URLs/abbreviations/internal apostrophes/hyphens intact; separate punctuation and whitespace; combining marks stay with their base",
+    "phrase": "Consecutive local constituents such as NP, predicate+negation/modality, quantity+unit, PP or short conditional constituent; multiple acceptable analyses, including unresolved attachments",
+    "budgets": "1..32 phrases, 1..12 explicit child strings per phrase, <=64 Unicode code points per phrase; singleton passthrough allowed and not claimed compression",
+    "raw": "Concatenate all strings without added separators to reconstruct the original text byte-faithfully through UTF-8; no normalization, omission, translation or correction",
+    "visibility": "Whole supplied input is legitimately known; source excerpt completion is not true document EOF; no early stream action forcing"
+  },
+  "hard_checks": [
+    "JSON shape/keys and nested string/array counts",
+    "phrase and child code-point budgets",
+    "exact code-point sequence and original UTF-8 reconstruction",
+    "sequential coverage, ordered two-level references and derived cp/byte spans",
+    "declared protected-string internal boundaries",
+    "words containing mixed whitespace and non-whitespace",
+    "child starting with combining mark or ZWJ",
+    "output token-cap truncation from server finish_reason"
+  ],
+  "hard_check_limits": "No full linguistic dictionary, universal grapheme segmenter, comprehensive punctuation recognizer or semantic proof. Chinese multiword children with no spaces and all-singleton phrases can pass. Exact retained words do not certify the future latent, decoder or model's understanding.",
+  "qualitative_standards": [
+    "Read the actual source and selected raw output, including rejected cases",
+    "Judge lexical granularity consistently but allow defensible Chinese compounds and ambiguous word boundaries",
+    "Look for useful local groups rather than paragraph/clause dumping, mechanical budget cuts or all-singleton degeneration",
+    "Track who did what to whom; negation, conditions and time scope; signs, decimal precision, units and identifiers",
+    "Cross-phrase relations are permitted; do not require every related fact in one huge node",
+    "Allow alternative analyses for telescope attachment and lexical compounds; do not score against an invented unique gold",
+    "Separate actual omitted/changed text, boundary risks and preferences; do not infer a numerical/role error merely from a cross-node relation"
+  ],
+  "taxonomy": [
+    {"id":"source_rewrite_omission","name_zh":"原文改写／遗漏（非纯排版）","examples":["Qwen3.6 pilot:quoted-instruction loses the final clause","GLM pilot:zh-contrast omits the first 都","GLM expansion:005 reorders 不是说 to 说不是"],"interpretation":"Actual source coverage/order failures; a function-word omission is not automatically a proved logical reversal, but cannot be silently repaired"},
+    {"id":"whitespace_punctuation","name_zh":"空白／标点","examples":["Qwen3.6 pilot:zh-quantity changes Chinese comma to ASCII","Qwen3.8 pilot:whitespace changes NBSP","GLM pilot:en-lexical omits all spaces and many other cases omit punctuation"],"interpretation":"Hard raw failure, distinct from linguistic grouping quality; preserved punctuation internal to abbreviations does not excuse missing separators"},
+    {"id":"unicode_integrity","name_zh":"Unicode 完整性","examples":["Qwen3.6 pilot:unicode breaks scientist emoji and inserts newlines","Qwen3.6 expansion:006 normalizes decomposed Cafe accent","Qwen3.8 expansion:006 detaches the accent from Cafe"],"interpretation":"Distinguish changed raw characters from original text retained with an invalid combining boundary; GLM preserving emoji does not excuse unrelated whitespace loss"},
+    {"id":"lexical_boundaries","name_zh":"词边界／词单元","examples":["Qwen3.6 pilot:zh-condition treats 丙先确认。 as one word","Qwen3.8 pilot:en-attachment glues telescope. together","GLM pilot:en-numbers splits + from 1,234.50; zh:utf-8 uses 已经是 as a word"],"interpretation":"Some are hard protected-span failures; others require qualitative review. 生命科学 or 保留位 as compounds are not rejected merely for differing from a finer analysis"},
+    {"id":"phrase_degeneration","name_zh":"短语退化／预算切块","examples":["Qwen3.6 MDN en:unicode puts the paragraph in one phrase","Qwen3.8 expansion:002 outputs all singleton phrases","Qwen3.8 MDN zh:unicode separates 很困难 from 的，","Both Qwens expansion:003 cut after until"],"interpretation":"Hard legality is insufficient; singleton passthrough is legal but supplies no local grouping benefit, and node ratios including spaces are not semantic compression"},
+    {"id":"semantic_roles_negation_quantity","name_zh":"语义角色／否定／数量","examples":["All three selected pilot:zh-role outputs retain roles, 没有 and 17.3, though GLM loses punctuation","Qwen3.8 selected pilot:zh-condition retains the three condition/consequence/exception clauses","GLM zh-contrast 都 omission and signed-number splitting are scope/quantity-boundary risks","GLM expansion:005 changes the relative position of 不是 and 说, a confirmed source-order rewrite involving negation"],"interpretation":"No confirmed role swap or changed numeric value in the reviewed primary role/quantity examples; not an all-100 semantic guarantee. The supplementary negation rewrite is a distinct scope risk, not dismissed as formatting. Do not count retained text as proof of latent semantic preservation"}
+  ],
+  "count_policy": "Categories overlap and examples are diagnostic, not mutually exclusive error-rate estimates. Hard-check counts, unblinded Codex judgments and independent human gold are distinct; no human gold exists in this run."
+}

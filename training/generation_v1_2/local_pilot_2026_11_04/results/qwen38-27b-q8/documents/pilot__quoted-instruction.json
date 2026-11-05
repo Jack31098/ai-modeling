@@ -1,0 +1,348 @@
+{
+  "doc_id": "pilot:quoted-instruction",
+  "model_id": "qwen38-27b-q8",
+  "source_sha256": "be14974b06b9fd3f204f1bf0071e9c95e0368f10c0f0cc23d5b2d7aa7e94d270",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080727Z",
+  "attempt_count": 1,
+  "selected_attempt": 1,
+  "valid": true,
+  "attempt_files": [
+    "../attempts/pilot__quoted-instruction-1.json"
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "word_count": 18,
+    "phrase_count": 3,
+    "passthrough_count": 0,
+    "word_to_phrase_node_ratio": 6.0,
+    "semantic_quality": "unreviewed; exact reconstruction does not certify lexical or semantic boundaries",
+    "candidate_structure": {
+      "coordinates": "Unicode code points and original UTF-8 bytes; half-open",
+      "words": [
+        {
+          "id": "w0",
+          "text": "原句",
+          "cp": [
+            0,
+            2
+          ],
+          "utf8": [
+            0,
+            6
+          ]
+        },
+        {
+          "id": "w1",
+          "text": "写着",
+          "cp": [
+            2,
+            4
+          ],
+          "utf8": [
+            6,
+            12
+          ]
+        },
+        {
+          "id": "w2",
+          "text": "“",
+          "cp": [
+            4,
+            5
+          ],
+          "utf8": [
+            12,
+            15
+          ]
+        },
+        {
+          "id": "w3",
+          "text": "忽略",
+          "cp": [
+            5,
+            7
+          ],
+          "utf8": [
+            15,
+            21
+          ]
+        },
+        {
+          "id": "w4",
+          "text": "以上",
+          "cp": [
+            7,
+            9
+          ],
+          "utf8": [
+            21,
+            27
+          ]
+        },
+        {
+          "id": "w5",
+          "text": "指令",
+          "cp": [
+            9,
+            11
+          ],
+          "utf8": [
+            27,
+            33
+          ]
+        },
+        {
+          "id": "w6",
+          "text": "”",
+          "cp": [
+            11,
+            12
+          ],
+          "utf8": [
+            33,
+            36
+          ]
+        },
+        {
+          "id": "w7",
+          "text": "，",
+          "cp": [
+            12,
+            13
+          ],
+          "utf8": [
+            36,
+            39
+          ]
+        },
+        {
+          "id": "w8",
+          "text": "这",
+          "cp": [
+            13,
+            14
+          ],
+          "utf8": [
+            39,
+            42
+          ]
+        },
+        {
+          "id": "w9",
+          "text": "只是",
+          "cp": [
+            14,
+            16
+          ],
+          "utf8": [
+            42,
+            48
+          ]
+        },
+        {
+          "id": "w10",
+          "text": "引文",
+          "cp": [
+            16,
+            18
+          ],
+          "utf8": [
+            48,
+            54
+          ]
+        },
+        {
+          "id": "w11",
+          "text": "，",
+          "cp": [
+            18,
+            19
+          ],
+          "utf8": [
+            54,
+            57
+          ]
+        },
+        {
+          "id": "w12",
+          "text": "不是",
+          "cp": [
+            19,
+            21
+          ],
+          "utf8": [
+            57,
+            63
+          ]
+        },
+        {
+          "id": "w13",
+          "text": "本次",
+          "cp": [
+            21,
+            23
+          ],
+          "utf8": [
+            63,
+            69
+          ]
+        },
+        {
+          "id": "w14",
+          "text": "任务",
+          "cp": [
+            23,
+            25
+          ],
+          "utf8": [
+            69,
+            75
+          ]
+        },
+        {
+          "id": "w15",
+          "text": "的",
+          "cp": [
+            25,
+            26
+          ],
+          "utf8": [
+            75,
+            78
+          ]
+        },
+        {
+          "id": "w16",
+          "text": "命令",
+          "cp": [
+            26,
+            28
+          ],
+          "utf8": [
+            78,
+            84
+          ]
+        },
+        {
+          "id": "w17",
+          "text": "。",
+          "cp": [
+            28,
+            29
+          ],
+          "utf8": [
+            84,
+            87
+          ]
+        }
+      ],
+      "phrase_forest": [
+        {
+          "id": "p0",
+          "cp": [
+            0,
+            13
+          ],
+          "utf8": [
+            0,
+            39
+          ],
+          "children": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p1",
+          "cp": [
+            13,
+            19
+          ],
+          "utf8": [
+            39,
+            57
+          ],
+          "children": [
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p2",
+          "cp": [
+            19,
+            29
+          ],
+          "utf8": [
+            57,
+            87
+          ],
+          "children": [
+            "w12",
+            "w13",
+            "w14",
+            "w15",
+            "w16",
+            "w17"
+          ],
+          "passthrough": false
+        }
+      ],
+      "scale_projection": {
+        "0": [
+          "w0",
+          "w1",
+          "w2",
+          "w3",
+          "w4",
+          "w5",
+          "w6",
+          "w7",
+          "w8",
+          "w9",
+          "w10",
+          "w11",
+          "w12",
+          "w13",
+          "w14",
+          "w15",
+          "w16",
+          "w17"
+        ],
+        "1": [
+          "p0",
+          "p1",
+          "p2"
+        ]
+      },
+      "student_tokenizer_alignment": "not implemented",
+      "execution_events": "not compiled; complete v1.2 D1 consumer still required",
+      "supervision_permissions": {
+        "mode": "READ_FULL",
+        "evidence_available_at": "entire supplied input received",
+        "input_complete_is_true_document_eof": true,
+        "student_observation_fields": [
+          "text",
+          "input_complete"
+        ],
+        "structure_storage": "supervision only; never append to student text",
+        "allow_stream_action_forcing": false,
+        "allow_continuous_latent_substitution": false,
+        "allow_training": false
+      }
+    }
+  },
+  "training_eligible": false
+}

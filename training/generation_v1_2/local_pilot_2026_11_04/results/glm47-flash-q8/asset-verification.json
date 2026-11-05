@@ -1,0 +1,8 @@
+{
+  "id": "glm47-flash-q8",
+  "path": "models/local-teacher-pilot/GLM-4.7-Flash-Q8_0.gguf",
+  "size_bytes": 31842799968,
+  "sha256": "8c0922b03326932a40315ce92bbee01cc836ad18664268019143c898bdd7dd0b",
+  "reused": false,
+  "verified_at_utc": "2026-11-05T08:07:21.205158+00:00"
+}

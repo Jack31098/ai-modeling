@@ -1,0 +1,25 @@
+{
+  "doc_id": "pilot:zh-identifiers",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "f008f22df6ed7742f63588b72b93e38a9902aafbc9a618bc935d6cb8ceef5eae",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T081803Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__zh-identifiers-1.json",
+    "../attempts/pilot__zh-identifiers-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 13,
+    "expected_length_cp": 27,
+    "actual_length_cp": 25,
+    "actual_text": "阿澜把编号3719交给霁鸢编号6824仍由阿澜保管"
+  },
+  "training_eligible": false
+}

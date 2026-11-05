@@ -1,0 +1,25 @@
+{
+  "doc_id": "pilot:en-quotes",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "9ed78899c581f46e2b4a83d11f3faee10ecd33dabe9cefc257766c2904bdab33",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T081803Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__en-quotes-1.json",
+    "../attempts/pilot__en-quotes-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 7,
+    "expected_length_cp": 42,
+    "actual_length_cp": 35,
+    "actual_text": "“Wait!”shesaid'Why?'Hereplied:\"No.\""
+  },
+  "training_eligible": false
+}

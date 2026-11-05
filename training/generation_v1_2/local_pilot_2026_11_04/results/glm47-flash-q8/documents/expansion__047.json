@@ -1,0 +1,25 @@
+{
+  "doc_id": "expansion:047",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "064482599c15ad53876538876e0419280e010694514d7fb0bb949456a6c6d63e",
+  "cohort": "authored_template_expansion",
+  "server_run_id": "server-20261105T085058Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/expansion__047-1.json",
+    "../attempts/expansion__047-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 5,
+    "expected_length_cp": 67,
+    "actual_length_cp": 53,
+    "actual_text": "AfterDanareturnedkey58Elilockeddoor130theordermatters"
+  },
+  "training_eligible": false
+}

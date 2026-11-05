@@ -1,0 +1,25 @@
+{
+  "doc_id": "expansion:001",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "3babe038714dd67894fcb86a0c1bda3cd58b40249db132dcd0ca954640ad6c23",
+  "cohort": "authored_template_expansion",
+  "server_run_id": "server-20261105T085058Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/expansion__001-1.json",
+    "../attempts/expansion__001-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 5,
+    "expected_length_cp": 64,
+    "actual_length_cp": 51,
+    "actual_text": "Alicehasnotpaid12dollarsBobreceived84eurosfromCarol"
+  },
+  "training_eligible": false
+}

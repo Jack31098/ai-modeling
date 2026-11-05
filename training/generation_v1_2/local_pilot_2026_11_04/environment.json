@@ -1,0 +1,17 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu_from_backend_log": "AMD RYZEN AI MAX+ 395 w/ Radeon 8060S",
+  "hardware_scope": "local Windows test machine; no MI300 measurement",
+  "backend_version_probe": "\nSTDERR\nversion: 0.9.0-dev (build 12125, commit 7d516e25e)\nbuilt with Clang 20.1.8 for Windows x86_64\n",
+  "backend_device_probe": "Available devices:\n  Vulkan0: AMD Radeon(TM) 8060S Graphics (105388 MiB, 100119 MiB free)\n\nSTDERR\n",
+  "backend_asset_verification": {
+    "id": "llama.cpp-b12125-vulkan-x64",
+    "path": "models/local-teacher-pilot/llama-b12125-bin-win-vulkan-x64.zip",
+    "size_bytes": 37683656,
+    "sha256": "29db801266e784d17fbc9dd7ff9b6a350d2b665bdc5658216f37d91c09918f07",
+    "reused": false,
+    "verified_at_utc": "2026-11-05T07:49:54.958284+00:00",
+    "extract_path": "D:\\ai-modeling\\models\\local-teacher-pilot\\llama-b12125-vulkan"
+  }
+}

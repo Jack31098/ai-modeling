@@ -1,0 +1,322 @@
+{
+  "doc_id": "pilot:en-attachment",
+  "model_id": "qwen38-27b-q8",
+  "source_sha256": "3ad76ade5178f0a18977669ec68a124b87d7deb0f4f5874944af726bbd07d0c0",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080727Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": true,
+  "attempt_files": [
+    "../attempts/pilot__en-attachment-1.json",
+    "../attempts/pilot__en-attachment-2.json"
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "word_count": 15,
+    "phrase_count": 4,
+    "passthrough_count": 0,
+    "word_to_phrase_node_ratio": 3.75,
+    "semantic_quality": "unreviewed; exact reconstruction does not certify lexical or semantic boundaries",
+    "candidate_structure": {
+      "coordinates": "Unicode code points and original UTF-8 bytes; half-open",
+      "words": [
+        {
+          "id": "w0",
+          "text": "The",
+          "cp": [
+            0,
+            3
+          ],
+          "utf8": [
+            0,
+            3
+          ]
+        },
+        {
+          "id": "w1",
+          "text": " ",
+          "cp": [
+            3,
+            4
+          ],
+          "utf8": [
+            3,
+            4
+          ]
+        },
+        {
+          "id": "w2",
+          "text": "researcher",
+          "cp": [
+            4,
+            14
+          ],
+          "utf8": [
+            4,
+            14
+          ]
+        },
+        {
+          "id": "w3",
+          "text": " ",
+          "cp": [
+            14,
+            15
+          ],
+          "utf8": [
+            14,
+            15
+          ]
+        },
+        {
+          "id": "w4",
+          "text": "observed",
+          "cp": [
+            15,
+            23
+          ],
+          "utf8": [
+            15,
+            23
+          ]
+        },
+        {
+          "id": "w5",
+          "text": " ",
+          "cp": [
+            23,
+            24
+          ],
+          "utf8": [
+            23,
+            24
+          ]
+        },
+        {
+          "id": "w6",
+          "text": "the",
+          "cp": [
+            24,
+            27
+          ],
+          "utf8": [
+            24,
+            27
+          ]
+        },
+        {
+          "id": "w7",
+          "text": " ",
+          "cp": [
+            27,
+            28
+          ],
+          "utf8": [
+            27,
+            28
+          ]
+        },
+        {
+          "id": "w8",
+          "text": "student",
+          "cp": [
+            28,
+            35
+          ],
+          "utf8": [
+            28,
+            35
+          ]
+        },
+        {
+          "id": "w9",
+          "text": " ",
+          "cp": [
+            35,
+            36
+          ],
+          "utf8": [
+            35,
+            36
+          ]
+        },
+        {
+          "id": "w10",
+          "text": "with",
+          "cp": [
+            36,
+            40
+          ],
+          "utf8": [
+            36,
+            40
+          ]
+        },
+        {
+          "id": "w11",
+          "text": " ",
+          "cp": [
+            40,
+            41
+          ],
+          "utf8": [
+            40,
+            41
+          ]
+        },
+        {
+          "id": "w12",
+          "text": "a",
+          "cp": [
+            41,
+            42
+          ],
+          "utf8": [
+            41,
+            42
+          ]
+        },
+        {
+          "id": "w13",
+          "text": " ",
+          "cp": [
+            42,
+            43
+          ],
+          "utf8": [
+            42,
+            43
+          ]
+        },
+        {
+          "id": "w14",
+          "text": "telescope.",
+          "cp": [
+            43,
+            53
+          ],
+          "utf8": [
+            43,
+            53
+          ]
+        }
+      ],
+      "phrase_forest": [
+        {
+          "id": "p0",
+          "cp": [
+            0,
+            15
+          ],
+          "utf8": [
+            0,
+            15
+          ],
+          "children": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p1",
+          "cp": [
+            15,
+            24
+          ],
+          "utf8": [
+            15,
+            24
+          ],
+          "children": [
+            "w4",
+            "w5"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p2",
+          "cp": [
+            24,
+            36
+          ],
+          "utf8": [
+            24,
+            36
+          ],
+          "children": [
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p3",
+          "cp": [
+            36,
+            53
+          ],
+          "utf8": [
+            36,
+            53
+          ],
+          "children": [
+            "w10",
+            "w11",
+            "w12",
+            "w13",
+            "w14"
+          ],
+          "passthrough": false
+        }
+      ],
+      "scale_projection": {
+        "0": [
+          "w0",
+          "w1",
+          "w2",
+          "w3",
+          "w4",
+          "w5",
+          "w6",
+          "w7",
+          "w8",
+          "w9",
+          "w10",
+          "w11",
+          "w12",
+          "w13",
+          "w14"
+        ],
+        "1": [
+          "p0",
+          "p1",
+          "p2",
+          "p3"
+        ]
+      },
+      "student_tokenizer_alignment": "not implemented",
+      "execution_events": "not compiled; complete v1.2 D1 consumer still required",
+      "supervision_permissions": {
+        "mode": "READ_FULL",
+        "evidence_available_at": "entire supplied input received",
+        "input_complete_is_true_document_eof": true,
+        "student_observation_fields": [
+          "text",
+          "input_complete"
+        ],
+        "structure_storage": "supervision only; never append to student text",
+        "allow_stream_action_forcing": false,
+        "allow_continuous_latent_substitution": false,
+        "allow_training": false
+      }
+    }
+  },
+  "training_eligible": false
+}

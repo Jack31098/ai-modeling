@@ -1,0 +1,26 @@
+{
+  "doc_id": "pilot:unicode",
+  "model_id": "qwen38-27b-q8",
+  "source_sha256": "77fea15d1a8bfe97b91d1ed5373c43624501b6680c8812f0822e547f77f3b734",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080727Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__unicode-1.json",
+    "../attempts/pilot__unicode-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "mixed_whitespace_word:w1"
+    ],
+    "word_count": 14,
+    "phrase_count": 14,
+    "passthrough_count": 14,
+    "word_to_phrase_node_ratio": 1.0,
+    "semantic_quality": "unreviewed; exact reconstruction does not certify lexical or semantic boundaries"
+  },
+  "training_eligible": false
+}

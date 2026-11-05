@@ -1,0 +1,25 @@
+{
+  "doc_id": "candidate:mdn:zh:unicode",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "510e27c9b50d4a02b9fb8f94acba7a8630112bab38f44e002c66fe911c228ae3",
+  "cohort": "independent_pending_human_candidate",
+  "server_run_id": "server-20261105T081803Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/candidate__mdn__zh__unicode-1.json",
+    "../attempts/candidate__mdn__zh__unicode-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 1,
+    "expected_length_cp": 131,
+    "actual_length_cp": 120,
+    "actual_text": "在Unicode定义之前在同一数据中混合使用不同的语言是很困难的而且容易出错例如一个字符集存储的是日文字符而另一个字符集存储的是阿拉伯字母如果没有明确标明数据的哪些部分属于哪个字符集其他程序和计算机就会错误地显示文本或者在处理过程中损坏文本"
+  },
+  "training_eligible": false
+}

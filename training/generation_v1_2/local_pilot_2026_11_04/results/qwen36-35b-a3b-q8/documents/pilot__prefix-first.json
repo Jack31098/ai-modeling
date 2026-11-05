@@ -1,0 +1,25 @@
+{
+  "doc_id": "pilot:prefix-first",
+  "model_id": "qwen36-35b-a3b-q8",
+  "source_sha256": "73cfd544e61f865aa738a871025a700191e0e55c40f6b51cac2ef4bbf60fde92",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080333Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__prefix-first-1.json",
+    "../attempts/pilot__prefix-first-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 36,
+    "expected_length_cp": 53,
+    "actual_length_cp": 50,
+    "actual_text": "Store the identifier 3719. Later askitsfirstdigit."
+  },
+  "training_eligible": false
+}

@@ -1,0 +1,33 @@
+{
+  "doc_id": "pilot:prefix-first",
+  "model_id": "qwen38-27b-q8",
+  "source_sha256": "73cfd544e61f865aa738a871025a700191e0e55c40f6b51cac2ef4bbf60fde92",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080727Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__prefix-first-1.json",
+    "../attempts/pilot__prefix-first-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "mixed_whitespace_word:w1",
+      "mixed_whitespace_word:w2",
+      "mixed_whitespace_word:w3",
+      "mixed_whitespace_word:w4",
+      "mixed_whitespace_word:w5",
+      "mixed_whitespace_word:w6",
+      "mixed_whitespace_word:w7",
+      "mixed_whitespace_word:w8"
+    ],
+    "word_count": 9,
+    "phrase_count": 2,
+    "passthrough_count": 0,
+    "word_to_phrase_node_ratio": 4.5,
+    "semantic_quality": "unreviewed; exact reconstruction does not certify lexical or semantic boundaries"
+  },
+  "training_eligible": false
+}

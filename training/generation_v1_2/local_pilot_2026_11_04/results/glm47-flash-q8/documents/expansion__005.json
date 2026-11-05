@@ -1,0 +1,25 @@
+{
+  "doc_id": "expansion:005",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "ebe5c824f84abb1016e5453d049af42c6ad275ff37d2ede17275d95311d47e3f",
+  "cohort": "authored_template_expansion",
+  "server_run_id": "server-20261105T085058Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/expansion__005-1.json",
+    "../attempts/expansion__005-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 0,
+    "expected_length_cp": 27,
+    "actual_length_cp": 25,
+    "actual_text": "说不是第16份申请未被拒绝就能推断第88份已获批准"
+  },
+  "training_eligible": false
+}

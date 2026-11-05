@@ -1,0 +1,320 @@
+{
+  "doc_id": "pilot:prefix-last",
+  "model_id": "qwen38-27b-q8",
+  "source_sha256": "ddaa966e7848c22cd04a7e456e4a45f28775f72b29cce968e03669ea45b331fa",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080727Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": true,
+  "attempt_files": [
+    "../attempts/pilot__prefix-last-1.json",
+    "../attempts/pilot__prefix-last-2.json"
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "word_count": 17,
+    "phrase_count": 2,
+    "passthrough_count": 0,
+    "word_to_phrase_node_ratio": 8.5,
+    "semantic_quality": "unreviewed; exact reconstruction does not certify lexical or semantic boundaries",
+    "candidate_structure": {
+      "coordinates": "Unicode code points and original UTF-8 bytes; half-open",
+      "words": [
+        {
+          "id": "w0",
+          "text": "Store",
+          "cp": [
+            0,
+            5
+          ],
+          "utf8": [
+            0,
+            5
+          ]
+        },
+        {
+          "id": "w1",
+          "text": " ",
+          "cp": [
+            5,
+            6
+          ],
+          "utf8": [
+            5,
+            6
+          ]
+        },
+        {
+          "id": "w2",
+          "text": "the",
+          "cp": [
+            6,
+            9
+          ],
+          "utf8": [
+            6,
+            9
+          ]
+        },
+        {
+          "id": "w3",
+          "text": " ",
+          "cp": [
+            9,
+            10
+          ],
+          "utf8": [
+            9,
+            10
+          ]
+        },
+        {
+          "id": "w4",
+          "text": "identifier",
+          "cp": [
+            10,
+            20
+          ],
+          "utf8": [
+            10,
+            20
+          ]
+        },
+        {
+          "id": "w5",
+          "text": " ",
+          "cp": [
+            20,
+            21
+          ],
+          "utf8": [
+            20,
+            21
+          ]
+        },
+        {
+          "id": "w6",
+          "text": "3719.",
+          "cp": [
+            21,
+            26
+          ],
+          "utf8": [
+            21,
+            26
+          ]
+        },
+        {
+          "id": "w7",
+          "text": " ",
+          "cp": [
+            26,
+            27
+          ],
+          "utf8": [
+            26,
+            27
+          ]
+        },
+        {
+          "id": "w8",
+          "text": "Later",
+          "cp": [
+            27,
+            32
+          ],
+          "utf8": [
+            27,
+            32
+          ]
+        },
+        {
+          "id": "w9",
+          "text": " ",
+          "cp": [
+            32,
+            33
+          ],
+          "utf8": [
+            32,
+            33
+          ]
+        },
+        {
+          "id": "w10",
+          "text": "ask",
+          "cp": [
+            33,
+            36
+          ],
+          "utf8": [
+            33,
+            36
+          ]
+        },
+        {
+          "id": "w11",
+          "text": " ",
+          "cp": [
+            36,
+            37
+          ],
+          "utf8": [
+            36,
+            37
+          ]
+        },
+        {
+          "id": "w12",
+          "text": "its",
+          "cp": [
+            37,
+            40
+          ],
+          "utf8": [
+            37,
+            40
+          ]
+        },
+        {
+          "id": "w13",
+          "text": " ",
+          "cp": [
+            40,
+            41
+          ],
+          "utf8": [
+            40,
+            41
+          ]
+        },
+        {
+          "id": "w14",
+          "text": "final",
+          "cp": [
+            41,
+            46
+          ],
+          "utf8": [
+            41,
+            46
+          ]
+        },
+        {
+          "id": "w15",
+          "text": " ",
+          "cp": [
+            46,
+            47
+          ],
+          "utf8": [
+            46,
+            47
+          ]
+        },
+        {
+          "id": "w16",
+          "text": "digit.",
+          "cp": [
+            47,
+            53
+          ],
+          "utf8": [
+            47,
+            53
+          ]
+        }
+      ],
+      "phrase_forest": [
+        {
+          "id": "p0",
+          "cp": [
+            0,
+            26
+          ],
+          "utf8": [
+            0,
+            26
+          ],
+          "children": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p1",
+          "cp": [
+            26,
+            53
+          ],
+          "utf8": [
+            26,
+            53
+          ],
+          "children": [
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13",
+            "w14",
+            "w15",
+            "w16"
+          ],
+          "passthrough": false
+        }
+      ],
+      "scale_projection": {
+        "0": [
+          "w0",
+          "w1",
+          "w2",
+          "w3",
+          "w4",
+          "w5",
+          "w6",
+          "w7",
+          "w8",
+          "w9",
+          "w10",
+          "w11",
+          "w12",
+          "w13",
+          "w14",
+          "w15",
+          "w16"
+        ],
+        "1": [
+          "p0",
+          "p1"
+        ]
+      },
+      "student_tokenizer_alignment": "not implemented",
+      "execution_events": "not compiled; complete v1.2 D1 consumer still required",
+      "supervision_permissions": {
+        "mode": "READ_FULL",
+        "evidence_available_at": "entire supplied input received",
+        "input_complete_is_true_document_eof": true,
+        "student_observation_fields": [
+          "text",
+          "input_complete"
+        ],
+        "structure_storage": "supervision only; never append to student text",
+        "allow_stream_action_forcing": false,
+        "allow_continuous_latent_substitution": false,
+        "allow_training": false
+      }
+    }
+  },
+  "training_eligible": false
+}

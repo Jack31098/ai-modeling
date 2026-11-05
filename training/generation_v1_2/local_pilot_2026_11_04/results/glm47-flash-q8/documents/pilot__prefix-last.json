@@ -1,0 +1,25 @@
+{
+  "doc_id": "pilot:prefix-last",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "ddaa966e7848c22cd04a7e456e4a45f28775f72b29cce968e03669ea45b331fa",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T081803Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__prefix-last-1.json",
+    "../attempts/pilot__prefix-last-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 5,
+    "expected_length_cp": 53,
+    "actual_length_cp": 43,
+    "actual_text": "Storetheidentifier3719Lateraskitsfinaldigit"
+  },
+  "training_eligible": false
+}

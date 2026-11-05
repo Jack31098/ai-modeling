@@ -1,0 +1,150 @@
+{
+  "doc_id": "pilot:zh-origin",
+  "model_id": "qwen36-35b-a3b-q8",
+  "source_sha256": "66ddbebf615e29816c8976c03086333b0a8506299ccf03770eed964831597d43",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080333Z",
+  "attempt_count": 1,
+  "selected_attempt": 1,
+  "valid": true,
+  "attempt_files": [
+    "../attempts/pilot__zh-origin-1.json"
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "word_count": 6,
+    "phrase_count": 1,
+    "passthrough_count": 0,
+    "word_to_phrase_node_ratio": 6.0,
+    "semantic_quality": "unreviewed; exact reconstruction does not certify lexical or semantic boundaries",
+    "candidate_structure": {
+      "coordinates": "Unicode code points and original UTF-8 bytes; half-open",
+      "words": [
+        {
+          "id": "w0",
+          "text": "研究",
+          "cp": [
+            0,
+            2
+          ],
+          "utf8": [
+            0,
+            6
+          ]
+        },
+        {
+          "id": "w1",
+          "text": "生命",
+          "cp": [
+            2,
+            4
+          ],
+          "utf8": [
+            6,
+            12
+          ]
+        },
+        {
+          "id": "w2",
+          "text": "起源",
+          "cp": [
+            4,
+            6
+          ],
+          "utf8": [
+            12,
+            18
+          ]
+        },
+        {
+          "id": "w3",
+          "text": "需要",
+          "cp": [
+            6,
+            8
+          ],
+          "utf8": [
+            18,
+            24
+          ]
+        },
+        {
+          "id": "w4",
+          "text": "谨慎",
+          "cp": [
+            8,
+            10
+          ],
+          "utf8": [
+            24,
+            30
+          ]
+        },
+        {
+          "id": "w5",
+          "text": "。",
+          "cp": [
+            10,
+            11
+          ],
+          "utf8": [
+            30,
+            33
+          ]
+        }
+      ],
+      "phrase_forest": [
+        {
+          "id": "p0",
+          "cp": [
+            0,
+            11
+          ],
+          "utf8": [
+            0,
+            33
+          ],
+          "children": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "passthrough": false
+        }
+      ],
+      "scale_projection": {
+        "0": [
+          "w0",
+          "w1",
+          "w2",
+          "w3",
+          "w4",
+          "w5"
+        ],
+        "1": [
+          "p0"
+        ]
+      },
+      "student_tokenizer_alignment": "not implemented",
+      "execution_events": "not compiled; complete v1.2 D1 consumer still required",
+      "supervision_permissions": {
+        "mode": "READ_FULL",
+        "evidence_available_at": "entire supplied input received",
+        "input_complete_is_true_document_eof": true,
+        "student_observation_fields": [
+          "text",
+          "input_complete"
+        ],
+        "structure_storage": "supervision only; never append to student text",
+        "allow_stream_action_forcing": false,
+        "allow_continuous_latent_substitution": false,
+        "allow_training": false
+      }
+    }
+  },
+  "training_eligible": false
+}

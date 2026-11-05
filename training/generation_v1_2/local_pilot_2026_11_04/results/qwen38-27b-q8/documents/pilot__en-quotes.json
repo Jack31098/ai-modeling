@@ -1,0 +1,279 @@
+{
+  "doc_id": "pilot:en-quotes",
+  "model_id": "qwen38-27b-q8",
+  "source_sha256": "9ed78899c581f46e2b4a83d11f3faee10ecd33dabe9cefc257766c2904bdab33",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080727Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": true,
+  "attempt_files": [
+    "../attempts/pilot__en-quotes-1.json",
+    "../attempts/pilot__en-quotes-2.json"
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "word_count": 13,
+    "phrase_count": 3,
+    "passthrough_count": 0,
+    "word_to_phrase_node_ratio": 4.333333333333333,
+    "semantic_quality": "unreviewed; exact reconstruction does not certify lexical or semantic boundaries",
+    "candidate_structure": {
+      "coordinates": "Unicode code points and original UTF-8 bytes; half-open",
+      "words": [
+        {
+          "id": "w0",
+          "text": "“Wait!”",
+          "cp": [
+            0,
+            7
+          ],
+          "utf8": [
+            0,
+            11
+          ]
+        },
+        {
+          "id": "w1",
+          "text": " ",
+          "cp": [
+            7,
+            8
+          ],
+          "utf8": [
+            11,
+            12
+          ]
+        },
+        {
+          "id": "w2",
+          "text": "she",
+          "cp": [
+            8,
+            11
+          ],
+          "utf8": [
+            12,
+            15
+          ]
+        },
+        {
+          "id": "w3",
+          "text": " ",
+          "cp": [
+            11,
+            12
+          ],
+          "utf8": [
+            15,
+            16
+          ]
+        },
+        {
+          "id": "w4",
+          "text": "said.",
+          "cp": [
+            12,
+            17
+          ],
+          "utf8": [
+            16,
+            21
+          ]
+        },
+        {
+          "id": "w5",
+          "text": " ",
+          "cp": [
+            17,
+            18
+          ],
+          "utf8": [
+            21,
+            22
+          ]
+        },
+        {
+          "id": "w6",
+          "text": "'Why?'",
+          "cp": [
+            18,
+            24
+          ],
+          "utf8": [
+            22,
+            28
+          ]
+        },
+        {
+          "id": "w7",
+          "text": " ",
+          "cp": [
+            24,
+            25
+          ],
+          "utf8": [
+            28,
+            29
+          ]
+        },
+        {
+          "id": "w8",
+          "text": "He",
+          "cp": [
+            25,
+            27
+          ],
+          "utf8": [
+            29,
+            31
+          ]
+        },
+        {
+          "id": "w9",
+          "text": " ",
+          "cp": [
+            27,
+            28
+          ],
+          "utf8": [
+            31,
+            32
+          ]
+        },
+        {
+          "id": "w10",
+          "text": "replied:",
+          "cp": [
+            28,
+            36
+          ],
+          "utf8": [
+            32,
+            40
+          ]
+        },
+        {
+          "id": "w11",
+          "text": " ",
+          "cp": [
+            36,
+            37
+          ],
+          "utf8": [
+            40,
+            41
+          ]
+        },
+        {
+          "id": "w12",
+          "text": "\"No.\"",
+          "cp": [
+            37,
+            42
+          ],
+          "utf8": [
+            41,
+            46
+          ]
+        }
+      ],
+      "phrase_forest": [
+        {
+          "id": "p0",
+          "cp": [
+            0,
+            17
+          ],
+          "utf8": [
+            0,
+            21
+          ],
+          "children": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p1",
+          "cp": [
+            17,
+            36
+          ],
+          "utf8": [
+            21,
+            40
+          ],
+          "children": [
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p2",
+          "cp": [
+            36,
+            42
+          ],
+          "utf8": [
+            40,
+            46
+          ],
+          "children": [
+            "w11",
+            "w12"
+          ],
+          "passthrough": false
+        }
+      ],
+      "scale_projection": {
+        "0": [
+          "w0",
+          "w1",
+          "w2",
+          "w3",
+          "w4",
+          "w5",
+          "w6",
+          "w7",
+          "w8",
+          "w9",
+          "w10",
+          "w11",
+          "w12"
+        ],
+        "1": [
+          "p0",
+          "p1",
+          "p2"
+        ]
+      },
+      "student_tokenizer_alignment": "not implemented",
+      "execution_events": "not compiled; complete v1.2 D1 consumer still required",
+      "supervision_permissions": {
+        "mode": "READ_FULL",
+        "evidence_available_at": "entire supplied input received",
+        "input_complete_is_true_document_eof": true,
+        "student_observation_fields": [
+          "text",
+          "input_complete"
+        ],
+        "structure_storage": "supervision only; never append to student text",
+        "allow_stream_action_forcing": false,
+        "allow_continuous_latent_substitution": false,
+        "allow_training": false
+      }
+    }
+  },
+  "training_eligible": false
+}

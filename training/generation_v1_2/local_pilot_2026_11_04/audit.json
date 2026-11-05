@@ -1,0 +1,61 @@
+{
+  "audited_utc": "2026-11-05T08:58:29.953391+00:00",
+  "documents": 300,
+  "attempts": 499,
+  "checks": [
+    "100 unique fixed contents per model",
+    "300 complete model/document records",
+    "source hashes",
+    "identical prompt/schema/sampling settings",
+    "at most one hard-error retry",
+    "raw response revalidation",
+    "no training admission or stream forcing",
+    "all owned server sessions stopped",
+    "asset hash receipts",
+    "official config hashes and layer counts",
+    "GGUF tensor dimension sums and MTP scopes",
+    "focused test report"
+  ],
+  "primary_qualitative_outputs": 36,
+  "gpu_log_evidence": {
+    "qwen36-35b-a3b-q8": {
+      "device": "Vulkan0 AMD Radeon 8060S",
+      "complete_offload_log_counts": [
+        [
+          41,
+          41
+        ]
+      ],
+      "log_scope": "at least one complete load per model; first Qwen3.6 launch had lower log verbosity"
+    },
+    "qwen38-27b-q8": {
+      "device": "Vulkan0 AMD Radeon 8060S",
+      "complete_offload_log_counts": [
+        [
+          66,
+          66
+        ],
+        [
+          66,
+          66
+        ]
+      ],
+      "log_scope": "at least one complete load per model; first Qwen3.6 launch had lower log verbosity"
+    },
+    "glm47-flash-q8": {
+      "device": "Vulkan0 AMD Radeon 8060S",
+      "complete_offload_log_counts": [
+        [
+          48,
+          48
+        ],
+        [
+          48,
+          48
+        ]
+      ],
+      "log_scope": "at least one complete load per model; first Qwen3.6 launch had lower log verbosity"
+    }
+  },
+  "limits": "No independent human gold, no semantic proof, no student consumer/tokenizer/event compiler verification"
+}

@@ -1,0 +1,25 @@
+{
+  "doc_id": "candidate:mdn:en:utf-8",
+  "model_id": "qwen36-35b-a3b-q8",
+  "source_sha256": "1d446e8a5c692c8d49d48752f5874fc8467229b606453a81b6106f34c18a79b9",
+  "cohort": "independent_pending_human_candidate",
+  "server_run_id": "server-20261105T080333Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/candidate__mdn__en__utf-8-1.json",
+    "../attempts/candidate__mdn__en__utf-8-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 40,
+    "expected_length_cp": 403,
+    "actual_length_cp": 386,
+    "actual_text": "The first 128 UTF-8 characters preciselymatchthe first 128 ASCII characters (numbered 0-127), meaning that existing ASCII textisalready valid UTF-8.All other characters use two tofourbytes.Each byte has some bits reservedforencoding purposes.Since non-ASCII characters require morethanone byte for storage, they run the riskofbeing corrupted if the bytesareseparated and not recombined."
+  },
+  "training_eligible": false
+}

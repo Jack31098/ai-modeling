@@ -1,0 +1,25 @@
+{
+  "doc_id": "expansion:007",
+  "model_id": "qwen38-27b-q8",
+  "source_sha256": "a6a35858c8a80aa215b671dd1ddcec8beca7f7afd56d1ec88f3966618291e3dc",
+  "cohort": "authored_template_expansion",
+  "server_run_id": "server-20261105T082530Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/expansion__007-1.json",
+    "../attempts/expansion__007-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 5,
+    "expected_length_cp": 66,
+    "actual_length_cp": 55,
+    "actual_text": "AfterDanareturnedkey18,Elilockeddoor90;theordermatters."
+  },
+  "training_eligible": false
+}

@@ -1,0 +1,25 @@
+{
+  "doc_id": "pilot:zh-condition",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "64d934dafcc5e5a410b44836e10f7427aff11e7ce79d330ecdbe42c0119ba3c2",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T081803Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__zh-condition-1.json",
+    "../attempts/pilot__zh-condition-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 7,
+    "expected_length_cp": 21,
+    "actual_length_cp": 18,
+    "actual_text": "如果甲没有交款乙就不发货除非丙先确认"
+  },
+  "training_eligible": false
+}
