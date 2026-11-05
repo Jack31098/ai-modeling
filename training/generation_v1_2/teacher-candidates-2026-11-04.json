@@ -1,0 +1,127 @@
+{
+  "models": [
+    {
+      "license_metadata": "apache-2.0",
+      "metadata_url": "https://huggingface.co/api/models/Qwen/Qwen3.8-27B",
+      "model_card_url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "parameter_counts_by_dtype": {
+        "BF16": 27781427952
+      },
+      "raw_tensor_storage_bytes_estimate": 55562855904,
+      "repository": "Qwen/Qwen3.8-27B",
+      "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+      "status": "candidate-not-downloaded-not-benchmarked"
+    },
+    {
+      "license_metadata": "apache-2.0",
+      "metadata_url": "https://huggingface.co/api/models/Qwen/Qwen3.8-27B-FP8",
+      "model_card_url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "parameter_counts_by_dtype": {
+        "BF16": 3082220272,
+        "F8_E4M3": 24699207680
+      },
+      "raw_tensor_storage_bytes_estimate": 30863648224,
+      "repository": "Qwen/Qwen3.8-27B-FP8",
+      "revision": "017b9c7af6b5689d5dd426a76e0bc077eb5ca20a",
+      "status": "candidate-not-downloaded-not-benchmarked"
+    },
+    {
+      "license_metadata": "other",
+      "metadata_url": "https://huggingface.co/api/models/Qwen/Qwen3.8-Flash-Next",
+      "model_card_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+      "parameter_counts_by_dtype": {
+        "BF16": 179999981424,
+        "I64": 35
+      },
+      "raw_tensor_storage_bytes_estimate": 359999963128,
+      "repository": "Qwen/Qwen3.8-Flash-Next",
+      "revision": "de4b8e4d43b917e7706784d8bb445c9af86a3540",
+      "status": "candidate-not-downloaded-not-benchmarked"
+    },
+    {
+      "license_metadata": "other",
+      "metadata_url": "https://huggingface.co/api/models/Qwen/Qwen3.8-Flash-Next-FP8",
+      "model_card_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next-FP8",
+      "parameter_counts_by_dtype": {
+        "BF16": 5487198064,
+        "F8_E4M3": 174512783360,
+        "I64": 35
+      },
+      "raw_tensor_storage_bytes_estimate": 185487179768,
+      "repository": "Qwen/Qwen3.8-Flash-Next-FP8",
+      "revision": "236dfdf285828023ca3bcd3f37366c58a3469b13",
+      "status": "candidate-not-downloaded-not-benchmarked"
+    },
+    {
+      "license_metadata": "other",
+      "metadata_url": "https://huggingface.co/api/models/Qwen/Qwen3.8-2.4T-A95B",
+      "model_card_url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "parameter_counts_by_dtype": {
+        "BF16": 2446182725504
+      },
+      "raw_tensor_storage_bytes_estimate": 4892365451008,
+      "repository": "Qwen/Qwen3.8-2.4T-A95B",
+      "revision": "207bd685a7e3696cfaff12ded7c6a7ea0f88c996",
+      "status": "candidate-not-downloaded-not-benchmarked"
+    },
+    {
+      "license_metadata": "other",
+      "metadata_url": "https://huggingface.co/api/models/Qwen/Qwen3.8-2.4T-A95B-FP8",
+      "model_card_url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B-FP8",
+      "parameter_counts_by_dtype": {
+        "BF16": 49590974336,
+        "F8_E4M3": 2396591751168
+      },
+      "raw_tensor_storage_bytes_estimate": 2495773699840,
+      "repository": "Qwen/Qwen3.8-2.4T-A95B-FP8",
+      "revision": "d2dc35658bcf77e66643428cb52e774cc3b5bd29",
+      "status": "candidate-not-downloaded-not-benchmarked"
+    },
+    {
+      "license_metadata": "mit",
+      "metadata_url": "https://huggingface.co/api/models/zai-org/GLM-4.7-Flash",
+      "model_card_url": "https://huggingface.co/zai-org/GLM-4.7-Flash",
+      "parameter_counts_by_dtype": {
+        "BF16": 31221485568,
+        "F32": 3008
+      },
+      "raw_tensor_storage_bytes_estimate": 62442983168,
+      "repository": "zai-org/GLM-4.7-Flash",
+      "revision": "7dd20894a642a0aa287e9827cb1a1f7f91386b67",
+      "status": "candidate-not-downloaded-not-benchmarked"
+    },
+    {
+      "license_metadata": "mit",
+      "metadata_url": "https://huggingface.co/api/models/zai-org/GLM-5.3-Flash",
+      "model_card_url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+      "parameter_counts_by_dtype": {
+        "BF16": 6926096640,
+        "F32": 295518,
+        "F8_E4M3": 314396639232
+      },
+      "raw_tensor_storage_bytes_estimate": 328250014584,
+      "repository": "zai-org/GLM-5.3-Flash",
+      "revision": "46a050bec13002ad29ee795c16e61cf4fa3c4a9c",
+      "status": "candidate-not-downloaded-not-benchmarked"
+    }
+  ],
+  "observed_on": "2026-11-04",
+  "proposal": {
+    "cloud_speed_measurements": "none",
+    "decision_metric": "accepted samples per GPU-hour at fixed schema, content coverage and human-reviewed semantic acceptance",
+    "first_single_MI300X_baseline": "Qwen/Qwen3.8-27B, BF16",
+    "larger_2_card_candidates": [
+      "Qwen/Qwen3.8-Flash-Next-FP8",
+      "zai-org/GLM-5.3-Flash"
+    ],
+    "same_card_speed_contender": "zai-org/GLM-4.7-Flash, BF16"
+  },
+  "purpose": "Teacher candidates for v1.2 sample preparation, not student architecture or an approved production deployment",
+  "storage_estimate_scope": "parameter count times dtype width from HF safetensors metadata; excludes uncaptured quantization metadata, KV/SSM caches, workspaces, communication, allocator and runtime. Not measured HBM usage or a fit guarantee. All vision components counted as published.",
+  "timezone": "America/Los_Angeles",
+  "user_decisions": {
+    "hnet_fused_work": "deferred",
+    "production_machine": "rented MI300; variant/card count/budget not specified",
+    "test_machine": "Ryzen AI Max+395 / 128GB"
+  }
+}
