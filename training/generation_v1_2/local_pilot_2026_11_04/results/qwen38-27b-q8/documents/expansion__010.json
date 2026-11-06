@@ -1,0 +1,486 @@
+{
+  "doc_id": "expansion:010",
+  "model_id": "qwen38-27b-q8",
+  "source_sha256": "f3c6283c219a1c1caa9334dd84168012e42c494b6941b3a21a39dfd6fa7b45ed",
+  "cohort": "authored_template_expansion",
+  "server_run_id": "server-20261105T082530Z",
+  "attempt_count": 1,
+  "selected_attempt": 1,
+  "valid": true,
+  "attempt_files": [
+    "../attempts/expansion__010-1.json"
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "word_count": 15,
+    "phrase_count": 15,
+    "passthrough_count": 15,
+    "word_to_phrase_node_ratio": 1.0,
+    "semantic_quality": "unreviewed; exact reconstruction does not certify lexical or semantic boundaries",
+    "candidate_structure": {
+      "coordinates": "Unicode code points and original UTF-8 bytes; half-open",
+      "words": [
+        {
+          "id": "w0",
+          "text": "只有",
+          "cp": [
+            0,
+            2
+          ],
+          "utf8": [
+            0,
+            6
+          ]
+        },
+        {
+          "id": "w1",
+          "text": "甲",
+          "cp": [
+            2,
+            3
+          ],
+          "utf8": [
+            6,
+            9
+          ]
+        },
+        {
+          "id": "w2",
+          "text": "先",
+          "cp": [
+            3,
+            4
+          ],
+          "utf8": [
+            9,
+            12
+          ]
+        },
+        {
+          "id": "w3",
+          "text": "确认",
+          "cp": [
+            4,
+            6
+          ],
+          "utf8": [
+            12,
+            18
+          ]
+        },
+        {
+          "id": "w4",
+          "text": "21",
+          "cp": [
+            6,
+            8
+          ],
+          "utf8": [
+            18,
+            20
+          ]
+        },
+        {
+          "id": "w5",
+          "text": "件",
+          "cp": [
+            8,
+            9
+          ],
+          "utf8": [
+            20,
+            23
+          ]
+        },
+        {
+          "id": "w6",
+          "text": "货物",
+          "cp": [
+            9,
+            11
+          ],
+          "utf8": [
+            23,
+            29
+          ]
+        },
+        {
+          "id": "w7",
+          "text": "完好",
+          "cp": [
+            11,
+            13
+          ],
+          "utf8": [
+            29,
+            35
+          ]
+        },
+        {
+          "id": "w8",
+          "text": "，",
+          "cp": [
+            13,
+            14
+          ],
+          "utf8": [
+            35,
+            38
+          ]
+        },
+        {
+          "id": "w9",
+          "text": "乙",
+          "cp": [
+            14,
+            15
+          ],
+          "utf8": [
+            38,
+            41
+          ]
+        },
+        {
+          "id": "w10",
+          "text": "才",
+          "cp": [
+            15,
+            16
+          ],
+          "utf8": [
+            41,
+            44
+          ]
+        },
+        {
+          "id": "w11",
+          "text": "支付",
+          "cp": [
+            16,
+            18
+          ],
+          "utf8": [
+            44,
+            50
+          ]
+        },
+        {
+          "id": "w12",
+          "text": "93",
+          "cp": [
+            18,
+            20
+          ],
+          "utf8": [
+            50,
+            52
+          ]
+        },
+        {
+          "id": "w13",
+          "text": "元",
+          "cp": [
+            20,
+            21
+          ],
+          "utf8": [
+            52,
+            55
+          ]
+        },
+        {
+          "id": "w14",
+          "text": "。",
+          "cp": [
+            21,
+            22
+          ],
+          "utf8": [
+            55,
+            58
+          ]
+        }
+      ],
+      "phrase_forest": [
+        {
+          "id": "p0",
+          "cp": [
+            0,
+            2
+          ],
+          "utf8": [
+            0,
+            6
+          ],
+          "children": [
+            "w0"
+          ],
+          "passthrough": true
+        },
+        {
+          "id": "p1",
+          "cp": [
+            2,
+            3
+          ],
+          "utf8": [
+            6,
+            9
+          ],
+          "children": [
+            "w1"
+          ],
+          "passthrough": true
+        },
+        {
+          "id": "p2",
+          "cp": [
+            3,
+            4
+          ],
+          "utf8": [
+            9,
+            12
+          ],
+          "children": [
+            "w2"
+          ],
+          "passthrough": true
+        },
+        {
+          "id": "p3",
+          "cp": [
+            4,
+            6
+          ],
+          "utf8": [
+            12,
+            18
+          ],
+          "children": [
+            "w3"
+          ],
+          "passthrough": true
+        },
+        {
+          "id": "p4",
+          "cp": [
+            6,
+            8
+          ],
+          "utf8": [
+            18,
+            20
+          ],
+          "children": [
+            "w4"
+          ],
+          "passthrough": true
+        },
+        {
+          "id": "p5",
+          "cp": [
+            8,
+            9
+          ],
+          "utf8": [
+            20,
+            23
+          ],
+          "children": [
+            "w5"
+          ],
+          "passthrough": true
+        },
+        {
+          "id": "p6",
+          "cp": [
+            9,
+            11
+          ],
+          "utf8": [
+            23,
+            29
+          ],
+          "children": [
+            "w6"
+          ],
+          "passthrough": true
+        },
+        {
+          "id": "p7",
+          "cp": [
+            11,
+            13
+          ],
+          "utf8": [
+            29,
+            35
+          ],
+          "children": [
+            "w7"
+          ],
+          "passthrough": true
+        },
+        {
+          "id": "p8",
+          "cp": [
+            13,
+            14
+          ],
+          "utf8": [
+            35,
+            38
+          ],
+          "children": [
+            "w8"
+          ],
+          "passthrough": true
+        },
+        {
+          "id": "p9",
+          "cp": [
+            14,
+            15
+          ],
+          "utf8": [
+            38,
+            41
+          ],
+          "children": [
+            "w9"
+          ],
+          "passthrough": true
+        },
+        {
+          "id": "p10",
+          "cp": [
+            15,
+            16
+          ],
+          "utf8": [
+            41,
+            44
+          ],
+          "children": [
+            "w10"
+          ],
+          "passthrough": true
+        },
+        {
+          "id": "p11",
+          "cp": [
+            16,
+            18
+          ],
+          "utf8": [
+            44,
+            50
+          ],
+          "children": [
+            "w11"
+          ],
+          "passthrough": true
+        },
+        {
+          "id": "p12",
+          "cp": [
+            18,
+            20
+          ],
+          "utf8": [
+            50,
+            52
+          ],
+          "children": [
+            "w12"
+          ],
+          "passthrough": true
+        },
+        {
+          "id": "p13",
+          "cp": [
+            20,
+            21
+          ],
+          "utf8": [
+            52,
+            55
+          ],
+          "children": [
+            "w13"
+          ],
+          "passthrough": true
+        },
+        {
+          "id": "p14",
+          "cp": [
+            21,
+            22
+          ],
+          "utf8": [
+            55,
+            58
+          ],
+          "children": [
+            "w14"
+          ],
+          "passthrough": true
+        }
+      ],
+      "scale_projection": {
+        "0": [
+          "w0",
+          "w1",
+          "w2",
+          "w3",
+          "w4",
+          "w5",
+          "w6",
+          "w7",
+          "w8",
+          "w9",
+          "w10",
+          "w11",
+          "w12",
+          "w13",
+          "w14"
+        ],
+        "1": [
+          "p0",
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8",
+          "p9",
+          "p10",
+          "p11",
+          "p12",
+          "p13",
+          "p14"
+        ]
+      },
+      "student_tokenizer_alignment": "not implemented",
+      "execution_events": "not compiled; complete v1.2 D1 consumer still required",
+      "supervision_permissions": {
+        "mode": "READ_FULL",
+        "evidence_available_at": "entire supplied input received",
+        "input_complete_is_true_document_eof": true,
+        "student_observation_fields": [
+          "text",
+          "input_complete"
+        ],
+        "structure_storage": "supervision only; never append to student text",
+        "allow_stream_action_forcing": false,
+        "allow_continuous_latent_substitution": false,
+        "allow_training": false
+      }
+    }
+  },
+  "training_eligible": false
+}

@@ -1,0 +1,25 @@
+{
+  "doc_id": "expansion:031",
+  "model_id": "qwen36-35b-a3b-q8",
+  "source_sha256": "02ba41a8cf78fef4b2d7202af07d09b5d9236e82f72fdeb7e9f57ddfae326844",
+  "cohort": "authored_template_expansion",
+  "server_run_id": "server-20261105T082049Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/expansion__031-1.json",
+    "../attempts/expansion__031-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 59,
+    "expected_length_cp": 67,
+    "actual_length_cp": 68,
+    "actual_text": "After Dana returned key 42, Eli locked door 114; the order  matters."
+  },
+  "training_eligible": false
+}

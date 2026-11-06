@@ -1,0 +1,25 @@
+{
+  "doc_id": "pilot:en-attachment",
+  "model_id": "qwen36-35b-a3b-q8",
+  "source_sha256": "3ad76ade5178f0a18977669ec68a124b87d7deb0f4f5874944af726bbd07d0c0",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080333Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__en-attachment-1.json",
+    "../attempts/pilot__en-attachment-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 40,
+    "expected_length_cp": 53,
+    "actual_length_cp": 52,
+    "actual_text": "The researcher observed the student witha telescope."
+  },
+  "training_eligible": false
+}

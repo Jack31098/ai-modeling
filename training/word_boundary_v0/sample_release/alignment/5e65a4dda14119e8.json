@@ -1,0 +1,238 @@
+{
+  "doc_id": "fixture:chinese-ambiguity",
+  "fused_token_conflict_fixture": {
+    "boundaries": [
+      {
+        "byte": 6,
+        "cp": 2,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 12,
+        "cp": 4,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 18,
+        "cp": 6,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 24,
+        "cp": 8,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 30,
+        "cp": 10,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 33,
+        "cp": 11,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 42,
+        "cp": 14,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 54,
+        "cp": 18,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 60,
+        "cp": 20,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 66,
+        "cp": 22,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 69,
+        "cp": 23,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          0
+        ]
+      }
+    ],
+    "errors": [
+      {
+        "boundaries": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          11,
+          14,
+          18,
+          20,
+          22
+        ],
+        "reason": "multiple_boundaries_inside_token",
+        "token": 0
+      }
+    ],
+    "notes": [],
+    "offset_unit": "unicode_code_point",
+    "surface_check": "verified",
+    "tokenizer_id": "fixture:whole-input-v1",
+    "usable_without_conflicts": false
+  },
+  "identity_codepoint_fixture": {
+    "boundaries": [
+      {
+        "byte": 6,
+        "cp": 2,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          1
+        ]
+      },
+      {
+        "byte": 12,
+        "cp": 4,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          3
+        ]
+      },
+      {
+        "byte": 18,
+        "cp": 6,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          5
+        ]
+      },
+      {
+        "byte": 24,
+        "cp": 8,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          7
+        ]
+      },
+      {
+        "byte": 30,
+        "cp": 10,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          9
+        ]
+      },
+      {
+        "byte": 33,
+        "cp": 11,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          10
+        ]
+      },
+      {
+        "byte": 42,
+        "cp": 14,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          13
+        ]
+      },
+      {
+        "byte": 54,
+        "cp": 18,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          17
+        ]
+      },
+      {
+        "byte": 60,
+        "cp": 20,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          19
+        ]
+      },
+      {
+        "byte": 66,
+        "cp": 22,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          21
+        ]
+      },
+      {
+        "byte": 69,
+        "cp": 23,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          22
+        ]
+      }
+    ],
+    "errors": [],
+    "notes": [],
+    "offset_unit": "unicode_code_point",
+    "surface_check": "verified",
+    "tokenizer_id": "fixture:one-codepoint-v1",
+    "usable_without_conflicts": true
+  }
+}

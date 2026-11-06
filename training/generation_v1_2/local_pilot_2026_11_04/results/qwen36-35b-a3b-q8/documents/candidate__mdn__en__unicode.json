@@ -1,0 +1,21 @@
+{
+  "doc_id": "candidate:mdn:en:unicode",
+  "model_id": "qwen36-35b-a3b-q8",
+  "source_sha256": "c977d5a13d9973dcf14c428902c59590331f62dc34ee953bd1a63ea6a91f0479",
+  "cohort": "independent_pending_human_candidate",
+  "server_run_id": "server-20261105T080333Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/candidate__mdn__en__unicode-1.json",
+    "../attempts/candidate__mdn__en__unicode-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "phrase_0_exceeds_64cp"
+    ]
+  },
+  "training_eligible": false
+}

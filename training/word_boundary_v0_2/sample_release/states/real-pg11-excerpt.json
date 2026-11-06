@@ -1,0 +1,218 @@
+{
+  "checkpoints": [
+    {
+      "kind": "window_pause",
+      "state": {
+        "byte": 128,
+        "clock": 128,
+        "cp": 128,
+        "ended": false,
+        "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+        "max_delay_steps": 9,
+        "max_pending_byte": 9,
+        "max_pending_cp": 9,
+        "mode": null,
+        "pending": "",
+        "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+        "start_byte": 128,
+        "start_cp": 128
+      }
+    },
+    {
+      "kind": "window_pause",
+      "state": {
+        "byte": 260,
+        "clock": 256,
+        "cp": 256,
+        "ended": false,
+        "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+        "max_delay_steps": 13,
+        "max_pending_byte": 13,
+        "max_pending_cp": 13,
+        "mode": "non_han",
+        "pending": "t",
+        "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+        "start_byte": 259,
+        "start_cp": 255
+      }
+    },
+    {
+      "kind": "window_pause",
+      "state": {
+        "byte": 392,
+        "clock": 384,
+        "cp": 384,
+        "ended": false,
+        "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+        "max_delay_steps": 14,
+        "max_pending_byte": 14,
+        "max_pending_cp": 14,
+        "mode": "non_han",
+        "pending": "hot",
+        "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+        "start_byte": 389,
+        "start_cp": 381
+      }
+    },
+    {
+      "kind": "window_pause",
+      "state": {
+        "byte": 520,
+        "clock": 512,
+        "cp": 512,
+        "ended": false,
+        "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+        "max_delay_steps": 14,
+        "max_pending_byte": 14,
+        "max_pending_cp": 14,
+        "mode": null,
+        "pending": "",
+        "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+        "start_byte": 520,
+        "start_cp": 512
+      }
+    },
+    {
+      "kind": "window_pause",
+      "state": {
+        "byte": 648,
+        "clock": 640,
+        "cp": 640,
+        "ended": false,
+        "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+        "max_delay_steps": 14,
+        "max_pending_byte": 14,
+        "max_pending_cp": 14,
+        "mode": "non_han",
+        "pending": "remar",
+        "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+        "start_byte": 643,
+        "start_cp": 635
+      }
+    },
+    {
+      "kind": "window_pause",
+      "state": {
+        "byte": 778,
+        "clock": 768,
+        "cp": 768,
+        "ended": false,
+        "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+        "max_delay_steps": 14,
+        "max_pending_byte": 14,
+        "max_pending_cp": 14,
+        "mode": "non_han",
+        "pending": "sha",
+        "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+        "start_byte": 775,
+        "start_cp": 765
+      }
+    },
+    {
+      "kind": "window_pause",
+      "state": {
+        "byte": 908,
+        "clock": 896,
+        "cp": 896,
+        "ended": false,
+        "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+        "max_delay_steps": 14,
+        "max_pending_byte": 14,
+        "max_pending_cp": 14,
+        "mode": "non_han",
+        "pending": "time",
+        "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+        "start_byte": 904,
+        "start_cp": 892
+      }
+    },
+    {
+      "kind": "window_pause",
+      "state": {
+        "byte": 1036,
+        "clock": 1024,
+        "cp": 1024,
+        "ended": false,
+        "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+        "max_delay_steps": 18,
+        "max_pending_byte": 18,
+        "max_pending_cp": 18,
+        "mode": "non_han",
+        "pending": "t",
+        "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+        "start_byte": 1035,
+        "start_cp": 1023
+      }
+    },
+    {
+      "kind": "window_pause",
+      "state": {
+        "byte": 1164,
+        "clock": 1152,
+        "cp": 1152,
+        "ended": false,
+        "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+        "max_delay_steps": 18,
+        "max_pending_byte": 18,
+        "max_pending_cp": 18,
+        "mode": null,
+        "pending": "",
+        "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+        "start_byte": 1164,
+        "start_cp": 1152
+      }
+    },
+    {
+      "kind": "window_pause",
+      "state": {
+        "byte": 1292,
+        "clock": 1280,
+        "cp": 1280,
+        "ended": false,
+        "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+        "max_delay_steps": 18,
+        "max_pending_byte": 18,
+        "max_pending_cp": 18,
+        "mode": "non_han",
+        "pending": "fortunate",
+        "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+        "start_byte": 1283,
+        "start_cp": 1271
+      }
+    },
+    {
+      "kind": "window_pause",
+      "state": {
+        "byte": 1372,
+        "clock": 1360,
+        "cp": 1360,
+        "ended": false,
+        "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+        "max_delay_steps": 18,
+        "max_pending_byte": 18,
+        "max_pending_cp": 18,
+        "mode": null,
+        "pending": "",
+        "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+        "start_byte": 1372,
+        "start_cp": 1360
+      }
+    }
+  ],
+  "end_kind": "source_excerpt_pause",
+  "final": {
+    "byte": 1372,
+    "clock": 1360,
+    "cp": 1360,
+    "ended": false,
+    "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+    "max_delay_steps": 18,
+    "max_pending_byte": 18,
+    "max_pending_cp": 18,
+    "mode": null,
+    "pending": "",
+    "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+    "start_byte": 1372,
+    "start_cp": 1360
+  }
+}

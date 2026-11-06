@@ -1,0 +1,35 @@
+{
+  "doc_id": "expansion:017",
+  "model_id": "qwen38-27b-q8",
+  "source_sha256": "b1825af3f5922f2eb57eac1c342ba1f93b146b7a055fc3eff634e57142c32530",
+  "cohort": "authored_template_expansion",
+  "server_run_id": "server-20261105T082530Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/expansion__017-1.json",
+    "../attempts/expansion__017-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "mixed_whitespace_word:w0",
+      "mixed_whitespace_word:w1",
+      "mixed_whitespace_word:w2",
+      "mixed_whitespace_word:w3",
+      "mixed_whitespace_word:w4",
+      "mixed_whitespace_word:w7",
+      "mixed_whitespace_word:w8",
+      "mixed_whitespace_word:w9",
+      "mixed_whitespace_word:w10",
+      "mixed_whitespace_word:w11"
+    ],
+    "word_count": 13,
+    "phrase_count": 13,
+    "passthrough_count": 13,
+    "word_to_phrase_node_ratio": 1.0,
+    "semantic_quality": "unreviewed; exact reconstruction does not certify lexical or semantic boundaries"
+  },
+  "training_eligible": false
+}

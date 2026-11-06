@@ -6,6 +6,14 @@
 
 继续当前研究时，先读[第一部分主方案 v1.2](path_control_pretraining_part1_v1.2.md)、[权重空间编程对 B 研究的启示与下一步（2026-11-03）](discussions/2026-11-03-weight-space-programming-and-B-research.md)和[讨论索引](discussions/README.md)。Dot 研究分支已合入 main，v1.2 原文字节保留；其明确修订处优先于历史版本，不以聊天中的不严谨简称替代设计原文。近期优先可观察状态、因果干预与知识增量，效率暂不作为研究硬门槛；单级与多级仍需公平比较。[分支接续记录](discussions/2026-11-02-v1.2分支与权重空间编程接续.md)保留来源与证据边界。
 
+当前训练试制按用户后续明确口径：先训练 B 规约器，F 和最终展开器从头训练，0.8B 指目标参数规模，不复用 Qwen 0.8B 主干。第 0 步已实现[固定词边界数据管线与小样例](training/word_boundary_v0/README.md)，沿用 v1.2 §10 的监督及可见性要求；尚未训练模型，历史 F 继承设想不作为本轮执行默认。
+
+[第 0 步增量 v0.2](training/word_boundary_v0_2/README.md)解释关键夹具，增加 4 条独立现代中英文人工审核候选、有界 FMM 流式参考及真实 tokenizer 盘点。46 项结构测试通过，人工金标仍未接受；FMM 的“研究生｜命”反例保留，不以有界／因果测试代替分词质量。旧数据包与 split 保持原样。
+
+[H-Net 完整 ROCm 参考路径](experiments/hnet_rocm/README.md)已在 8060S 上实测通过 874M 模型的完整 GPU 前向、全参数反向和一次 SGD 步，并完成 CPU 数值对照。它是 PyTorch HIP 替代实现；原 fused 内核与增量推理缓存未移植，不等于本项目 v1.2 模型已训练。专用分支保留旧 CPU 探针及数据包。
+
+[三模型本地词／词组标注 pilot](training/generation_v1_2/local_pilot_2026_11_04/README.md)已下载／校验 Qwen3.6-35B-A3B、Qwen3.8-27B 和 GLM-4.7-Flash Q8_0，8060S llama.cpp Vulkan 各完成同一 100 条，共 499 次尝试。首轮28条重试后硬通过13／20／4；另72条模板变体42／42／0。36份固定抽样及24份模板补充由Codex目测，参数口径、原始失败及六类错误可追溯；硬通过不代表语义合格，均未入训。395仅测试，MI300生产性能待实测，暂缓H-Net fused。
+
 [第一部分主方案 v1.1](path_control_pretraining_part1_v1.1.md)、[2026-10-06 接续说明](HANDOFF.md)和[2026-10-02 接续说明](HANDOFF-2026-10-02.md)保留作历史记录。已有有限规则解析器和词表示压缩诊断；尚无通用语义 B、B⁻、Qwen F 接入或完整多粒度模型训练结果。
 
 [B⁻ 层次调用、Lookback 与训练监督协议 v0.1](B_minus_lookback_supervision_protocol_v0.1.md)细化跨尺度调用及监督隔离，已由 v1.2 整合修订；协议实现仍待验证。

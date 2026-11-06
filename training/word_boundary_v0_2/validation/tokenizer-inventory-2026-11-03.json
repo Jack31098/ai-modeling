@@ -1,0 +1,415 @@
+{
+  "client_date": "2026-11-03",
+  "default_hf_hub_model_directories": [],
+  "hnet_actual_tokenizer": {
+    "bos_eos_added": false,
+    "code_revision": "3673fe1217ebeb0d1438c7c71d58d32bdd190ec2",
+    "examples": [
+      {
+        "ids": [
+          65,
+          83,
+          67,
+          73,
+          73,
+          32,
+          51,
+          55,
+          49,
+          57,
+          46
+        ],
+        "matches_utf8_bytes": true,
+        "native_byte_spans": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ]
+        ],
+        "roundtrip": true,
+        "text": "ASCII 3719."
+      },
+      {
+        "ids": [
+          231,
+          148,
+          178,
+          230,
+          178,
+          161,
+          230,
+          156,
+          137,
+          230,
+          137,
+          185,
+          229,
+          135,
+          134,
+          240,
+          159,
+          152,
+          128
+        ],
+        "matches_utf8_bytes": true,
+        "native_byte_spans": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            18,
+            19
+          ]
+        ],
+        "roundtrip": true,
+        "text": "甲没有批准😀"
+      },
+      {
+        "ids": [
+          67,
+          97,
+          102,
+          101,
+          204,
+          129,
+          32,
+          228,
+          184,
+          142,
+          240,
+          160,
+          128,
+          128
+        ],
+        "matches_utf8_bytes": true,
+        "native_byte_spans": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ]
+        ],
+        "roundtrip": true,
+        "text": "Café 与𠀀"
+      }
+    ],
+    "numpy": "2.3.5",
+    "offset_note": "Native UTF-8 bytes; individual tokens can split a code point. This is not the v0 strict code-point-aligned diagnostic adapter.",
+    "source_sha256": "54cab079f23c0b8206b547768b05a9359e75b491b5be2ca83af278edcadcc471",
+    "status": "actual-official-HNet-ByteTokenizer",
+    "target_3B_tokenizer_verified": false
+  },
+  "local_assets": [
+    {
+      "bytes": 444,
+      "path": "models/hnet_2stage_L/config.json",
+      "sha256": "32f88f05b776470ccc41cc633689ac1e98bbd52493193fc2c053514d61c200be"
+    },
+    {
+      "bytes": 995,
+      "path": "models/hnet_2stage_L/source/hnet__utils__tokenizers.py",
+      "sha256": "54cab079f23c0b8206b547768b05a9359e75b491b5be2ca83af278edcadcc471"
+    },
+    {
+      "bytes": 36903140320,
+      "path": "models/Qwen3.6-35B-A3B/Qwen3.6-35B-A3B-Q8_0.gguf",
+      "sha256": "not-rehashed-this-inventory"
+    }
+  ],
+  "locks": {
+    "hnet-2stage-l.json": {
+      "config_source": "https://raw.githubusercontent.com/goombalab/hnet/3673fe1217ebeb0d1438c7c71d58d32bdd190ec2/configs/hnet_2stage_L.json",
+      "filename": "hnet_2stage_L.pt",
+      "hnet_code_revision": "3673fe1217ebeb0d1438c7c71d58d32bdd190ec2",
+      "local_date": "2026-11-02",
+      "local_path": "models/hnet_2stage_L/hnet_2stage_L.pt",
+      "mamba_code_revision": "a6a1dae6efbf804c9944a0c2282b437deb4886d8",
+      "repository": "cartesia-ai/hnet_2stage_L",
+      "revision": "eb0db7323b1131e6bdb8d1c7367d3f815d09426c",
+      "sha256": "5711de80965d7ec8430a2db05a4859bc0700576e3e7841658fe1640d0c0e011c",
+      "size_bytes": 3497374019,
+      "timezone": "America/Los_Angeles",
+      "verification": "full size and SHA-256 matched after download",
+      "weights_generation": "2025 original H-Net; not the 2026 internal 3.67B version"
+    },
+    "hnet-public-models.json": {
+      "note": "No 3.67B checkpoint found in this official account query; this does not establish the contents of private repositories.",
+      "observed_local_date": "2026-11-02",
+      "public_models": [
+        {
+          "id": "cartesia-ai/hnet_1stage_L",
+          "revision": "cdfb6a08a306047fe42047facb2d8d98c1b384be",
+          "stages": 1
+        },
+        {
+          "id": "cartesia-ai/hnet_2stage_L",
+          "revision": "eb0db7323b1131e6bdb8d1c7367d3f815d09426c",
+          "stages": 2
+        },
+        {
+          "id": "cartesia-ai/hnet_1stage_XL",
+          "revision": "68f11d724e893b26e9a50413342118f1092b7752",
+          "stages": 1
+        },
+        {
+          "id": "cartesia-ai/hnet_2stage_XL",
+          "revision": "c56e23e0e72cfb350cdad73af9c36221de69a135",
+          "stages": 2
+        },
+        {
+          "id": "cartesia-ai/hnet_2stage_XL_chinese",
+          "revision": "01db28db6673025ca4f5b51c437732a31a07f506",
+          "stages": 2
+        },
+        {
+          "id": "cartesia-ai/hnet_2stage_XL_code",
+          "revision": "3787f873c55b1ccc63676555797b8e4a432b2dd9",
+          "stages": 2
+        }
+      ],
+      "query": "https://huggingface.co/api/models?author=cartesia-ai&search=hnet&limit=100&full=true",
+      "timezone": "America/Los_Angeles"
+    },
+    "qwen3.6-35b-a3b-q8_0.json": {
+      "download_url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/resolve/a483e9e6cbd595906af30beda3187c2663a1118c/Qwen3.6-35B-A3B-Q8_0.gguf",
+      "filename": "Qwen3.6-35B-A3B-Q8_0.gguf",
+      "license": "Apache-2.0",
+      "local_relative_path": "models/Qwen3.6-35B-A3B/Qwen3.6-35B-A3B-Q8_0.gguf",
+      "quantization": "Q8_0",
+      "repository": "unsloth/Qwen3.6-35B-A3B-GGUF",
+      "revision": "a483e9e6cbd595906af30beda3187c2663a1118c",
+      "sha256": "d1a395809f65a43a13ad119eb4e7acdef1ac6d68120f39902c8ab96e72794a59",
+      "size_bytes": 36903140320,
+      "source_url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
+      "upstream_model": "Qwen/Qwen3.6-35B-A3B"
+    }
+  },
+  "qwen_gguf": {
+    "actual_qwen_tokenization": "unverified; GGUF metadata only",
+    "metadata_end_byte": 10943779,
+    "metadata_entries": 54,
+    "metadata_sha256": "b803372bfe6ab79ee8e5733a48cc675bc6392286e1bca84b40134380b2ef5922",
+    "selected": {
+      "general.architecture": "qwen35moe",
+      "general.base_model.0.name": "Qwen3.6 35B A3B",
+      "general.base_model.0.organization": "Qwen",
+      "general.base_model.0.repo_url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+      "general.base_model.count": 1,
+      "general.basename": "Qwen3.6-35B-A3B",
+      "general.file_type": 7,
+      "general.license": "apache-2.0",
+      "general.license.link": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B/blob/main/LICENSE",
+      "general.name": "Qwen3.6-35B-A3B",
+      "general.quantization_version": 2,
+      "general.quantized_by": "Unsloth",
+      "general.repo_url": "https://huggingface.co/unsloth",
+      "general.sampling.temp": 1.0,
+      "general.sampling.top_k": 20,
+      "general.sampling.top_p": 0.949999988079071,
+      "general.size_label": "35B-A3B",
+      "general.tags": {
+        "array_type": 8,
+        "contents": "not loaded",
+        "count": 3
+      },
+      "general.type": "model",
+      "qwen35moe.block_count": 40,
+      "qwen35moe.expert_count": 256,
+      "qwen35moe.expert_feed_forward_length": 512,
+      "qwen35moe.expert_shared_feed_forward_length": 512,
+      "qwen35moe.expert_used_count": 8,
+      "tokenizer.chat_template": "{%- set image_count = namespace(value=0) %}\n{%- set video_count = namespace(value=0) %}\n{%- macro render_content(content, do_vision_count, is_system_content=false) %}\n    {%- if content is string %}\n        {{- content }}\n    {%- elif content is iterable and content is not mapping %}\n        {%- for item in content %}\n            {%- if 'image' in item or 'image_url' in item or item.type == 'image' %}\n                {%- if is_system_content %}\n                    {{- raise_exception('System message cannot contain images.') }}\n                {%- endif %}\n                {%- if do_vision_count %}\n                    {%- set image_count.value = image_count.value + 1 %}\n                {%- endif %}\n                {%- if add_vision_id %}\n                    {{- 'Picture ' ~ image_count.value ~ ': ' }}\n                {%- endif %}\n                {{- '<|vision_start|><|image_pad|><|vision_end|>' }}\n            {%- elif 'video' in item or item.type == 'video' %}\n                {%- if is_system_content %}\n                    {{- raise_exception('System message cannot contain videos.') }}\n                {%- endif %}\n                {%- if do_vision_count %}\n                    {%- set video_count.value = video_count.value + 1 %}\n                {%- endif %}\n                {%- if add_vision_id %}\n                    {{- 'Video ' ~ video_count.value ~ ': ' }}\n                {%- endif %}\n                {{- '<|vision_start|><|video_pad|><|vision_end|>' }}\n            {%- elif 'text' in item %}\n                {{- item.text }}\n            {%- else %}\n                {{- raise_exception('Unexpected item type in content.') }}\n            {%- endif %}\n        {%- endfor %}\n    {%- elif content is none or content is undefined %}\n        {{- '' }}\n    {%- else %}\n        {{- raise_exception('Unexpected content type.') }}\n    {%- endif %}\n{%- endmacro %}\n{%- if not messages %}\n    {{- raise_exception('No messages provided.') }}\n{%- endif %}\n{%- set num_sys = 0 %}\n{%- set merged_system = '' %}\n{%- if messages[0].role == 'system' or messages[0].role == 'developer' %}\n    {%- set first = render_content(messages[0].content, false, true)|trim %}\n    {%- if messages|length > 1 and (messages[1].role == 'system' or messages[1].role == 'developer') %}\n        {%- set second = render_content(messages[1].content, false, true)|trim %}\n        {%- set merged_system = first + '\\n' + second %}\n        {%- set num_sys = 2 %}\n    {%- else %}\n        {%- set merged_system = first %}\n        {%- set num_sys = 1 %}\n    {%- endif %}\n{%- endif %}\n{%- if tools and tools is iterable and tools is not mapping %}\n    {{- '<|im_start|>system\\n' }}\n    {{- \"# Tools\\n\\nYou have access to the following functions:\\n\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\" }}\n    {{- '\\n\\nIf you choose to call a function ONLY reply in the following format with NO suffix:\\n\\n<tool_call>\\n<function=example_function_name>\\n<parameter=example_parameter_1>\\nvalue_1\\n</parameter>\\n<parameter=example_parameter_2>\\nThis is the value for the second parameter\\nthat can span\\nmultiple lines\\n</parameter>\\n</function>\\n</tool_call>\\n\\n<IMPORTANT>\\nReminder:\\n- Function calls MUST follow the specified format: an inner <function=...></function> block must be nested within <tool_call></tool_call> XML tags\\n- Required parameters MUST be specified\\n- You may provide optional reasoning for your function call in natural language BEFORE the function call, but NOT after\\n- If there is no function call available, answer the question like normal with your current knowledge and do not tell the user about function calls\\n</IMPORTANT>' }}\n    {%- if merged_system %}\n        {{- '\\n\\n' + merged_system }}\n    {%- endif %}\n    {{- '<|im_end|>\\n' }}\n{%- else %}\n    {%- if merged_system %}\n        {{- '<|im_start|>system\\n' + merged_system + '<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- set ns = namespace(multi_step_tool=true, last_query_index=messages|length - 1) %}\n{%- for message in messages[::-1] %}\n    {%- set index = (messages|length - 1) - loop.index0 %}\n    {%- if ns.multi_step_tool and message.role == \"user\" %}\n        {%- set content = render_content(message.content, false)|trim %}\n        {%- if not(content.startswith('<tool_response>') and content.endswith('</tool_response>')) %}\n            {%- set ns.multi_step_tool = false %}\n            {%- set ns.last_query_index = index %}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- for message in messages %}\n    {%- if loop.index0 >= num_sys and message.role != \"system\" and message.role != \"developer\" %}\n    {%- set content = render_content(message.content, true)|trim %}\n    {%- if message.role == \"user\" %}\n        {{- '<|im_start|>' + message.role + '\\n' + content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {%- set reasoning_content = '' %}\n        {%- if message.reasoning_content is string %}\n            {%- set reasoning_content = message.reasoning_content %}\n        {%- else %}\n            {%- if '</think>' in content %}\n                {%- set reasoning_content = content.split('</think>')[0].rstrip('\\n').split('<think>')[-1].lstrip('\\n') %}\n                {%- set content = content.split('</think>')[-1].lstrip('\\n') %}\n            {%- endif %}\n        {%- endif %}\n        {%- set reasoning_content = reasoning_content|trim %}\n        {%- if (preserve_thinking is defined and preserve_thinking is true) or (loop.index0 > ns.last_query_index) %}\n            {{- '<|im_start|>' + message.role + '\\n<think>\\n' + reasoning_content + '\\n</think>\\n\\n' + content }}\n        {%- else %}\n            {{- '<|im_start|>' + message.role + '\\n' + content }}\n        {%- endif %}\n        {%- if message.tool_calls and message.tool_calls is iterable and message.tool_calls is not mapping %}\n            {%- for tool_call in message.tool_calls %}\n                {%- if tool_call.function is defined %}\n                    {%- set tool_call = tool_call.function %}\n                {%- endif %}\n                {%- if loop.first %}\n                    {%- if content|trim %}\n                        {{- '\\n\\n<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                    {%- else %}\n                        {{- '<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                    {%- endif %}\n                {%- else %}\n                    {{- '\\n<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                {%- endif %}\n                {%- if tool_call.arguments is mapping %}\n                    {%- for args_name in tool_call.arguments %}\n                        {%- set args_value = tool_call.arguments[args_name] %}\n                        {{- '<parameter=' + args_name + '>\\n' }}\n                        {%- set args_value = args_value | tojson | safe if args_value is mapping or (args_value is sequence and args_value is not string) else args_value | string %}\n                        {{- args_value }}\n                        {{- '\\n</parameter>\\n' }}\n                    {%- endfor %}\n                {%- endif %}\n                {{- '</function>\\n</tool_call>' }}\n            {%- endfor %}\n        {%- endif %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if loop.previtem and loop.previtem.role != \"tool\" %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- content }}\n        {{- '\\n</tool_response>' }}\n        {%- if not loop.last and loop.nextitem.role != \"tool\" %}\n            {{- '<|im_end|>\\n' }}\n        {%- elif loop.last %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n    {%- if enable_thinking is defined and enable_thinking is false %}\n        {{- '<think>\\n\\n</think>\\n\\n' }}\n    {%- else %}\n        {{- '<think>\\n' }}\n    {%- endif %}\n{%- endif %}\n{#- Unsloth fixes - developer role, tool calling #}",
+      "tokenizer.ggml.add_bos_token": false,
+      "tokenizer.ggml.bos_token_id": 248044,
+      "tokenizer.ggml.eos_token_id": 248046,
+      "tokenizer.ggml.merges": {
+        "array_type": 8,
+        "contents": "not loaded",
+        "count": 247587
+      },
+      "tokenizer.ggml.model": "gpt2",
+      "tokenizer.ggml.padding_token_id": 248055,
+      "tokenizer.ggml.pre": "qwen35",
+      "tokenizer.ggml.token_type": {
+        "array_type": 5,
+        "contents": "not loaded",
+        "count": 248320
+      },
+      "tokenizer.ggml.tokens": {
+        "array_type": 8,
+        "contents": "not loaded",
+        "count": 248320
+      }
+    },
+    "tensor_count_declared": 733,
+    "tensor_data_read": false,
+    "version": 3
+  },
+  "scope": "repo model-locks, models filename inventory, default Hugging Face hub directory names; no credential reads or global disk search",
+  "target_model": {
+    "current_training_intent": "B first; F and final decoder from scratch; 0.8B target scale",
+    "dense_3B_source": "not established by repository evidence",
+    "status": "unselected",
+    "warning": "Qwen 35B-A3B is MoE total size with about 3B active; not a dense 3B base. Existing HNet is not the selected training tokenizer."
+  }
+}

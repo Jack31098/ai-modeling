@@ -1,0 +1,74 @@
+{
+  "documents_sha256": "d1b2542e710597218b255942c9847f796fb1630f0871e1918dac92c902b7822d",
+  "sources": [
+    {
+      "author": "Lewis Carroll",
+      "catalog_url": "https://www.gutenberg.org/ebooks/11",
+      "credits": "Arthur DiBianca and David Widger",
+      "edition_update": "2025-06-26",
+      "excerpt_sha256": "ae4d450c3a2897e418fc6adf3c8cf4ab4f04a958dc8bf3a0449f02abf2cf79e9",
+      "language": "en",
+      "license_file": "licenses/pg11-license.txt",
+      "license_url": "https://www.gutenberg.org/policy/license.html",
+      "marker": "Alice was beginning to get very tired",
+      "normalization": "none",
+      "paragraphs": 3,
+      "retrieved_on": "2026-11-03",
+      "rights": "Public domain in the USA; retain accompanying Project Gutenberg license/notice; no worldwide rights assertion",
+      "sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+      "size": 174311,
+      "source_byte": [
+        1570,
+        2942
+      ],
+      "source_cp": [
+        1562,
+        2922
+      ],
+      "source_document_id": "work:alice-in-wonderland",
+      "source_id": "pg11",
+      "title": "Alice's Adventures in Wonderland",
+      "url": "https://www.gutenberg.org/cache/epub/11/pg11.txt"
+    },
+    {
+      "author": "Confucius (traditional attribution)",
+      "catalog_url": "https://www.gutenberg.org/ebooks/23839",
+      "credits": "Produced by Wen Yen",
+      "edition_update": "2014-01-27",
+      "excerpt_sha256": "8fab71df87b0fee38a4a1a780eb10723456258a2e6fe06f6f996a2ec0ef2c7c3",
+      "language": "zh",
+      "license_file": "licenses/pg23839-license.txt",
+      "license_url": "https://www.gutenberg.org/policy/license.html",
+      "marker": "1. 子曰：「學而時習之",
+      "normalization": "none",
+      "paragraphs": 3,
+      "retrieved_on": "2026-11-03",
+      "rights": "Public domain in the USA; retain accompanying Project Gutenberg license/notice; no worldwide rights assertion",
+      "sha256": "dd2385d1e6bc3a5cde6d4d5efdf16d1bab0bff40a0209a7dc9c4909b80bf3035",
+      "size": 88528,
+      "source_byte": [
+        965,
+        1337
+      ],
+      "source_cp": [
+        899,
+        1037
+      ],
+      "source_document_id": "work:analects-chinese",
+      "source_id": "pg23839",
+      "title": "論語",
+      "url": "https://www.gutenberg.org/cache/epub/23839/pg23839.txt"
+    },
+    {
+      "author": "AI Modeling project, examples authored for this task",
+      "created_on": "2026-11-03",
+      "documents": 27,
+      "generator": "prepare_sources.fixture_documents",
+      "kind": "synthetic_fixture",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_id": "self-written-fixtures-v0.1"
+    }
+  ],
+  "version": "sources-v0.1"
+}

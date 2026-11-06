@@ -1,0 +1,15 @@
+{
+  "checked_utc": "2026-11-05T08:58:28.2100198Z",
+  "owned_process_ids": [
+    25788,
+    22364,
+    22304,
+    29300,
+    10952,
+    8548
+  ],
+  "remaining_processes": [],
+  "listening_on_port_18471": [],
+  "action": "read-only check; no process termination",
+  "passed": true
+}

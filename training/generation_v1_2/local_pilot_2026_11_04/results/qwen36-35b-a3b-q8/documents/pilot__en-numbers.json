@@ -1,0 +1,375 @@
+{
+  "doc_id": "pilot:en-numbers",
+  "model_id": "qwen36-35b-a3b-q8",
+  "source_sha256": "472d25ff1ef97f4e2461383adb6f86c09892e34c2fcbcc26569e72d598e45589",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080333Z",
+  "attempt_count": 1,
+  "selected_attempt": 1,
+  "valid": true,
+  "attempt_files": [
+    "../attempts/pilot__en-numbers-1.json"
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "word_count": 21,
+    "phrase_count": 2,
+    "passthrough_count": 0,
+    "word_to_phrase_node_ratio": 10.5,
+    "semantic_quality": "unreviewed; exact reconstruction does not certify lexical or semantic boundaries",
+    "candidate_structure": {
+      "coordinates": "Unicode code points and original UTF-8 bytes; half-open",
+      "words": [
+        {
+          "id": "w0",
+          "text": "Keep",
+          "cp": [
+            0,
+            4
+          ],
+          "utf8": [
+            0,
+            4
+          ]
+        },
+        {
+          "id": "w1",
+          "text": " ",
+          "cp": [
+            4,
+            5
+          ],
+          "utf8": [
+            4,
+            5
+          ]
+        },
+        {
+          "id": "w2",
+          "text": "-17.30",
+          "cp": [
+            5,
+            11
+          ],
+          "utf8": [
+            5,
+            11
+          ]
+        },
+        {
+          "id": "w3",
+          "text": ",",
+          "cp": [
+            11,
+            12
+          ],
+          "utf8": [
+            11,
+            12
+          ]
+        },
+        {
+          "id": "w4",
+          "text": " ",
+          "cp": [
+            12,
+            13
+          ],
+          "utf8": [
+            12,
+            13
+          ]
+        },
+        {
+          "id": "w5",
+          "text": "+1,234.50",
+          "cp": [
+            13,
+            22
+          ],
+          "utf8": [
+            13,
+            22
+          ]
+        },
+        {
+          "id": "w6",
+          "text": " ",
+          "cp": [
+            22,
+            23
+          ],
+          "utf8": [
+            22,
+            23
+          ]
+        },
+        {
+          "id": "w7",
+          "text": "and",
+          "cp": [
+            23,
+            26
+          ],
+          "utf8": [
+            23,
+            26
+          ]
+        },
+        {
+          "id": "w8",
+          "text": " ",
+          "cp": [
+            26,
+            27
+          ],
+          "utf8": [
+            26,
+            27
+          ]
+        },
+        {
+          "id": "w9",
+          "text": "6.02e23",
+          "cp": [
+            27,
+            34
+          ],
+          "utf8": [
+            27,
+            34
+          ]
+        },
+        {
+          "id": "w10",
+          "text": " ",
+          "cp": [
+            34,
+            35
+          ],
+          "utf8": [
+            34,
+            35
+          ]
+        },
+        {
+          "id": "w11",
+          "text": "unchanged;",
+          "cp": [
+            35,
+            45
+          ],
+          "utf8": [
+            35,
+            45
+          ]
+        },
+        {
+          "id": "w12",
+          "text": " ",
+          "cp": [
+            45,
+            46
+          ],
+          "utf8": [
+            45,
+            46
+          ]
+        },
+        {
+          "id": "w13",
+          "text": "73/37",
+          "cp": [
+            46,
+            51
+          ],
+          "utf8": [
+            46,
+            51
+          ]
+        },
+        {
+          "id": "w14",
+          "text": " ",
+          "cp": [
+            51,
+            52
+          ],
+          "utf8": [
+            51,
+            52
+          ]
+        },
+        {
+          "id": "w15",
+          "text": "is",
+          "cp": [
+            52,
+            54
+          ],
+          "utf8": [
+            52,
+            54
+          ]
+        },
+        {
+          "id": "w16",
+          "text": " ",
+          "cp": [
+            54,
+            55
+          ],
+          "utf8": [
+            54,
+            55
+          ]
+        },
+        {
+          "id": "w17",
+          "text": "not",
+          "cp": [
+            55,
+            58
+          ],
+          "utf8": [
+            55,
+            58
+          ]
+        },
+        {
+          "id": "w18",
+          "text": " ",
+          "cp": [
+            58,
+            59
+          ],
+          "utf8": [
+            58,
+            59
+          ]
+        },
+        {
+          "id": "w19",
+          "text": "37/73",
+          "cp": [
+            59,
+            64
+          ],
+          "utf8": [
+            59,
+            64
+          ]
+        },
+        {
+          "id": "w20",
+          "text": ".",
+          "cp": [
+            64,
+            65
+          ],
+          "utf8": [
+            64,
+            65
+          ]
+        }
+      ],
+      "phrase_forest": [
+        {
+          "id": "p0",
+          "cp": [
+            0,
+            45
+          ],
+          "utf8": [
+            0,
+            45
+          ],
+          "children": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p1",
+          "cp": [
+            45,
+            65
+          ],
+          "utf8": [
+            45,
+            65
+          ],
+          "children": [
+            "w12",
+            "w13",
+            "w14",
+            "w15",
+            "w16",
+            "w17",
+            "w18",
+            "w19",
+            "w20"
+          ],
+          "passthrough": false
+        }
+      ],
+      "scale_projection": {
+        "0": [
+          "w0",
+          "w1",
+          "w2",
+          "w3",
+          "w4",
+          "w5",
+          "w6",
+          "w7",
+          "w8",
+          "w9",
+          "w10",
+          "w11",
+          "w12",
+          "w13",
+          "w14",
+          "w15",
+          "w16",
+          "w17",
+          "w18",
+          "w19",
+          "w20"
+        ],
+        "1": [
+          "p0",
+          "p1"
+        ]
+      },
+      "student_tokenizer_alignment": "not implemented",
+      "execution_events": "not compiled; complete v1.2 D1 consumer still required",
+      "supervision_permissions": {
+        "mode": "READ_FULL",
+        "evidence_available_at": "entire supplied input received",
+        "input_complete_is_true_document_eof": true,
+        "student_observation_fields": [
+          "text",
+          "input_complete"
+        ],
+        "structure_storage": "supervision only; never append to student text",
+        "allow_stream_action_forcing": false,
+        "allow_continuous_latent_substitution": false,
+        "allow_training": false
+      }
+    }
+  },
+  "training_eligible": false
+}

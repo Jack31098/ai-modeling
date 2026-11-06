@@ -1,0 +1,33 @@
+{
+  "version": "fixed-orthographic-v0.1",
+  "coordinate_unit": "unicode_code_point",
+  "byte_encoding": "utf-8",
+  "normalization": "none",
+  "english": {
+    "abbreviations": ["Dr.", "Mr.", "Mrs.", "Ms.", "Prof.", "Sr.", "Jr.", "St.", "vs.", "etc.", "e.g.", "i.e."],
+    "internal_apostrophes": "'’",
+    "internal_hyphens": "-‐‑",
+    "url_prefixes": ["https://", "http://", "www."],
+    "url_hard_stops": "whitespace, angle brackets, double quotes, ，。；：！？",
+    "url_trailing_punctuation": ".,;:!?。。，；：！？)]}",
+    "stream_policy": "non-Han whitespace-delimited chunk, emit after observing first following whitespace; true document EOF may flush; excerpt/window end never flushes"
+  },
+  "chinese": {
+    "package": "jieba",
+    "version": "0.42.1",
+    "mode": "default precise",
+    "HMM": false,
+    "cut_all": false,
+    "user_dictionary": null,
+    "stream_eligible": false
+  },
+  "split": {
+    "seed": "word-boundary-step0-2026-11-03",
+    "fractions": [0.8, 0.1, 0.1],
+    "near_duplicate": "NFKC+casefold+whitespace-collapse for audit only; character 5-gram Jaccard >= 0.85 with both lengths >= 30",
+    "template_audit": "same normalized text after replacing ASCII number runs with <NUM>",
+    "max_documents_for_pairwise_audit": 5000
+  },
+  "slicing": {"code_points": 128, "requires_prefix_replay": true},
+  "model": {"train_B_first": true, "F_initialization": "from_scratch", "final_decoder_initialization": "from_scratch", "target_parameters": 800000000, "pretrained_backbone": null}
+}

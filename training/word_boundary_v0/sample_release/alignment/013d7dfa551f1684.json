@@ -1,0 +1,504 @@
+{
+  "doc_id": "fixture:inventory-10",
+  "fused_token_conflict_fixture": {
+    "boundaries": [
+      {
+        "byte": 3,
+        "cp": 3,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 4,
+        "cp": 4,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 7,
+        "cp": 7,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 8,
+        "cp": 8,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 11,
+        "cp": 11,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 12,
+        "cp": 12,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 17,
+        "cp": 17,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 18,
+        "cp": 18,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 20,
+        "cp": 20,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 21,
+        "cp": 21,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 26,
+        "cp": 26,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 27,
+        "cp": 27,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 28,
+        "cp": 28,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 32,
+        "cp": 32,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 33,
+        "cp": 33,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 36,
+        "cp": 36,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 37,
+        "cp": 37,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 40,
+        "cp": 40,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 41,
+        "cp": 41,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 43,
+        "cp": 43,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 44,
+        "cp": 44,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 47,
+        "cp": 47,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 48,
+        "cp": 48,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 53,
+        "cp": 53,
+        "loss_mask": false,
+        "status": "boundary_inside_token",
+        "token_indices": [
+          0
+        ]
+      },
+      {
+        "byte": 54,
+        "cp": 54,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          0
+        ]
+      }
+    ],
+    "errors": [
+      {
+        "boundaries": [
+          3,
+          4,
+          7,
+          8,
+          11,
+          12,
+          17,
+          18,
+          20,
+          21,
+          26,
+          27,
+          28,
+          32,
+          33,
+          36,
+          37,
+          40,
+          41,
+          43,
+          44,
+          47,
+          48,
+          53
+        ],
+        "reason": "multiple_boundaries_inside_token",
+        "token": 0
+      }
+    ],
+    "notes": [],
+    "offset_unit": "unicode_code_point",
+    "surface_check": "verified",
+    "tokenizer_id": "fixture:whole-input-v1",
+    "usable_without_conflicts": false
+  },
+  "identity_codepoint_fixture": {
+    "boundaries": [
+      {
+        "byte": 3,
+        "cp": 3,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          2
+        ]
+      },
+      {
+        "byte": 4,
+        "cp": 4,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          3
+        ]
+      },
+      {
+        "byte": 7,
+        "cp": 7,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          6
+        ]
+      },
+      {
+        "byte": 8,
+        "cp": 8,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          7
+        ]
+      },
+      {
+        "byte": 11,
+        "cp": 11,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          10
+        ]
+      },
+      {
+        "byte": 12,
+        "cp": 12,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          11
+        ]
+      },
+      {
+        "byte": 17,
+        "cp": 17,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          16
+        ]
+      },
+      {
+        "byte": 18,
+        "cp": 18,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          17
+        ]
+      },
+      {
+        "byte": 20,
+        "cp": 20,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          19
+        ]
+      },
+      {
+        "byte": 21,
+        "cp": 21,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          20
+        ]
+      },
+      {
+        "byte": 26,
+        "cp": 26,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          25
+        ]
+      },
+      {
+        "byte": 27,
+        "cp": 27,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          26
+        ]
+      },
+      {
+        "byte": 28,
+        "cp": 28,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          27
+        ]
+      },
+      {
+        "byte": 32,
+        "cp": 32,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          31
+        ]
+      },
+      {
+        "byte": 33,
+        "cp": 33,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          32
+        ]
+      },
+      {
+        "byte": 36,
+        "cp": 36,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          35
+        ]
+      },
+      {
+        "byte": 37,
+        "cp": 37,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          36
+        ]
+      },
+      {
+        "byte": 40,
+        "cp": 40,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          39
+        ]
+      },
+      {
+        "byte": 41,
+        "cp": 41,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          40
+        ]
+      },
+      {
+        "byte": 43,
+        "cp": 43,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          42
+        ]
+      },
+      {
+        "byte": 44,
+        "cp": 44,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          43
+        ]
+      },
+      {
+        "byte": 47,
+        "cp": 47,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          46
+        ]
+      },
+      {
+        "byte": 48,
+        "cp": 48,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          47
+        ]
+      },
+      {
+        "byte": 53,
+        "cp": 53,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          52
+        ]
+      },
+      {
+        "byte": 54,
+        "cp": 54,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          53
+        ]
+      }
+    ],
+    "errors": [],
+    "notes": [],
+    "offset_unit": "unicode_code_point",
+    "surface_check": "verified",
+    "tokenizer_id": "fixture:one-codepoint-v1",
+    "usable_without_conflicts": true
+  }
+}

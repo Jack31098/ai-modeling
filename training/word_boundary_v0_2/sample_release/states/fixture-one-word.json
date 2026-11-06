@@ -1,0 +1,38 @@
+{
+  "checkpoints": [
+    {
+      "kind": "window_pause",
+      "state": {
+        "byte": 28,
+        "clock": 28,
+        "cp": 28,
+        "ended": false,
+        "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+        "max_delay_steps": 0,
+        "max_pending_byte": 28,
+        "max_pending_cp": 28,
+        "mode": "non_han",
+        "pending": "antidisestablishmentarianism",
+        "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+        "start_byte": 0,
+        "start_cp": 0
+      }
+    }
+  ],
+  "end_kind": "true_eof",
+  "final": {
+    "byte": 28,
+    "clock": 29,
+    "cp": 28,
+    "ended": true,
+    "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+    "max_delay_steps": 28,
+    "max_pending_byte": 28,
+    "max_pending_cp": 28,
+    "mode": null,
+    "pending": "",
+    "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+    "start_byte": 28,
+    "start_cp": 28
+  }
+}

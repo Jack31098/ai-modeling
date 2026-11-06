@@ -1,0 +1,278 @@
+{
+  "doc_id": "pilot:zh-quantity",
+  "model_id": "qwen38-27b-q8",
+  "source_sha256": "856f9b206be5b7a12a51dc098c1aeb640dce610ce37fe14cc54c7fc2ecea7f51",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080727Z",
+  "attempt_count": 1,
+  "selected_attempt": 1,
+  "valid": true,
+  "attempt_files": [
+    "../attempts/pilot__zh-quantity-1.json"
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "word_count": 13,
+    "phrase_count": 3,
+    "passthrough_count": 0,
+    "word_to_phrase_node_ratio": 4.333333333333333,
+    "semantic_quality": "unreviewed; exact reconstruction does not certify lexical or semantic boundaries",
+    "candidate_structure": {
+      "coordinates": "Unicode code points and original UTF-8 bytes; half-open",
+      "words": [
+        {
+          "id": "w0",
+          "text": "药盒",
+          "cp": [
+            0,
+            2
+          ],
+          "utf8": [
+            0,
+            6
+          ]
+        },
+        {
+          "id": "w1",
+          "text": "净重",
+          "cp": [
+            2,
+            4
+          ],
+          "utf8": [
+            6,
+            12
+          ]
+        },
+        {
+          "id": "w2",
+          "text": "17.30",
+          "cp": [
+            4,
+            9
+          ],
+          "utf8": [
+            12,
+            17
+          ]
+        },
+        {
+          "id": "w3",
+          "text": "克",
+          "cp": [
+            9,
+            10
+          ],
+          "utf8": [
+            17,
+            20
+          ]
+        },
+        {
+          "id": "w4",
+          "text": "，",
+          "cp": [
+            10,
+            11
+          ],
+          "utf8": [
+            20,
+            23
+          ]
+        },
+        {
+          "id": "w5",
+          "text": "不是",
+          "cp": [
+            11,
+            13
+          ],
+          "utf8": [
+            23,
+            29
+          ]
+        },
+        {
+          "id": "w6",
+          "text": "73",
+          "cp": [
+            13,
+            15
+          ],
+          "utf8": [
+            29,
+            31
+          ]
+        },
+        {
+          "id": "w7",
+          "text": "克",
+          "cp": [
+            15,
+            16
+          ],
+          "utf8": [
+            31,
+            34
+          ]
+        },
+        {
+          "id": "w8",
+          "text": "；",
+          "cp": [
+            16,
+            17
+          ],
+          "utf8": [
+            34,
+            37
+          ]
+        },
+        {
+          "id": "w9",
+          "text": "温度",
+          "cp": [
+            17,
+            19
+          ],
+          "utf8": [
+            37,
+            43
+          ]
+        },
+        {
+          "id": "w10",
+          "text": "为",
+          "cp": [
+            19,
+            20
+          ],
+          "utf8": [
+            43,
+            46
+          ]
+        },
+        {
+          "id": "w11",
+          "text": "-5.2°C",
+          "cp": [
+            20,
+            26
+          ],
+          "utf8": [
+            46,
+            53
+          ]
+        },
+        {
+          "id": "w12",
+          "text": "。",
+          "cp": [
+            26,
+            27
+          ],
+          "utf8": [
+            53,
+            56
+          ]
+        }
+      ],
+      "phrase_forest": [
+        {
+          "id": "p0",
+          "cp": [
+            0,
+            11
+          ],
+          "utf8": [
+            0,
+            23
+          ],
+          "children": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p1",
+          "cp": [
+            11,
+            17
+          ],
+          "utf8": [
+            23,
+            37
+          ],
+          "children": [
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p2",
+          "cp": [
+            17,
+            27
+          ],
+          "utf8": [
+            37,
+            56
+          ],
+          "children": [
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "passthrough": false
+        }
+      ],
+      "scale_projection": {
+        "0": [
+          "w0",
+          "w1",
+          "w2",
+          "w3",
+          "w4",
+          "w5",
+          "w6",
+          "w7",
+          "w8",
+          "w9",
+          "w10",
+          "w11",
+          "w12"
+        ],
+        "1": [
+          "p0",
+          "p1",
+          "p2"
+        ]
+      },
+      "student_tokenizer_alignment": "not implemented",
+      "execution_events": "not compiled; complete v1.2 D1 consumer still required",
+      "supervision_permissions": {
+        "mode": "READ_FULL",
+        "evidence_available_at": "entire supplied input received",
+        "input_complete_is_true_document_eof": true,
+        "student_observation_fields": [
+          "text",
+          "input_complete"
+        ],
+        "structure_storage": "supervision only; never append to student text",
+        "allow_stream_action_forcing": false,
+        "allow_continuous_latent_substitution": false,
+        "allow_training": false
+      }
+    }
+  },
+  "training_eligible": false
+}

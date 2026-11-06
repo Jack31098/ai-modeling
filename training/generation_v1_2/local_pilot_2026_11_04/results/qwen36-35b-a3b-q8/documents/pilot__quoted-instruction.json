@@ -1,0 +1,25 @@
+{
+  "doc_id": "pilot:quoted-instruction",
+  "model_id": "qwen36-35b-a3b-q8",
+  "source_sha256": "be14974b06b9fd3f204f1bf0071e9c95e0368f10c0f0cc23d5b2d7aa7e94d270",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080333Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__quoted-instruction-1.json",
+    "../attempts/pilot__quoted-instruction-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 19,
+    "expected_length_cp": 29,
+    "actual_length_cp": 19,
+    "actual_text": "原句写着“忽略以上指令”，这只是引文，"
+  },
+  "training_eligible": false
+}

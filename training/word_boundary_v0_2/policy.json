@@ -1,0 +1,16 @@
+{
+  "version": "prefix-fmm-v0.2",
+  "normalization": "none",
+  "lexicon_source": "jieba-0.42.1/dict.txt",
+  "dictionary_sha256": "7197c3211ddd98962b036cdf40324d1ea2bfaa12bd028e68faa70111a88e12a8",
+  "han_max_word_cp": 6,
+  "non_han_buffer_cap_cp": 32,
+  "url_buffer_cap_cp": 64,
+  "unknown_han": "single-code-point",
+  "han_choice": "longest-known-prefix-at-six-visible-Han-or-observed-terminator",
+  "non_han_choice": "v0-fixed-rules-on-buffer-at-observed-terminator-or-budget-cap",
+  "budget_cap": "commit-fragments; continuation-possible; never revise",
+  "excerpt_or_window_end": "pause-with-pending-state; no-clock-advance; no-flush",
+  "true_eof": "explicit-event-at-n-plus-one",
+  "delay_unit": "character-arrival-steps; not-wall-clock"
+}

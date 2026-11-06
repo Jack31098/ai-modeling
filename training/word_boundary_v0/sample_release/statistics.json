@@ -1,0 +1,284 @@
+{
+  "corpus_vs_fixtures": {
+    "real_corpus_excerpt": {
+      "en": {
+        "code_points": 1360,
+        "documents": 1,
+        "units": 549
+      },
+      "mixed": {
+        "code_points": 0,
+        "documents": 0,
+        "units": 0
+      },
+      "zh": {
+        "code_points": 138,
+        "documents": 1,
+        "units": 119
+      }
+    },
+    "synthetic_fixture": {
+      "en": {
+        "code_points": 929,
+        "documents": 15,
+        "units": 348
+      },
+      "mixed": {
+        "code_points": 112,
+        "documents": 4,
+        "units": 70
+      },
+      "zh": {
+        "code_points": 115,
+        "documents": 5,
+        "units": 73
+      }
+    }
+  },
+  "input_documents": 29,
+  "kept_documents": 26,
+  "languages": {
+    "en": {
+      "code_points": 2289,
+      "delayed_stream_decisions": 408,
+      "documents": 16,
+      "fused_fixture_unaligned_boundaries": 881,
+      "lexical_byte_length_histogram": {
+        "1": 16,
+        "2": 71,
+        "3": 120,
+        "4": 71,
+        "5": 49,
+        "6": 27,
+        "7": 24,
+        "8": 10,
+        "9": 7,
+        "10": 5,
+        "11": 4,
+        "12": 1,
+        "13": 2,
+        "16": 3,
+        "24": 1,
+        "25": 1,
+        "28": 1
+      },
+      "lexical_cp_length_histogram": {
+        "1": 16,
+        "2": 71,
+        "3": 120,
+        "4": 71,
+        "5": 49,
+        "6": 27,
+        "7": 24,
+        "8": 11,
+        "9": 7,
+        "10": 4,
+        "11": 4,
+        "12": 1,
+        "13": 2,
+        "16": 3,
+        "24": 1,
+        "25": 1,
+        "28": 1
+      },
+      "lexical_end_rate_per_codepoint": 0.180428,
+      "sentence_terminal_candidates": 32,
+      "unit_boundary_rate_per_codepoint": 0.391874,
+      "unit_byte_length_histogram": {
+        "1": 466,
+        "2": 93,
+        "3": 129,
+        "4": 74,
+        "5": 49,
+        "6": 27,
+        "7": 24,
+        "8": 10,
+        "9": 7,
+        "10": 5,
+        "11": 4,
+        "12": 1,
+        "13": 2,
+        "16": 3,
+        "24": 1,
+        "25": 1,
+        "28": 1
+      },
+      "unit_cp_length_histogram": {
+        "1": 476,
+        "2": 92,
+        "3": 120,
+        "4": 74,
+        "5": 49,
+        "6": 27,
+        "7": 24,
+        "8": 11,
+        "9": 7,
+        "10": 4,
+        "11": 4,
+        "12": 1,
+        "13": 2,
+        "16": 3,
+        "24": 1,
+        "25": 1,
+        "28": 1
+      },
+      "unit_kinds": {
+        "number": 12,
+        "punct": 89,
+        "space": 395,
+        "url": 2,
+        "word": 399
+      },
+      "utf8_bytes": 2310
+    },
+    "mixed": {
+      "code_points": 112,
+      "delayed_stream_decisions": 15,
+      "documents": 4,
+      "fused_fixture_unaligned_boundaries": 66,
+      "lexical_byte_length_histogram": {
+        "2": 2,
+        "3": 8,
+        "4": 1,
+        "5": 2,
+        "6": 7,
+        "26": 1
+      },
+      "lexical_cp_length_histogram": {
+        "1": 8,
+        "2": 8,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "22": 1
+      },
+      "lexical_end_rate_per_codepoint": 0.1875,
+      "sentence_terminal_candidates": 3,
+      "unit_boundary_rate_per_codepoint": 0.625,
+      "unit_byte_length_histogram": {
+        "1": 27,
+        "2": 3,
+        "3": 23,
+        "4": 7,
+        "5": 2,
+        "6": 7,
+        "26": 1
+      },
+      "unit_cp_length_histogram": {
+        "1": 57,
+        "2": 8,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "22": 1
+      },
+      "unit_kinds": {
+        "han_word": 14,
+        "number": 3,
+        "punct": 17,
+        "space": 15,
+        "symbol": 17,
+        "url": 1,
+        "word": 3
+      },
+      "utf8_bytes": 208
+    },
+    "zh": {
+      "code_points": 253,
+      "delayed_stream_decisions": 3,
+      "documents": 6,
+      "fused_fixture_unaligned_boundaries": 186,
+      "lexical_byte_length_histogram": {
+        "1": 3,
+        "3": 93,
+        "4": 2,
+        "6": 39,
+        "9": 2,
+        "12": 1
+      },
+      "lexical_cp_length_histogram": {
+        "1": 96,
+        "2": 39,
+        "3": 2,
+        "4": 3
+      },
+      "lexical_end_rate_per_codepoint": 0.55336,
+      "sentence_terminal_candidates": 17,
+      "unit_boundary_rate_per_codepoint": 0.758893,
+      "unit_byte_length_histogram": {
+        "1": 9,
+        "3": 136,
+        "4": 5,
+        "6": 39,
+        "9": 2,
+        "12": 1
+      },
+      "unit_cp_length_histogram": {
+        "1": 145,
+        "2": 39,
+        "3": 2,
+        "4": 6
+      },
+      "unit_kinds": {
+        "han_word": 135,
+        "number": 5,
+        "punct": 46,
+        "space": 6
+      },
+      "utf8_bytes": 701
+    }
+  },
+  "real_corpus_quality": "not measured; two literary source documents, no modern Chinese gold or model tokenizer",
+  "rejections": {
+    "empty_or_whitespace_only": 2,
+    "exact_duplicate": 1
+  },
+  "rejections_by_split": {
+    "dev": {},
+    "test": {},
+    "train": {
+      "exact_duplicate": 1
+    },
+    "unassigned_quarantine": {
+      "empty_or_whitespace_only": 2
+    }
+  },
+  "slices": 37,
+  "split_documents": {
+    "dev": {
+      "by_kind": {
+        "synthetic_fixture": 2
+      },
+      "by_language": {
+        "en": 1,
+        "zh": 1
+      },
+      "documents": 2,
+      "isolation_groups": 2
+    },
+    "test": {
+      "by_kind": {
+        "synthetic_fixture": 3
+      },
+      "by_language": {
+        "en": 2,
+        "mixed": 1
+      },
+      "documents": 3,
+      "isolation_groups": 2
+    },
+    "train": {
+      "by_kind": {
+        "real_corpus_excerpt": 2,
+        "synthetic_fixture": 19
+      },
+      "by_language": {
+        "en": 13,
+        "mixed": 3,
+        "zh": 5
+      },
+      "documents": 21,
+      "isolation_groups": 18
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "doc_id": "pilot:en-lexical",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "4bfcd8b2f2b06b1ad6e10926138245b938d9fed80c23cdc38760e8cdffeafc07",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T081803Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__en-lexical-1.json",
+    "../attempts/pilot__en-lexical-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 3,
+    "expected_length_cp": 52,
+    "actual_length_cp": 43,
+    "actual_text": "Dr.Reedcan'tre-entertheU.S.officeat3.14p.m."
+  },
+  "training_eligible": false
+}

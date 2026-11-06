@@ -1,0 +1,41 @@
+{
+  "doc_id": "fixture:one-word",
+  "fused_token_conflict_fixture": {
+    "boundaries": [
+      {
+        "byte": 28,
+        "cp": 28,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          0
+        ]
+      }
+    ],
+    "errors": [],
+    "notes": [],
+    "offset_unit": "unicode_code_point",
+    "surface_check": "verified",
+    "tokenizer_id": "fixture:whole-input-v1",
+    "usable_without_conflicts": true
+  },
+  "identity_codepoint_fixture": {
+    "boundaries": [
+      {
+        "byte": 28,
+        "cp": 28,
+        "loss_mask": true,
+        "status": "aligned",
+        "token_indices": [
+          27
+        ]
+      }
+    ],
+    "errors": [],
+    "notes": [],
+    "offset_unit": "unicode_code_point",
+    "surface_check": "verified",
+    "tokenizer_id": "fixture:one-codepoint-v1",
+    "usable_without_conflicts": true
+  }
+}

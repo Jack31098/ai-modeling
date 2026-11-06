@@ -1,0 +1,25 @@
+{
+  "doc_id": "expansion:028",
+  "model_id": "qwen38-27b-q8",
+  "source_sha256": "3c1eafa5aee09e6b133e58032a4df92c5bce16fbc7517654df8978760e724837",
+  "cohort": "authored_template_expansion",
+  "server_run_id": "server-20261105T082530Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/expansion__028-1.json",
+    "../attempts/expansion__028-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 20,
+    "expected_length_cp": 30,
+    "actual_length_cp": 29,
+    "actual_text": "温度为-39.5°C；重量是111.30kg，不是39克。"
+  },
+  "training_eligible": false
+}

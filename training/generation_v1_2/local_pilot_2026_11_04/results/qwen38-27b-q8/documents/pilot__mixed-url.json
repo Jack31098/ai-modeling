@@ -1,0 +1,25 @@
+{
+  "doc_id": "pilot:mixed-url",
+  "model_id": "qwen38-27b-q8",
+  "source_sha256": "e3185fd3415d0786d158cd89c6fac07a861d18819fc30d58266cc37dd97c961d",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080727Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__mixed-url-1.json",
+    "../attempts/pilot__mixed-url-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 32,
+    "expected_length_cp": 48,
+    "actual_length_cp": 47,
+    "actual_text": "请打开https://example.org/说明，价格是USD17.30；别把73读成37。"
+  },
+  "training_eligible": false
+}

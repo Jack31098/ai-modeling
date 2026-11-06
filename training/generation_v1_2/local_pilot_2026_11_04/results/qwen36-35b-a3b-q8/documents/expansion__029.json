@@ -1,0 +1,234 @@
+{
+  "doc_id": "expansion:029",
+  "model_id": "qwen36-35b-a3b-q8",
+  "source_sha256": "516b7cbbbc9ca1d356c045a478291a49e63e2add85722259be86ccc5099b2ed9",
+  "cohort": "authored_template_expansion",
+  "server_run_id": "server-20261105T082049Z",
+  "attempt_count": 1,
+  "selected_attempt": 1,
+  "valid": true,
+  "attempt_files": [
+    "../attempts/expansion__029-1.json"
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "word_count": 12,
+    "phrase_count": 1,
+    "passthrough_count": 0,
+    "word_to_phrase_node_ratio": 12.0,
+    "semantic_quality": "unreviewed; exact reconstruction does not certify lexical or semantic boundaries",
+    "candidate_structure": {
+      "coordinates": "Unicode code points and original UTF-8 bytes; half-open",
+      "words": [
+        {
+          "id": "w0",
+          "text": "不是",
+          "cp": [
+            0,
+            2
+          ],
+          "utf8": [
+            0,
+            6
+          ]
+        },
+        {
+          "id": "w1",
+          "text": "说",
+          "cp": [
+            2,
+            3
+          ],
+          "utf8": [
+            6,
+            9
+          ]
+        },
+        {
+          "id": "w2",
+          "text": "第40份",
+          "cp": [
+            3,
+            7
+          ],
+          "utf8": [
+            9,
+            17
+          ]
+        },
+        {
+          "id": "w3",
+          "text": "申请",
+          "cp": [
+            7,
+            9
+          ],
+          "utf8": [
+            17,
+            23
+          ]
+        },
+        {
+          "id": "w4",
+          "text": "未被",
+          "cp": [
+            9,
+            11
+          ],
+          "utf8": [
+            23,
+            29
+          ]
+        },
+        {
+          "id": "w5",
+          "text": "拒绝",
+          "cp": [
+            11,
+            13
+          ],
+          "utf8": [
+            29,
+            35
+          ]
+        },
+        {
+          "id": "w6",
+          "text": "，",
+          "cp": [
+            13,
+            14
+          ],
+          "utf8": [
+            35,
+            38
+          ]
+        },
+        {
+          "id": "w7",
+          "text": "就",
+          "cp": [
+            14,
+            15
+          ],
+          "utf8": [
+            38,
+            41
+          ]
+        },
+        {
+          "id": "w8",
+          "text": "能",
+          "cp": [
+            15,
+            16
+          ],
+          "utf8": [
+            41,
+            44
+          ]
+        },
+        {
+          "id": "w9",
+          "text": "推断",
+          "cp": [
+            16,
+            18
+          ],
+          "utf8": [
+            44,
+            50
+          ]
+        },
+        {
+          "id": "w10",
+          "text": "第112份",
+          "cp": [
+            18,
+            23
+          ],
+          "utf8": [
+            50,
+            59
+          ]
+        },
+        {
+          "id": "w11",
+          "text": "已获批准。",
+          "cp": [
+            23,
+            28
+          ],
+          "utf8": [
+            59,
+            74
+          ]
+        }
+      ],
+      "phrase_forest": [
+        {
+          "id": "p0",
+          "cp": [
+            0,
+            28
+          ],
+          "utf8": [
+            0,
+            74
+          ],
+          "children": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "passthrough": false
+        }
+      ],
+      "scale_projection": {
+        "0": [
+          "w0",
+          "w1",
+          "w2",
+          "w3",
+          "w4",
+          "w5",
+          "w6",
+          "w7",
+          "w8",
+          "w9",
+          "w10",
+          "w11"
+        ],
+        "1": [
+          "p0"
+        ]
+      },
+      "student_tokenizer_alignment": "not implemented",
+      "execution_events": "not compiled; complete v1.2 D1 consumer still required",
+      "supervision_permissions": {
+        "mode": "READ_FULL",
+        "evidence_available_at": "entire supplied input received",
+        "input_complete_is_true_document_eof": true,
+        "student_observation_fields": [
+          "text",
+          "input_complete"
+        ],
+        "structure_storage": "supervision only; never append to student text",
+        "allow_stream_action_forcing": false,
+        "allow_continuous_latent_substitution": false,
+        "allow_training": false
+      }
+    }
+  },
+  "training_eligible": false
+}

@@ -1,0 +1,25 @@
+{
+  "doc_id": "pilot:zh-denial",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "273665bd356d1ccd643224e187c71ce7bc4a5aaf043530de151bb7084eb7009c",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T081803Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__zh-denial-1.json",
+    "../attempts/pilot__zh-denial-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 10,
+    "expected_length_cp": 22,
+    "actual_length_cp": 20,
+    "actual_text": "甲并没有拒绝乙的申请乙也没有说甲已经批准"
+  },
+  "training_eligible": false
+}

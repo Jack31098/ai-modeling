@@ -1,0 +1,25 @@
+{
+  "doc_id": "pilot:zh-role",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "97b77e15822b795fa7e56cb2d4c3ed531a1810603c7f1e7d23ab5e8f0ecd4164",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T081803Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__zh-role-1.json",
+    "../attempts/pilot__zh-role-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 9,
+    "expected_length_cp": 21,
+    "actual_length_cp": 19,
+    "actual_text": "甲没有批准乙的申请乙把17.3元交给甲"
+  },
+  "training_eligible": false
+}

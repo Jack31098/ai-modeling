@@ -1,0 +1,25 @@
+{
+  "doc_id": "pilot:zh-quantity",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "856f9b206be5b7a12a51dc098c1aeb640dce610ce37fe14cc54c7fc2ecea7f51",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T081803Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__zh-quantity-1.json",
+    "../attempts/pilot__zh-quantity-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 10,
+    "expected_length_cp": 27,
+    "actual_length_cp": 24,
+    "actual_text": "药盒净重17.30克不是73克温度为-5.2°C"
+  },
+  "training_eligible": false
+}

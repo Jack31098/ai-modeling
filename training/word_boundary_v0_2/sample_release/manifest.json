@@ -1,0 +1,511 @@
+{
+  "candidate_count": 4,
+  "candidate_families": 2,
+  "configuration_sha256": {
+    "policy.json": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+    "sources.lock.json": "46f39dfb0f99497f050c20768059a667f0e996c5db938d97cf64350534036503",
+    "tokenizer-config.example.json": "d861c66bca19f1fe3f00024bcc3ad9e75c88fab068ffd656a687228ced9104d4"
+  },
+  "files": {
+    "DATA-NOTICE.md": {
+      "bytes": 2317,
+      "sha256": "4959d48cc07230f0069e213f6cc710a6155f713419b2f3ee21926dc4ff5b7006"
+    },
+    "REVIEW-GUIDE.md": {
+      "bytes": 1892,
+      "sha256": "543c7ce3d335599fe273b5b28d16dd6d7e8876f29b53aeb4c92c0e04b1fc63e9"
+    },
+    "automatic-suggestions/candidate-mdn-en-unicode.json": {
+      "bytes": 25114,
+      "sha256": "47f24e71cdf1de54b6180d24d07e37961fb5b662be35b37d6531282345a1749c"
+    },
+    "automatic-suggestions/candidate-mdn-en-utf-8.json": {
+      "bytes": 27686,
+      "sha256": "6698a68f038144455b9c808965d1c7f21c3efef749d939e5a451f349a80c951f"
+    },
+    "automatic-suggestions/candidate-mdn-zh-unicode.json": {
+      "bytes": 15208,
+      "sha256": "7aa0e2777edac91902003bc09ddafba75067bae9f0bd730c0119ac4f2679ff0a"
+    },
+    "automatic-suggestions/candidate-mdn-zh-utf-8.json": {
+      "bytes": 20841,
+      "sha256": "3d6c379fb5a0596288a38d9d6ab2b846dabe13f06a5ab6fcaa4fcf2aa7e226c7"
+    },
+    "candidate-audit.json": {
+      "bytes": 1869,
+      "sha256": "d4c79a06bb550dc48accebf99f05e3174f7d70698ea66c4d111005c725d3d06d"
+    },
+    "candidates.jsonl": {
+      "bytes": 13043,
+      "sha256": "82636fa14830ee8e6947f74ac68258accb8f14a80015ec90ba18a598ccf169e4"
+    },
+    "commits/candidate-mdn-en-unicode.jsonl": {
+      "bytes": 42192,
+      "sha256": "79eb62d3ddb4ec512dc886ff201a14221251c922ef961a5ea9070e62513944ab"
+    },
+    "commits/candidate-mdn-en-utf-8.jsonl": {
+      "bytes": 46629,
+      "sha256": "f71639616a469b9bc5cbd973fddf07c7a72c874a12af6aea965f9ddc64ce19ba"
+    },
+    "commits/candidate-mdn-zh-unicode.jsonl": {
+      "bytes": 25627,
+      "sha256": "d5a6dc4eee17095f3a455e1484aec4cdf0bbab21d04a17586cba3c37833d32c6"
+    },
+    "commits/candidate-mdn-zh-utf-8.jsonl": {
+      "bytes": 35405,
+      "sha256": "c3708bcb726089c47d29c57e342524eb77b8f802756cbba5f46145273ad88298"
+    },
+    "commits/fixture-abbreviations.jsonl": {
+      "bytes": 11200,
+      "sha256": "bdc03d7e3ddcc89cb8ebd3c9324080a43607e10181754bb828b5a010162dc75a"
+    },
+    "commits/fixture-chinese-ambiguity.jsonl": {
+      "bytes": 3731,
+      "sha256": "6d4bc35e6120223d7c3ac6ac1cc2a6c8c142d297d51cb2bbbdbf09b143e65d3f"
+    },
+    "commits/fixture-chinese-condition.jsonl": {
+      "bytes": 5066,
+      "sha256": "126e31b26550b28074019943399196cf7a5895ba122bba0a96ff6748d8e65ba4"
+    },
+    "commits/fixture-chinese-role.jsonl": {
+      "bytes": 4718,
+      "sha256": "2500dfc402978f0bffbf789776db93dac7c2af5af244dcaee6ce6247905894d0"
+    },
+    "commits/fixture-emoji-only.jsonl": {
+      "bytes": 1670,
+      "sha256": "950f563e97f47a7ab314c9ea5754b435c99c7d516d36b995156ae35609899c89"
+    },
+    "commits/fixture-english-punctuation.jsonl": {
+      "bytes": 7925,
+      "sha256": "d4af635e7c8bcadf606f04bdb5cb4e771d89ecf928f1a7d86123a1b4d57c472d"
+    },
+    "commits/fixture-hyphens.jsonl": {
+      "bytes": 8610,
+      "sha256": "91cdde7560e13d6d9fcc1a70a6e161c299de0e35dcbb6f3de0e5b8b4c7661525"
+    },
+    "commits/fixture-inventory-10.jsonl": {
+      "bytes": 8227,
+      "sha256": "f5aa2cf84da84df84d7781624b698f08b47466f1d15130d0917806f7a746d34e"
+    },
+    "commits/fixture-inventory-17.jsonl": {
+      "bytes": 8227,
+      "sha256": "73bf9c19c49d40e9ae57d4bd1a0fba75cb4d509041579002dc222ed92793e419"
+    },
+    "commits/fixture-inventory-73.jsonl": {
+      "bytes": 8227,
+      "sha256": "31ca5d25175669f04904375ea95f981e77825852db48c0f59753ef90190bbde1"
+    },
+    "commits/fixture-list.jsonl": {
+      "bytes": 6105,
+      "sha256": "1265a5b4c1057d7fec0810e16b567256efce688155676772afc26b8ba7ddd0c9"
+    },
+    "commits/fixture-mixed.jsonl": {
+      "bytes": 5744,
+      "sha256": "c352f66096f1f1523001bc27c1ff92769ba51640a675f2f4d55579b47f69d4d8"
+    },
+    "commits/fixture-near-a.jsonl": {
+      "bytes": 9924,
+      "sha256": "72b7652aa7dca218e0cf554be4fb63c43f7f50ffb24ae1d2d04d9e93ed28f795"
+    },
+    "commits/fixture-near-b.jsonl": {
+      "bytes": 9924,
+      "sha256": "76df1bcac05da958c79ba8c850feb04e49da0cf3bb4679ab4c156922c5e3e98c"
+    },
+    "commits/fixture-numbers.jsonl": {
+      "bytes": 6949,
+      "sha256": "6f27fa5f5877cc2dcd117e6f1daace49425024ac0f78307fae22408f9850ebbc"
+    },
+    "commits/fixture-one-word.jsonl": {
+      "bytes": 344,
+      "sha256": "f105843609c523b3a1f733aa1a42361c5c31a5d38cd593ecdd579da0d44d8c07"
+    },
+    "commits/fixture-quotes.jsonl": {
+      "bytes": 7891,
+      "sha256": "e4b1db685835da40cd1db110ea9f453e125198ab117259ab833a7d8dd9fd3bf4"
+    },
+    "commits/fixture-same-prefix-a.jsonl": {
+      "bytes": 6264,
+      "sha256": "e96eca7c65cfbf9420cbf78366f2efd1a5f865785b2add3e4bbe95de47f3b50e"
+    },
+    "commits/fixture-same-prefix-b.jsonl": {
+      "bytes": 6264,
+      "sha256": "0fb0424edf5066767f635efffdbc1d659fb61e9f9cac7ad779c59c6a98733c3e"
+    },
+    "commits/fixture-symbols.jsonl": {
+      "bytes": 9922,
+      "sha256": "4a5791947a209ffedefb8e239aa0427eff858d9a14ba5b12091f3382a6d796dd"
+    },
+    "commits/fixture-unicode.jsonl": {
+      "bytes": 6054,
+      "sha256": "bd622d8a7707042ead8c62d33bf456b53f0f506325ed8947fb9568a21c6f7d4d"
+    },
+    "commits/fixture-unknown-entity.jsonl": {
+      "bytes": 5060,
+      "sha256": "a4235e9dae0bcc102e2f24654b6c36e11f76d3ae6329a8d1b01ed4e870b1fe4d"
+    },
+    "commits/fixture-url-end.jsonl": {
+      "bytes": 9588,
+      "sha256": "730a99943bee7fad2a0f601916c4b32a2c0e85763d68c51d7ecf6476689617b7"
+    },
+    "commits/fixture-whitespace.jsonl": {
+      "bytes": 6921,
+      "sha256": "84d115d4b6c931341d8366634213a86c302f22e38ed5cde92f59169621fa0c1d"
+    },
+    "commits/real-pg11-excerpt.jsonl": {
+      "bytes": 196511,
+      "sha256": "1cf67c1d52cc5e448f05e8e8d2ab858456fa3fde8d86011b04ee74440d9f97b7"
+    },
+    "commits/real-pg23839-excerpt.jsonl": {
+      "bytes": 43330,
+      "sha256": "b4c853493f6b7e4e78d2849019adafc615dd3e03cfc8ca0cea084ae7df2ccff2"
+    },
+    "examples.json": {
+      "bytes": 16791,
+      "sha256": "8bb57ae13b7e344dc1758fb03cd1e6efeea4b7e08c075ae5fa5e5ad34e9d51f5"
+    },
+    "holdout-registry.json": {
+      "bytes": 755,
+      "sha256": "99fbf564359b0a4b382abff3bb1b92b1bfd38b9a475e156c465cbca9f2effb31"
+    },
+    "notices/v0/DATA-NOTICE.md": {
+      "bytes": 2262,
+      "sha256": "341b843cba07a0594dc0fd1a53e4592c0ff2b88c1592d4d535fbbed0b3caba9b"
+    },
+    "notices/v0/inputs/provenance.json": {
+      "bytes": 2770,
+      "sha256": "ff830e0069ac610f9d250b23db9baf08c20cd5e920fb6354ccbb06ec496c099f"
+    },
+    "notices/v0/licenses/jieba-MIT.txt": {
+      "bytes": 1075,
+      "sha256": "18ba0984839f85853b29fadaf992f7dba8fd0ca0fbeae34de2b8735222dc7a37"
+    },
+    "notices/v0/licenses/pg11-license.txt": {
+      "bytes": 17507,
+      "sha256": "3d56e31378d87afe7fbec9db5f4c6bfafc08ca4a065db4b8bc367bb9e9ff991b"
+    },
+    "notices/v0/licenses/pg23839-license.txt": {
+      "bytes": 17507,
+      "sha256": "3d56e31378d87afe7fbec9db5f4c6bfafc08ca4a065db4b8bc367bb9e9ff991b"
+    },
+    "notices/v0/sources.lock.json": {
+      "bytes": 2270,
+      "sha256": "b2011de4e2d56feb45c74c121518337ece8d8b5d9f083791edea9319ab238a1a"
+    },
+    "observations/candidate-mdn-en-unicode.jsonl": {
+      "bytes": 21781,
+      "sha256": "db81732e20cb259582d7cd8a3c3c7781237d09c61693fccf0c17a0ce1bdb08ca"
+    },
+    "observations/candidate-mdn-en-utf-8.jsonl": {
+      "bytes": 23669,
+      "sha256": "6e3304c8974b0dc7c1a151ffd7c2ede8da1402f34f0909208d5cd4dcb6770084"
+    },
+    "observations/candidate-mdn-zh-unicode.jsonl": {
+      "bytes": 7865,
+      "sha256": "49bdb2fc700fc6d187f153a664b8db803d43f12adc0e51b0d1fa4ac1e3d4ee0e"
+    },
+    "observations/candidate-mdn-zh-utf-8.jsonl": {
+      "bytes": 9967,
+      "sha256": "c7bedf4329db095a21b5b39f337b6845f31e0f42ef29ccd6d7d68d7c982518e4"
+    },
+    "observations/fixture-abbreviations.jsonl": {
+      "bytes": 3922,
+      "sha256": "c00b96728d535329531bf74e2e129c65e76c447bbfd20e86dcb474041a7237b3"
+    },
+    "observations/fixture-chinese-ambiguity.jsonl": {
+      "bytes": 1416,
+      "sha256": "59fdcbe27250ce2bb0b6ea0589564038c4a6ba5d6080ab85cf46c11f7f33b622"
+    },
+    "observations/fixture-chinese-condition.jsonl": {
+      "bytes": 1296,
+      "sha256": "2a6ffb24cc6c540ed365d62c5bc5758db32da00a21dcf1b781708ac283911bb7"
+    },
+    "observations/fixture-chinese-role.jsonl": {
+      "bytes": 1288,
+      "sha256": "c1471efc3438156fbccee95948fd2e68be8d3dff49a83a74458e8b39d3607989"
+    },
+    "observations/fixture-emoji-only.jsonl": {
+      "bytes": 342,
+      "sha256": "c357c1a3aa5090c2ea33c3139955c31faf588c4f2fcdcdbc8e1ebadfb5c71728"
+    },
+    "observations/fixture-english-punctuation.jsonl": {
+      "bytes": 4850,
+      "sha256": "49a593ee33a1b93fb600fa9bfe0dd614c53648e12f3a5b925ada46fb75176228"
+    },
+    "observations/fixture-hyphens.jsonl": {
+      "bytes": 4042,
+      "sha256": "0851a4948af4331092a558ae8f05206c05b5bdafbdc6722ae2bca94c2b225191"
+    },
+    "observations/fixture-inventory-10.jsonl": {
+      "bytes": 3168,
+      "sha256": "1d4e262a0adec8db2dad7cd1503e1bd477ffcf7ca64f6f7796c6629d7cdde8cf"
+    },
+    "observations/fixture-inventory-17.jsonl": {
+      "bytes": 3168,
+      "sha256": "2c52090e4fd556ea2b8ab090bbfe1d74e87420b25251d9a9864f6d73758758b8"
+    },
+    "observations/fixture-inventory-73.jsonl": {
+      "bytes": 3168,
+      "sha256": "790c6235cdffefc366712e256426e3d241641bb780073e674ecd0b4474573a88"
+    },
+    "observations/fixture-list.jsonl": {
+      "bytes": 1656,
+      "sha256": "57bacbf917c2d423f591fdb390550cde3d8e026ce33e24d0526d206704412062"
+    },
+    "observations/fixture-mixed.jsonl": {
+      "bytes": 2850,
+      "sha256": "fd5defa1380f08da721084eda00fd575d958bee59a965de14f43b5eec129a3f8"
+    },
+    "observations/fixture-near-a.jsonl": {
+      "bytes": 5662,
+      "sha256": "e7ff6cbb72e03d2224327eedc926bf85cd4eb046305bb56ae7fcb006060cdce1"
+    },
+    "observations/fixture-near-b.jsonl": {
+      "bytes": 5662,
+      "sha256": "cd59fe1eb4291fbdee8b8a0d05255fb92c6d418673d97615b707044d5c78151f"
+    },
+    "observations/fixture-numbers.jsonl": {
+      "bytes": 3342,
+      "sha256": "18470896dec5b97748ac8d989f7a24620091b0cfe0254ad2626ecb0f07f4f6ef"
+    },
+    "observations/fixture-one-word.jsonl": {
+      "bytes": 1660,
+      "sha256": "a68af00ad491d2823fb82c7e9b5e24f1b7b79ea5c5f22c0cebd382fb23fc89bc"
+    },
+    "observations/fixture-quotes.jsonl": {
+      "bytes": 2478,
+      "sha256": "d817052481fbceb1b93fe0937d78eb94f2a7532d207a5343c19057517331854e"
+    },
+    "observations/fixture-same-prefix-a.jsonl": {
+      "bytes": 3110,
+      "sha256": "00d51279622c15c05a8b08be43839bc30245e5f4cfed450e62698c6ce6b90021"
+    },
+    "observations/fixture-same-prefix-b.jsonl": {
+      "bytes": 3110,
+      "sha256": "8db51821e29e1907d8c6411cb526b35043585a043f6940ec006911d8e9bc7b06"
+    },
+    "observations/fixture-symbols.jsonl": {
+      "bytes": 1852,
+      "sha256": "e868a2d5f9218afd6018a744270c1067a63796b231773fec05e5de7f6fe6be71"
+    },
+    "observations/fixture-unicode.jsonl": {
+      "bytes": 1696,
+      "sha256": "e9276ca86f4466bf4f11d5f2d13acfe2b32a3f8236f57a8a9d49c0b2e554704b"
+    },
+    "observations/fixture-unknown-entity.jsonl": {
+      "bytes": 1408,
+      "sha256": "82d7b188e2a0283bfa3d9cf12b59269d2738f8ae24e6e3f6be9def781a45e79c"
+    },
+    "observations/fixture-url-end.jsonl": {
+      "bytes": 4792,
+      "sha256": "f86720715c6c87dfb1e249188999f18932cce9aea06775eb929f1c21db3814ac"
+    },
+    "observations/fixture-whitespace.jsonl": {
+      "bytes": 2302,
+      "sha256": "de4faa32bb39f0d47875ca6fd68f624f1bdb48a73cd29f8f008a1770705a6c22"
+    },
+    "observations/real-pg11-excerpt.jsonl": {
+      "bytes": 80553,
+      "sha256": "3b3538817393b68323ad59282e64c7c0b9882a8d5361c1036e4fd3f55b594fb9"
+    },
+    "observations/real-pg23839-excerpt.jsonl": {
+      "bytes": 8280,
+      "sha256": "e68beed58419e303b63693cb5fde44c64b6ac04a53dfca92bd7e4da1b184bb33"
+    },
+    "policy.json": {
+      "bytes": 746,
+      "sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0"
+    },
+    "reviews/candidate-mdn-en-unicode.json": {
+      "bytes": 3988,
+      "sha256": "839c10174d699fa751782b1fa871ab1862d2779b52ff46d48ed1004c622b18d8"
+    },
+    "reviews/candidate-mdn-en-utf-8.json": {
+      "bytes": 4306,
+      "sha256": "8cffd76c2bb1f81e6c23f4e2ae91a3955f04e67d0fa4b758536fab6e5460eaf2"
+    },
+    "reviews/candidate-mdn-zh-unicode.json": {
+      "bytes": 1894,
+      "sha256": "151ebdc0fc526eba8e18f1314bdd74d0d9eef1bdfc049256ab7c35303a785905"
+    },
+    "reviews/candidate-mdn-zh-utf-8.json": {
+      "bytes": 2217,
+      "sha256": "cf2c7f97e77552d02f723753ffdcf7707c8d961b65ad97fd697075696408dc8a"
+    },
+    "sources.lock.json": {
+      "bytes": 3176,
+      "sha256": "46f39dfb0f99497f050c20768059a667f0e996c5db938d97cf64350534036503"
+    },
+    "sources/en-us/LICENSE.md": {
+      "bytes": 23775,
+      "sha256": "97a45d9a5c27c90ad7f058b20a870f11a24717f0eb4585f141948d25b74c4d89"
+    },
+    "sources/en-us/unicode.md": {
+      "bytes": 1476,
+      "sha256": "50a980bea7d49e4326f2c6081413ad3b4f4c6a01723bed67a81b191d86f19bd7"
+    },
+    "sources/en-us/utf-8.md": {
+      "bytes": 952,
+      "sha256": "c848b35537bf3518a6d59b316ab203b622e5741bcf709283d996c50ee2b69a6b"
+    },
+    "sources/zh-cn/LICENSE.md": {
+      "bytes": 23750,
+      "sha256": "57c0d7e200fadfdbadb04b9ab220297809ba7f2ac0adaa6707a07fba432b2ebe"
+    },
+    "sources/zh-cn/unicode.md": {
+      "bytes": 1392,
+      "sha256": "39ff80fc91ddb03fb40bb4739c5fde33a2e18fe48f608e38a87acfe74da84b58"
+    },
+    "sources/zh-cn/utf-8.md": {
+      "bytes": 914,
+      "sha256": "23aa56414d08b20b213c88a0c51b49cae978ce07f320f9071edcf8e1c5a6dba9"
+    },
+    "states/candidate-mdn-en-unicode.json": {
+      "bytes": 2127,
+      "sha256": "cbf714cea93bb88dcca133c97b2b31688d33e59bcb30e225de28c7d06532328b"
+    },
+    "states/candidate-mdn-en-utf-8.json": {
+      "bytes": 2661,
+      "sha256": "2dc66d4e80ae981522238142cda0e1be5c46685d689ac3483ad06ba6c7114acb"
+    },
+    "states/candidate-mdn-zh-unicode.json": {
+      "bytes": 1556,
+      "sha256": "8a9131ed29cf50a1603e14db1a8d7930d6934782db9238082079ebfd51c29055"
+    },
+    "states/candidate-mdn-zh-utf-8.json": {
+      "bytes": 1550,
+      "sha256": "4fbc226b408d1eeede48f99e75ebca362a0eaf09657b96810f9497bedfe8b28f"
+    },
+    "states/fixture-abbreviations.json": {
+      "bytes": 1002,
+      "sha256": "e7043e313d59e1ef7e3ab8826682eb977e9064ca170b3d02d42b318ac91becce"
+    },
+    "states/fixture-chinese-ambiguity.json": {
+      "bytes": 995,
+      "sha256": "6b2ccf68c5c6aee7a71973b1ffc54fe60b9c756dc5b43a892397297a4a05bcf0"
+    },
+    "states/fixture-chinese-condition.json": {
+      "bytes": 995,
+      "sha256": "fb0f308582b86512c36afbca70499f39be30fa105e73952209e33cef5313bfeb"
+    },
+    "states/fixture-chinese-role.json": {
+      "bytes": 995,
+      "sha256": "228bbe19fb271d42394f56e80233c05413b27bf8a1a7217b25dbbb285040dc4c"
+    },
+    "states/fixture-emoji-only.json": {
+      "bytes": 987,
+      "sha256": "79f26ce1d315a4aaffb5fc0a4c75f70d76036d074849ad8a0ad73811dbc07b6e"
+    },
+    "states/fixture-english-punctuation.json": {
+      "bytes": 1029,
+      "sha256": "29f616f8278f8f9106e89118067bdb4bf47954ad92b5fdb89dadacba1af48b72"
+    },
+    "states/fixture-hyphens.json": {
+      "bytes": 1009,
+      "sha256": "bf5f73283e35895692b873521b0163d1e6ef8fc2c43c25d2904907cabd97cece"
+    },
+    "states/fixture-inventory-10.json": {
+      "bytes": 1004,
+      "sha256": "7beaec26aaa026f6ffb91972a232d974ec292cbbac7933c60cf6e4d39da9622d"
+    },
+    "states/fixture-inventory-17.json": {
+      "bytes": 1004,
+      "sha256": "7beaec26aaa026f6ffb91972a232d974ec292cbbac7933c60cf6e4d39da9622d"
+    },
+    "states/fixture-inventory-73.json": {
+      "bytes": 1004,
+      "sha256": "7beaec26aaa026f6ffb91972a232d974ec292cbbac7933c60cf6e4d39da9622d"
+    },
+    "states/fixture-list.json": {
+      "bytes": 995,
+      "sha256": "aeef23a27680c66aa3f48f1adcefe089577079817f156f550b8eef4344fd6948"
+    },
+    "states/fixture-mixed.json": {
+      "bytes": 999,
+      "sha256": "6bc43f1cb207b2c6172f62d03fb7c5009aee93de869765e20f5bf45bb69ee584"
+    },
+    "states/fixture-near-a.json": {
+      "bytes": 1003,
+      "sha256": "43ccde5925ba42bfa582853149d4d8889f919cf409d8389f7b5b9ecdd97efbf0"
+    },
+    "states/fixture-near-b.json": {
+      "bytes": 1003,
+      "sha256": "d31e2cf4f8544e5d68b23b3919741c9f00c270caf6b85d17f638ced1410a02c6"
+    },
+    "states/fixture-numbers.json": {
+      "bytes": 1009,
+      "sha256": "4c770f94b763db1418845601320f07c2da32e91193111da977f191b87154bca2"
+    },
+    "states/fixture-one-word.json": {
+      "bytes": 1029,
+      "sha256": "732d300bd6bb0b3abfe8f0c79b49ccd88b63912633eb194315a94b263c545b4e"
+    },
+    "states/fixture-quotes.json": {
+      "bytes": 1005,
+      "sha256": "49c1ccc36c7bdf84bf8ceadf1929bb5646e5cda94646f6eba2ce0e85046289e3"
+    },
+    "states/fixture-same-prefix-a.json": {
+      "bytes": 1010,
+      "sha256": "a17b3a9dbbb63d7d9c0c2801dbeb14a8783a6eb55c7f70a4cfe97c235a552bbb"
+    },
+    "states/fixture-same-prefix-b.json": {
+      "bytes": 1010,
+      "sha256": "a17b3a9dbbb63d7d9c0c2801dbeb14a8783a6eb55c7f70a4cfe97c235a552bbb"
+    },
+    "states/fixture-symbols.json": {
+      "bytes": 1001,
+      "sha256": "50e12a0c0bc3a52cafda482ca65e81db3cfa1111760aebb2a86f9d866b3c912a"
+    },
+    "states/fixture-unicode.json": {
+      "bytes": 995,
+      "sha256": "05a3e391b1b57b5bebc654cdcdcdb8984b13dbd06f0825f5c96ddf1e09e84bcd"
+    },
+    "states/fixture-unknown-entity.json": {
+      "bytes": 995,
+      "sha256": "b61ec61f286a13845664bc2fb5b3f552089bdd48d01f94da9eadeb08aded37c9"
+    },
+    "states/fixture-url-end.json": {
+      "bytes": 1009,
+      "sha256": "46da6598d90f2c15678efb1daac4960ec4a6b653e8b9108a8175b2c685f1981b"
+    },
+    "states/fixture-whitespace.json": {
+      "bytes": 993,
+      "sha256": "8810fa0c61ca8c4baea458ad75eb26e6670f182827e6e5becb30181eb0ee1380"
+    },
+    "states/real-pg11-excerpt.json": {
+      "bytes": 6405,
+      "sha256": "be283829b52d85c3a9226ce83b515addb364e773fc5bdf760fa628e5ba0a4593"
+    },
+    "states/real-pg23839-excerpt.json": {
+      "bytes": 1553,
+      "sha256": "12591a43814a7136d5beb3bfd9e7da012c2c668ae6176fed377d3645c39c5bda"
+    },
+    "statistics.json": {
+      "bytes": 18833,
+      "sha256": "f472b0591076b1d60e79fad042967ccac648b11577322736e9ea0196be0d4d2b"
+    },
+    "tokenizer-config.example.json": {
+      "bytes": 487,
+      "sha256": "d861c66bca19f1fe3f00024bcc3ad9e75c88fab068ffd656a687228ced9104d4"
+    }
+  },
+  "gold_accepted": 0,
+  "implementation_sha256": {
+    "__init__.py": "97a01d7e4a69936d7f12c83d05e36bed9b96d48a6f103ff825a146c0095e0c3e",
+    "acquire.py": "e654a6534438668bea1b93624030954afd169b4b9d169cda5d7d1f72e36b91a6",
+    "build.py": "a822e088b33be5069abdd9f3edaea3bf2037e692246f989d7896c8e48c266fda",
+    "candidates.py": "0a3309191a1142c3fd5487fa7d2a29870e9828657a48ed00911cb0754c7143a5",
+    "fixture_walkthrough.py": "b22026c28024570953e766dd47da63f3df81acc31617a57cdcb84f6b33f6c86f",
+    "inventory.py": "8edb041f5b0cf6d578af5728072782d4d495bb66cdbbfd667b276b744ae91150",
+    "streaming.py": "f2ecfa3c66566bd385022bea772d53baa3df35079ae9ac6f1d32473e91380cec",
+    "verify.py": "627782ac016de6bb2e9bc16a7b81211d3319210e0305144d3d0f2d98670a3ed7"
+  },
+  "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+  "lexicon_words": 347133,
+  "old_baseline_errors": [],
+  "old_documents_run": 26,
+  "old_manifest_sha256": "d3e4ffad3b6a41879dda3346f864455f762190515a635248a65d39da0569b08a",
+  "old_split_recomputed": false,
+  "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+  "training_ready": false,
+  "version": "word-boundary-v0.2"
+}

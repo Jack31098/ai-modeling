@@ -1,0 +1,122 @@
+{
+  "doc_id": "pilot:zh-bridge",
+  "model_id": "qwen38-27b-q8",
+  "source_sha256": "6772b578ad684eff07d04742188c04f1ee43e90f8971671b1c946f522936413d",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080727Z",
+  "attempt_count": 1,
+  "selected_attempt": 1,
+  "valid": true,
+  "attempt_files": [
+    "../attempts/pilot__zh-bridge-1.json"
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "word_count": 4,
+    "phrase_count": 1,
+    "passthrough_count": 0,
+    "word_to_phrase_node_ratio": 4.0,
+    "semantic_quality": "unreviewed; exact reconstruction does not certify lexical or semantic boundaries",
+    "candidate_structure": {
+      "coordinates": "Unicode code points and original UTF-8 bytes; half-open",
+      "words": [
+        {
+          "id": "w0",
+          "text": "南京市长江大桥",
+          "cp": [
+            0,
+            7
+          ],
+          "utf8": [
+            0,
+            21
+          ]
+        },
+        {
+          "id": "w1",
+          "text": "今天",
+          "cp": [
+            7,
+            9
+          ],
+          "utf8": [
+            21,
+            27
+          ]
+        },
+        {
+          "id": "w2",
+          "text": "开放",
+          "cp": [
+            9,
+            11
+          ],
+          "utf8": [
+            27,
+            33
+          ]
+        },
+        {
+          "id": "w3",
+          "text": "。",
+          "cp": [
+            11,
+            12
+          ],
+          "utf8": [
+            33,
+            36
+          ]
+        }
+      ],
+      "phrase_forest": [
+        {
+          "id": "p0",
+          "cp": [
+            0,
+            12
+          ],
+          "utf8": [
+            0,
+            36
+          ],
+          "children": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "passthrough": false
+        }
+      ],
+      "scale_projection": {
+        "0": [
+          "w0",
+          "w1",
+          "w2",
+          "w3"
+        ],
+        "1": [
+          "p0"
+        ]
+      },
+      "student_tokenizer_alignment": "not implemented",
+      "execution_events": "not compiled; complete v1.2 D1 consumer still required",
+      "supervision_permissions": {
+        "mode": "READ_FULL",
+        "evidence_available_at": "entire supplied input received",
+        "input_complete_is_true_document_eof": true,
+        "student_observation_fields": [
+          "text",
+          "input_complete"
+        ],
+        "structure_storage": "supervision only; never append to student text",
+        "allow_stream_action_forcing": false,
+        "allow_continuous_latent_substitution": false,
+        "allow_training": false
+      }
+    }
+  },
+  "training_eligible": false
+}

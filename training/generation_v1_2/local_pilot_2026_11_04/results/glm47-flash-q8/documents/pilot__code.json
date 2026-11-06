@@ -1,0 +1,25 @@
+{
+  "doc_id": "pilot:code",
+  "model_id": "glm47-flash-q8",
+  "source_sha256": "2b62f2613dd697a0f6806fad7fcdb2e0ea5a14089caa3d76b2ad341e98a533ff",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T081803Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/pilot__code-1.json",
+    "../attempts/pilot__code-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 1,
+    "expected_length_cp": 39,
+    "actual_length_cp": 30,
+    "actual_text": "若x<=17则执行`returnx+1`；否则返回None。"
+  },
+  "training_eligible": false
+}

@@ -1,0 +1,674 @@
+[
+  {
+    "commits": [
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 6,
+        "byte": [
+          0,
+          9
+        ],
+        "commit_reason": "six_visible_han",
+        "continuation_possible": false,
+        "cp": [
+          0,
+          3
+        ],
+        "decision_at": 6,
+        "evidence_available_at": 6,
+        "kind": "han_lexicon",
+        "main_input_allowed": false,
+        "observation_cutoff": 6,
+        "status": "committed",
+        "text": "研究生"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 9,
+        "byte": [
+          9,
+          12
+        ],
+        "commit_reason": "six_visible_han",
+        "continuation_possible": false,
+        "cp": [
+          3,
+          4
+        ],
+        "decision_at": 9,
+        "evidence_available_at": 9,
+        "kind": "han_lexicon",
+        "main_input_allowed": false,
+        "observation_cutoff": 9,
+        "status": "committed",
+        "text": "命"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 10,
+        "byte": [
+          12,
+          18
+        ],
+        "commit_reason": "six_visible_han",
+        "continuation_possible": false,
+        "cp": [
+          4,
+          6
+        ],
+        "decision_at": 10,
+        "evidence_available_at": 10,
+        "kind": "han_lexicon",
+        "main_input_allowed": false,
+        "observation_cutoff": 10,
+        "status": "committed",
+        "text": "起源"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 11,
+        "byte": [
+          18,
+          24
+        ],
+        "commit_reason": "observed_terminator",
+        "continuation_possible": false,
+        "cp": [
+          6,
+          8
+        ],
+        "decision_at": 11,
+        "evidence_available_at": 11,
+        "kind": "han_lexicon",
+        "main_input_allowed": false,
+        "observation_cutoff": 11,
+        "status": "committed",
+        "text": "需要"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 11,
+        "byte": [
+          24,
+          30
+        ],
+        "commit_reason": "observed_terminator",
+        "continuation_possible": false,
+        "cp": [
+          8,
+          10
+        ],
+        "decision_at": 11,
+        "evidence_available_at": 11,
+        "kind": "han_lexicon",
+        "main_input_allowed": false,
+        "observation_cutoff": 11,
+        "status": "committed",
+        "text": "谨慎"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 11,
+        "byte": [
+          30,
+          33
+        ],
+        "commit_reason": "observed_separator",
+        "continuation_possible": false,
+        "cp": [
+          10,
+          11
+        ],
+        "decision_at": 11,
+        "evidence_available_at": 11,
+        "kind": "punct_or_symbol",
+        "main_input_allowed": false,
+        "observation_cutoff": 11,
+        "status": "committed",
+        "text": "。"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 17,
+        "byte": [
+          33,
+          42
+        ],
+        "commit_reason": "six_visible_han",
+        "continuation_possible": false,
+        "cp": [
+          11,
+          14
+        ],
+        "decision_at": 17,
+        "evidence_available_at": 17,
+        "kind": "han_lexicon",
+        "main_input_allowed": false,
+        "observation_cutoff": 17,
+        "status": "committed",
+        "text": "南京市"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 20,
+        "byte": [
+          42,
+          54
+        ],
+        "commit_reason": "six_visible_han",
+        "continuation_possible": false,
+        "cp": [
+          14,
+          18
+        ],
+        "decision_at": 20,
+        "evidence_available_at": 20,
+        "kind": "han_lexicon",
+        "main_input_allowed": false,
+        "observation_cutoff": 20,
+        "status": "committed",
+        "text": "长江大桥"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 23,
+        "byte": [
+          54,
+          60
+        ],
+        "commit_reason": "observed_terminator",
+        "continuation_possible": false,
+        "cp": [
+          18,
+          20
+        ],
+        "decision_at": 23,
+        "evidence_available_at": 23,
+        "kind": "han_lexicon",
+        "main_input_allowed": false,
+        "observation_cutoff": 23,
+        "status": "committed",
+        "text": "今天"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 23,
+        "byte": [
+          60,
+          66
+        ],
+        "commit_reason": "observed_terminator",
+        "continuation_possible": false,
+        "cp": [
+          20,
+          22
+        ],
+        "decision_at": 23,
+        "evidence_available_at": 23,
+        "kind": "han_lexicon",
+        "main_input_allowed": false,
+        "observation_cutoff": 23,
+        "status": "committed",
+        "text": "开放"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 23,
+        "byte": [
+          66,
+          69
+        ],
+        "commit_reason": "observed_separator",
+        "continuation_possible": false,
+        "cp": [
+          22,
+          23
+        ],
+        "decision_at": 23,
+        "evidence_available_at": 23,
+        "kind": "punct_or_symbol",
+        "main_input_allowed": false,
+        "observation_cutoff": 23,
+        "status": "committed",
+        "text": "。"
+      }
+    ],
+    "doc_id": "fixture:chinese-ambiguity",
+    "final": {
+      "byte": 69,
+      "clock": 24,
+      "cp": 23,
+      "ended": true,
+      "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+      "max_delay_steps": 5,
+      "max_pending_byte": 18,
+      "max_pending_cp": 6,
+      "mode": null,
+      "pending": "",
+      "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+      "start_byte": 69,
+      "start_cp": 23
+    },
+    "text": "研究生命起源需要谨慎。南京市长江大桥今天开放。"
+  },
+  {
+    "commits": [
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 4,
+        "byte": [
+          0,
+          3
+        ],
+        "commit_reason": "observed_terminator",
+        "continuation_possible": false,
+        "cp": [
+          0,
+          1
+        ],
+        "decision_at": 4,
+        "evidence_available_at": 4,
+        "kind": "han_lexicon",
+        "main_input_allowed": false,
+        "observation_cutoff": 4,
+        "status": "committed",
+        "text": "请"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 4,
+        "byte": [
+          3,
+          9
+        ],
+        "commit_reason": "observed_terminator",
+        "continuation_possible": false,
+        "cp": [
+          1,
+          3
+        ],
+        "decision_at": 4,
+        "evidence_available_at": 4,
+        "kind": "han_lexicon",
+        "main_input_allowed": false,
+        "observation_cutoff": 4,
+        "status": "committed",
+        "text": "打开"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 24,
+        "byte": [
+          9,
+          29
+        ],
+        "commit_reason": "observed_terminator",
+        "continuation_possible": false,
+        "cp": [
+          3,
+          23
+        ],
+        "decision_at": 24,
+        "evidence_available_at": 24,
+        "kind": "url",
+        "main_input_allowed": false,
+        "observation_cutoff": 24,
+        "status": "committed",
+        "text": "https://example.org/"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 26,
+        "byte": [
+          29,
+          35
+        ],
+        "commit_reason": "observed_terminator",
+        "continuation_possible": false,
+        "cp": [
+          23,
+          25
+        ],
+        "decision_at": 26,
+        "evidence_available_at": 26,
+        "kind": "han_lexicon",
+        "main_input_allowed": false,
+        "observation_cutoff": 26,
+        "status": "committed",
+        "text": "说明"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 26,
+        "byte": [
+          35,
+          38
+        ],
+        "commit_reason": "observed_separator",
+        "continuation_possible": false,
+        "cp": [
+          25,
+          26
+        ],
+        "decision_at": 26,
+        "evidence_available_at": 26,
+        "kind": "punct_or_symbol",
+        "main_input_allowed": false,
+        "observation_cutoff": 26,
+        "status": "committed",
+        "text": "，"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 30,
+        "byte": [
+          38,
+          44
+        ],
+        "commit_reason": "observed_terminator",
+        "continuation_possible": false,
+        "cp": [
+          26,
+          28
+        ],
+        "decision_at": 30,
+        "evidence_available_at": 30,
+        "kind": "han_lexicon",
+        "main_input_allowed": false,
+        "observation_cutoff": 30,
+        "status": "committed",
+        "text": "价格"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 30,
+        "byte": [
+          44,
+          47
+        ],
+        "commit_reason": "observed_terminator",
+        "continuation_possible": false,
+        "cp": [
+          28,
+          29
+        ],
+        "decision_at": 30,
+        "evidence_available_at": 30,
+        "kind": "han_lexicon",
+        "main_input_allowed": false,
+        "observation_cutoff": 30,
+        "status": "committed",
+        "text": "是"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 33,
+        "byte": [
+          47,
+          50
+        ],
+        "commit_reason": "observed_terminator",
+        "continuation_possible": false,
+        "cp": [
+          29,
+          32
+        ],
+        "decision_at": 33,
+        "evidence_available_at": 33,
+        "kind": "word",
+        "main_input_allowed": false,
+        "observation_cutoff": 33,
+        "status": "committed",
+        "text": "USD"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 33,
+        "byte": [
+          50,
+          51
+        ],
+        "commit_reason": "observed_separator",
+        "continuation_possible": false,
+        "cp": [
+          32,
+          33
+        ],
+        "decision_at": 33,
+        "evidence_available_at": 33,
+        "kind": "space",
+        "main_input_allowed": false,
+        "observation_cutoff": 33,
+        "status": "committed",
+        "text": " "
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 39,
+        "byte": [
+          51,
+          56
+        ],
+        "commit_reason": "observed_terminator",
+        "continuation_possible": false,
+        "cp": [
+          33,
+          38
+        ],
+        "decision_at": 39,
+        "evidence_available_at": 39,
+        "kind": "number",
+        "main_input_allowed": false,
+        "observation_cutoff": 39,
+        "status": "committed",
+        "text": "17.30"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 39,
+        "byte": [
+          56,
+          59
+        ],
+        "commit_reason": "observed_separator",
+        "continuation_possible": false,
+        "cp": [
+          38,
+          39
+        ],
+        "decision_at": 39,
+        "evidence_available_at": 39,
+        "kind": "punct_or_symbol",
+        "main_input_allowed": false,
+        "observation_cutoff": 39,
+        "status": "committed",
+        "text": "；"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 42,
+        "byte": [
+          59,
+          62
+        ],
+        "commit_reason": "observed_terminator",
+        "continuation_possible": false,
+        "cp": [
+          39,
+          40
+        ],
+        "decision_at": 42,
+        "evidence_available_at": 42,
+        "kind": "han_lexicon",
+        "main_input_allowed": false,
+        "observation_cutoff": 42,
+        "status": "committed",
+        "text": "别"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 42,
+        "byte": [
+          62,
+          65
+        ],
+        "commit_reason": "observed_terminator",
+        "continuation_possible": false,
+        "cp": [
+          40,
+          41
+        ],
+        "decision_at": 42,
+        "evidence_available_at": 42,
+        "kind": "han_lexicon",
+        "main_input_allowed": false,
+        "observation_cutoff": 42,
+        "status": "committed",
+        "text": "把"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 44,
+        "byte": [
+          65,
+          67
+        ],
+        "commit_reason": "observed_terminator",
+        "continuation_possible": false,
+        "cp": [
+          41,
+          43
+        ],
+        "decision_at": 44,
+        "evidence_available_at": 44,
+        "kind": "number",
+        "main_input_allowed": false,
+        "observation_cutoff": 44,
+        "status": "committed",
+        "text": "73"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 46,
+        "byte": [
+          67,
+          73
+        ],
+        "commit_reason": "observed_terminator",
+        "continuation_possible": false,
+        "cp": [
+          43,
+          45
+        ],
+        "decision_at": 46,
+        "evidence_available_at": 46,
+        "kind": "han_lexicon",
+        "main_input_allowed": false,
+        "observation_cutoff": 46,
+        "status": "committed",
+        "text": "读成"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 48,
+        "byte": [
+          73,
+          75
+        ],
+        "commit_reason": "observed_terminator",
+        "continuation_possible": false,
+        "cp": [
+          45,
+          47
+        ],
+        "decision_at": 48,
+        "evidence_available_at": 48,
+        "kind": "number",
+        "main_input_allowed": false,
+        "observation_cutoff": 48,
+        "status": "committed",
+        "text": "37"
+      },
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 48,
+        "byte": [
+          75,
+          78
+        ],
+        "commit_reason": "observed_separator",
+        "continuation_possible": false,
+        "cp": [
+          47,
+          48
+        ],
+        "decision_at": 48,
+        "evidence_available_at": 48,
+        "kind": "punct_or_symbol",
+        "main_input_allowed": false,
+        "observation_cutoff": 48,
+        "status": "committed",
+        "text": "。"
+      }
+    ],
+    "doc_id": "fixture:mixed",
+    "final": {
+      "byte": 78,
+      "clock": 49,
+      "cp": 48,
+      "ended": true,
+      "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+      "max_delay_steps": 20,
+      "max_pending_byte": 20,
+      "max_pending_cp": 20,
+      "mode": null,
+      "pending": "",
+      "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+      "start_byte": 78,
+      "start_cp": 48
+    },
+    "text": "请打开https://example.org/说明，价格是USD 17.30；别把73读成37。"
+  },
+  {
+    "commits": [
+      {
+        "action_source": "prefix-fmm-reference-policy",
+        "available_at": 29,
+        "byte": [
+          0,
+          28
+        ],
+        "commit_reason": "true_eof",
+        "continuation_possible": false,
+        "cp": [
+          0,
+          28
+        ],
+        "decision_at": 29,
+        "evidence_available_at": 29,
+        "kind": "word",
+        "main_input_allowed": false,
+        "observation_cutoff": 29,
+        "status": "committed",
+        "text": "antidisestablishmentarianism"
+      }
+    ],
+    "doc_id": "fixture:one-word",
+    "final": {
+      "byte": 28,
+      "clock": 29,
+      "cp": 28,
+      "ended": true,
+      "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+      "max_delay_steps": 28,
+      "max_pending_byte": 28,
+      "max_pending_cp": 28,
+      "mode": null,
+      "pending": "",
+      "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+      "start_byte": 28,
+      "start_cp": 28
+    },
+    "text": "antidisestablishmentarianism"
+  }
+]

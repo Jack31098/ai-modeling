@@ -1,0 +1,234 @@
+{
+  "doc_id": "pilot:zh-time",
+  "model_id": "qwen36-35b-a3b-q8",
+  "source_sha256": "653074d48fbad8f6429a36f23c7c5ea089a806e5d9c7c6f57b970dff52d504c1",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080333Z",
+  "attempt_count": 1,
+  "selected_attempt": 1,
+  "valid": true,
+  "attempt_files": [
+    "../attempts/pilot__zh-time-1.json"
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "word_count": 12,
+    "phrase_count": 1,
+    "passthrough_count": 0,
+    "word_to_phrase_node_ratio": 12.0,
+    "semantic_quality": "unreviewed; exact reconstruction does not certify lexical or semantic boundaries",
+    "candidate_structure": {
+      "coordinates": "Unicode code points and original UTF-8 bytes; half-open",
+      "words": [
+        {
+          "id": "w0",
+          "text": "甲",
+          "cp": [
+            0,
+            1
+          ],
+          "utf8": [
+            0,
+            3
+          ]
+        },
+        {
+          "id": "w1",
+          "text": "先",
+          "cp": [
+            1,
+            2
+          ],
+          "utf8": [
+            3,
+            6
+          ]
+        },
+        {
+          "id": "w2",
+          "text": "把",
+          "cp": [
+            2,
+            3
+          ],
+          "utf8": [
+            6,
+            9
+          ]
+        },
+        {
+          "id": "w3",
+          "text": "钥匙",
+          "cp": [
+            3,
+            5
+          ],
+          "utf8": [
+            9,
+            15
+          ]
+        },
+        {
+          "id": "w4",
+          "text": "交给",
+          "cp": [
+            5,
+            7
+          ],
+          "utf8": [
+            15,
+            21
+          ]
+        },
+        {
+          "id": "w5",
+          "text": "乙",
+          "cp": [
+            7,
+            8
+          ],
+          "utf8": [
+            21,
+            24
+          ]
+        },
+        {
+          "id": "w6",
+          "text": "，",
+          "cp": [
+            8,
+            9
+          ],
+          "utf8": [
+            24,
+            27
+          ]
+        },
+        {
+          "id": "w7",
+          "text": "乙",
+          "cp": [
+            9,
+            10
+          ],
+          "utf8": [
+            27,
+            30
+          ]
+        },
+        {
+          "id": "w8",
+          "text": "确认",
+          "cp": [
+            10,
+            12
+          ],
+          "utf8": [
+            30,
+            36
+          ]
+        },
+        {
+          "id": "w9",
+          "text": "收到",
+          "cp": [
+            12,
+            14
+          ],
+          "utf8": [
+            36,
+            42
+          ]
+        },
+        {
+          "id": "w10",
+          "text": "后",
+          "cp": [
+            14,
+            15
+          ],
+          "utf8": [
+            42,
+            45
+          ]
+        },
+        {
+          "id": "w11",
+          "text": "才通知丙离开。",
+          "cp": [
+            15,
+            22
+          ],
+          "utf8": [
+            45,
+            66
+          ]
+        }
+      ],
+      "phrase_forest": [
+        {
+          "id": "p0",
+          "cp": [
+            0,
+            22
+          ],
+          "utf8": [
+            0,
+            66
+          ],
+          "children": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "passthrough": false
+        }
+      ],
+      "scale_projection": {
+        "0": [
+          "w0",
+          "w1",
+          "w2",
+          "w3",
+          "w4",
+          "w5",
+          "w6",
+          "w7",
+          "w8",
+          "w9",
+          "w10",
+          "w11"
+        ],
+        "1": [
+          "p0"
+        ]
+      },
+      "student_tokenizer_alignment": "not implemented",
+      "execution_events": "not compiled; complete v1.2 D1 consumer still required",
+      "supervision_permissions": {
+        "mode": "READ_FULL",
+        "evidence_available_at": "entire supplied input received",
+        "input_complete_is_true_document_eof": true,
+        "student_observation_fields": [
+          "text",
+          "input_complete"
+        ],
+        "structure_storage": "supervision only; never append to student text",
+        "allow_stream_action_forcing": false,
+        "allow_continuous_latent_substitution": false,
+        "allow_training": false
+      }
+    }
+  },
+  "training_eligible": false
+}

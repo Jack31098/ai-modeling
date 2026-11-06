@@ -1,0 +1,234 @@
+{
+  "doc_id": "pilot:zh-condition",
+  "model_id": "qwen36-35b-a3b-q8",
+  "source_sha256": "64d934dafcc5e5a410b44836e10f7427aff11e7ce79d330ecdbe42c0119ba3c2",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080333Z",
+  "attempt_count": 1,
+  "selected_attempt": 1,
+  "valid": true,
+  "attempt_files": [
+    "../attempts/pilot__zh-condition-1.json"
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "word_count": 12,
+    "phrase_count": 1,
+    "passthrough_count": 0,
+    "word_to_phrase_node_ratio": 12.0,
+    "semantic_quality": "unreviewed; exact reconstruction does not certify lexical or semantic boundaries",
+    "candidate_structure": {
+      "coordinates": "Unicode code points and original UTF-8 bytes; half-open",
+      "words": [
+        {
+          "id": "w0",
+          "text": "如果",
+          "cp": [
+            0,
+            2
+          ],
+          "utf8": [
+            0,
+            6
+          ]
+        },
+        {
+          "id": "w1",
+          "text": "甲",
+          "cp": [
+            2,
+            3
+          ],
+          "utf8": [
+            6,
+            9
+          ]
+        },
+        {
+          "id": "w2",
+          "text": "没有",
+          "cp": [
+            3,
+            5
+          ],
+          "utf8": [
+            9,
+            15
+          ]
+        },
+        {
+          "id": "w3",
+          "text": "交款",
+          "cp": [
+            5,
+            7
+          ],
+          "utf8": [
+            15,
+            21
+          ]
+        },
+        {
+          "id": "w4",
+          "text": "，",
+          "cp": [
+            7,
+            8
+          ],
+          "utf8": [
+            21,
+            24
+          ]
+        },
+        {
+          "id": "w5",
+          "text": "乙",
+          "cp": [
+            8,
+            9
+          ],
+          "utf8": [
+            24,
+            27
+          ]
+        },
+        {
+          "id": "w6",
+          "text": "就",
+          "cp": [
+            9,
+            10
+          ],
+          "utf8": [
+            27,
+            30
+          ]
+        },
+        {
+          "id": "w7",
+          "text": "不",
+          "cp": [
+            10,
+            11
+          ],
+          "utf8": [
+            30,
+            33
+          ]
+        },
+        {
+          "id": "w8",
+          "text": "发货",
+          "cp": [
+            11,
+            13
+          ],
+          "utf8": [
+            33,
+            39
+          ]
+        },
+        {
+          "id": "w9",
+          "text": "；",
+          "cp": [
+            13,
+            14
+          ],
+          "utf8": [
+            39,
+            42
+          ]
+        },
+        {
+          "id": "w10",
+          "text": "除非",
+          "cp": [
+            14,
+            16
+          ],
+          "utf8": [
+            42,
+            48
+          ]
+        },
+        {
+          "id": "w11",
+          "text": "丙先确认。",
+          "cp": [
+            16,
+            21
+          ],
+          "utf8": [
+            48,
+            63
+          ]
+        }
+      ],
+      "phrase_forest": [
+        {
+          "id": "p0",
+          "cp": [
+            0,
+            21
+          ],
+          "utf8": [
+            0,
+            63
+          ],
+          "children": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "passthrough": false
+        }
+      ],
+      "scale_projection": {
+        "0": [
+          "w0",
+          "w1",
+          "w2",
+          "w3",
+          "w4",
+          "w5",
+          "w6",
+          "w7",
+          "w8",
+          "w9",
+          "w10",
+          "w11"
+        ],
+        "1": [
+          "p0"
+        ]
+      },
+      "student_tokenizer_alignment": "not implemented",
+      "execution_events": "not compiled; complete v1.2 D1 consumer still required",
+      "supervision_permissions": {
+        "mode": "READ_FULL",
+        "evidence_available_at": "entire supplied input received",
+        "input_complete_is_true_document_eof": true,
+        "student_observation_fields": [
+          "text",
+          "input_complete"
+        ],
+        "structure_storage": "supervision only; never append to student text",
+        "allow_stream_action_forcing": false,
+        "allow_continuous_latent_substitution": false,
+        "allow_training": false
+      }
+    }
+  },
+  "training_eligible": false
+}

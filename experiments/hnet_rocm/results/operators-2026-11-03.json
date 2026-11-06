@@ -1,0 +1,76 @@
+{
+  "client_date": "2026-11-03",
+  "hip": "7.2.53211-158bd99533",
+  "implementation_sha256": {
+    "__init__.py": "9f00ca1d721387f627053bc2aa9a9e1bf6fa427981c56f5fe399ba2cdcb198fb",
+    "bootstrap.py": "f0715043d5f4bcf39f44c35f92cfaba991899b928b7201dad735ee2befd37320",
+    "reference.py": "4f27a0090751b81470c34226f9c76cacc9f9e6a618c4c7cbec8773793ef8d157",
+    "validate.py": "66a6f20463d6adb39af2ccab3675bb4d99925b38b20d7359317a36039d557c56"
+  },
+  "native_fused_parity": "not-run; custom fused modules absent",
+  "python": "3.12.14",
+  "reused_encoder_sha256": "d891554bfdea2ba0918e1d8638352e7400c779d869867887e69556a5a5fc8c51",
+  "runtime": {
+    "note": "Reuses existing runtime; not copied, redistributed or installed system-wide.",
+    "path": "C:\\Users\\Minzh\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\msvcp140.dll",
+    "sha256": "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca",
+    "status": "process-local-preload"
+  },
+  "status": "passed",
+  "tests": [
+    {
+      "actual_device": "cuda:0",
+      "atol": 0.0002,
+      "forward_max_abs": 1.3851192937064383e-07,
+      "operator": "Mamba2-SSD-blocks-vs-direct-recurrence",
+      "rtol": 0.0002,
+      "status": "passed",
+      "vjp_max_abs": 4.0638752629718056e-06
+    },
+    {
+      "actual_device": "cuda:0",
+      "atol": 0.0002,
+      "forward_max_abs": 2.1206951572594335e-07,
+      "operator": "causal-depthwise-conv1d-vs-explicit-unfold",
+      "rtol": 0.0002,
+      "status": "passed",
+      "vjp_max_abs": 3.8146972514141453e-07
+    },
+    {
+      "actual_device": "cuda:0",
+      "atol": 0.0002,
+      "forward_max_abs": 3.643867403368972e-07,
+      "operator": "SDPA-math-vs-explicit-causal-attention",
+      "rtol": 0.0002,
+      "status": "passed",
+      "vjp_max_abs": 4.151041965716473e-07
+    },
+    {
+      "actual_device": "cuda:0",
+      "atol": 0.0002,
+      "forward_max_abs": 2.224065100975281e-07,
+      "operator": "RMSNorm",
+      "rtol": 0.0002,
+      "status": "passed",
+      "vjp_max_abs": 2.2401054633469641e-07
+    },
+    {
+      "actual_device": "cuda:0",
+      "atol": 0.0002,
+      "forward_max_abs": 1.8544692093058757e-07,
+      "operator": "dechunk-EMA-step-vs-direct-recurrence",
+      "rtol": 0.0002,
+      "status": "passed",
+      "vjp_max_abs": 4.912465101369889e-07
+    },
+    {
+      "device": "cuda:0",
+      "forward": "all ones",
+      "gradient": "identity",
+      "operator": "routing-STE",
+      "status": "passed"
+    }
+  ],
+  "timezone": "America/Los_Angeles",
+  "torch": "2.9.1+rocm7.2.1"
+}

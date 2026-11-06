@@ -1,0 +1,453 @@
+{
+  "doc_id": "pilot:en-lexical",
+  "model_id": "qwen38-27b-q8",
+  "source_sha256": "4bfcd8b2f2b06b1ad6e10926138245b938d9fed80c23cdc38760e8cdffeafc07",
+  "cohort": "authored_fixture",
+  "server_run_id": "server-20261105T080727Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": true,
+  "attempt_files": [
+    "../attempts/pilot__en-lexical-1.json",
+    "../attempts/pilot__en-lexical-2.json"
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "word_count": 19,
+    "phrase_count": 9,
+    "passthrough_count": 0,
+    "word_to_phrase_node_ratio": 2.111111111111111,
+    "semantic_quality": "unreviewed; exact reconstruction does not certify lexical or semantic boundaries",
+    "candidate_structure": {
+      "coordinates": "Unicode code points and original UTF-8 bytes; half-open",
+      "words": [
+        {
+          "id": "w0",
+          "text": "Dr.",
+          "cp": [
+            0,
+            3
+          ],
+          "utf8": [
+            0,
+            3
+          ]
+        },
+        {
+          "id": "w1",
+          "text": " ",
+          "cp": [
+            3,
+            4
+          ],
+          "utf8": [
+            3,
+            4
+          ]
+        },
+        {
+          "id": "w2",
+          "text": "Reed",
+          "cp": [
+            4,
+            8
+          ],
+          "utf8": [
+            4,
+            8
+          ]
+        },
+        {
+          "id": "w3",
+          "text": " ",
+          "cp": [
+            8,
+            9
+          ],
+          "utf8": [
+            8,
+            9
+          ]
+        },
+        {
+          "id": "w4",
+          "text": "can't",
+          "cp": [
+            9,
+            14
+          ],
+          "utf8": [
+            9,
+            14
+          ]
+        },
+        {
+          "id": "w5",
+          "text": " ",
+          "cp": [
+            14,
+            15
+          ],
+          "utf8": [
+            14,
+            15
+          ]
+        },
+        {
+          "id": "w6",
+          "text": "re-enter",
+          "cp": [
+            15,
+            23
+          ],
+          "utf8": [
+            15,
+            23
+          ]
+        },
+        {
+          "id": "w7",
+          "text": " ",
+          "cp": [
+            23,
+            24
+          ],
+          "utf8": [
+            23,
+            24
+          ]
+        },
+        {
+          "id": "w8",
+          "text": "the",
+          "cp": [
+            24,
+            27
+          ],
+          "utf8": [
+            24,
+            27
+          ]
+        },
+        {
+          "id": "w9",
+          "text": " ",
+          "cp": [
+            27,
+            28
+          ],
+          "utf8": [
+            27,
+            28
+          ]
+        },
+        {
+          "id": "w10",
+          "text": "U.S.",
+          "cp": [
+            28,
+            32
+          ],
+          "utf8": [
+            28,
+            32
+          ]
+        },
+        {
+          "id": "w11",
+          "text": " ",
+          "cp": [
+            32,
+            33
+          ],
+          "utf8": [
+            32,
+            33
+          ]
+        },
+        {
+          "id": "w12",
+          "text": "office",
+          "cp": [
+            33,
+            39
+          ],
+          "utf8": [
+            33,
+            39
+          ]
+        },
+        {
+          "id": "w13",
+          "text": " ",
+          "cp": [
+            39,
+            40
+          ],
+          "utf8": [
+            39,
+            40
+          ]
+        },
+        {
+          "id": "w14",
+          "text": "at",
+          "cp": [
+            40,
+            42
+          ],
+          "utf8": [
+            40,
+            42
+          ]
+        },
+        {
+          "id": "w15",
+          "text": " ",
+          "cp": [
+            42,
+            43
+          ],
+          "utf8": [
+            42,
+            43
+          ]
+        },
+        {
+          "id": "w16",
+          "text": "3.14",
+          "cp": [
+            43,
+            47
+          ],
+          "utf8": [
+            43,
+            47
+          ]
+        },
+        {
+          "id": "w17",
+          "text": " ",
+          "cp": [
+            47,
+            48
+          ],
+          "utf8": [
+            47,
+            48
+          ]
+        },
+        {
+          "id": "w18",
+          "text": "p.m.",
+          "cp": [
+            48,
+            52
+          ],
+          "utf8": [
+            48,
+            52
+          ]
+        }
+      ],
+      "phrase_forest": [
+        {
+          "id": "p0",
+          "cp": [
+            0,
+            8
+          ],
+          "utf8": [
+            0,
+            8
+          ],
+          "children": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p1",
+          "cp": [
+            8,
+            14
+          ],
+          "utf8": [
+            8,
+            14
+          ],
+          "children": [
+            "w3",
+            "w4"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p2",
+          "cp": [
+            14,
+            23
+          ],
+          "utf8": [
+            14,
+            23
+          ],
+          "children": [
+            "w5",
+            "w6"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p3",
+          "cp": [
+            23,
+            27
+          ],
+          "utf8": [
+            23,
+            27
+          ],
+          "children": [
+            "w7",
+            "w8"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p4",
+          "cp": [
+            27,
+            32
+          ],
+          "utf8": [
+            27,
+            32
+          ],
+          "children": [
+            "w9",
+            "w10"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p5",
+          "cp": [
+            32,
+            39
+          ],
+          "utf8": [
+            32,
+            39
+          ],
+          "children": [
+            "w11",
+            "w12"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p6",
+          "cp": [
+            39,
+            42
+          ],
+          "utf8": [
+            39,
+            42
+          ],
+          "children": [
+            "w13",
+            "w14"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p7",
+          "cp": [
+            42,
+            47
+          ],
+          "utf8": [
+            42,
+            47
+          ],
+          "children": [
+            "w15",
+            "w16"
+          ],
+          "passthrough": false
+        },
+        {
+          "id": "p8",
+          "cp": [
+            47,
+            52
+          ],
+          "utf8": [
+            47,
+            52
+          ],
+          "children": [
+            "w17",
+            "w18"
+          ],
+          "passthrough": false
+        }
+      ],
+      "scale_projection": {
+        "0": [
+          "w0",
+          "w1",
+          "w2",
+          "w3",
+          "w4",
+          "w5",
+          "w6",
+          "w7",
+          "w8",
+          "w9",
+          "w10",
+          "w11",
+          "w12",
+          "w13",
+          "w14",
+          "w15",
+          "w16",
+          "w17",
+          "w18"
+        ],
+        "1": [
+          "p0",
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ]
+      },
+      "student_tokenizer_alignment": "not implemented",
+      "execution_events": "not compiled; complete v1.2 D1 consumer still required",
+      "supervision_permissions": {
+        "mode": "READ_FULL",
+        "evidence_available_at": "entire supplied input received",
+        "input_complete_is_true_document_eof": true,
+        "student_observation_fields": [
+          "text",
+          "input_complete"
+        ],
+        "structure_storage": "supervision only; never append to student text",
+        "allow_stream_action_forcing": false,
+        "allow_continuous_latent_substitution": false,
+        "allow_training": false
+      }
+    }
+  },
+  "training_eligible": false
+}

@@ -1,0 +1,29 @@
+{
+  "retrieved_on": "2026-11-03",
+  "files": [
+    {
+      "local_path": "models\\hnet_2stage_L\\source\\hnet__models__hnet.py",
+      "url": "https://raw.githubusercontent.com/goombalab/hnet/3673fe1217ebeb0d1438c7c71d58d32bdd190ec2/hnet/models/hnet.py",
+      "revision": "3673fe1217ebeb0d1438c7c71d58d32bdd190ec2",
+      "sha256": "237b0295cf8270e1902aba5761f6ffe7ba137a5770f2d63a9f04209816f10433",
+      "bytes": 12965,
+      "upstream_bytes_matched": true
+    },
+    {
+      "local_path": "models\\hnet_2stage_L\\source\\hnet__modules__dc.py",
+      "url": "https://raw.githubusercontent.com/goombalab/hnet/3673fe1217ebeb0d1438c7c71d58d32bdd190ec2/hnet/modules/dc.py",
+      "revision": "3673fe1217ebeb0d1438c7c71d58d32bdd190ec2",
+      "sha256": "b0a30a75245a0f6911a92a56e6be80a3725fc27aa859bd0e9905c239fe87bb38",
+      "bytes": 11927,
+      "upstream_bytes_matched": true
+    },
+    {
+      "local_path": "models\\hnet_2stage_L\\source\\mamba2.py",
+      "url": "https://raw.githubusercontent.com/state-spaces/mamba/a6a1dae6efbf804c9944a0c2282b437deb4886d8/mamba_ssm/modules/mamba2.py",
+      "revision": "a6a1dae6efbf804c9944a0c2282b437deb4886d8",
+      "sha256": "605e4439ff0baec8d8acaf4a191d9f0570eea9900065a065909124c472b08707",
+      "bytes": 17479,
+      "upstream_bytes_matched": true
+    }
+  ]
+}

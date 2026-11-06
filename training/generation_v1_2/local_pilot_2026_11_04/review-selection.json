@@ -1,0 +1,20 @@
+{
+  "created_before_inference": true,
+  "doc_ids": [
+    "pilot:zh-origin",
+    "pilot:zh-science",
+    "pilot:zh-role",
+    "pilot:zh-condition",
+    "pilot:unicode",
+    "pilot:whitespace",
+    "pilot:en-lexical",
+    "pilot:en-attachment",
+    "candidate:mdn:en:unicode",
+    "candidate:mdn:en:utf-8",
+    "candidate:mdn:zh:unicode",
+    "candidate:mdn:zh:utf-8"
+  ],
+  "model_order_blinding_seed": 20261104,
+  "selection": "8 predeclared diagnostic coverage cases + all 4 independent candidates; includes every selected output regardless of quality",
+  "status": "Codex qualitative sample; not independent human gold"
+}

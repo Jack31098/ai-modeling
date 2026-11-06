@@ -1,0 +1,20 @@
+{
+  "excerpt_hashes": [
+    "1d446e8a5c692c8d49d48752f5874fc8467229b606453a81b6106f34c18a79b9",
+    "510e27c9b50d4a02b9fb8f94acba7a8630112bab38f44e002c66fe911c228ae3",
+    "c977d5a13d9973dcf14c428902c59590331f62dc34ee953bd1a63ea6a91f0479",
+    "d473a76f81c1578b8c4cc9ae1bf1d2e44e7aaaa2ad0360b9ab04d44da26b1205"
+  ],
+  "families": [
+    "mdn:glossary/unicode",
+    "mdn:glossary/utf-8"
+  ],
+  "note": "Future ingestion must apply family/lineage and duplicate exclusions. Registry alone does not enforce a future pipeline.",
+  "purpose": "exclude from train/tuning; pending human review; not accepted gold",
+  "source_documents": [
+    "mdn:en:glossary/unicode",
+    "mdn:en:glossary/utf-8",
+    "mdn:zh:glossary/unicode",
+    "mdn:zh:glossary/utf-8"
+  ]
+}

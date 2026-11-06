@@ -1,0 +1,38 @@
+{
+  "checkpoints": [
+    {
+      "kind": "window_pause",
+      "state": {
+        "byte": 83,
+        "clock": 83,
+        "cp": 83,
+        "ended": false,
+        "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+        "max_delay_steps": 8,
+        "max_pending_byte": 26,
+        "max_pending_cp": 26,
+        "mode": "non_han",
+        "pending": "https://example.org/a?q=7.",
+        "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+        "start_byte": 57,
+        "start_cp": 57
+      }
+    }
+  ],
+  "end_kind": "true_eof",
+  "final": {
+    "byte": 83,
+    "clock": 84,
+    "cp": 83,
+    "ended": true,
+    "lexicon_sha256": "2c537a35882cdf57eb76922004256284bb9334c25459fad7e41ba137b54eb985",
+    "max_delay_steps": 26,
+    "max_pending_byte": 26,
+    "max_pending_cp": 26,
+    "mode": null,
+    "pending": "",
+    "policy_sha256": "f7e47d84b4201760f4f7adfe372b8a7dc40e4a199ab4ef135050010d213d76b0",
+    "start_byte": 83,
+    "start_cp": 83
+  }
+}

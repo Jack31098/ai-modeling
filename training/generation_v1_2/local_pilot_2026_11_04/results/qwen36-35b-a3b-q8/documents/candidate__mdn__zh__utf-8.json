@@ -1,0 +1,25 @@
+{
+  "doc_id": "candidate:mdn:zh:utf-8",
+  "model_id": "qwen36-35b-a3b-q8",
+  "source_sha256": "d473a76f81c1578b8c4cc9ae1bf1d2e44e7aaaa2ad0360b9ab04d44da26b1205",
+  "cohort": "independent_pending_human_candidate",
+  "server_run_id": "server-20261105T080333Z",
+  "attempt_count": 2,
+  "selected_attempt": 2,
+  "valid": false,
+  "attempt_files": [
+    "../attempts/candidate__mdn__zh__utf-8-1.json",
+    "../attempts/candidate__mdn__zh__utf-8-2.json"
+  ],
+  "validation": {
+    "valid": false,
+    "errors": [
+      "raw_text_mismatch"
+    ],
+    "first_difference_cp": 1,
+    "expected_length_cp": 167,
+    "actual_length_cp": 149,
+    "actual_text": "前128个UTF-8字符会与前128个ASCII字符（编号为0-127）精确匹配，意味着现有的ASCII文本已经是有效的UTF-8。所有其他字符都使用2到4个字节。每个字节都有一些用于编码目的的保留位。由于非ASCII字符需要一个以上的字节来存储，如果字节被分隔而不重组，那么它们就会有损坏的风险。"
+  },
+  "training_eligible": false
+}

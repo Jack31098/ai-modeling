@@ -1,0 +1,8 @@
+{
+  "id": "qwen38-27b-q8",
+  "path": "models/local-teacher-pilot/Qwen3.8-27B-Q8_0.gguf",
+  "size_bytes": 29047086048,
+  "sha256": "a680f44a06920e5d689774823782006aa3acc8db95750323373b24139b67e348",
+  "reused": false,
+  "verified_at_utc": "2026-11-05T07:58:41.940658+00:00"
+}

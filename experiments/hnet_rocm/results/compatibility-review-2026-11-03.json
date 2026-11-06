@@ -1,0 +1,39 @@
+{
+  "checked_on": "2026-11-03",
+  "current_unified_docs": {
+    "matrix_url": "https://rocm.docs.amd.com/en/latest/compatibility/compatibility-matrix.html",
+    "matrix_version": "10.1.0",
+    "matrix_date": "2026-08-26",
+    "html_selector_verified": "Ryzen AI Max+ 395 / Radeon 8060S / gfx1151 and Windows 11 25H2",
+    "adrenalin_driver": "26.10.41.05",
+    "windows_cde_cpr_driver": "26.10.48",
+    "driver_notes_url": "https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-ROCM-10-01.html",
+    "driver_store_version_from_notes": "32.0.31041.5005",
+    "installed_driver_store_version": "32.0.31032.1003",
+    "decision": "not-run; installed driver is older than the documented 10.1 package. No driver change requested or performed for this successful 7.2.1 reference verification. This is not evidence that 10.1 cannot run.",
+    "install_url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/frameworks/pytorch/install.html",
+    "documented_requirement": "torch[device-gfx1151]==2.14.0+rocm10.1.0",
+    "official_index": "https://stable.repo.amd.com/rocm/whl-next/torch/",
+    "wheel_head_url": "https://stable.repo.amd.com/rocm/whl-next/torch/torch-2.14.0%2Brocm10.1.0-cp312-cp312-win_amd64.whl",
+    "wheel_head_status": 200,
+    "wheel_content_length": 115562766,
+    "wheel_last_modified": "Mon, 05 Oct 2026 09:23:47 GMT",
+    "wheel_downloaded": false
+  },
+  "executed_stack": {
+    "version": "ROCm 7.2.1 / PyTorch 2.9.1+rocm7.2.1 / Python 3.12.14",
+    "support_url": "https://rocm.docs.amd.com/projects/radeon-ryzen/en/latest/docs/compatibility/compatibilityryz/windows/windows_compatibility.html",
+    "install_url": "https://rocm.docs.amd.com/projects/radeon-ryzen/en/latest/docs/install/installryz/windows/install-pytorch.html",
+    "limitations_url": "https://rocm.docs.amd.com/projects/radeon-ryzen/en/latest/docs/limitations/limitationsryz.html",
+    "scope_of_legacy_page": "only through 7.2.1; not the newest unified documentation",
+    "official_training_status": "7.2.1 Windows limitations state no ML training support. Our measured single-process reference backward/SGD is experimental, not an AMD support claim. This restriction is not generalized to newer Windows releases.",
+    "selection_reason": "Isolated official package set matches documented Max+395 Windows path, works on existing driver, and passed actual complete model and CPU numerical checks. Retained without replacing working environments."
+  },
+  "native_kernel_sources": [
+    "https://github.com/goombalab/hnet/tree/3673fe1217ebeb0d1438c7c71d58d32bdd190ec2",
+    "https://github.com/state-spaces/mamba#additional-prerequisites-for-amd-cards",
+    "https://github.com/Dao-AILab/flash-attention#amd-rocm-support"
+  ],
+  "native_kernel_note": "Mamba's current core prerequisites include Linux; FlashAttention documents AMD CK/Triton implementations, not a verified native Windows gfx1151 end-to-end HNet chain. Native extensions are absent in this environment; not built/executed, not declared impossible.",
+  "system_changes": "No driver, WSL, BIOS, security feature or reboot changes. No paid/cloud resources."
+}

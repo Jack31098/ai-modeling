@@ -1,0 +1,371 @@
+{
+  "decisions": [
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:abbreviations",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:abbreviations",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 16,
+      "observation_driven_model_frames": 68
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:chinese-ambiguity",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:chinese-ambiguity",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 0,
+      "observation_driven_model_frames": 24
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:chinese-condition",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:chinese-condition",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 0,
+      "observation_driven_model_frames": 22
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:chinese-role",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:chinese-role",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 0,
+      "observation_driven_model_frames": 22
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:emoji-only",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:emoji-only",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 6
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:english-punctuation",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:english-punctuation",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 12,
+      "observation_driven_model_frames": 84
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:hyphens",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:hyphens",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 10,
+      "observation_driven_model_frames": 70
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:inventory-10",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:inventory-10",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 12,
+      "observation_driven_model_frames": 55
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:inventory-17",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:inventory-17",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 12,
+      "observation_driven_model_frames": 55
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:inventory-73",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:inventory-73",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 12,
+      "observation_driven_model_frames": 55
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:list",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:list",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 0,
+      "observation_driven_model_frames": 28
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:mixed",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:mixed",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 0,
+      "observation_driven_model_frames": 49
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:near-a",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:near-a",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 15,
+      "observation_driven_model_frames": 98
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:near-b",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:near-b",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 15,
+      "observation_driven_model_frames": 98
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:numbers",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:numbers",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 7,
+      "observation_driven_model_frames": 58
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:one-word",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:one-word",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 29
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:quotes",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:quotes",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 7,
+      "observation_driven_model_frames": 43
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:same-prefix-a",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:same-prefix-a",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 9,
+      "observation_driven_model_frames": 54
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:same-prefix-b",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:same-prefix-b",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 9,
+      "observation_driven_model_frames": 54
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:symbols",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:symbols",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 11,
+      "observation_driven_model_frames": 32
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:unicode",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:unicode",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 3,
+      "observation_driven_model_frames": 29
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:unknown-entity",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:unknown-entity",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 0,
+      "observation_driven_model_frames": 24
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:url-end",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:url-end",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 11,
+      "observation_driven_model_frames": 83
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:whitespace",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "fixture:whitespace",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 7,
+      "observation_driven_model_frames": 40
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "real:pg11:excerpt",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "real:pg11:excerpt",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 253,
+      "observation_driven_model_frames": 1361
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "real:pg23839:excerpt",
+      "mode": "READ_FULL",
+      "nonempty_loss_events": 1,
+      "observation_driven_model_frames": 1
+    },
+    {
+      "consumer": "loss-plumbing reference, no neural network or teacher action injection",
+      "doc_id": "real:pg23839:excerpt",
+      "mode": "READ_STREAM",
+      "nonempty_loss_events": 3,
+      "observation_driven_model_frames": 139
+    }
+  ],
+  "group_and_slice_isolation": true,
+  "observations_only_model_input": true,
+  "scope": "data/permission plumbing only; B/F/decoder not trained or implemented"
+}
