@@ -1,0 +1,219 @@
+{
+  "started_utc": "2026-11-12T08:03:26.621734+00:00",
+  "model_revision": "db876b905cf719b60da33c12a75021ac111f7a67",
+  "code_revision": "085817168c9d6a718812fbc0075b968fc4cd5f9f",
+  "args": {
+    "device": "cuda",
+    "dtype": "bfloat16",
+    "run_id": "tiny-hip-bf16",
+    "tiny": true,
+    "generation_only": false,
+    "seed": 42,
+    "threads": 8,
+    "max_new_tokens": null
+  },
+  "checkpoint_loaded": false,
+  "msvc_preload": {
+    "status": "process-local-preload",
+    "sha256": "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca",
+    "note": "Reuses existing runtime; not copied, redistributed or installed system-wide."
+  },
+  "status": "passed",
+  "updated_utc": "2026-11-12T08:03:38.142228+00:00",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "torch": "2.9.1+rocm7.2.1",
+    "hip": "7.2.53211-158bd99533",
+    "transformers": "4.57.6",
+    "safetensors": "0.8.0",
+    "accelerate": "1.15.0",
+    "cpu_threads": 8,
+    "sdpa": "MATH",
+    "gpu": "AMD Radeon(TM) 8060S Graphics",
+    "gpu_arch": "gfx1151",
+    "hip_total_bytes": 83954728960
+  },
+  "source_code_comparison": {
+    "configuration_cola2.py": {
+      "github_sha256": "ac61e498313f0cc9bd469ca165ebf0684d2d0fc68da64fd48bdc8761c363e92b",
+      "hf_sha256": "5b5448689b4b7d0b2f8f930c8083d190801a4c71ca5132bc342f154ddaa8b76a",
+      "python_ast_equal": false
+    },
+    "modeling_cola2.py": {
+      "github_sha256": "ca6cc03437a925f95e35768a5db786fc770663b32a1b13c52b684c085fd85195",
+      "hf_sha256": "2e0635b8a3f9de9ac5eb66c3ac4078bd4de1e6aa0834adcf155892632828b238",
+      "python_ast_equal": true
+    },
+    "modeling_layers.py": {
+      "github_sha256": "5d5c8e455a6361f22e37708df5d085c3f2ad0fec1baf9d1d068e77bf0dfbc0ef",
+      "hf_sha256": "af9eb16dba7d04198abbc1318bac3ddff25a93add401b94b4365ba6819e78360",
+      "python_ast_equal": true
+    }
+  },
+  "memory_before_load": {
+    "process_working_set_bytes": 472342528,
+    "process_peak_working_set_bytes": 472342528,
+    "torch_allocated_bytes": 0,
+    "torch_peak_allocated_bytes": 0,
+    "torch_reserved_bytes": 0,
+    "torch_peak_reserved_bytes": 0,
+    "hip_free_total_bytes": [
+      83792265216,
+      83954728960
+    ]
+  },
+  "load_wall_seconds": 0.044786099999328144,
+  "parameter_count": 95686,
+  "parameters_by_module": {
+    "vae.decoder_mask_embedding": 32,
+    "vae.encoder": 2144,
+    "vae.segmenter": 64,
+    "vae.pool": 7552,
+    "vae.latent_encoder_blocks": 7552,
+    "vae.posterior_proj": 528,
+    "vae.latent_in_proj": 288,
+    "vae.duration_head": 1155,
+    "vae.expander": 1416,
+    "vae.decoder_cond_stack": 10688,
+    "vae.decoder": 20835,
+    "vae.decoder_cond_in": 1056,
+    "dit": 42376
+  },
+  "parameter_dtypes": {
+    "torch.bfloat16": 95686
+  },
+  "parameter_devices": {
+    "cuda:0": 95686
+  },
+  "memory_after_load": {
+    "process_working_set_bytes": 519958528,
+    "process_peak_working_set_bytes": 519958528,
+    "torch_allocated_bytes": 230912,
+    "torch_peak_allocated_bytes": 230912,
+    "torch_reserved_bytes": 2097152,
+    "torch_peak_reserved_bytes": 2097152,
+    "hip_free_total_bytes": [
+      83776602112,
+      83954728960
+    ]
+  },
+  "generation_config": {
+    "max_length": 20,
+    "max_new_tokens": 3,
+    "min_length": 0,
+    "min_new_tokens": null,
+    "early_stopping": false,
+    "max_time": null,
+    "stop_strings": null,
+    "do_sample": false,
+    "num_beams": 1,
+    "use_cache": true,
+    "cache_implementation": null,
+    "cache_config": null,
+    "return_legacy_cache": null,
+    "prefill_chunk_size": null,
+    "temperature": 1.0,
+    "top_k": 50,
+    "top_p": 1.0,
+    "min_p": null,
+    "typical_p": 1.0,
+    "epsilon_cutoff": 0.0,
+    "eta_cutoff": 0.0,
+    "repetition_penalty": 1.0,
+    "encoder_repetition_penalty": 1.0,
+    "length_penalty": 1.0,
+    "no_repeat_ngram_size": 0,
+    "bad_words_ids": null,
+    "renormalize_logits": false,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "remove_invalid_values": false,
+    "exponential_decay_length_penalty": null,
+    "suppress_tokens": null,
+    "begin_suppress_tokens": null,
+    "sequence_bias": null,
+    "token_healing": false,
+    "guidance_scale": null,
+    "watermarking_config": null,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "output_logits": null,
+    "return_dict_in_generate": false,
+    "pad_token_id": 0,
+    "bos_token_id": null,
+    "eos_token_id": null,
+    "encoder_no_repeat_ngram_size": 0,
+    "decoder_start_token_id": null,
+    "is_assistant": false,
+    "num_assistant_tokens": 20,
+    "num_assistant_tokens_schedule": "constant",
+    "assistant_confidence_threshold": 0.4,
+    "prompt_lookup_num_tokens": null,
+    "max_matching_ngram_size": null,
+    "assistant_early_exit": null,
+    "assistant_lookbehind": 10,
+    "target_lookbehind": 10,
+    "disable_compile": false,
+    "low_memory": null,
+    "penalty_alpha": null,
+    "dola_layers": null,
+    "diversity_penalty": 0.0,
+    "num_beam_groups": 1,
+    "constraints": null,
+    "force_words_ids": null,
+    "_from_model_config": false,
+    "transformers_version": "4.57.6",
+    "dit_num_steps": 2,
+    "dit_timestep_schedule": "low_noise",
+    "dit_timestep_power": null,
+    "dit_cfg_disable_empty_prefix": false,
+    "dit_guidance_scale": 2.0,
+    "decoder_guidance_scale": -0.9,
+    "span_causal_chunk_size": 1,
+    "dynamic_duration": true,
+    "latent_feedback": true
+  },
+  "generation": {
+    "prompt": null,
+    "prompt_ids": [
+      1,
+      11,
+      12,
+      13
+    ],
+    "generated_ids": [
+      9,
+      9,
+      9
+    ],
+    "completion": null,
+    "wall_seconds": 2.871042499995383,
+    "seed": 42,
+    "overrides": {
+      "max_new_tokens": null
+    },
+    "stats": {
+      "prompt_encodes": 1,
+      "dit_denoise_steps": 2,
+      "duration_predictions": 1,
+      "decoder_chunks": 4,
+      "feedback_rounds": 1,
+      "generation_rounds": 1
+    },
+    "memory": {
+      "process_working_set_bytes": 1015578624,
+      "process_peak_working_set_bytes": 1078722560,
+      "torch_allocated_bytes": 113477632,
+      "torch_peak_allocated_bytes": 113516544,
+      "torch_reserved_bytes": 115343360,
+      "torch_peak_reserved_bytes": 115343360,
+      "hip_free_total_bytes": [
+        83304402944,
+        83954728960
+      ]
+    }
+  }
+}

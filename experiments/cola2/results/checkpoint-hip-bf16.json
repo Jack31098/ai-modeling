@@ -1,0 +1,67 @@
+{
+  "started_utc": "2026-11-12T08:05:01.680136+00:00",
+  "model_revision": "db876b905cf719b60da33c12a75021ac111f7a67",
+  "code_revision": "085817168c9d6a718812fbc0075b968fc4cd5f9f",
+  "args": {
+    "device": "cuda",
+    "dtype": "bfloat16",
+    "run_id": "checkpoint-hip-bf16",
+    "tiny": false,
+    "generation_only": false,
+    "seed": 42,
+    "threads": 8,
+    "max_new_tokens": null
+  },
+  "checkpoint_loaded": false,
+  "msvc_preload": {
+    "status": "process-local-preload",
+    "sha256": "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca",
+    "note": "Reuses existing runtime; not copied, redistributed or installed system-wide."
+  },
+  "status": "failed",
+  "updated_utc": "2026-11-12T08:05:06.676054+00:00",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "torch": "2.9.1+rocm7.2.1",
+    "hip": "7.2.53211-158bd99533",
+    "transformers": "4.57.6",
+    "safetensors": "0.8.0",
+    "accelerate": "1.15.0",
+    "cpu_threads": 8,
+    "sdpa": "MATH",
+    "gpu": "AMD Radeon(TM) 8060S Graphics",
+    "gpu_arch": "gfx1151",
+    "hip_total_bytes": 83954728960
+  },
+  "source_code_comparison": {
+    "configuration_cola2.py": {
+      "github_sha256": "ac61e498313f0cc9bd469ca165ebf0684d2d0fc68da64fd48bdc8761c363e92b",
+      "hf_sha256": "5b5448689b4b7d0b2f8f930c8083d190801a4c71ca5132bc342f154ddaa8b76a",
+      "python_ast_equal": false
+    },
+    "modeling_cola2.py": {
+      "github_sha256": "ca6cc03437a925f95e35768a5db786fc770663b32a1b13c52b684c085fd85195",
+      "hf_sha256": "2e0635b8a3f9de9ac5eb66c3ac4078bd4de1e6aa0834adcf155892632828b238",
+      "python_ast_equal": true
+    },
+    "modeling_layers.py": {
+      "github_sha256": "5d5c8e455a6361f22e37708df5d085c3f2ad0fec1baf9d1d068e77bf0dfbc0ef",
+      "hf_sha256": "af9eb16dba7d04198abbc1318bac3ddff25a93add401b94b4365ba6819e78360",
+      "python_ast_equal": true
+    }
+  },
+  "memory_before_load": {
+    "process_working_set_bytes": 471388160,
+    "process_peak_working_set_bytes": 472432640,
+    "torch_allocated_bytes": 0,
+    "torch_peak_allocated_bytes": 0,
+    "torch_reserved_bytes": 0,
+    "torch_peak_reserved_bytes": 0,
+    "hip_free_total_bytes": [
+      83792265216,
+      83954728960
+    ]
+  },
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\ai-modeling\\experiments\\cola2\\run.py\", line 267, in main\n    run(args, record, save)\n  File \"D:\\ai-modeling\\experiments\\cola2\\run.py\", line 147, in run\n    record[\"checkpoint\"] = inspect_checkpoint()\n                           ^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\ai-modeling\\experiments\\cola2\\run.py\", line 77, in inspect_checkpoint\n    raise ValueError(\"checkpoint index or HF parameter metadata disagreement\")\nValueError: checkpoint index or HF parameter metadata disagreement\n"
+}

@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "checks": [
+    "all eight checkpoint shards have SHA-256 receipts; inference-only allowlist",
+    "tensor index, payload and parameter counts agree after classifying scalar buffer",
+    "loaded exactly on BF16 HIP; generation preset equals released JSON",
+    "generated 32 tokens, two full feedback rounds",
+    "short roundtrip matches all 15 input IDs in three separate variants"
+  ],
+  "hardware_recheck": {
+    "cpu": "Ryzen AI Max+ 395",
+    "gpu": "Radeon 8060S",
+    "driver": "32.0.31032.1003",
+    "windows_reported_total_physical_bytes": 132766306304,
+    "wsl": "not installed",
+    "initial_disk_free_bytes": {
+      "C": 31296311296,
+      "D": 1655238414336
+    }
+  },
+  "tokenizer_parity": {
+    "fast": "Qwen2TokenizerFast",
+    "slow": "Qwen2Tokenizer",
+    "equal_for_both_demo_inputs": true,
+    "scope": "checked only on the generation prompt and reconstruction string",
+    "prompt_ids": [
+      14582,
+      25,
+      3555,
+      374,
+      279,
+      6722,
+      315,
+      9625,
+      30,
+      21806,
+      25
+    ],
+    "reconstruction_ids": [
+      785,
+      2518,
+      3745,
+      9982,
+      220,
+      16,
+      22,
+      18762,
+      13,
+      13655,
+      432,
+      553,
+      279,
+      3241,
+      13
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "verified_at_utc": "2026-11-12T08:04:46.665217+00:00",
+  "shards": [
+    {
+      "id": "model-00001-of-00008.safetensors",
+      "path": "models/cola2/hf-db876b905cf7/model-00001-of-00008.safetensors",
+      "size_bytes": 4982015912,
+      "sha256": "a73eb09cda3c5962a43644f1eaf86e3d1101f45ee10412aa25e9475578a15110",
+      "reused": false,
+      "verified_at_utc": "2026-11-12T08:00:50.024623+00:00"
+    },
+    {
+      "id": "model-00002-of-00008.safetensors",
+      "path": "models/cola2/hf-db876b905cf7/model-00002-of-00008.safetensors",
+      "size_bytes": 4981935960,
+      "sha256": "8638542786f3e95d549e22cb996b664a6a62e0ca646e6c4a69a90fd0ae2483ce",
+      "reused": false,
+      "verified_at_utc": "2026-11-12T08:00:54.140129+00:00"
+    },
+    {
+      "id": "model-00003-of-00008.safetensors",
+      "path": "models/cola2/hf-db876b905cf7/model-00003-of-00008.safetensors",
+      "size_bytes": 4929556032,
+      "sha256": "a06ac377b1d0cc403ee3bb34714447814f774077846c659aa864842928ff8806",
+      "reused": false,
+      "verified_at_utc": "2026-11-12T08:00:28.320057+00:00"
+    },
+    {
+      "id": "model-00004-of-00008.safetensors",
+      "path": "models/cola2/hf-db876b905cf7/model-00004-of-00008.safetensors",
+      "size_bytes": 4995689400,
+      "sha256": "2a29c5efc7576c3ede1b0356cb22fa635beedc17ee227854defc66914383c5a4",
+      "reused": false,
+      "verified_at_utc": "2026-11-12T08:02:58.940050+00:00"
+    },
+    {
+      "id": "model-00005-of-00008.safetensors",
+      "path": "models/cola2/hf-db876b905cf7/model-00005-of-00008.safetensors",
+      "size_bytes": 4944309960,
+      "sha256": "5cc506e09365b3a824dd7e4814da303947f31a302fad750179b6b0106a2503b0",
+      "reused": false,
+      "verified_at_utc": "2026-11-12T08:03:46.734841+00:00"
+    },
+    {
+      "id": "model-00006-of-00008.safetensors",
+      "path": "models/cola2/hf-db876b905cf7/model-00006-of-00008.safetensors",
+      "size_bytes": 4996750576,
+      "sha256": "f8b3656f8201327828d09e2a0e368adadd08cdd4795dccc896a4e8d1bc328968",
+      "reused": false,
+      "verified_at_utc": "2026-11-12T08:03:06.675683+00:00"
+    },
+    {
+      "id": "model-00007-of-00008.safetensors",
+      "path": "models/cola2/hf-db876b905cf7/model-00007-of-00008.safetensors",
+      "size_bytes": 4985453864,
+      "sha256": "e6371cde92297d41a1c74cbd60025070a6b5433b140910f3dd5fe859ccafb38e",
+      "reused": false,
+      "verified_at_utc": "2026-11-12T08:04:46.665217+00:00"
+    },
+    {
+      "id": "model-00008-of-00008.safetensors",
+      "path": "models/cola2/hf-db876b905cf7/model-00008-of-00008.safetensors",
+      "size_bytes": 256494996,
+      "sha256": "dde98087cbb7fc78164e44c15b60470d640167136d858063ee3a806b93980ecc",
+      "reused": false,
+      "verified_at_utc": "2026-11-12T08:03:17.230043+00:00"
+    }
+  ],
+  "all_small_assets_verified": true
+}
