@@ -1,0 +1,21 @@
+{
+  "device_registry": {
+    "DriverDesc": "AMD Radeon RX 7900 XTX",
+    "DriverVersion": "32.0.31041.5005",
+    "HardwareInformation.qwMemorySize": 25753026560
+  },
+  "d_free_bytes": 200852639744,
+  "wsl": [
+    "Ubuntu 22.04.5 LTS"
+  ],
+  "wsl_kernel": [
+    "6.18.58.1-microsoft-standard-WSL2"
+  ],
+  "rocm_runtime_deb": [
+    "amdrocm10.1-gfx1100\t10.1.0-3"
+  ],
+  "wsl_vhd_mount": "D:\\WSL\\Ubuntu-22.04\\ext4.vhdx",
+  "smi_version": [
+    "AMDSMI Tool: 27.1.0+7da43026 | AMDSMI Library version: 27.1.0 | ROCm version: 10.1.0 | amdgpu version: 26.10.41.05-260925a-204865E-AMD-Software-Adrenalin-Edition | ionic version: N/A"
+  ]
+}

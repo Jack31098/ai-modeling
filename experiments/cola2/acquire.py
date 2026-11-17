@@ -86,7 +86,8 @@ def acquire_model(workers):
 def acquire_source():
     url = f"https://codeload.github.com/{REPO}/zip/{CODE_REV}"
     raw = get(url)
-    target = (LOCAL / f"source-{CODE_REV[:12]}").resolve()
+    source_path = LOCAL / f"source-{CODE_REV[:12]}"
+    target = source_path.resolve()
     with zipfile.ZipFile(io.BytesIO(raw)) as archive:
         for info in archive.infolist():
             if info.is_dir():
@@ -100,7 +101,7 @@ def acquire_source():
             put(dest, archive.read(info))
     put(LOCAL / "source-receipt.json", (json.dumps({"url": url, "revision": CODE_REV,
         "archive_sha256": hashlib.sha256(raw).hexdigest(), "size_bytes": len(raw),
-        "local_path": str(target.relative_to(ROOT))}, indent=2) + "\n").encode())
+        "local_path": str(source_path.relative_to(ROOT))}, indent=2) + "\n").encode())
     print("SOURCE READY", target, flush=True)
 
 

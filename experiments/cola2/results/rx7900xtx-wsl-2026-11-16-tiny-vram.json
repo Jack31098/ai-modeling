@@ -1,0 +1,1995 @@
+{
+  "started_utc": "2026-11-16T23:55:37.769273+00:00",
+  "model_revision": "db876b905cf719b60da33c12a75021ac111f7a67",
+  "code_revision": "085817168c9d6a718812fbc0075b968fc4cd5f9f",
+  "args": {
+    "device": "cuda",
+    "dtype": "bfloat16",
+    "run_id": "rx7900xtx-wsl-2026-11-16-tiny-vram",
+    "tiny": true,
+    "generation_only": false,
+    "direct_device_load": false,
+    "sample_device_vram": true,
+    "seed": 42,
+    "threads": 8,
+    "max_new_tokens": null
+  },
+  "checkpoint_loaded": false,
+  "status": "passed",
+  "updated_utc": "2026-11-16T23:55:46.563178+00:00",
+  "environment": {
+    "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "platform": "Linux-6.18.58.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "torch": "2.14.0+rocm10.1.0",
+    "hip": "7.16.26385",
+    "transformers": "4.57.6",
+    "safetensors": "0.8.0",
+    "accelerate": "1.15.0",
+    "cpu_threads": 8,
+    "sdpa": "MATH",
+    "gpu": "AMD Radeon RX 7900 XTX",
+    "gpu_arch": "gfx1100",
+    "hip_total_bytes": 25725255680
+  },
+  "bf16_smoke": {
+    "passed": true,
+    "operators": [
+      "matmul",
+      "causal SDPA MATH"
+    ],
+    "device": "cuda:0",
+    "dtype": "torch.bfloat16"
+  },
+  "source_code_comparison": {
+    "configuration_cola2.py": {
+      "github_sha256": "ac61e498313f0cc9bd469ca165ebf0684d2d0fc68da64fd48bdc8761c363e92b",
+      "hf_sha256": "5b5448689b4b7d0b2f8f930c8083d190801a4c71ca5132bc342f154ddaa8b76a",
+      "python_ast_equal": false
+    },
+    "modeling_cola2.py": {
+      "github_sha256": "ca6cc03437a925f95e35768a5db786fc770663b32a1b13c52b684c085fd85195",
+      "hf_sha256": "2e0635b8a3f9de9ac5eb66c3ac4078bd4de1e6aa0834adcf155892632828b238",
+      "python_ast_equal": true
+    },
+    "modeling_layers.py": {
+      "github_sha256": "5d5c8e455a6361f22e37708df5d085c3f2ad0fec1baf9d1d068e77bf0dfbc0ef",
+      "hf_sha256": "af9eb16dba7d04198abbc1318bac3ddff25a93add401b94b4365ba6819e78360",
+      "python_ast_equal": true
+    }
+  },
+  "memory_before_load": {
+    "process_working_set_bytes": 1401311232,
+    "process_peak_working_set_bytes": null,
+    "torch_allocated_bytes": 83886080,
+    "torch_peak_allocated_bytes": 83886080,
+    "torch_reserved_bytes": 83886080,
+    "torch_peak_reserved_bytes": 83886080,
+    "hip_free_total_bytes": [
+      23360073728,
+      25725255680
+    ]
+  },
+  "load_wall_seconds": 0.03654549899999893,
+  "buffer_placement": {
+    "cuda:0 torch.bfloat16": 1
+  },
+  "load_device_map": null,
+  "cpu_offload_configured": false,
+  "parameter_count": 95686,
+  "parameters_by_module": {
+    "vae.decoder_mask_embedding": 32,
+    "vae.encoder": 2144,
+    "vae.segmenter": 64,
+    "vae.pool": 7552,
+    "vae.latent_encoder_blocks": 7552,
+    "vae.posterior_proj": 528,
+    "vae.latent_in_proj": 288,
+    "vae.duration_head": 1155,
+    "vae.expander": 1416,
+    "vae.decoder_cond_stack": 10688,
+    "vae.decoder": 20835,
+    "vae.decoder_cond_in": 1056,
+    "dit": 42376
+  },
+  "parameter_dtypes": {
+    "torch.bfloat16": 95686
+  },
+  "parameter_devices": {
+    "cuda:0": 95686
+  },
+  "memory_after_load": {
+    "process_working_set_bytes": 1403539456,
+    "process_peak_working_set_bytes": null,
+    "torch_allocated_bytes": 84116992,
+    "torch_peak_allocated_bytes": 84116992,
+    "torch_reserved_bytes": 85983232,
+    "torch_peak_reserved_bytes": 85983232,
+    "hip_free_total_bytes": [
+      23357976576,
+      25725255680
+    ]
+  },
+  "generation_config": {
+    "max_length": 20,
+    "max_new_tokens": 3,
+    "min_length": 0,
+    "min_new_tokens": null,
+    "early_stopping": false,
+    "max_time": null,
+    "stop_strings": null,
+    "do_sample": false,
+    "num_beams": 1,
+    "use_cache": true,
+    "cache_implementation": null,
+    "cache_config": null,
+    "return_legacy_cache": null,
+    "prefill_chunk_size": null,
+    "temperature": 1.0,
+    "top_k": 50,
+    "top_p": 1.0,
+    "min_p": null,
+    "typical_p": 1.0,
+    "epsilon_cutoff": 0.0,
+    "eta_cutoff": 0.0,
+    "repetition_penalty": 1.0,
+    "encoder_repetition_penalty": 1.0,
+    "length_penalty": 1.0,
+    "no_repeat_ngram_size": 0,
+    "bad_words_ids": null,
+    "renormalize_logits": false,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "remove_invalid_values": false,
+    "exponential_decay_length_penalty": null,
+    "suppress_tokens": null,
+    "begin_suppress_tokens": null,
+    "sequence_bias": null,
+    "token_healing": false,
+    "guidance_scale": null,
+    "watermarking_config": null,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "output_logits": null,
+    "return_dict_in_generate": false,
+    "pad_token_id": 0,
+    "bos_token_id": null,
+    "eos_token_id": null,
+    "encoder_no_repeat_ngram_size": 0,
+    "decoder_start_token_id": null,
+    "is_assistant": false,
+    "num_assistant_tokens": 20,
+    "num_assistant_tokens_schedule": "constant",
+    "assistant_confidence_threshold": 0.4,
+    "prompt_lookup_num_tokens": null,
+    "max_matching_ngram_size": null,
+    "assistant_early_exit": null,
+    "assistant_lookbehind": 10,
+    "target_lookbehind": 10,
+    "disable_compile": false,
+    "low_memory": null,
+    "penalty_alpha": null,
+    "dola_layers": null,
+    "diversity_penalty": 0.0,
+    "num_beam_groups": 1,
+    "constraints": null,
+    "force_words_ids": null,
+    "_from_model_config": false,
+    "transformers_version": "4.57.6",
+    "dit_num_steps": 2,
+    "dit_timestep_schedule": "low_noise",
+    "dit_timestep_power": null,
+    "dit_cfg_disable_empty_prefix": false,
+    "dit_guidance_scale": 2.0,
+    "decoder_guidance_scale": -0.9,
+    "span_causal_chunk_size": 1,
+    "dynamic_duration": true,
+    "latent_feedback": true
+  },
+  "generation": {
+    "prompt": null,
+    "prompt_ids": [
+      1,
+      11,
+      12,
+      13
+    ],
+    "generated_ids": [
+      9,
+      9,
+      9
+    ],
+    "completion": null,
+    "wall_seconds": 1.486993200000029,
+    "seed": 42,
+    "overrides": {
+      "max_new_tokens": null
+    },
+    "stats": {
+      "prompt_encodes": 1,
+      "dit_denoise_steps": 2,
+      "duration_predictions": 1,
+      "decoder_chunks": 4,
+      "feedback_rounds": 1,
+      "generation_rounds": 1
+    },
+    "memory": {
+      "process_working_set_bytes": 1776070656,
+      "process_peak_working_set_bytes": null,
+      "torch_allocated_bytes": 84117504,
+      "torch_peak_allocated_bytes": 84156416,
+      "torch_reserved_bytes": 85983232,
+      "torch_peak_reserved_bytes": 85983232,
+      "hip_free_total_bytes": [
+        23241863168,
+        25725255680
+      ]
+    }
+  },
+  "device_vram_sampling": {
+    "command": [
+      "amd-smi",
+      "metric",
+      "--mem-usage",
+      "--json"
+    ],
+    "gpu_index": 0,
+    "scope": "device-wide; includes other GPU clients; brief peaks may be missed",
+    "target_interval_seconds": 0.25,
+    "timeout_seconds": 3.0,
+    "unit": "MB",
+    "successful_sample_count": 32,
+    "successful_periodic_sample_count": 30,
+    "error_count": 0,
+    "consistent_total_and_unit": true,
+    "baseline": {
+      "kind": "baseline",
+      "phase": "baseline",
+      "query_start_utc": "2026-11-16T23:55:37.796643+00:00",
+      "query_start_monotonic_ns": 332079200223,
+      "exit_code": 0,
+      "raw": {
+        "gpu_data": [
+          {
+            "gpu": 0,
+            "mem_usage": {
+              "total_vram": {
+                "value": 24533,
+                "unit": "MB"
+              },
+              "used_vram": {
+                "value": 2006,
+                "unit": "MB"
+              },
+              "free_vram": {
+                "value": 22527,
+                "unit": "MB"
+              },
+              "total_visible_vram": {
+                "value": 24533,
+                "unit": "MB"
+              },
+              "used_visible_vram": {
+                "value": 2006,
+                "unit": "MB"
+              },
+              "free_visible_vram": {
+                "value": 22527,
+                "unit": "MB"
+              },
+              "total_gtt": "N/A",
+              "used_gtt": "N/A",
+              "free_gtt": "N/A"
+            }
+          }
+        ]
+      },
+      "used_vram": 2006,
+      "total_vram": 24533,
+      "unit": "MB",
+      "query_end_monotonic_ns": 332468048524,
+      "query_end_utc": "2026-11-16T23:55:38.185506+00:00",
+      "phase_changed_during_query": false
+    },
+    "final": {
+      "kind": "final",
+      "phase": "final",
+      "query_start_utc": "2026-11-16T23:55:46.356212+00:00",
+      "query_start_monotonic_ns": 340638764525,
+      "exit_code": 0,
+      "raw": {
+        "gpu_data": [
+          {
+            "gpu": 0,
+            "mem_usage": {
+              "total_vram": {
+                "value": 24533,
+                "unit": "MB"
+              },
+              "used_vram": {
+                "value": 2370,
+                "unit": "MB"
+              },
+              "free_vram": {
+                "value": 22163,
+                "unit": "MB"
+              },
+              "total_visible_vram": {
+                "value": 24533,
+                "unit": "MB"
+              },
+              "used_visible_vram": {
+                "value": 2370,
+                "unit": "MB"
+              },
+              "free_visible_vram": {
+                "value": 22163,
+                "unit": "MB"
+              },
+              "total_gtt": "N/A",
+              "used_gtt": "N/A",
+              "free_gtt": "N/A"
+            }
+          }
+        ]
+      },
+      "used_vram": 2370,
+      "total_vram": 24533,
+      "unit": "MB",
+      "query_end_monotonic_ns": 340844781125,
+      "query_end_utc": "2026-11-16T23:55:46.562239+00:00",
+      "phase_changed_during_query": false
+    },
+    "overall_sampled_peak": {
+      "used_vram": 2370,
+      "total_vram": 24533,
+      "unit": "MB",
+      "kind": "periodic",
+      "phase": "generating",
+      "phase_changed_during_query": false,
+      "query_start_utc": "2026-11-16T23:55:45.898123+00:00",
+      "query_end_utc": "2026-11-16T23:55:46.101711+00:00",
+      "query_start_monotonic_ns": 340180676525,
+      "query_end_monotonic_ns": 340384252625
+    },
+    "workload_sampled_peak": {
+      "used_vram": 2370,
+      "total_vram": 24533,
+      "unit": "MB",
+      "kind": "periodic",
+      "phase": "generating",
+      "phase_changed_during_query": false,
+      "query_start_utc": "2026-11-16T23:55:45.898123+00:00",
+      "query_end_utc": "2026-11-16T23:55:46.101711+00:00",
+      "query_start_monotonic_ns": 340180676525,
+      "query_end_monotonic_ns": 340384252625
+    },
+    "phase_sampled_peaks": {
+      "generating": {
+        "used_vram": 2370,
+        "total_vram": 24533,
+        "unit": "MB",
+        "kind": "periodic",
+        "phase": "generating",
+        "phase_changed_during_query": false,
+        "query_start_utc": "2026-11-16T23:55:45.898123+00:00",
+        "query_end_utc": "2026-11-16T23:55:46.101711+00:00",
+        "query_start_monotonic_ns": 340180676525,
+        "query_end_monotonic_ns": 340384252625
+      },
+      "generation_passed": null,
+      "importing_torch": {
+        "used_vram": 2250,
+        "total_vram": 24533,
+        "unit": "MB",
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "phase_changed_during_query": false,
+        "query_start_utc": "2026-11-16T23:55:44.377507+00:00",
+        "query_end_utc": "2026-11-16T23:55:44.563973+00:00",
+        "query_start_monotonic_ns": 338660067826,
+        "query_end_monotonic_ns": 338846514826
+      },
+      "loading": null,
+      "passed": null
+    },
+    "phase_changes": [
+      {
+        "phase": "importing_torch",
+        "utc": "2026-11-16T23:55:38.190270+00:00",
+        "monotonic_ns": 332472822024
+      },
+      {
+        "phase": "loading",
+        "utc": "2026-11-16T23:55:44.680764+00:00",
+        "monotonic_ns": 338963318326
+      },
+      {
+        "phase": "generating",
+        "utc": "2026-11-16T23:55:44.722197+00:00",
+        "monotonic_ns": 339004752625
+      },
+      {
+        "phase": "generation_passed",
+        "utc": "2026-11-16T23:55:46.214585+00:00",
+        "monotonic_ns": 340497172925
+      },
+      {
+        "phase": "passed",
+        "utc": "2026-11-16T23:55:46.221355+00:00",
+        "monotonic_ns": 340503907425
+      }
+    ],
+    "samples": [
+      {
+        "kind": "baseline",
+        "phase": "baseline",
+        "query_start_utc": "2026-11-16T23:55:37.796643+00:00",
+        "query_start_monotonic_ns": 332079200223,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2006,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 332468048524,
+        "query_end_utc": "2026-11-16T23:55:38.185506+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:38.439013+00:00",
+        "query_start_monotonic_ns": 332721569024,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2006,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 333058590324,
+        "query_end_utc": "2026-11-16T23:55:38.776048+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:38.776077+00:00",
+        "query_start_monotonic_ns": 333058624124,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2006,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 333338359024,
+        "query_end_utc": "2026-11-16T23:55:39.055817+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:39.055845+00:00",
+        "query_start_monotonic_ns": 333338392624,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2006,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 333579005624,
+        "query_end_utc": "2026-11-16T23:55:39.296463+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:39.305987+00:00",
+        "query_start_monotonic_ns": 333588539124,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2006,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 333819316924,
+        "query_end_utc": "2026-11-16T23:55:39.536774+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:39.556164+00:00",
+        "query_start_monotonic_ns": 333838717924,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2006,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 334059083924,
+        "query_end_utc": "2026-11-16T23:55:39.776541+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:39.811011+00:00",
+        "query_start_monotonic_ns": 334093564124,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2006,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 334366251124,
+        "query_end_utc": "2026-11-16T23:55:40.083708+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:40.083777+00:00",
+        "query_start_monotonic_ns": 334366328924,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2006,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 334567814525,
+        "query_end_utc": "2026-11-16T23:55:40.285273+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:40.333819+00:00",
+        "query_start_monotonic_ns": 334616373425,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2006,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 334829538425,
+        "query_end_utc": "2026-11-16T23:55:40.546995+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:40.583960+00:00",
+        "query_start_monotonic_ns": 334866515825,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2006,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 335137314925,
+        "query_end_utc": "2026-11-16T23:55:40.854771+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:40.854795+00:00",
+        "query_start_monotonic_ns": 335137343325,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2006,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 335427177725,
+        "query_end_utc": "2026-11-16T23:55:41.144636+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:41.144658+00:00",
+        "query_start_monotonic_ns": 335427206225,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2006,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 335618105625,
+        "query_end_utc": "2026-11-16T23:55:41.335563+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:41.394744+00:00",
+        "query_start_monotonic_ns": 335677299525,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2006,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 335879592925,
+        "query_end_utc": "2026-11-16T23:55:41.597049+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:41.644746+00:00",
+        "query_start_monotonic_ns": 335927298525,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2006,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 336104661425,
+        "query_end_utc": "2026-11-16T23:55:41.822119+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:41.898065+00:00",
+        "query_start_monotonic_ns": 336180618825,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2006,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 336400951125,
+        "query_end_utc": "2026-11-16T23:55:42.118408+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:42.145694+00:00",
+        "query_start_monotonic_ns": 336428246725,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2006,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 336689765026,
+        "query_end_utc": "2026-11-16T23:55:42.407222+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:42.407315+00:00",
+        "query_start_monotonic_ns": 336689864826,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2006,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 336896677326,
+        "query_end_utc": "2026-11-16T23:55:42.614134+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:42.657684+00:00",
+        "query_start_monotonic_ns": 336940236826,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2006,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22527,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2006,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 337409953526,
+        "query_end_utc": "2026-11-16T23:55:43.127411+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:43.127440+00:00",
+        "query_start_monotonic_ns": 337409987826,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2102,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22431,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2102,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22431,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2102,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 337593620526,
+        "query_end_utc": "2026-11-16T23:55:43.311078+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:43.377497+00:00",
+        "query_start_monotonic_ns": 337660053126,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2102,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22431,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2102,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22431,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2102,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 337874921626,
+        "query_end_utc": "2026-11-16T23:55:43.592379+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:43.627519+00:00",
+        "query_start_monotonic_ns": 337910073326,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2102,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22431,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2102,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22431,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2102,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 338120351126,
+        "query_end_utc": "2026-11-16T23:55:43.837808+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:43.877497+00:00",
+        "query_start_monotonic_ns": 338160053526,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2219,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22314,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2219,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22314,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2219,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 338384997726,
+        "query_end_utc": "2026-11-16T23:55:44.102455+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:44.127544+00:00",
+        "query_start_monotonic_ns": 338410101026,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2235,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22298,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2235,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22298,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2235,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 338599659126,
+        "query_end_utc": "2026-11-16T23:55:44.317116+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:44.377507+00:00",
+        "query_start_monotonic_ns": 338660067826,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2250,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22283,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2250,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22283,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2250,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 338846514826,
+        "query_end_utc": "2026-11-16T23:55:44.563973+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "importing_torch",
+        "query_start_utc": "2026-11-16T23:55:44.632602+00:00",
+        "query_start_monotonic_ns": 338915156426,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2267,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22266,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2267,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22266,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2267,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 339180550025,
+        "query_end_utc": "2026-11-16T23:55:44.898008+00:00",
+        "phase_changed_during_query": true
+      },
+      {
+        "kind": "periodic",
+        "phase": "generating",
+        "query_start_utc": "2026-11-16T23:55:44.898038+00:00",
+        "query_start_monotonic_ns": 339180586325,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2293,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22240,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2293,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22240,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2293,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 339381260325,
+        "query_end_utc": "2026-11-16T23:55:45.098718+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "generating",
+        "query_start_utc": "2026-11-16T23:55:45.148122+00:00",
+        "query_start_monotonic_ns": 339430682325,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2320,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22213,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2320,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22213,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2320,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 339626982025,
+        "query_end_utc": "2026-11-16T23:55:45.344439+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "generating",
+        "query_start_utc": "2026-11-16T23:55:45.398117+00:00",
+        "query_start_monotonic_ns": 339680676525,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2320,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22213,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2320,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22213,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2320,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 339880549325,
+        "query_end_utc": "2026-11-16T23:55:45.598008+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "generating",
+        "query_start_utc": "2026-11-16T23:55:45.648133+00:00",
+        "query_start_monotonic_ns": 339930693625,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2356,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22177,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2356,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22177,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2356,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 340160331225,
+        "query_end_utc": "2026-11-16T23:55:45.877789+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "generating",
+        "query_start_utc": "2026-11-16T23:55:45.898123+00:00",
+        "query_start_monotonic_ns": 340180676525,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2370,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22163,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2370,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22163,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2370,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 340384252625,
+        "query_end_utc": "2026-11-16T23:55:46.101711+00:00",
+        "phase_changed_during_query": false
+      },
+      {
+        "kind": "periodic",
+        "phase": "generating",
+        "query_start_utc": "2026-11-16T23:55:46.148133+00:00",
+        "query_start_monotonic_ns": 340430687425,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2370,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22163,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2370,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22163,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2370,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 340638685725,
+        "query_end_utc": "2026-11-16T23:55:46.356143+00:00",
+        "phase_changed_during_query": true
+      },
+      {
+        "kind": "final",
+        "phase": "final",
+        "query_start_utc": "2026-11-16T23:55:46.356212+00:00",
+        "query_start_monotonic_ns": 340638764525,
+        "exit_code": 0,
+        "raw": {
+          "gpu_data": [
+            {
+              "gpu": 0,
+              "mem_usage": {
+                "total_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_vram": {
+                  "value": 2370,
+                  "unit": "MB"
+                },
+                "free_vram": {
+                  "value": 22163,
+                  "unit": "MB"
+                },
+                "total_visible_vram": {
+                  "value": 24533,
+                  "unit": "MB"
+                },
+                "used_visible_vram": {
+                  "value": 2370,
+                  "unit": "MB"
+                },
+                "free_visible_vram": {
+                  "value": 22163,
+                  "unit": "MB"
+                },
+                "total_gtt": "N/A",
+                "used_gtt": "N/A",
+                "free_gtt": "N/A"
+              }
+            }
+          ]
+        },
+        "used_vram": 2370,
+        "total_vram": 24533,
+        "unit": "MB",
+        "query_end_monotonic_ns": 340844781125,
+        "query_end_utc": "2026-11-16T23:55:46.562239+00:00",
+        "phase_changed_during_query": false
+      }
+    ]
+  }
+}

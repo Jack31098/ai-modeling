@@ -94,7 +94,7 @@ def run(args, record, save):
     os.environ.update(TEMP=str(temporary), TMP=str(temporary), HF_HOME=str(LOCAL / "hf-cache"),
                       HF_HUB_OFFLINE="1", TRANSFORMERS_OFFLINE="1", TOKENIZERS_PARALLELISM="false")
     sys.path[0:0] = [str(LOCAL / "deps"), str(SOURCE)]
-    if args.device == "cuda":
+    if args.device == "cuda" and os.name == "nt":
         from experiments.hnet_rocm.bootstrap import RUNTIME
         record["msvc_preload"] = {k: v for k, v in RUNTIME.items() if k != "path"}
     save("importing_torch")
@@ -110,7 +110,7 @@ def run(args, record, save):
     torch.set_num_threads(args.threads)
     process = psutil.Process()
     use_gpu = args.device == "cuda"
-    device = torch.device(args.device)
+    device = torch.device("cuda:0" if use_gpu else "cpu")
     dtype = getattr(torch, args.dtype)
 
     def sync():
@@ -138,6 +138,22 @@ def run(args, record, save):
         props = torch.cuda.get_device_properties(device)
         record["environment"].update(gpu=props.name, gpu_arch=getattr(props, "gcnArchName", None),
                                      hip_total_bytes=props.total_memory)
+        if args.tiny and dtype == torch.bfloat16:
+            with torch.inference_mode(), sdpa_kernel(SDPBackend.MATH):
+                a = torch.ones((32, 32), device=device, dtype=dtype)
+                product = a @ a
+                q = a.reshape(1, 1, 32, 32)
+                attention = torch.nn.functional.scaled_dot_product_attention(q, q, q, is_causal=True)
+                sync()
+                passed = (product.dtype == dtype and attention.dtype == dtype
+                          and product.device == attention.device == device
+                          and bool((product == 32).all()) and bool((attention == 1).all()))
+                record["bf16_smoke"] = {"passed": passed, "operators": ["matmul", "causal SDPA MATH"],
+                                         "device": str(device), "dtype": str(dtype)}
+                if not passed:
+                    raise RuntimeError("GPU BF16 smoke check disagreed with expected values")
+                del a, product, q, attention
+            torch.cuda.empty_cache()
         torch.cuda.reset_peak_memory_stats()
     record["source_code_comparison"] = code_identity()
     record["memory_before_load"] = memory()
@@ -154,12 +170,20 @@ def run(args, record, save):
     else:
         record["checkpoint"] = inspect_checkpoint()
         tokenizer = AutoTokenizer.from_pretrained(SNAPSHOT, local_files_only=True, trust_remote_code=False)
+        load_options = {}
+        if args.direct_device_load:
+            # Both Cola2 submodels stay on the GPU. A non-root map lets the
+            # safetensors loader cast each CPU slice before transfer to HBM.
+            load_options["device_map"] = {name: str(device) for name in ("vae", "dit")}
         model, loading = Cola2ForConditionalGeneration.from_pretrained(
-            SNAPSHOT, local_files_only=True, torch_dtype=dtype, low_cpu_mem_usage=True, output_loading_info=True)
+            SNAPSHOT, local_files_only=True, torch_dtype=dtype, low_cpu_mem_usage=True,
+            output_loading_info=True, **load_options)
         record["loading_info"] = loading
         if any(loading.values()):
             raise ValueError(f"upstream load was not exact: {loading}")
-        model = model.to(device).eval()
+        if not args.direct_device_load:
+            model = model.to(device)
+        model.eval()
         record["checkpoint_loaded"] = True
         inputs = dict(tokenizer(PROMPT, return_tensors="pt").to(device))
         options = {} if args.max_new_tokens is None else {"max_new_tokens": args.max_new_tokens}
@@ -170,8 +194,14 @@ def run(args, record, save):
         groups[".".join(name.split(".")[:2]) if name.startswith("vae.") else name.split(".")[0]] += parameter.numel()
         dtypes[str(parameter.dtype)] += parameter.numel()
         devices[str(parameter.device)] += parameter.numel()
-    if len(devices) != 1 or next(iter(devices)).split(":")[0] != device.type:
+    if set(devices) != {str(device)}:
         raise RuntimeError(f"unexpected parameter placement: {devices}")
+    if set(dtypes) != {str(dtype)}:
+        raise RuntimeError(f"unexpected parameter dtypes: {dtypes}")
+    record["buffer_placement"] = dict(Counter(
+        f"{buffer.device} {buffer.dtype}" for buffer in model.buffers()))
+    record["load_device_map"] = getattr(model, "hf_device_map", None)
+    record["cpu_offload_configured"] = False
     if not args.tiny:
         checkpoint = record["checkpoint"]
         buffers = dict(model.named_buffers())
@@ -259,10 +289,18 @@ def main():
     parser.add_argument("--run-id", required=True)
     parser.add_argument("--tiny", action="store_true")
     parser.add_argument("--generation-only", action="store_true")
+    parser.add_argument("--direct-device-load", action="store_true",
+                        help="Stream checkpoint tensors to the requested GPU without a CPU model copy.")
+    parser.add_argument("--sample-device-vram", action="store_true",
+                        help="Record periodic device-wide AMD SMI VRAM measurements on Linux.")
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--threads", type=int, default=8)
     parser.add_argument("--max-new-tokens", type=int)
     args = parser.parse_args()
+    if args.direct_device_load and (args.device != "cuda" or args.tiny):
+        parser.error("--direct-device-load requires a full GPU checkpoint run")
+    if args.sample_device_vram and (args.device != "cuda" or sys.platform != "linux"):
+        parser.error("--sample-device-vram requires a Linux ROCm GPU run")
     if not args.run_id.replace("-", "").isalnum():
         parser.error("use a simple run identifier")
     out = ROOT / "experiments/cola2/results" / (args.run_id + ".json")
@@ -271,18 +309,35 @@ def main():
         raise FileExistsError(f"use a new run ID: {out}")
     record = {"started_utc": now(), "model_revision": MODEL_REV, "code_revision": CODE_REV, "args": vars(args),
               "checkpoint_loaded": False}
+    sampler = None
+    if args.sample_device_vram:
+        from .vram_sampler import VramSampler
+        sampler = VramSampler()
+
+    def write_result():
+        record["updated_utc"] = now()
+        out.write_text(json.dumps(record, indent=2, ensure_ascii=False, allow_nan=False) + "\n", encoding="utf-8", newline="\n")
 
     def save(status):
-        record.update(status=status, updated_utc=now())
-        out.write_text(json.dumps(record, indent=2, ensure_ascii=False, allow_nan=False) + "\n", encoding="utf-8", newline="\n")
+        if sampler is not None:
+            sampler.phase(status)
+        record["status"] = status
+        write_result()
         print(status, flush=True)
 
     try:
+        if sampler is not None:
+            sampler.start()
         run(args, record, save)
     except Exception:
         record["traceback"] = traceback.format_exc()
         save("failed")
         raise
+    finally:
+        if sampler is not None:
+            sampler.stop()
+            record["device_vram_sampling"] = sampler.report()
+            write_result()
 
 
 if __name__ == "__main__":
